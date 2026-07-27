@@ -1,0 +1,94 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run OCR — Paddle",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_ocr.py",
+      "args": ["--engine", "paddle", "--images", "/workspace/images"],
+      "python": "/usr/bin/python3.11",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "/workspace",
+        "CONFIG_PATH": "/workspace/configs/config.yaml"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
+      "name": "Run OCR — Tesseract",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_ocr.py",
+      "args": ["--engine", "tesseract", "--images", "/workspace/images"],
+      "python": "/usr/bin/python3.11",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "/workspace",
+        "CONFIG_PATH": "/workspace/configs/config.yaml"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
+      "name": "Score Results",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/score.py",
+      "args": [],
+      "python": "/usr/bin/python3.11",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "/workspace",
+        "CONFIG_PATH": "/workspace/configs/config.yaml"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
+      "name": "Visualize Results",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/visualize.py",
+      "args": [],
+      "python": "/usr/bin/python3.11",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "/workspace",
+        "CONFIG_PATH": "/workspace/configs/config.yaml"
+      },
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Pytest — All Tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["tests/", "-v", "--tb=short", "--no-cov"],
+      "python": "/usr/bin/python3.11",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "/workspace",
+        "CONFIG_PATH": "/workspace/configs/config.yaml"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
+      "name": "Pytest — Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["${file}", "-v", "--tb=short", "--no-cov"],
+      "python": "/usr/bin/python3.11",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "/workspace",
+        "CONFIG_PATH": "/workspace/configs/config.yaml"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Notes — OCR Benchmark
+
+Use this file to record anything unusual found during the experiment.
+
+## Images that caused problems
+<!-- e.g. blurry scans, unusual fonts, mixed layouts -->
+
+## Engine-specific observations
+<!-- things you noticed about PaddleOCR vs Tesseract behaviour -->
+
+## Annotation decisions
+<!-- ambiguous words, punctuation choices, multi-line boxes, etc. -->
+
+## Other notes
+

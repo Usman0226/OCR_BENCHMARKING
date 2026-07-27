@@ -1,0 +1,3 @@
+# Place Label Studio JSON annotation exports here.
+# Export format: JSON (from Label Studio → Export → JSON)
+# Expected filename: export.json (or any *.json file)

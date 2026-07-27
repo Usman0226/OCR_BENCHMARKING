@@ -1,0 +1,119 @@
+# =============================================================================
+# OCR Benchmark Framework — Docker Compose
+# Two services: ocr (PaddleOCR + Tesseract) + labelstudio
+# CPU-only, Windows 11 / Docker Desktop / WSL2
+# =============================================================================
+
+services:
+  # ---------------------------------------------------------------------------
+  # OCR Service: runs PaddleOCR and Tesseract pipelines
+  # ---------------------------------------------------------------------------
+  ocr:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      cache_from:
+        - ocr-benchmark-ocr:latest
+      args:
+        BUILDKIT_INLINE_CACHE: "1"
+    image: ocr-benchmark-ocr:latest
+    container_name: ocr_benchmark
+    restart: unless-stopped
+
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONPATH=/workspace
+      - PADDLE_MODEL_DIR=/paddle-models
+      - OCR_LOG_DIR=/logs
+      # results.csv + results_summary.md land in /workspace (project root)
+      - OCR_RESULTS_DIR=/workspace
+      - OCR_REPORTS_DIR=/workspace/reports
+      - OCR_IMAGES_DIR=/workspace/images
+      - OCR_ANNOTATIONS_DIR=/workspace/annotations
+      - OCR_OUTPUT_DIR=/workspace/ocr_output
+      - CONFIG_PATH=/workspace/configs/config.yaml
+      # Label Studio integration
+      - LABEL_STUDIO_URL=http://labelstudio:8080
+      - LABEL_STUDIO_API_KEY=${LABEL_STUDIO_API_KEY:-}
+
+    volumes:
+      # Bind-mount entire project root → /workspace (live code editing)
+      - .:/workspace:z
+      # Named volumes for things that should persist across rebuilds
+      - paddle_models:/paddle-models
+      - ocr_logs:/logs
+
+    working_dir: /workspace
+
+    # Keep container alive for docker compose exec / VS Code Dev Container
+    command: ["sleep", "infinity"]
+
+    healthcheck:
+      test: ["CMD", "python", "-c", "import paddle; import pytesseract; print('OK')"]
+      interval: 60s
+      timeout: 30s
+      retries: 3
+      start_period: 120s
+
+    depends_on:
+      labelstudio:
+        condition: service_healthy
+
+    networks:
+      - ocr_net
+
+  # ---------------------------------------------------------------------------
+  # Label Studio: annotation UI — http://localhost:8080
+  # ---------------------------------------------------------------------------
+  labelstudio:
+    image: heartexlabs/label-studio:latest
+    container_name: label_studio
+    restart: unless-stopped
+
+    ports:
+      - "8080:8080"
+
+    environment:
+      - LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true
+      - LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/files
+      - DJANGO_DB=sqlite
+      - LABEL_STUDIO_USERNAME=${LABEL_STUDIO_USERNAME:-admin@ocr.local}
+      - LABEL_STUDIO_PASSWORD=${LABEL_STUDIO_PASSWORD:-changeme}
+
+    volumes:
+      - labelstudio_data:/label-studio/data
+      - labelstudio_files:/label-studio/files
+      # Images are shared read-only so Label Studio can serve them
+      - ./images:/label-studio/files/images:ro
+
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:8080/health || exit 1"]
+      interval: 30s
+      timeout: 15s
+      retries: 5
+      start_period: 60s
+
+    networks:
+      - ocr_net
+
+# =============================================================================
+# Named Volumes
+# =============================================================================
+volumes:
+  paddle_models:
+    name: ocr_benchmark_paddle_models
+  labelstudio_data:
+    name: ocr_benchmark_ls_data
+  labelstudio_files:
+    name: ocr_benchmark_ls_files
+  ocr_logs:
+    name: ocr_benchmark_logs
+
+# =============================================================================
+# Networks
+# =============================================================================
+networks:
+  ocr_net:
+    name: ocr_benchmark_net
+    driver: bridge

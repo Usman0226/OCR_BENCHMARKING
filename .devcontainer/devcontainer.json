@@ -1,0 +1,67 @@
+{
+  "name": "OCR Benchmark Framework",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "ocr",
+  "workspaceFolder": "/workspace",
+
+  // Forward Label Studio port from the labelstudio container
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "Label Studio UI",
+      "onAutoForward": "notify"
+    }
+  },
+
+  // VS Code extensions installed inside the container
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.mypy-type-checker",
+        "charliermarsh.ruff",
+        "ms-python.debugpy",
+        "ms-toolsai.jupyter",
+        "tamasfe.even-better-toml",
+        "redhat.vscode-yaml",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "streetsidesoftware.code-spell-checker",
+        "EditorConfig.EditorConfig",
+        "donjayamanne.githistory"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/bin/python3.11",
+        "python.terminal.activateEnvironment": false,
+        "[python]": {
+          "editor.defaultFormatter": "charliermarsh.ruff",
+          "editor.formatOnSave": true,
+          "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports.ruff": "explicit"
+          }
+        },
+        "ruff.path": ["/usr/local/bin/ruff"],
+        "mypy-type-checker.path": ["/usr/local/bin/mypy"],
+        "python.testing.pytestEnabled": true,
+        "python.testing.pytestArgs": ["tests"],
+        "editor.rulers": [100],
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true
+      }
+    }
+  },
+
+  // Run on container creation
+  "postCreateCommand": "pip install -e . --no-deps 2>/dev/null || true && echo 'Dev container ready.'",
+
+  // Use the non-root user created in the Dockerfile
+  "remoteUser": "ocr",
+
+  // Environment variables available in the terminal
+  "remoteEnv": {
+    "PYTHONPATH": "/workspace",
+    "CONFIG_PATH": "/workspace/configs/config.yaml"
+  }
+}

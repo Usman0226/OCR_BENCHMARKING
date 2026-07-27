@@ -1,0 +1,93 @@
+# =============================================================================
+# .dockerignore — OCR Benchmark Framework
+# =============================================================================
+
+# Git
+.git
+.gitignore
+.github
+
+# Python cache
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.eggs/
+.installed.cfg
+MANIFEST
+
+# Virtual environments
+.venv
+venv/
+env/
+ENV/
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.cover
+coverage.xml
+nosetests.xml
+test-results/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Large data directories (bind-mounted at runtime — no need in build context)
+paddling-model-cache/
+labelstudio-data/
+images/
+annotations/
+ocr_output/
+reports/
+logs/
+# Generated output files
+results.csv
+results_summary.md
+notes.txt
+
+# Documentation build
+docs/_build/
+site/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+tmp/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Node (if any tooling added later)
+node_modules/
+npm-debug.log*
