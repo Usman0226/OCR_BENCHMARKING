@@ -192,18 +192,18 @@ def load_config(config_path: Path | None = None) -> AppConfig:
     # --- Paths ---
     p = raw.get("paths", {})
     paths = PathsConfig(
-        images_dir=_resolve_path(p.get("images_dir", "/workspace/images"), "OCR_IMAGES_DIR"),
+        images_dir=_resolve_path(p.get("images_dir", "./images"), "OCR_IMAGES_DIR"),
         annotations_dir=_resolve_path(
-            p.get("annotations_dir", "/workspace/annotations"), "OCR_ANNOTATIONS_DIR"
+            p.get("annotations_dir", "./annotations"), "OCR_ANNOTATIONS_DIR"
         ),
         ocr_output_dir=_resolve_path(
-            p.get("ocr_output_dir", "/workspace/ocr_output"), "OCR_OUTPUT_DIR"
+            p.get("ocr_output_dir", "./ocr_output"), "OCR_OUTPUT_DIR"
         ),
-        results_dir=_resolve_path(p.get("results_dir", "/results"), "OCR_RESULTS_DIR"),
-        reports_dir=_resolve_path(p.get("reports_dir", "/reports"), "OCR_REPORTS_DIR"),
-        logs_dir=_resolve_path(p.get("logs_dir", "/logs"), "OCR_LOG_DIR"),
+        results_dir=_resolve_path(p.get("results_dir", "./"), "OCR_RESULTS_DIR"),
+        reports_dir=_resolve_path(p.get("reports_dir", "./reports"), "OCR_REPORTS_DIR"),
+        logs_dir=_resolve_path(p.get("logs_dir", "./logs"), "OCR_LOG_DIR"),
         paddle_model_dir=_resolve_path(
-            p.get("paddle_model_dir", "/paddle-models"), "PADDLE_MODEL_DIR"
+            p.get("paddle_model_dir", "./paddle-models"), "PADDLE_MODEL_DIR"
         ),
     )
 

@@ -63,6 +63,16 @@ def load_label_studio_annotations(
         image_name = Path(image_url).name  # Extract basename
 
         image_path = images_dir / image_name
+        if not image_path.exists():
+            import re
+            match = re.match(r"^[0-9a-fA-F]{8}-(.+)$", image_name)
+            if match:
+                fallback_name = match.group(1)
+                fallback_path = images_dir / fallback_name
+                if fallback_path.exists():
+                    image_name = fallback_name
+                    image_path = fallback_path
+
         try:
             img_w, img_h = get_image_dimensions(image_path)
         except Exception:

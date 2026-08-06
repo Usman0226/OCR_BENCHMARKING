@@ -1,12 +1,3 @@
-# =============================================================================
-# OCR Benchmark — Dockerfile
-# Base: Ubuntu 24.04 LTS | Python 3.11 | CPU-only
-# PaddlePaddle CPU + PaddleOCR + Tesseract 5 (eng + fra)
-# Non-root user | BuildKit cache mounts | Optimized layers
-# Build context: project root (ocr-position-benchmark/)
-# =============================================================================
-
-# syntax=docker/dockerfile:1.6
 FROM ubuntu:24.04 AS base
 
 # Avoid interactive prompts during apt operations
@@ -81,8 +72,7 @@ COPY requirements.txt pyproject.toml ./
 RUN --mount=type=cache,target=/root/.cache/pip,sharing=locked \
     # Install PaddlePaddle CPU first (large package, needs separate index)
     pip install --no-cache-dir --ignore-installed \
-        paddlepaddle==2.6.2 \
-        -f https://www.paddlepaddle.org.cn/whl/linux/mkl/avx/stable.html \
+        paddlepaddle==3.3.1 "numpy<2" \
     && pip install --no-cache-dir --ignore-installed -r requirements.txt
 
 # =============================================================================

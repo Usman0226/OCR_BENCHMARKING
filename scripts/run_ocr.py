@@ -107,11 +107,11 @@ def main(
         sys.exit(1)
 
     click.echo(
-        f"\n{'─'*60}\n"
+        f"\n{'-'*60}\n"
         f"  Engine  : {engine_type.value}\n"
         f"  Images  : {images_dir} ({len(image_paths)} files)\n"
         f"  Output  : {output_dir}\n"
-        f"{'─'*60}\n"
+        f"{'-'*60}\n"
     )
 
     # Initialize engine
@@ -139,10 +139,10 @@ def main(
         ocr_engine.shutdown()
 
     click.echo(
-        f"\n{'─'*60}\n"
-        f"  Done!  ✓ {success_count} succeeded  ✗ {error_count} failed\n"
+        f"\n{'-'*60}\n"
+        f"  Done!  v {success_count} succeeded  x {error_count} failed\n"
         f"  Results saved to: {output_dir}\n"
-        f"{'─'*60}\n"
+        f"{'-'*60}\n"
     )
 
     if error_count > 0:

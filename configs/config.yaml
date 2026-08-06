@@ -7,17 +7,17 @@
 # Paths (inside Docker container; override via environment variables)
 # -----------------------------------------------------------------------------
 paths:
-  images_dir: /workspace/images
-  annotations_dir: /workspace/annotations
+  images_dir: ./images
+  annotations_dir: ./annotations
   # Parent dir for OCR output; each engine writes to its own subdirectory:
   #   ocr_output/paddle/     ← PaddleOCR JSONs
   #   ocr_output/tesseract/  ← Tesseract JSONs
-  ocr_output_dir: /workspace/ocr_output
-  # results.csv and results_summary.md are written directly to /workspace (project root)
-  results_dir: /workspace
-  reports_dir: /workspace/reports
-  logs_dir: /logs
-  paddle_model_dir: /paddle-models
+  ocr_output_dir: ./ocr_output
+  # results.csv and results_summary.md are written directly to ./ (project root)
+  results_dir: ./
+  reports_dir: ./reports
+  logs_dir: ./logs
+  paddle_model_dir: ./paddle-models
 
 # -----------------------------------------------------------------------------
 # Logging

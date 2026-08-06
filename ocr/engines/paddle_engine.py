@@ -72,6 +72,7 @@ class PaddleEngine(OCREngine):
             enable_mkldnn=cfg.enable_mkldnn,
             show_log=cfg.show_log,
             cls_thresh=cfg.cls_thresh,
+            ir_optim=False,
         )
         self._initialized = True
         logger.info("PaddleOCR initialized successfully.")
