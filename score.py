@@ -1,372 +1,260 @@
 #!/usr/bin/env python3
-"""Score OCR results against annotation ground truth and produce reports.
-
-Reads:
-    annotations/         — Label Studio JSON export (export.json) or
-                           per-image annotation JSONs
-    ocr_output/paddle/   — PaddleOCR word-box JSONs (written by run_ocr.py)
-    ocr_output/tesseract/— Tesseract word-box JSONs (written by run_ocr.py)
-
-Writes (in project root):
-    results.csv          — per-image scores for every engine
-    results_summary.md   — final aggregate table + observations
-
-Usage:
-    python score.py
-    python score.py --engine paddle
-    python score.py --annotations annotations/my_export.json
-    python score.py --config configs/config.yaml
-"""
-
 from __future__ import annotations
 
+import argparse
 import csv
 import json
+import re
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
 
-import click
-from rich.console import Console
-from rich.table import Table
-
-sys.path.insert(0, str(Path(__file__).parent))
-
-from ocr.core.config import load_config
-from ocr.core.io import load_all_ocr_results, load_label_studio_annotations
-from ocr.core.logger import configure_logging, get_logger
-from ocr.core.models import AggregateScoringResult, EngineType
-from ocr.core.scoring import score_all
-
-console = Console()
+from shapely.geometry import box as shapely_box
+from shapely.ops import unary_union
 
 
-@click.command()
-@click.option(
-    "--engine",
-    "-e",
-    default="all",
-    type=click.Choice(["paddle", "tesseract", "all"], case_sensitive=False),
-    help="Which engine results to score. Default: all.",
-    show_default=True,
-)
-@click.option(
-    "--annotations",
-    "-a",
-    default=None,
-    type=click.Path(file_okay=True, dir_okay=False, path_type=Path),
-    help="Label Studio JSON export file. Auto-detected if omitted.",
-)
-@click.option(
-    "--config",
-    "-c",
-    default=None,
-    type=click.Path(exists=True, file_okay=True, dir_okay=False, path_type=Path),
-    help="Path to config.yaml.",
-)
-@click.option(
-    "--out-dir",
-    "-o",
-    default=None,
-    type=click.Path(file_okay=False, dir_okay=True, path_type=Path),
-    help="Where to write results.csv and results_summary.md. Defaults to project root.",
-)
-def main(
+def load_annotations(ann_path: Path) -> dict[str, list]:
+    raw: list[dict] = json.loads(ann_path.read_text(encoding="utf-8"))
+    annotation_map: dict[str, list] = {}
+
+    for task in raw:
+        stem = _file_to_stem(task.get("file_upload", ""))
+        boxes: list = []
+
+        for annotation in task.get("annotations", []):
+            for item in annotation.get("result", []):
+                if item.get("type") != "rectanglelabels":
+                    continue
+
+                value = item["value"]
+                img_w: float = float(item["original_width"])
+                img_h: float = float(item["original_height"])
+
+                x_min = (value["x"] / 100.0) * img_w
+                y_min = (value["y"] / 100.0) * img_h
+                x_max = x_min + (value["width"] / 100.0) * img_w
+                y_max = y_min + (value["height"] / 100.0) * img_h
+
+                if x_max > x_min and y_max > y_min:
+                    boxes.append(shapely_box(x_min, y_min, x_max, y_max))
+
+        annotation_map[stem] = boxes
+
+    return annotation_map
+
+
+def _file_to_stem(filename: str) -> str:
+    stem = Path(filename).stem
+    stem = re.sub(r"^[0-9a-fA-F]{8}-", "", stem)
+    return stem
+
+
+def load_ocr_boxes(json_path: Path) -> list:
+    data: dict = json.loads(json_path.read_text(encoding="utf-8"))
+    boxes: list = []
+
+    for word in data.get("words", []):
+        b = word.get("bbox", {})
+        x_min = float(b.get("x_min", 0))
+        y_min = float(b.get("y_min", 0))
+        x_max = float(b.get("x_max", 0))
+        y_max = float(b.get("y_max", 0))
+        if x_max > x_min and y_max > y_min:
+            boxes.append(shapely_box(x_min, y_min, x_max, y_max))
+
+    return boxes
+
+
+def score_image(
+    gt_boxes: list,
+    ocr_boxes: list,
     engine: str,
-    annotations: Path | None,
-    config: Path | None,
-    out_dir: Path | None,
-) -> None:
-    """Score OCR output against annotations and write results.csv + results_summary.md."""
-    cfg = load_config(config)
-    configure_logging(cfg.logging, cfg.paths.logs_dir)
-    logger = get_logger(__name__)
+) -> dict:
+    words_total = len(gt_boxes)
 
-    # Output directory — default to project root (same dir as this script)
-    output_root = out_dir or Path(__file__).parent
-    output_root.mkdir(parents=True, exist_ok=True)
+    if words_total == 0:
+        return {
+            "words_total": 0,
+            "found": 0,
+            "missed": 0,
+            "coverage_pct": "",
+            "invented_boxes": len(ocr_boxes),
+            "mean_iou": "",
+        }
 
-    # ------------------------------------------------------------------ #
-    # 1. Load annotations
-    # ------------------------------------------------------------------ #
-    ann_path = annotations or _find_annotation_export(cfg.paths.annotations_dir)
-    if ann_path is None or not ann_path.exists():
-        console.print(
-            "[bold red]ERROR:[/bold red] No annotation export found.\n"
-            f"  Place a Label Studio JSON export in '{cfg.paths.annotations_dir}'\n"
-            "  or pass --annotations <file>.",
-        )
-        sys.exit(1)
+    if not ocr_boxes:
+        return {
+            "words_total": words_total,
+            "found": 0,
+            "missed": words_total,
+            "coverage_pct": 0.0,
+            "invented_boxes": 0,
+            "mean_iou": 0.0 if engine == "tesseract" else "",
+        }
 
-    console.print(f"\n[bold]Annotations:[/bold] {ann_path}")
+    tool_union = unary_union(ocr_boxes)
 
-    try:
-        annotation_map = load_label_studio_annotations(
-            export_path=ann_path,
-            images_dir=cfg.paths.images_dir,
-        )
-    except Exception as exc:
-        console.print(f"[bold red]ERROR:[/bold red] Failed to load annotations: {exc}")
-        sys.exit(1)
+    found = 0
+    missed = 0
+    for gt in gt_boxes:
+        if gt.area == 0:
+            continue
+        covered_fraction = gt.intersection(tool_union).area / gt.area
+        if covered_fraction >= 0.50:
+            found += 1
+        else:
+            missed += 1
 
-    if not annotation_map:
-        console.print("[yellow]WARNING:[/yellow] No annotations loaded. Nothing to score.")
-        sys.exit(0)
+    coverage_pct = round(found / words_total * 100, 2)
 
-    console.print(
-        f"[green]Loaded annotations for {len(annotation_map)} image(s).[/green]\n"
+    gt_union = unary_union(gt_boxes)
+    invented_boxes = sum(
+        1 for ob in ocr_boxes if ob.intersection(gt_union).area == 0
     )
 
-    # ------------------------------------------------------------------ #
-    # 2. Score each engine
-    # ------------------------------------------------------------------ #
-    engines_to_score: list[EngineType] = (
-        list(EngineType) if engine == "all" else [EngineType.from_str(engine)]
+    mean_iou: float | str = ""
+    if engine == "tesseract":
+        matched_ious: list[float] = []
+        for gt in gt_boxes:
+            best_iou = 0.0
+            for ob in ocr_boxes:
+                union_area = gt.union(ob).area
+                if union_area == 0:
+                    continue
+                iou = gt.intersection(ob).area / union_area
+                if iou > best_iou:
+                    best_iou = iou
+            if best_iou >= 0.5:
+                matched_ious.append(best_iou)
+        mean_iou = (
+            round(sum(matched_ious) / len(matched_ious), 4)
+            if matched_ious
+            else 0.0
+        )
+
+    return {
+        "words_total": words_total,
+        "found": found,
+        "missed": missed,
+        "coverage_pct": coverage_pct,
+        "invented_boxes": invented_boxes,
+        "mean_iou": mean_iou,
+    }
+
+
+CSV_FIELDS = [
+    "image",
+    "tool",
+    "words_total",
+    "found",
+    "missed",
+    "coverage_pct",
+    "invented_boxes",
+    "mean_iou",
+]
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Score OCR boxes against Label Studio annotations.",
     )
+    parser.add_argument(
+        "--images",
+        type=Path,
+        default=Path("images/"),
+        help="Images directory.",
+    )
+    parser.add_argument(
+        "--ann",
+        type=Path,
+        default=Path("annotations/"),
+        help="Label Studio JSON export file or directory.",
+    )
+    parser.add_argument(
+        "--out",
+        type=Path,
+        default=Path("results.csv"),
+        help="Output CSV path.",
+    )
+    args = parser.parse_args()
 
-    all_aggregates: list[AggregateScoringResult] = []
+    ann_path: Path = args.ann
+    if ann_path.is_dir():
+        candidates = sorted(ann_path.glob("*.json"))
+        candidates = [p for p in candidates if p.stat().st_size > 1000]
+        if not candidates:
+            print(f"ERROR: No JSON export found in {ann_path}", file=sys.stderr)
+            sys.exit(1)
+        ann_path = candidates[0]
+        print(f"Auto-detected annotation file: {ann_path.name}")
 
-    for eng in engines_to_score:
-        # Read from engine-specific subdir: ocr_output/paddle/ or ocr_output/tesseract/
-        engine_output_dir = cfg.paths.ocr_output_dir / eng.value
-        ocr_results = load_all_ocr_results(engine_output_dir, engine=eng)
+    if not ann_path.exists():
+        print(f"ERROR: Annotation file not found: {ann_path}", file=sys.stderr)
+        sys.exit(1)
 
-        if not ocr_results:
-            console.print(
-                f"[yellow]No OCR results for '{eng.value}' in '{engine_output_dir}'. "
-                f"Run: python run_ocr.py --engine {eng.value}[/yellow]"
-            )
+    print(f"Loading annotations from: {ann_path}")
+    annotations = load_annotations(ann_path)
+    annotated = sum(1 for v in annotations.values() if v)
+    print(f"  {len(annotations)} tasks loaded, {annotated} with word boxes\n")
+
+    ocr_root = Path("ocr_output")
+    engines = ["paddle", "tesseract"]
+    rows: list[dict] = []
+
+    for engine in engines:
+        ocr_dir = ocr_root / engine
+        if not ocr_dir.exists():
+            print(f"WARNING: {ocr_dir} not found -- skipping {engine}\n")
             continue
 
-        console.print(
-            f"Scoring [bold cyan]{eng.value}[/bold cyan] "
-            f"({len(ocr_results)} image(s))..."
-        )
+        ocr_files = sorted(ocr_dir.glob("*.json"))
+        scored = skipped_no_ann = 0
+        print(f"Scoring {engine} ({len(ocr_files)} OCR files)...")
 
-        aggregate = score_all(
-            ocr_results=ocr_results,
-            annotations=annotation_map,
-            matching_cfg=cfg.matching,
-            engine=eng,
-        )
-        all_aggregates.append(aggregate)
+        for ocr_path in ocr_files:
+            stem = ocr_path.stem
 
-    if not all_aggregates:
-        console.print("[yellow]No results to report.[/yellow]")
-        sys.exit(0)
+            if stem not in annotations:
+                skipped_no_ann += 1
+                continue
 
-    # ------------------------------------------------------------------ #
-    # 3. Write results.csv  (per-image rows for all engines)
-    # ------------------------------------------------------------------ #
-    csv_path = output_root / "results.csv"
-    _write_results_csv(all_aggregates, csv_path)
-    console.print(f"\n[green]✓[/green] results.csv  → {csv_path}")
+            gt_boxes = annotations[stem]
+            ocr_boxes = load_ocr_boxes(ocr_path)
 
-    # ------------------------------------------------------------------ #
-    # 4. Write results_summary.md
-    # ------------------------------------------------------------------ #
-    md_path = output_root / "results_summary.md"
-    _write_results_summary(all_aggregates, md_path)
-    console.print(f"[green]✓[/green] results_summary.md → {md_path}")
+            metrics = score_image(gt_boxes, ocr_boxes, engine)
 
-    # ------------------------------------------------------------------ #
-    # 5. Print console table
-    # ------------------------------------------------------------------ #
-    _print_summary_table(all_aggregates)
+            rows.append({
+                "image": stem + ".jpg",
+                "tool": engine,
+                **metrics,
+            })
+            scored += 1
 
-
-# ======================================================================== #
-# Writers
-# ======================================================================== #
-
-
-def _write_results_csv(
-    aggregates: list[AggregateScoringResult],
-    path: Path,
-) -> None:
-    """Write one CSV row per (image × engine) + an aggregate summary row."""
-    rows: list[dict[str, Any]] = []
-
-    for agg in aggregates:
-        for img in agg.per_image:
-            rows.append(
-                {
-                    "engine": img.engine.value,
-                    "image_name": img.image_name,
-                    "precision": round(img.precision, 4),
-                    "recall": round(img.recall, 4),
-                    "f1": round(img.f1, 4),
-                    "coverage": round(img.coverage, 4),
-                    "true_positives": img.true_positives,
-                    "false_positives": img.false_positives,
-                    "false_negatives": img.false_negatives,
-                    "missed_words": len(img.missed_words),
-                    "invented_words": len(img.invented_words),
-                    "processing_time_s": round(img.processing_time_s, 3),
-                    "error": img.error or "",
-                }
+            gt_count = metrics["words_total"]
+            found = metrics["found"]
+            cov = metrics["coverage_pct"]
+            inv = metrics["invented_boxes"]
+            print(
+                f"  {stem:12s}  GT={gt_count:3d}  found={found:3d}  "
+                f"coverage={cov!s:>6}%  invented={inv}"
             )
 
-        # Aggregate row at bottom of each engine block
-        rows.append(
-            {
-                "engine": agg.engine.value,
-                "image_name": "AGGREGATE",
-                "precision": round(agg.mean_precision, 4),
-                "recall": round(agg.mean_recall, 4),
-                "f1": round(agg.mean_f1, 4),
-                "coverage": round(agg.mean_coverage, 4),
-                "true_positives": agg.total_true_positives,
-                "false_positives": agg.total_false_positives,
-                "false_negatives": agg.total_false_negatives,
-                "missed_words": agg.total_missed_words,
-                "invented_words": agg.total_invented_words,
-                "processing_time_s": round(
-                    sum(r.processing_time_s for r in agg.per_image), 3
-                ),
-                "error": "",
-            }
+        print(
+            f"  => scored {scored} image(s), "
+            f"skipped {skipped_no_ann} (not in annotation export)\n"
         )
 
     if not rows:
-        return
+        print("No results to write.", file=sys.stderr)
+        sys.exit(1)
 
-    fieldnames = list(rows[0].keys())
-    with path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+    with args.out.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
         writer.writeheader()
         writer.writerows(rows)
 
-
-def _write_results_summary(
-    aggregates: list[AggregateScoringResult],
-    path: Path,
-) -> None:
-    """Write a Markdown summary with aggregate table + per-image breakdown."""
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    lines: list[str] = [
-        "# OCR Benchmark — Results Summary",
-        "",
-        f"_Generated: {now}_",
-        "",
-        "## Aggregate Comparison",
-        "",
-        "| Engine | Images | Precision | Recall | F1 | Coverage | TP | FP | FN | Missed | Invented |",
-        "|--------|--------|-----------|--------|-----|----------|----|----|----|--------|----------|",
-    ]
-
-    for agg in aggregates:
-        lines.append(
-            f"| **{agg.engine.value}** "
-            f"| {agg.image_count} "
-            f"| {agg.mean_precision:.4f} "
-            f"| {agg.mean_recall:.4f} "
-            f"| **{agg.mean_f1:.4f}** "
-            f"| {agg.mean_coverage:.4f} "
-            f"| {agg.total_true_positives} "
-            f"| {agg.total_false_positives} "
-            f"| {agg.total_false_negatives} "
-            f"| {agg.total_missed_words} "
-            f"| {agg.total_invented_words} |"
-        )
-
-    lines += ["", "---", ""]
-
-    # Per-image breakdown for each engine
-    for agg in aggregates:
-        lines += [
-            f"## Per-Image Results — {agg.engine.value.title()}",
-            "",
-            "| Image | Precision | Recall | F1 | Coverage | TP | FP | FN | Error |",
-            "|-------|-----------|--------|----|----------|----|----|----|-------|",
-        ]
-        for r in agg.per_image:
-            lines.append(
-                f"| {r.image_name} "
-                f"| {r.precision:.4f} "
-                f"| {r.recall:.4f} "
-                f"| {r.f1:.4f} "
-                f"| {r.coverage:.4f} "
-                f"| {r.true_positives} "
-                f"| {r.false_positives} "
-                f"| {r.false_negatives} "
-                f"| {r.error or ''} |"
-            )
-        lines.append("")
-
-    lines += [
-        "---",
-        "",
-        "## Observations",
-        "",
-        "_Fill in your observations here after reviewing the results._",
-        "",
-        "- **PaddleOCR strengths/weaknesses:**",
-        "- **Tesseract strengths/weaknesses:**",
-        "- **Images that caused problems:**",
-        "- **Overall recommendation:**",
-        "",
-    ]
-
-    path.write_text("\n".join(lines), encoding="utf-8")
-
-
-# ======================================================================== #
-# Console output
-# ======================================================================== #
-
-
-def _print_summary_table(aggregates: list[AggregateScoringResult]) -> None:
-    table = Table(title="OCR Benchmark — Aggregate Results", show_lines=True)
-    table.add_column("Engine", style="bold cyan")
-    table.add_column("Images", justify="right")
-    table.add_column("Precision", justify="right")
-    table.add_column("Recall", justify="right")
-    table.add_column("F1", justify="right", style="bold green")
-    table.add_column("Coverage", justify="right")
-    table.add_column("TP", justify="right")
-    table.add_column("FP", justify="right")
-    table.add_column("FN", justify="right")
-    table.add_column("Missed", justify="right")
-    table.add_column("Invented", justify="right")
-
-    for agg in aggregates:
-        table.add_row(
-            agg.engine.value,
-            str(agg.image_count),
-            f"{agg.mean_precision:.4f}",
-            f"{agg.mean_recall:.4f}",
-            f"{agg.mean_f1:.4f}",
-            f"{agg.mean_coverage:.4f}",
-            str(agg.total_true_positives),
-            str(agg.total_false_positives),
-            str(agg.total_false_negatives),
-            str(agg.total_missed_words),
-            str(agg.total_invented_words),
-        )
-
-    console.print()
-    console.print(table)
-    console.print()
-
-
-# ======================================================================== #
-# Helpers
-# ======================================================================== #
-
-
-def _find_annotation_export(annotations_dir: Path) -> Path | None:
-    """Search for a Label Studio JSON export in annotations_dir."""
-    if not annotations_dir.exists():
-        return None
-    for name in ("export.json", "annotations.json", "labelstudio_export.json"):
-        p = annotations_dir / name
-        if p.exists():
-            return p
-    jsons = sorted(annotations_dir.glob("*.json"))
-    return jsons[0] if jsons else None
+    print(f"=> {args.out}  ({len(rows)} rows written)")
 
 
 if __name__ == "__main__":
     main()
+

@@ -1,0 +1,226 @@
+{
+  "image_name": "IMG_074.jpg",
+  "image_path": "images/IMG_074.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "Moealleih.rna",
+      "bbox": {
+        "x_min": 513.0,
+        "y_min": 87.0,
+        "x_max": 867.0,
+        "y_max": 136.0
+      },
+      "confidence": 0.5468320250511169,
+      "page": 1,
+      "image_name": "IMG_074.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          513.0,
+          91.0
+        ],
+        [
+          866.0,
+          87.0
+        ],
+        [
+          867.0,
+          132.0
+        ],
+        [
+          514.0,
+          136.0
+        ]
+      ]
+    },
+    {
+      "text": "Paoil",
+      "bbox": {
+        "x_min": 302.0,
+        "y_min": 151.0,
+        "x_max": 424.0,
+        "y_max": 202.0
+      },
+      "confidence": 0.630345344543457,
+      "page": 1,
+      "image_name": "IMG_074.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          302.0,
+          160.0
+        ],
+        [
+          420.0,
+          151.0
+        ],
+        [
+          424.0,
+          192.0
+        ],
+        [
+          306.0,
+          202.0
+        ]
+      ]
+    },
+    {
+      "text": "Dareitdi",
+      "bbox": {
+        "x_min": 580.0,
+        "y_min": 203.0,
+        "x_max": 736.0,
+        "y_max": 236.0
+      },
+      "confidence": 0.5948116779327393,
+      "page": 1,
+      "image_name": "IMG_074.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          580.0,
+          203.0
+        ],
+        [
+          736.0,
+          203.0
+        ],
+        [
+          736.0,
+          236.0
+        ],
+        [
+          580.0,
+          236.0
+        ]
+      ]
+    },
+    {
+      "text": "col",
+      "bbox": {
+        "x_min": 549.0,
+        "y_min": 286.0,
+        "x_max": 649.0,
+        "y_max": 338.0
+      },
+      "confidence": 0.5677976608276367,
+      "page": 1,
+      "image_name": "IMG_074.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          549.0,
+          286.0
+        ],
+        [
+          649.0,
+          286.0
+        ],
+        [
+          649.0,
+          338.0
+        ],
+        [
+          549.0,
+          338.0
+        ]
+      ]
+    },
+    {
+      "text": "Pagatt.2eelorte",
+      "bbox": {
+        "x_min": 54.0,
+        "y_min": 291.0,
+        "x_max": 385.0,
+        "y_max": 353.0
+      },
+      "confidence": 0.532514214515686,
+      "page": 1,
+      "image_name": "IMG_074.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          54.0,
+          300.0
+        ],
+        [
+          384.0,
+          291.0
+        ],
+        [
+          385.0,
+          343.0
+        ],
+        [
+          55.0,
+          353.0
+        ]
+      ]
+    },
+    {
+      "text": "ST",
+      "bbox": {
+        "x_min": 263.0,
+        "y_min": 560.0,
+        "x_max": 304.0,
+        "y_max": 586.0
+      },
+      "confidence": 0.9792460203170776,
+      "page": 1,
+      "image_name": "IMG_074.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          263.0,
+          560.0
+        ],
+        [
+          304.0,
+          560.0
+        ],
+        [
+          304.0,
+          586.0
+        ],
+        [
+          263.0,
+          586.0
+        ]
+      ]
+    },
+    {
+      "text": "JACQUESLE MINEUR DE MTU",
+      "bbox": {
+        "x_min": 307.0,
+        "y_min": 531.0,
+        "x_max": 810.0,
+        "y_max": 591.0
+      },
+      "confidence": 0.9442072510719299,
+      "page": 1,
+      "image_name": "IMG_074.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          307.0,
+          551.0
+        ],
+        [
+          808.0,
+          531.0
+        ],
+        [
+          810.0,
+          571.0
+        ],
+        [
+          309.0,
+          591.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 1.138399785000047,
+  "error": null
+}

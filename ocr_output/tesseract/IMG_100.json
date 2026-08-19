@@ -1,0 +1,415 @@
+{
+  "image_name": "IMG_100.jpg",
+  "image_path": "images/IMG_100.jpg",
+  "engine": "tesseract",
+  "words": [
+    {
+      "text": "Renee",
+      "bbox": {
+        "x_min": 129.0,
+        "y_min": 55.0,
+        "x_max": 312.0,
+        "y_max": 125.0
+      },
+      "confidence": 0.0,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "th",
+      "bbox": {
+        "x_min": 352.0,
+        "y_min": 55.0,
+        "x_max": 417.0,
+        "y_max": 125.0
+      },
+      "confidence": 0.54,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "C.ro-€&",
+      "bbox": {
+        "x_min": 117.0,
+        "y_min": 181.0,
+        "x_max": 316.0,
+        "y_max": 218.0
+      },
+      "confidence": 0.33,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1660",
+      "bbox": {
+        "x_min": 86.0,
+        "y_min": 267.0,
+        "x_max": 215.0,
+        "y_max": 303.0
+      },
+      "confidence": 0.54,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "det",
+      "bbox": {
+        "x_min": 293.0,
+        "y_min": 264.0,
+        "x_max": 433.0,
+        "y_max": 301.0
+      },
+      "confidence": 0.27,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Ukethaw",
+      "bbox": {
+        "x_min": 510.0,
+        "y_min": 259.0,
+        "x_max": 777.0,
+        "y_max": 300.0
+      },
+      "confidence": 0.2,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Z",
+      "bbox": {
+        "x_min": 797.0,
+        "y_min": 259.0,
+        "x_max": 850.0,
+        "y_max": 337.0
+      },
+      "confidence": 0.5,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": ".",
+      "bbox": {
+        "x_min": 864.0,
+        "y_min": 286.0,
+        "x_max": 867.0,
+        "y_max": 291.0
+      },
+      "confidence": 0.62,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "hbrer",
+      "bbox": {
+        "x_min": 923.0,
+        "y_min": 255.0,
+        "x_max": 1103.0,
+        "y_max": 306.0
+      },
+      "confidence": 0.0,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "vw",
+      "bbox": {
+        "x_min": 1127.0,
+        "y_min": 276.0,
+        "x_max": 1209.0,
+        "y_max": 301.0
+      },
+      "confidence": 0.94,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "[663",
+      "bbox": {
+        "x_min": 85.0,
+        "y_min": 322.0,
+        "x_max": 201.0,
+        "y_max": 362.0
+      },
+      "confidence": 0.59,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ced",
+      "bbox": {
+        "x_min": 294.0,
+        "y_min": 316.0,
+        "x_max": 407.0,
+        "y_max": 366.0
+      },
+      "confidence": 0.22,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Deere",
+      "bbox": {
+        "x_min": 488.0,
+        "y_min": 312.0,
+        "x_max": 659.0,
+        "y_max": 401.0
+      },
+      "confidence": 0.3,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Yréez",
+      "bbox": {
+        "x_min": 710.0,
+        "y_min": 312.0,
+        "x_max": 882.0,
+        "y_max": 401.0
+      },
+      "confidence": 0.0,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Pw",
+      "bbox": {
+        "x_min": 928.0,
+        "y_min": 337.0,
+        "x_max": 1027.0,
+        "y_max": 361.0
+      },
+      "confidence": 0.89,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Yan",
+      "bbox": {
+        "x_min": 1333.0,
+        "y_min": 247.0,
+        "x_max": 1522.0,
+        "y_max": 315.0
+      },
+      "confidence": 0.6,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "8.",
+      "bbox": {
+        "x_min": 1472.0,
+        "y_min": 243.0,
+        "x_max": 1528.0,
+        "y_max": 325.0
+      },
+      "confidence": 0.64,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Jeraux",
+      "bbox": {
+        "x_min": 1564.0,
+        "y_min": 258.0,
+        "x_max": 1742.0,
+        "y_max": 319.0
+      },
+      "confidence": 0.29,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "if",
+      "bbox": {
+        "x_min": 1805.0,
+        "y_min": 266.0,
+        "x_max": 1859.0,
+        "y_max": 309.0
+      },
+      "confidence": 0.23,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ot",
+      "bbox": {
+        "x_min": 1376.0,
+        "y_min": 347.0,
+        "x_max": 1492.0,
+        "y_max": 364.0
+      },
+      "confidence": 0.24,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "C7",
+      "bbox": {
+        "x_min": 1562.0,
+        "y_min": 333.0,
+        "x_max": 1667.0,
+        "y_max": 400.0
+      },
+      "confidence": 0.39,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Va",
+      "bbox": {
+        "x_min": 1856.0,
+        "y_min": 256.0,
+        "x_max": 1903.0,
+        "y_max": 318.0
+      },
+      "confidence": 0.58,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Lo",
+      "bbox": {
+        "x_min": 1957.0,
+        "y_min": 261.0,
+        "x_max": 2000.0,
+        "y_max": 317.0
+      },
+      "confidence": 0.07,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "fa",
+      "bbox": {
+        "x_min": 2013.0,
+        "y_min": 261.0,
+        "x_max": 2061.0,
+        "y_max": 317.0
+      },
+      "confidence": 0.07,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "SOae",
+      "bbox": {
+        "x_min": 2110.0,
+        "y_min": 277.0,
+        "x_max": 2253.0,
+        "y_max": 307.0
+      },
+      "confidence": 0.34,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "X",
+      "bbox": {
+        "x_min": 2284.0,
+        "y_min": 262.0,
+        "x_max": 2330.0,
+        "y_max": 308.0
+      },
+      "confidence": 0.84,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "seo",
+      "bbox": {
+        "x_min": 2355.0,
+        "y_min": 279.0,
+        "x_max": 2424.0,
+        "y_max": 301.0
+      },
+      "confidence": 0.42,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "74",
+      "bbox": {
+        "x_min": 1851.0,
+        "y_min": 348.0,
+        "x_max": 1872.0,
+        "y_max": 362.0
+      },
+      "confidence": 0.23,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "a",
+      "bbox": {
+        "x_min": 1986.0,
+        "y_min": 344.0,
+        "x_max": 2008.0,
+        "y_max": 357.0
+      },
+      "confidence": 0.53,
+      "page": 1,
+      "image_name": "IMG_100.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    }
+  ],
+  "processing_time_s": 0.8877823559998888,
+  "error": null
+}

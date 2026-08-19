@@ -1,0 +1,939 @@
+{
+  "image_name": "IMG_062.jpg",
+  "image_path": "images/IMG_062.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "HOLLAND,John Dennis",
+      "bbox": {
+        "x_min": 469.0,
+        "y_min": 30.0,
+        "x_max": 689.0,
+        "y_max": 49.0
+      },
+      "confidence": 0.9779763221740723,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          469.0,
+          30.0
+        ],
+        [
+          689.0,
+          32.0
+        ],
+        [
+          689.0,
+          49.0
+        ],
+        [
+          469.0,
+          47.0
+        ]
+      ]
+    },
+    {
+      "text": "On June 29th,1993,Mr.John Dennis Holland of",
+      "bbox": {
+        "x_min": 424.0,
+        "y_min": 48.0,
+        "x_max": 735.0,
+        "y_max": 66.0
+      },
+      "confidence": 0.946923553943634,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          424.0,
+          48.0
+        ],
+        [
+          735.0,
+          50.0
+        ],
+        [
+          735.0,
+          66.0
+        ],
+        [
+          424.0,
+          64.0
+        ]
+      ]
+    },
+    {
+      "text": "Terrace, British Columbia passed away in",
+      "bbox": {
+        "x_min": 424.0,
+        "y_min": 64.0,
+        "x_max": 735.0,
+        "y_max": 83.0
+      },
+      "confidence": 0.9653856158256531,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          424.0,
+          64.0
+        ],
+        [
+          735.0,
+          66.0
+        ],
+        [
+          735.0,
+          83.0
+        ],
+        [
+          424.0,
+          81.0
+        ]
+      ]
+    },
+    {
+      "text": "Edmontonafteracourageousbattle with cancer,",
+      "bbox": {
+        "x_min": 422.0,
+        "y_min": 79.0,
+        "x_max": 734.0,
+        "y_max": 102.0
+      },
+      "confidence": 0.9713118672370911,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          423.0,
+          79.0
+        ],
+        [
+          734.0,
+          82.0
+        ],
+        [
+          734.0,
+          102.0
+        ],
+        [
+          422.0,
+          99.0
+        ]
+      ]
+    },
+    {
+      "text": "at theageof43years.",
+      "bbox": {
+        "x_min": 423.0,
+        "y_min": 99.0,
+        "x_max": 578.0,
+        "y_max": 116.0
+      },
+      "confidence": 0.9671262502670288,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          423.0,
+          99.0
+        ],
+        [
+          578.0,
+          99.0
+        ],
+        [
+          578.0,
+          116.0
+        ],
+        [
+          423.0,
+          116.0
+        ]
+      ]
+    },
+    {
+      "text": "He leaves to mourn his loss his mother,",
+      "bbox": {
+        "x_min": 421.0,
+        "y_min": 113.0,
+        "x_max": 734.0,
+        "y_max": 135.0
+      },
+      "confidence": 0.9433867335319519,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          422.0,
+          113.0
+        ],
+        [
+          734.0,
+          115.0
+        ],
+        [
+          734.0,
+          135.0
+        ],
+        [
+          421.0,
+          133.0
+        ]
+      ]
+    },
+    {
+      "text": "Margaret Angela Holland of Edmonton;also four",
+      "bbox": {
+        "x_min": 421.0,
+        "y_min": 130.0,
+        "x_max": 735.0,
+        "y_max": 152.0
+      },
+      "confidence": 0.9422855973243713,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          422.0,
+          130.0
+        ],
+        [
+          735.0,
+          132.0
+        ],
+        [
+          735.0,
+          152.0
+        ],
+        [
+          421.0,
+          150.0
+        ]
+      ]
+    },
+    {
+      "text": "brothers and three sisters,Don (Marian）",
+      "bbox": {
+        "x_min": 414.0,
+        "y_min": 148.0,
+        "x_max": 732.0,
+        "y_max": 167.0
+      },
+      "confidence": 0.9403834342956543,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          415.0,
+          148.0
+        ],
+        [
+          732.0,
+          150.0
+        ],
+        [
+          732.0,
+          167.0
+        ],
+        [
+          414.0,
+          165.0
+        ]
+      ]
+    },
+    {
+      "text": "Holland of Toronto,Ontario,Tom （Pat) Holland",
+      "bbox": {
+        "x_min": 422.0,
+        "y_min": 164.0,
+        "x_max": 732.0,
+        "y_max": 184.0
+      },
+      "confidence": 0.9353145956993103,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          423.0,
+          164.0
+        ],
+        [
+          732.0,
+          167.0
+        ],
+        [
+          732.0,
+          184.0
+        ],
+        [
+          422.0,
+          181.0
+        ]
+      ]
+    },
+    {
+      "text": "of Calgary,Marilyn （Jack)Kane of Edmonton,",
+      "bbox": {
+        "x_min": 422.0,
+        "y_min": 181.0,
+        "x_max": 731.0,
+        "y_max": 200.0
+      },
+      "confidence": 0.9185185432434082,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          422.0,
+          181.0
+        ],
+        [
+          731.0,
+          183.0
+        ],
+        [
+          731.0,
+          200.0
+        ],
+        [
+          422.0,
+          198.0
+        ]
+      ]
+    },
+    {
+      "text": "Dianne （Carrick) Hill and Grant (ZoeAnn）",
+      "bbox": {
+        "x_min": 422.0,
+        "y_min": 197.0,
+        "x_max": 731.0,
+        "y_max": 216.0
+      },
+      "confidence": 0.9155545234680176,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          422.0,
+          197.0
+        ],
+        [
+          731.0,
+          198.0
+        ],
+        [
+          731.0,
+          216.0
+        ],
+        [
+          422.0,
+          215.0
+        ]
+      ]
+    },
+    {
+      "text": "Holland,both of Denver,Colorado,Karen(Mark)",
+      "bbox": {
+        "x_min": 421.0,
+        "y_min": 214.0,
+        "x_max": 732.0,
+        "y_max": 233.0
+      },
+      "confidence": 0.923163115978241,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          421.0,
+          214.0
+        ],
+        [
+          732.0,
+          216.0
+        ],
+        [
+          732.0,
+          233.0
+        ],
+        [
+          421.0,
+          231.0
+        ]
+      ]
+    },
+    {
+      "text": "Tumbach and Mark （Kim)Holland,both of",
+      "bbox": {
+        "x_min": 423.0,
+        "y_min": 232.0,
+        "x_max": 734.0,
+        "y_max": 249.0
+      },
+      "confidence": 0.9376519918441772,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          423.0,
+          232.0
+        ],
+        [
+          734.0,
+          232.0
+        ],
+        [
+          734.0,
+          249.0
+        ],
+        [
+          423.0,
+          249.0
+        ]
+      ]
+    },
+    {
+      "text": "Calgary;and numerous nieces,nephews and",
+      "bbox": {
+        "x_min": 421.0,
+        "y_min": 246.0,
+        "x_max": 734.0,
+        "y_max": 269.0
+      },
+      "confidence": 0.9481765627861023,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          422.0,
+          246.0
+        ],
+        [
+          734.0,
+          249.0
+        ],
+        [
+          734.0,
+          269.0
+        ],
+        [
+          421.0,
+          266.0
+        ]
+      ]
+    },
+    {
+      "text": "many dear friends.John was predeceased by",
+      "bbox": {
+        "x_min": 421.0,
+        "y_min": 265.0,
+        "x_max": 732.0,
+        "y_max": 284.0
+      },
+      "confidence": 0.958069384098053,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          421.0,
+          265.0
+        ],
+        [
+          732.0,
+          267.0
+        ],
+        [
+          732.0,
+          284.0
+        ],
+        [
+          421.0,
+          282.0
+        ]
+      ]
+    },
+    {
+      "text": "his father,Richard William in 1980",
+      "bbox": {
+        "x_min": 421.0,
+        "y_min": 281.0,
+        "x_max": 656.0,
+        "y_max": 297.0
+      },
+      "confidence": 0.9326208829879761,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          421.0,
+          281.0
+        ],
+        [
+          656.0,
+          281.0
+        ],
+        [
+          656.0,
+          297.0
+        ],
+        [
+          421.0,
+          297.0
+        ]
+      ]
+    },
+    {
+      "text": "Prayer Services will be held Thursday,July 1st",
+      "bbox": {
+        "x_min": 420.0,
+        "y_min": 297.0,
+        "x_max": 732.0,
+        "y_max": 316.0
+      },
+      "confidence": 0.9559934139251709,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          420.0,
+          297.0
+        ],
+        [
+          732.0,
+          298.0
+        ],
+        [
+          732.0,
+          316.0
+        ],
+        [
+          420.0,
+          315.0
+        ]
+      ]
+    },
+    {
+      "text": "at7:00p.m.in theWild Rose Chapelof Connelly-",
+      "bbox": {
+        "x_min": 421.0,
+        "y_min": 313.0,
+        "x_max": 730.0,
+        "y_max": 333.0
+      },
+      "confidence": 0.9493547081947327,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          422.0,
+          313.0
+        ],
+        [
+          730.0,
+          316.0
+        ],
+        [
+          730.0,
+          333.0
+        ],
+        [
+          421.0,
+          330.0
+        ]
+      ]
+    },
+    {
+      "text": "McKinleyFuneralHome,10011114Street.Right",
+      "bbox": {
+        "x_min": 421.0,
+        "y_min": 330.0,
+        "x_max": 733.0,
+        "y_max": 350.0
+      },
+      "confidence": 0.9719865918159485,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          422.0,
+          330.0
+        ],
+        [
+          733.0,
+          333.0
+        ],
+        [
+          733.0,
+          350.0
+        ],
+        [
+          421.0,
+          347.0
+        ]
+      ]
+    },
+    {
+      "text": "ReverendFeeOttersonwill celebrateaMassof",
+      "bbox": {
+        "x_min": 420.0,
+        "y_min": 347.0,
+        "x_max": 733.0,
+        "y_max": 367.0
+      },
+      "confidence": 0.9823565483093262,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          421.0,
+          347.0
+        ],
+        [
+          733.0,
+          350.0
+        ],
+        [
+          733.0,
+          367.0
+        ],
+        [
+          420.0,
+          364.0
+        ]
+      ]
+    },
+    {
+      "text": "Christian Burial Friday,July2nd,1993at 10:00",
+      "bbox": {
+        "x_min": 420.0,
+        "y_min": 364.0,
+        "x_max": 732.0,
+        "y_max": 382.0
+      },
+      "confidence": 0.9429696798324585,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          420.0,
+          364.0
+        ],
+        [
+          732.0,
+          365.0
+        ],
+        [
+          732.0,
+          382.0
+        ],
+        [
+          420.0,
+          381.0
+        ]
+      ]
+    },
+    {
+      "text": "a.m.at St.John the Evangelist Catholic Church,",
+      "bbox": {
+        "x_min": 419.0,
+        "y_min": 381.0,
+        "x_max": 730.0,
+        "y_max": 400.0
+      },
+      "confidence": 0.9607198238372803,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          420.0,
+          381.0
+        ],
+        [
+          730.0,
+          383.0
+        ],
+        [
+          730.0,
+          400.0
+        ],
+        [
+          419.0,
+          398.0
+        ]
+      ]
+    },
+    {
+      "text": "9830 148Street,followed by interment inOur",
+      "bbox": {
+        "x_min": 420.0,
+        "y_min": 397.0,
+        "x_max": 732.0,
+        "y_max": 417.0
+      },
+      "confidence": 0.9453700184822083,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          421.0,
+          397.0
+        ],
+        [
+          732.0,
+          400.0
+        ],
+        [
+          732.0,
+          417.0
+        ],
+        [
+          420.0,
+          413.0
+        ]
+      ]
+    },
+    {
+      "text": "Ladyof Peace Cemetery.In lieu of flowers,the",
+      "bbox": {
+        "x_min": 420.0,
+        "y_min": 413.0,
+        "x_max": 732.0,
+        "y_max": 432.0
+      },
+      "confidence": 0.9320854544639587,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          420.0,
+          413.0
+        ],
+        [
+          732.0,
+          414.0
+        ],
+        [
+          732.0,
+          432.0
+        ],
+        [
+          420.0,
+          431.0
+        ]
+      ]
+    },
+    {
+      "text": "familywould appreciate donationsbe made to",
+      "bbox": {
+        "x_min": 419.0,
+        "y_min": 430.0,
+        "x_max": 731.0,
+        "y_max": 450.0
+      },
+      "confidence": 0.9493899345397949,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          420.0,
+          430.0
+        ],
+        [
+          731.0,
+          432.0
+        ],
+        [
+          731.0,
+          450.0
+        ],
+        [
+          419.0,
+          448.0
+        ]
+      ]
+    },
+    {
+      "text": "thePalliative CareServicesof the Misericordia",
+      "bbox": {
+        "x_min": 419.0,
+        "y_min": 447.0,
+        "x_max": 730.0,
+        "y_max": 466.0
+      },
+      "confidence": 0.9622083306312561,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          420.0,
+          447.0
+        ],
+        [
+          730.0,
+          449.0
+        ],
+        [
+          730.0,
+          466.0
+        ],
+        [
+          419.0,
+          464.0
+        ]
+      ]
+    },
+    {
+      "text": "Hospital,16940 87Avenue,Edmonton,T5R 4H5.",
+      "bbox": {
+        "x_min": 420.0,
+        "y_min": 463.0,
+        "x_max": 729.0,
+        "y_max": 483.0
+      },
+      "confidence": 0.938615083694458,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          421.0,
+          463.0
+        ],
+        [
+          729.0,
+          465.0
+        ],
+        [
+          729.0,
+          483.0
+        ],
+        [
+          420.0,
+          481.0
+        ]
+      ]
+    },
+    {
+      "text": "The Floral Chapels,Connelly-McKinley Ltd.",
+      "bbox": {
+        "x_min": 426.0,
+        "y_min": 480.0,
+        "x_max": 729.0,
+        "y_max": 500.0
+      },
+      "confidence": 0.9644289612770081,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          426.0,
+          480.0
+        ],
+        [
+          729.0,
+          483.0
+        ],
+        [
+          729.0,
+          500.0
+        ],
+        [
+          426.0,
+          497.0
+        ]
+      ]
+    },
+    {
+      "text": "Phone422-2222.",
+      "bbox": {
+        "x_min": 421.0,
+        "y_min": 498.0,
+        "x_max": 550.0,
+        "y_max": 515.0
+      },
+      "confidence": 0.9914713501930237,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          421.0,
+          498.0
+        ],
+        [
+          550.0,
+          498.0
+        ],
+        [
+          550.0,
+          515.0
+        ],
+        [
+          421.0,
+          515.0
+        ]
+      ]
+    },
+    {
+      "text": "4852",
+      "bbox": {
+        "x_min": 698.0,
+        "y_min": 513.0,
+        "x_max": 723.0,
+        "y_max": 524.0
+      },
+      "confidence": 0.9784036874771118,
+      "page": 1,
+      "image_name": "IMG_062.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          698.0,
+          513.0
+        ],
+        [
+          723.0,
+          513.0
+        ],
+        [
+          723.0,
+          524.0
+        ],
+        [
+          698.0,
+          524.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 7.481500505999975,
+  "error": null
+}

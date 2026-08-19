@@ -1,15 +1,4 @@
 #!/usr/bin/env python3
-"""CLI: Score OCR results against Label Studio annotations.
-
-Loads previously generated OCR JSON files, matches them against annotations,
-computes precision/recall/F1, and writes reports to the reports directory.
-
-Usage:
-    python scripts/score.py
-    python scripts/score.py --engine paddle
-    python scripts/score.py --engine tesseract --config configs/config.yaml
-"""
-
 from __future__ import annotations
 
 import json
@@ -59,12 +48,10 @@ def main(
     annotations: Path | None,
     config: Path | None,
 ) -> None:
-    """Score OCR results against Label Studio annotations and generate reports."""
     cfg = load_config(config)
     configure_logging(cfg.logging, cfg.paths.logs_dir)
     logger = get_logger(__name__)
 
-    # Locate annotation export file
     annotations_path = annotations or _find_annotation_export(cfg.paths.annotations_dir)
     if annotations_path is None or not annotations_path.exists():
         console.print(
@@ -76,7 +63,6 @@ def main(
 
     console.print(f"\n[bold]Annotation file:[/bold] {annotations_path}")
 
-    # Load annotations
     try:
         annotation_map = load_label_studio_annotations(
             export_path=annotations_path,
@@ -92,7 +78,6 @@ def main(
 
     console.print(f"[green]Loaded annotations for {len(annotation_map)} images.[/green]\n")
 
-    # Determine which engines to score
     engines_to_score: list[EngineType]
     if engine is None or engine == "all":
         engines_to_score = list(EngineType)
@@ -122,34 +107,27 @@ def main(
             engine=eng,
         )
         aggregate_results.append(aggregate)
-
-        # Export reports for this engine
         export_all(aggregate, cfg.paths.reports_dir, cfg.reports)
 
     if not aggregate_results:
         console.print("[yellow]No results to report.[/yellow]")
         sys.exit(0)
 
-    # Pretty console summary table
     _print_summary_table(aggregate_results)
 
 
 def _find_annotation_export(annotations_dir: Path) -> Path | None:
-    """Search for a Label Studio export JSON in the annotations directory."""
     if not annotations_dir.exists():
         return None
-    # Check common filenames first
     for name in ("export.json", "annotations.json", "labelstudio_export.json"):
         candidate = annotations_dir / name
         if candidate.exists():
             return candidate
-    # Fall back to the first JSON file found
     json_files = sorted(annotations_dir.glob("*.json"))
     return json_files[0] if json_files else None
 
 
 def _print_summary_table(results: list[AggregateScoringResult]) -> None:
-    """Render a rich summary table to the console."""
     table = Table(title="OCR Benchmark Results", show_lines=True)
     table.add_column("Engine", style="bold cyan")
     table.add_column("Images", justify="right")

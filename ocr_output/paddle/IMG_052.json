@@ -1,0 +1,288 @@
+{
+  "image_name": "IMG_052.jpg",
+  "image_path": "images/IMG_052.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "Llee ame",
+      "bbox": {
+        "x_min": 551.0,
+        "y_min": 65.0,
+        "x_max": 925.0,
+        "y_max": 146.0
+      },
+      "confidence": 0.756679892539978,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          551.0,
+          65.0
+        ],
+        [
+          925.0,
+          65.0
+        ],
+        [
+          925.0,
+          146.0
+        ],
+        [
+          551.0,
+          146.0
+        ]
+      ]
+    },
+    {
+      "text": "Rrraultalcide",
+      "bbox": {
+        "x_min": 57.0,
+        "y_min": 75.0,
+        "x_max": 488.0,
+        "y_max": 194.0
+      },
+      "confidence": 0.8224422931671143,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          57.0,
+          118.0
+        ],
+        [
+          480.0,
+          75.0
+        ],
+        [
+          488.0,
+          151.0
+        ],
+        [
+          65.0,
+          194.0
+        ]
+      ]
+    },
+    {
+      "text": "alhee",
+      "bbox": {
+        "x_min": 66.0,
+        "y_min": 192.0,
+        "x_max": 235.0,
+        "y_max": 278.0
+      },
+      "confidence": 0.7361845970153809,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          66.0,
+          192.0
+        ],
+        [
+          235.0,
+          192.0
+        ],
+        [
+          235.0,
+          278.0
+        ],
+        [
+          66.0,
+          278.0
+        ]
+      ]
+    },
+    {
+      "text": "Fereege angile",
+      "bbox": {
+        "x_min": 510.0,
+        "y_min": 248.0,
+        "x_max": 937.0,
+        "y_max": 365.0
+      },
+      "confidence": 0.7622624039649963,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          510.0,
+          266.0
+        ],
+        [
+          933.0,
+          248.0
+        ],
+        [
+          937.0,
+          347.0
+        ],
+        [
+          514.0,
+          365.0
+        ]
+      ]
+    },
+    {
+      "text": "Brarie",
+      "bbox": {
+        "x_min": 266.0,
+        "y_min": 300.0,
+        "x_max": 442.0,
+        "y_max": 378.0
+      },
+      "confidence": 0.7457447648048401,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          266.0,
+          306.0
+        ],
+        [
+          439.0,
+          300.0
+        ],
+        [
+          442.0,
+          372.0
+        ],
+        [
+          268.0,
+          378.0
+        ]
+      ]
+    },
+    {
+      "text": "Hagnrn",
+      "bbox": {
+        "x_min": 69.0,
+        "y_min": 338.0,
+        "x_max": 250.0,
+        "y_max": 405.0
+      },
+      "confidence": 0.5847756266593933,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          69.0,
+          345.0
+        ],
+        [
+          248.0,
+          338.0
+        ],
+        [
+          250.0,
+          398.0
+        ],
+        [
+          71.0,
+          405.0
+        ]
+      ]
+    },
+    {
+      "text": "L'ILE.VERTE ST.JN BTE",
+      "bbox": {
+        "x_min": 461.0,
+        "y_min": 490.0,
+        "x_max": 849.0,
+        "y_max": 529.0
+      },
+      "confidence": 0.9060133695602417,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          461.0,
+          496.0
+        ],
+        [
+          849.0,
+          490.0
+        ],
+        [
+          849.0,
+          523.0
+        ],
+        [
+          462.0,
+          529.0
+        ]
+      ]
+    },
+    {
+      "text": "1810",
+      "bbox": {
+        "x_min": 547.0,
+        "y_min": 538.0,
+        "x_max": 632.0,
+        "y_max": 575.0
+      },
+      "confidence": 0.9988957047462463,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          547.0,
+          538.0
+        ],
+        [
+          632.0,
+          538.0
+        ],
+        [
+          632.0,
+          575.0
+        ],
+        [
+          547.0,
+          575.0
+        ]
+      ]
+    },
+    {
+      "text": "6mou.1935",
+      "bbox": {
+        "x_min": 91.0,
+        "y_min": 552.0,
+        "x_max": 379.0,
+        "y_max": 643.0
+      },
+      "confidence": 0.6706188917160034,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          91.0,
+          577.0
+        ],
+        [
+          373.0,
+          552.0
+        ],
+        [
+          379.0,
+          618.0
+        ],
+        [
+          97.0,
+          643.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 1.2183032189999494,
+  "error": null
+}

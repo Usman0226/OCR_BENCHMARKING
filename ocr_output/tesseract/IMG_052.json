@@ -1,0 +1,233 @@
+{
+  "image_name": "IMG_052.jpg",
+  "image_path": "images/IMG_052.jpg",
+  "engine": "tesseract",
+  "words": [
+    {
+      "text": "fgalé",
+      "bbox": {
+        "x_min": 55.0,
+        "y_min": 68.0,
+        "x_max": 291.0,
+        "y_max": 187.0
+      },
+      "confidence": 0.0,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Uitte",
+      "bbox": {
+        "x_min": 327.0,
+        "y_min": 57.0,
+        "x_max": 480.0,
+        "y_max": 201.0
+      },
+      "confidence": 0.27,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "bel",
+      "bbox": {
+        "x_min": 591.0,
+        "y_min": 57.0,
+        "x_max": 699.0,
+        "y_max": 201.0
+      },
+      "confidence": 0.54,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "name",
+      "bbox": {
+        "x_min": 735.0,
+        "y_min": 57.0,
+        "x_max": 927.0,
+        "y_max": 201.0
+      },
+      "confidence": 0.38,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "a",
+      "bbox": {
+        "x_min": 521.0,
+        "y_min": 185.0,
+        "x_max": 618.0,
+        "y_max": 264.0
+      },
+      "confidence": 0.43,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": ",",
+      "bbox": {
+        "x_min": 887.0,
+        "y_min": 251.0,
+        "x_max": 900.0,
+        "y_max": 273.0
+      },
+      "confidence": 0.65,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "a",
+      "bbox": {
+        "x_min": 50.0,
+        "y_min": 197.0,
+        "x_max": 444.0,
+        "y_max": 431.0
+      },
+      "confidence": 0.53,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ae",
+      "bbox": {
+        "x_min": 517.0,
+        "y_min": 270.0,
+        "x_max": 624.0,
+        "y_max": 340.0
+      },
+      "confidence": 0.29,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ot",
+      "bbox": {
+        "x_min": 661.0,
+        "y_min": 266.0,
+        "x_max": 822.0,
+        "y_max": 414.0
+      },
+      "confidence": 0.31,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "|",
+      "bbox": {
+        "x_min": 895.0,
+        "y_min": 270.0,
+        "x_max": 933.0,
+        "y_max": 358.0
+      },
+      "confidence": 0.74,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "L'ILE-VERTE",
+      "bbox": {
+        "x_min": 465.0,
+        "y_min": 497.0,
+        "x_max": 660.0,
+        "y_max": 528.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ST-JN",
+      "bbox": {
+        "x_min": 678.0,
+        "y_min": 495.0,
+        "x_max": 767.0,
+        "y_max": 524.0
+      },
+      "confidence": 0.87,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "BTE",
+      "bbox": {
+        "x_min": 787.0,
+        "y_min": 496.0,
+        "x_max": 848.0,
+        "y_max": 522.0
+      },
+      "confidence": 0.89,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1810",
+      "bbox": {
+        "x_min": 553.0,
+        "y_min": 543.0,
+        "x_max": 627.0,
+        "y_max": 571.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "bag",
+      "bbox": {
+        "x_min": 97.0,
+        "y_min": 580.0,
+        "x_max": 208.0,
+        "y_max": 629.0
+      },
+      "confidence": 0.1,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "(fas",
+      "bbox": {
+        "x_min": 255.0,
+        "y_min": 559.0,
+        "x_max": 375.0,
+        "y_max": 631.0
+      },
+      "confidence": 0.48,
+      "page": 1,
+      "image_name": "IMG_052.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    }
+  ],
+  "processing_time_s": 0.4063420219999898,
+  "error": null
+}

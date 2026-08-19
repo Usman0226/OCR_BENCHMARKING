@@ -1,0 +1,877 @@
+{
+  "image_name": "IMG_068.jpg",
+  "image_path": "images/IMG_068.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "Le 20 octobre.a l'hopital St. Mary's de Mon",
+      "bbox": {
+        "x_min": 743.0,
+        "y_min": 18.0,
+        "x_max": 1393.0,
+        "y_max": 58.0
+      },
+      "confidence": 0.9193798303604126,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          743.0,
+          18.0
+        ],
+        [
+          1393.0,
+          26.0
+        ],
+        [
+          1392.0,
+          58.0
+        ],
+        [
+          743.0,
+          50.0
+        ]
+      ]
+    },
+    {
+      "text": "treal,s'est éteint dans la paix et la serenite",
+      "bbox": {
+        "x_min": 747.0,
+        "y_min": 52.0,
+        "x_max": 1394.0,
+        "y_max": 89.0
+      },
+      "confidence": 0.9486465454101562,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          748.0,
+          52.0
+        ],
+        [
+          1394.0,
+          58.0
+        ],
+        [
+          1394.0,
+          89.0
+        ],
+        [
+          747.0,
+          83.0
+        ]
+      ]
+    },
+    {
+      "text": "monsieur Jean Vendetti,a I'age de 83 ans.",
+      "bbox": {
+        "x_min": 746.0,
+        "y_min": 83.0,
+        "x_max": 1393.0,
+        "y_max": 121.0
+      },
+      "confidence": 0.9465269446372986,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          746.0,
+          83.0
+        ],
+        [
+          1393.0,
+          91.0
+        ],
+        [
+          1392.0,
+          121.0
+        ],
+        [
+          746.0,
+          113.0
+        ]
+      ]
+    },
+    {
+      "text": "ll etait le fils de feu Rocco Vendetti et de feu",
+      "bbox": {
+        "x_min": 747.0,
+        "y_min": 113.0,
+        "x_max": 1394.0,
+        "y_max": 152.0
+      },
+      "confidence": 0.9197843670845032,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          748.0,
+          113.0
+        ],
+        [
+          1394.0,
+          121.0
+        ],
+        [
+          1394.0,
+          152.0
+        ],
+        [
+          747.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "text": "Corinne Panneton,ainsi que lepoux de feu",
+      "bbox": {
+        "x_min": 746.0,
+        "y_min": 146.0,
+        "x_max": 1394.0,
+        "y_max": 183.0
+      },
+      "confidence": 0.9662809371948242,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          746.0,
+          146.0
+        ],
+        [
+          1394.0,
+          152.0
+        ],
+        [
+          1394.0,
+          183.0
+        ],
+        [
+          746.0,
+          176.0
+        ]
+      ]
+    },
+    {
+      "text": "Eustelle Le Pailleur.",
+      "bbox": {
+        "x_min": 743.0,
+        "y_min": 175.0,
+        "x_max": 1029.0,
+        "y_max": 209.0
+      },
+      "confidence": 0.9536746740341187,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          743.0,
+          175.0
+        ],
+        [
+          1029.0,
+          178.0
+        ],
+        [
+          1029.0,
+          209.0
+        ],
+        [
+          743.0,
+          205.0
+        ]
+      ]
+    },
+    {
+      "text": "ll avait fait ses études en droit,a rUniversité",
+      "bbox": {
+        "x_min": 744.0,
+        "y_min": 205.0,
+        "x_max": 1394.0,
+        "y_max": 242.0
+      },
+      "confidence": 0.915300190448761,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          745.0,
+          205.0
+        ],
+        [
+          1394.0,
+          210.0
+        ],
+        [
+          1394.0,
+          242.0
+        ],
+        [
+          744.0,
+          238.0
+        ]
+      ]
+    },
+    {
+      "text": "de Montreal et etait retraite du Ministere du",
+      "bbox": {
+        "x_min": 746.0,
+        "y_min": 236.0,
+        "x_max": 1394.0,
+        "y_max": 275.0
+      },
+      "confidence": 0.9516672492027283,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          746.0,
+          236.0
+        ],
+        [
+          1394.0,
+          244.0
+        ],
+        [
+          1394.0,
+          275.0
+        ],
+        [
+          746.0,
+          267.0
+        ]
+      ]
+    },
+    {
+      "text": "Revenu du Quebec.",
+      "bbox": {
+        "x_min": 746.0,
+        "y_min": 268.0,
+        "x_max": 1029.0,
+        "y_max": 302.0
+      },
+      "confidence": 0.9777129888534546,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          746.0,
+          268.0
+        ],
+        [
+          1029.0,
+          271.0
+        ],
+        [
+          1029.0,
+          302.0
+        ],
+        [
+          746.0,
+          299.0
+        ]
+      ]
+    },
+    {
+      "text": "ll laisse dans le deuil ses freres:Roger et",
+      "bbox": {
+        "x_min": 744.0,
+        "y_min": 297.0,
+        "x_max": 1396.0,
+        "y_max": 336.0
+      },
+      "confidence": 0.9412382245063782,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          745.0,
+          297.0
+        ],
+        [
+          1396.0,
+          304.0
+        ],
+        [
+          1395.0,
+          336.0
+        ],
+        [
+          744.0,
+          330.0
+        ]
+      ]
+    },
+    {
+      "text": "Raymond ainsi que sa belle-soeur Jeanne",
+      "bbox": {
+        "x_min": 746.0,
+        "y_min": 329.0,
+        "x_max": 1393.0,
+        "y_max": 368.0
+      },
+      "confidence": 0.9490914940834045,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          746.0,
+          329.0
+        ],
+        [
+          1393.0,
+          336.0
+        ],
+        [
+          1392.0,
+          368.0
+        ],
+        [
+          746.0,
+          362.0
+        ]
+      ]
+    },
+    {
+      "text": "Charpentierde",
+      "bbox": {
+        "x_min": 746.0,
+        "y_min": 360.0,
+        "x_max": 998.0,
+        "y_max": 394.0
+      },
+      "confidence": 0.9883193969726562,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          746.0,
+          360.0
+        ],
+        [
+          998.0,
+          363.0
+        ],
+        [
+          998.0,
+          394.0
+        ],
+        [
+          746.0,
+          391.0
+        ]
+      ]
+    },
+    {
+      "text": "memequeplusieurs",
+      "bbox": {
+        "x_min": 1027.0,
+        "y_min": 363.0,
+        "x_max": 1394.0,
+        "y_max": 399.0
+      },
+      "confidence": 0.9872809648513794,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1028.0,
+          363.0
+        ],
+        [
+          1394.0,
+          366.0
+        ],
+        [
+          1394.0,
+          399.0
+        ],
+        [
+          1027.0,
+          395.0
+        ]
+      ]
+    },
+    {
+      "text": "ami(e)s. La depouille mortelle est exposee",
+      "bbox": {
+        "x_min": 744.0,
+        "y_min": 392.0,
+        "x_max": 1393.0,
+        "y_max": 429.0
+      },
+      "confidence": 0.9317425489425659,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          745.0,
+          392.0
+        ],
+        [
+          1393.0,
+          397.0
+        ],
+        [
+          1392.0,
+          429.0
+        ],
+        [
+          744.0,
+          425.0
+        ]
+      ]
+    },
+    {
+      "text": "au",
+      "bbox": {
+        "x_min": 746.0,
+        "y_min": 428.0,
+        "x_max": 782.0,
+        "y_max": 452.0
+      },
+      "confidence": 0.9932600259780884,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          746.0,
+          428.0
+        ],
+        [
+          782.0,
+          428.0
+        ],
+        [
+          782.0,
+          452.0
+        ],
+        [
+          746.0,
+          452.0
+        ]
+      ]
+    },
+    {
+      "text": "Complexe funeraire Urgel Bourgle",
+      "bbox": {
+        "x_min": 819.0,
+        "y_min": 449.0,
+        "x_max": 1318.0,
+        "y_max": 492.0
+      },
+      "confidence": 0.9816499948501587,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          819.0,
+          449.0
+        ],
+        [
+          1318.0,
+          455.0
+        ],
+        [
+          1318.0,
+          492.0
+        ],
+        [
+          819.0,
+          486.0
+        ]
+      ]
+    },
+    {
+      "text": "2251 Jean-Talon Est（angle Sagard)",
+      "bbox": {
+        "x_min": 811.0,
+        "y_min": 484.0,
+        "x_max": 1324.0,
+        "y_max": 524.0
+      },
+      "confidence": 0.939561128616333,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          812.0,
+          484.0
+        ],
+        [
+          1324.0,
+          492.0
+        ],
+        [
+          1324.0,
+          524.0
+        ],
+        [
+          811.0,
+          516.0
+        ]
+      ]
+    },
+    {
+      "text": "Montreal",
+      "bbox": {
+        "x_min": 1004.0,
+        "y_min": 521.0,
+        "x_max": 1138.0,
+        "y_max": 549.0
+      },
+      "confidence": 0.9907914400100708,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1004.0,
+          521.0
+        ],
+        [
+          1138.0,
+          521.0
+        ],
+        [
+          1138.0,
+          549.0
+        ],
+        [
+          1004.0,
+          549.0
+        ]
+      ]
+    },
+    {
+      "text": "Les visites auront lieu dimanche le 24 octo",
+      "bbox": {
+        "x_min": 743.0,
+        "y_min": 549.0,
+        "x_max": 1389.0,
+        "y_max": 584.0
+      },
+      "confidence": 0.9486159682273865,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          743.0,
+          549.0
+        ],
+        [
+          1389.0,
+          552.0
+        ],
+        [
+          1389.0,
+          584.0
+        ],
+        [
+          743.0,
+          581.0
+        ]
+      ]
+    },
+    {
+      "text": "bre acompter de 14 h jusqua 17 h et de 19",
+      "bbox": {
+        "x_min": 743.0,
+        "y_min": 579.0,
+        "x_max": 1390.0,
+        "y_max": 616.0
+      },
+      "confidence": 0.9057363271713257,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          743.0,
+          579.0
+        ],
+        [
+          1390.0,
+          584.0
+        ],
+        [
+          1389.0,
+          616.0
+        ],
+        [
+          743.0,
+          612.0
+        ]
+      ]
+    },
+    {
+      "text": "a 22 h. Le 25 octobre,le salon sera ouvent a",
+      "bbox": {
+        "x_min": 741.0,
+        "y_min": 610.0,
+        "x_max": 1391.0,
+        "y_max": 649.0
+      },
+      "confidence": 0.8913754820823669,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          742.0,
+          610.0
+        ],
+        [
+          1391.0,
+          616.0
+        ],
+        [
+          1391.0,
+          649.0
+        ],
+        [
+          741.0,
+          642.0
+        ]
+      ]
+    },
+    {
+      "text": "VENDETTI,Jean",
+      "bbox": {
+        "x_min": 291.0,
+        "y_min": 653.0,
+        "x_max": 528.0,
+        "y_max": 685.0
+      },
+      "confidence": 0.9031355977058411,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          291.0,
+          653.0
+        ],
+        [
+          528.0,
+          653.0
+        ],
+        [
+          528.0,
+          685.0
+        ],
+        [
+          291.0,
+          685.0
+        ]
+      ]
+    },
+    {
+      "text": "compter de 1o h et les funerailles auront",
+      "bbox": {
+        "x_min": 743.0,
+        "y_min": 644.0,
+        "x_max": 1394.0,
+        "y_max": 678.0
+      },
+      "confidence": 0.9339631199836731,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          743.0,
+          644.0
+        ],
+        [
+          1394.0,
+          647.0
+        ],
+        [
+          1394.0,
+          678.0
+        ],
+        [
+          743.0,
+          674.0
+        ]
+      ]
+    },
+    {
+      "text": "lieu a 13 h, en leglise St-Mathieu,2600",
+      "bbox": {
+        "x_min": 741.0,
+        "y_min": 674.0,
+        "x_max": 1391.0,
+        "y_max": 708.0
+      },
+      "confidence": 0.9169018268585205,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          741.0,
+          674.0
+        ],
+        [
+          1391.0,
+          678.0
+        ],
+        [
+          1391.0,
+          708.0
+        ],
+        [
+          741.0,
+          705.0
+        ]
+      ]
+    },
+    {
+      "text": "Jean-Talon Est et de la au cimetiere Notre",
+      "bbox": {
+        "x_min": 743.0,
+        "y_min": 704.0,
+        "x_max": 1391.0,
+        "y_max": 741.0
+      },
+      "confidence": 0.9282937049865723,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          743.0,
+          704.0
+        ],
+        [
+          1391.0,
+          710.0
+        ],
+        [
+          1391.0,
+          741.0
+        ],
+        [
+          743.0,
+          734.0
+        ]
+      ]
+    },
+    {
+      "text": "Dame-des-Neiges.",
+      "bbox": {
+        "x_min": 741.0,
+        "y_min": 734.0,
+        "x_max": 1010.0,
+        "y_max": 768.0
+      },
+      "confidence": 0.9912562370300293,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          742.0,
+          734.0
+        ],
+        [
+          1010.0,
+          737.0
+        ],
+        [
+          1010.0,
+          768.0
+        ],
+        [
+          741.0,
+          765.0
+        ]
+      ]
+    },
+    {
+      "text": "Que le Seigneur I'accueille",
+      "bbox": {
+        "x_min": 873.0,
+        "y_min": 766.0,
+        "x_max": 1257.0,
+        "y_max": 802.0
+      },
+      "confidence": 0.9535083174705505,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          874.0,
+          766.0
+        ],
+        [
+          1257.0,
+          770.0
+        ],
+        [
+          1257.0,
+          802.0
+        ],
+        [
+          873.0,
+          799.0
+        ]
+      ]
+    },
+    {
+      "text": "dans la paix et la lumiere eternelles.",
+      "bbox": {
+        "x_min": 810.0,
+        "y_min": 800.0,
+        "x_max": 1323.0,
+        "y_max": 837.0
+      },
+      "confidence": 0.9486899971961975,
+      "page": 1,
+      "image_name": "IMG_068.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          810.0,
+          800.0
+        ],
+        [
+          1323.0,
+          805.0
+        ],
+        [
+          1322.0,
+          837.0
+        ],
+        [
+          810.0,
+          832.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 6.83872867599996,
+  "error": null
+}

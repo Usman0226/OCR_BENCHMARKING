@@ -1,0 +1,1423 @@
+{
+  "image_name": "IMG_073.jpg",
+  "image_path": "images/IMG_073.jpg",
+  "engine": "tesseract",
+  "words": [
+    {
+      "text": "LEMAIRE",
+      "bbox": {
+        "x_min": 45.0,
+        "y_min": 220.0,
+        "x_max": 110.0,
+        "y_max": 236.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "NAPOLÉON",
+      "bbox": {
+        "x_min": 36.0,
+        "y_min": 236.0,
+        "x_max": 118.0,
+        "y_max": 248.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1914-2004",
+      "bbox": {
+        "x_min": 40.0,
+        "y_min": 254.0,
+        "x_max": 116.0,
+        "y_max": 263.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "À",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 265.0,
+        "x_max": 15.0,
+        "y_max": 277.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Drummondville,",
+      "bbox": {
+        "x_min": 24.0,
+        "y_min": 267.0,
+        "x_max": 129.0,
+        "y_max": 279.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "le",
+      "bbox": {
+        "x_min": 137.0,
+        "y_min": 268.0,
+        "x_max": 148.0,
+        "y_max": 277.0
+      },
+      "confidence": 0.83,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "mercredi",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 283.0,
+        "x_max": 60.0,
+        "y_max": 292.0
+      },
+      "confidence": 0.68,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "28",
+      "bbox": {
+        "x_min": 67.0,
+        "y_min": 282.0,
+        "x_max": 81.0,
+        "y_max": 293.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "avril",
+      "bbox": {
+        "x_min": 88.0,
+        "y_min": 283.0,
+        "x_max": 111.0,
+        "y_max": 292.0
+      },
+      "confidence": 0.89,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "2004",
+      "bbox": {
+        "x_min": 119.0,
+        "y_min": 283.0,
+        "x_max": 148.0,
+        "y_max": 293.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "est",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 288.0,
+        "x_max": 25.0,
+        "y_max": 317.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "décédé",
+      "bbox": {
+        "x_min": 29.0,
+        "y_min": 297.0,
+        "x_max": 148.0,
+        "y_max": 310.0
+      },
+      "confidence": 0.94,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "à",
+      "bbox": {
+        "x_min": 74.0,
+        "y_min": 288.0,
+        "x_max": 79.0,
+        "y_max": 317.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "l'âge",
+      "bbox": {
+        "x_min": 83.0,
+        "y_min": 288.0,
+        "x_max": 111.0,
+        "y_max": 317.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 117.0,
+        "y_min": 288.0,
+        "x_max": 130.0,
+        "y_max": 317.0
+      },
+      "confidence": 0.94,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "89",
+      "bbox": {
+        "x_min": 136.0,
+        "y_min": 288.0,
+        "x_max": 152.0,
+        "y_max": 317.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ans",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 315.0,
+        "x_max": 28.0,
+        "y_max": 322.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "monsieur",
+      "bbox": {
+        "x_min": 33.0,
+        "y_min": 315.0,
+        "x_max": 87.0,
+        "y_max": 322.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Napoléon",
+      "bbox": {
+        "x_min": 92.0,
+        "y_min": 312.0,
+        "x_max": 147.0,
+        "y_max": 324.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Lemaire,",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 327.0,
+        "x_max": 71.0,
+        "y_max": 338.0
+      },
+      "confidence": 0.83,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "époux",
+      "bbox": {
+        "x_min": 80.0,
+        "y_min": 330.0,
+        "x_max": 123.0,
+        "y_max": 340.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 132.0,
+        "y_min": 328.0,
+        "x_max": 147.0,
+        "y_max": 337.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Monique",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 342.0,
+        "x_max": 70.0,
+        "y_max": 355.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Bolduc",
+      "bbox": {
+        "x_min": 97.0,
+        "y_min": 342.0,
+        "x_max": 148.0,
+        "y_max": 352.0
+      },
+      "confidence": 0.79,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "funéraire",
+      "bbox": {
+        "x_min": 9.0,
+        "y_min": 402.0,
+        "x_max": 66.0,
+        "y_max": 412.0
+      },
+      "confidence": 0.84,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "J.N.",
+      "bbox": {
+        "x_min": 73.0,
+        "y_min": 402.0,
+        "x_max": 93.0,
+        "y_max": 412.0
+      },
+      "confidence": 0.73,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Donais",
+      "bbox": {
+        "x_min": 104.0,
+        "y_min": 402.0,
+        "x_max": 148.0,
+        "y_max": 412.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Coopérative",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 417.0,
+        "x_max": 82.0,
+        "y_max": 429.0
+      },
+      "confidence": 0.59,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "fundraire,",
+      "bbox": {
+        "x_min": 90.0,
+        "y_min": 417.0,
+        "x_max": 148.0,
+        "y_max": 427.0
+      },
+      "confidence": 0.55,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "191,",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 432.0,
+        "x_max": 34.0,
+        "y_max": 442.0
+      },
+      "confidence": 0.71,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "rue",
+      "bbox": {
+        "x_min": 39.0,
+        "y_min": 434.0,
+        "x_max": 56.0,
+        "y_max": 441.0
+      },
+      "confidence": 0.89,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Lindsay,",
+      "bbox": {
+        "x_min": 61.0,
+        "y_min": 422.0,
+        "x_max": 105.0,
+        "y_max": 450.0
+      },
+      "confidence": 0.89,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Drum",
+      "bbox": {
+        "x_min": 113.0,
+        "y_min": 432.0,
+        "x_max": 149.0,
+        "y_max": 441.0
+      },
+      "confidence": 0.34,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "mondville,",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 447.0,
+        "x_max": 73.0,
+        "y_max": 456.0
+      },
+      "confidence": 0.78,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Les",
+      "bbox": {
+        "x_min": 85.0,
+        "y_min": 447.0,
+        "x_max": 107.0,
+        "y_max": 456.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "funé-",
+      "bbox": {
+        "x_min": 115.0,
+        "y_min": 447.0,
+        "x_max": 143.0,
+        "y_max": 456.0
+      },
+      "confidence": 0.66,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "aies",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 461.0,
+        "x_max": 50.0,
+        "y_max": 473.0
+      },
+      "confidence": 0.0,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ont",
+      "bbox": {
+        "x_min": 57.0,
+        "y_min": 462.0,
+        "x_max": 77.0,
+        "y_max": 471.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "eu",
+      "bbox": {
+        "x_min": 85.0,
+        "y_min": 464.0,
+        "x_max": 99.0,
+        "y_max": 471.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "lieu",
+      "bbox": {
+        "x_min": 107.0,
+        "y_min": 462.0,
+        "x_max": 130.0,
+        "y_max": 471.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "le",
+      "bbox": {
+        "x_min": 138.0,
+        "y_min": 462.0,
+        "x_max": 149.0,
+        "y_max": 471.0
+      },
+      "confidence": 0.79,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "lorémation.",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 550.0,
+        "x_max": 67.0,
+        "y_max": 560.0
+      },
+      "confidence": 0.58,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "M.",
+      "bbox": {
+        "x_min": 77.0,
+        "y_min": 551.0,
+        "x_max": 86.0,
+        "y_max": 560.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Lemaire",
+      "bbox": {
+        "x_min": 97.0,
+        "y_min": 551.0,
+        "x_max": 146.0,
+        "y_max": 562.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Durand),",
+      "bbox": {
+        "x_min": 9.0,
+        "y_min": 733.0,
+        "x_max": 58.0,
+        "y_max": 746.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Anya-Claude,",
+      "bbox": {
+        "x_min": 65.0,
+        "y_min": 734.0,
+        "x_max": 146.0,
+        "y_max": 746.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Janie,",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 748.0,
+        "x_max": 45.0,
+        "y_max": 762.0
+      },
+      "confidence": 0.45,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Pierre-Olivier,",
+      "bbox": {
+        "x_min": 53.0,
+        "y_min": 748.0,
+        "x_max": 146.0,
+        "y_max": 760.0
+      },
+      "confidence": 0.84,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Etienne,",
+      "bbox": {
+        "x_min": 9.0,
+        "y_min": 763.0,
+        "x_max": 69.0,
+        "y_max": 775.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Gabriel,",
+      "bbox": {
+        "x_min": 85.0,
+        "y_min": 763.0,
+        "x_max": 146.0,
+        "y_max": 775.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Mathieu,",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 778.0,
+        "x_max": 62.0,
+        "y_max": 789.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "‘Karine;",
+      "bbox": {
+        "x_min": 71.0,
+        "y_min": 778.0,
+        "x_max": 118.0,
+        "y_max": 790.0
+      },
+      "confidence": 0.82,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ses",
+      "bbox": {
+        "x_min": 125.0,
+        "y_min": 781.0,
+        "x_max": 146.0,
+        "y_max": 789.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "arrière-petites-lilies",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 792.0,
+        "x_max": 146.0,
+        "y_max": 806.0
+      },
+      "confidence": 0.17,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Marie-Anne",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 808.0,
+        "x_max": 74.0,
+        "y_max": 819.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "et",
+      "bbox": {
+        "x_min": 79.0,
+        "y_min": 809.0,
+        "x_max": 89.0,
+        "y_max": 819.0
+      },
+      "confidence": 0.87,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Maité;",
+      "bbox": {
+        "x_min": 94.0,
+        "y_min": 808.0,
+        "x_max": 147.0,
+        "y_max": 820.0
+      },
+      "confidence": 0.86,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "sa",
+      "bbox": {
+        "x_min": 135.0,
+        "y_min": 798.0,
+        "x_max": 152.0,
+        "y_max": 829.0
+      },
+      "confidence": 0.86,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "soeur",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 826.0,
+        "x_max": 39.0,
+        "y_max": 833.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Anita",
+      "bbox": {
+        "x_min": 42.0,
+        "y_min": 823.0,
+        "x_max": 71.0,
+        "y_max": 833.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Lemaire",
+      "bbox": {
+        "x_min": 75.0,
+        "y_min": 824.0,
+        "x_max": 121.0,
+        "y_max": 834.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "(teu",
+      "bbox": {
+        "x_min": 125.0,
+        "y_min": 824.0,
+        "x_max": 146.0,
+        "y_max": 836.0
+      },
+      "confidence": 0.87,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "DocteurLéo",
+      "bbox": {
+        "x_min": 9.0,
+        "y_min": 828.0,
+        "x_max": 75.0,
+        "y_max": 859.0
+      },
+      "confidence": 0.41,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Benoit);",
+      "bbox": {
+        "x_min": 79.0,
+        "y_min": 828.0,
+        "x_max": 124.0,
+        "y_max": 859.0
+      },
+      "confidence": 0.03,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ses",
+      "bbox": {
+        "x_min": 129.0,
+        "y_min": 828.0,
+        "x_max": 146.0,
+        "y_max": 859.0
+      },
+      "confidence": 0.03,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "belles-soeurs",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 853.0,
+        "x_max": 147.0,
+        "y_max": 864.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Madeleine",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 868.0,
+        "x_max": 82.0,
+        "y_max": 879.0
+      },
+      "confidence": 0.94,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Bolduc,",
+      "bbox": {
+        "x_min": 91.0,
+        "y_min": 869.0,
+        "x_max": 146.0,
+        "y_max": 880.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Simone",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 883.0,
+        "x_max": 59.0,
+        "y_max": 893.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Soucy",
+      "bbox": {
+        "x_min": 68.0,
+        "y_min": 883.0,
+        "x_max": 111.0,
+        "y_max": 896.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "(feu",
+      "bbox": {
+        "x_min": 120.0,
+        "y_min": 884.0,
+        "x_max": 146.0,
+        "y_max": 896.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Jean-Luc",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 899.0,
+        "x_max": 75.0,
+        "y_max": 909.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Bolduc),",
+      "bbox": {
+        "x_min": 84.0,
+        "y_min": 899.0,
+        "x_max": 146.0,
+        "y_max": 912.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Madoleine",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 913.0,
+        "x_max": 75.0,
+        "y_max": 924.0
+      },
+      "confidence": 0.59,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Blats",
+      "bbox": {
+        "x_min": 83.0,
+        "y_min": 914.0,
+        "x_max": 114.0,
+        "y_max": 924.0
+      },
+      "confidence": 0.58,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "(teu",
+      "bbox": {
+        "x_min": 122.0,
+        "y_min": 900.0,
+        "x_max": 146.0,
+        "y_max": 926.0
+      },
+      "confidence": 0.71,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Jacques",
+      "bbox": {
+        "x_min": 7.0,
+        "y_min": 928.0,
+        "x_max": 68.0,
+        "y_max": 941.0
+      },
+      "confidence": 0.83,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Bolduc),",
+      "bbox": {
+        "x_min": 84.0,
+        "y_min": 929.0,
+        "x_max": 146.0,
+        "y_max": 941.0
+      },
+      "confidence": 0.94,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Jeannine",
+      "bbox": {
+        "x_min": 7.0,
+        "y_min": 943.0,
+        "x_max": 65.0,
+        "y_max": 953.0
+      },
+      "confidence": 0.87,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Bolduc",
+      "bbox": {
+        "x_min": 73.0,
+        "y_min": 943.0,
+        "x_max": 115.0,
+        "y_max": 953.0
+      },
+      "confidence": 0.89,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "(feu",
+      "bbox": {
+        "x_min": 123.0,
+        "y_min": 944.0,
+        "x_max": 146.0,
+        "y_max": 956.0
+      },
+      "confidence": 0.79,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Gérard",
+      "bbox": {
+        "x_min": 12.0,
+        "y_min": 965.0,
+        "x_max": 62.0,
+        "y_max": 976.0
+      },
+      "confidence": 0.87,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "_",
+      "bbox": {
+        "x_min": 73.0,
+        "y_min": 956.0,
+        "x_max": 81.0,
+        "y_max": 986.0
+      },
+      "confidence": 0.68,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Riva",
+      "bbox": {
+        "x_min": 90.0,
+        "y_min": 965.0,
+        "x_max": 121.0,
+        "y_max": 975.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Suzanne",
+      "bbox": {
+        "x_min": 12.0,
+        "y_min": 980.0,
+        "x_max": 63.0,
+        "y_max": 991.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Fontaine",
+      "bbox": {
+        "x_min": 71.0,
+        "y_min": 980.0,
+        "x_max": 121.0,
+        "y_max": 990.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "(leu",
+      "bbox": {
+        "x_min": 129.0,
+        "y_min": 973.0,
+        "x_max": 150.0,
+        "y_max": 992.0
+      },
+      "confidence": 0.74,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Léandre",
+      "bbox": {
+        "x_min": 12.0,
+        "y_min": 995.0,
+        "x_max": 71.0,
+        "y_max": 1005.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Bolduc),",
+      "bbox": {
+        "x_min": 98.0,
+        "y_min": 995.0,
+        "x_max": 150.0,
+        "y_max": 1006.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Jeannine",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 1011.0,
+        "x_max": 65.0,
+        "y_max": 1020.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Guérette",
+      "bbox": {
+        "x_min": 71.0,
+        "y_min": 1010.0,
+        "x_max": 122.0,
+        "y_max": 1020.0
+      },
+      "confidence": 0.86,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "(feu",
+      "bbox": {
+        "x_min": 129.0,
+        "y_min": 1010.0,
+        "x_max": 150.0,
+        "y_max": 1022.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Frédéric",
+      "bbox": {
+        "x_min": 12.0,
+        "y_min": 1025.0,
+        "x_max": 74.0,
+        "y_max": 1035.0
+      },
+      "confidence": 0.89,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Bolduc),",
+      "bbox": {
+        "x_min": 88.0,
+        "y_min": 1024.0,
+        "x_max": 150.0,
+        "y_max": 1037.0
+      },
+      "confidence": 0.89,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "nieces,",
+      "bbox": {
+        "x_min": 13.0,
+        "y_min": 1102.0,
+        "x_max": 65.0,
+        "y_max": 1111.0
+      },
+      "confidence": 0.66,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "cousins",
+      "bbox": {
+        "x_min": 74.0,
+        "y_min": 1102.0,
+        "x_max": 130.0,
+        "y_max": 1109.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "et",
+      "bbox": {
+        "x_min": 139.0,
+        "y_min": 1100.0,
+        "x_max": 152.0,
+        "y_max": 1109.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Coopérative",
+      "bbox": {
+        "x_min": 42.0,
+        "y_min": 1238.0,
+        "x_max": 125.0,
+        "y_max": 1252.0
+      },
+      "confidence": 0.94,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "funéraire",
+      "bbox": {
+        "x_min": 51.0,
+        "y_min": 1255.0,
+        "x_max": 115.0,
+        "y_max": 1267.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ee",
+      "bbox": {
+        "x_min": 18.0,
+        "y_min": 1276.0,
+        "x_max": 82.0,
+        "y_max": 1303.0
+      },
+      "confidence": 0.31,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "A77:",
+      "bbox": {
+        "x_min": 87.0,
+        "y_min": 1277.0,
+        "x_max": 116.0,
+        "y_max": 1288.0
+      },
+      "confidence": 0.47,
+      "page": 1,
+      "image_name": "IMG_073.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    }
+  ],
+  "processing_time_s": 0.5704059780000534,
+  "error": null
+}

@@ -1,19 +1,4 @@
 #!/usr/bin/env python3
-"""CLI: Visualize OCR results with color-coded bounding boxes.
-
-Draws bounding boxes on images for quick visual inspection:
-  - Green  = True Positive (OCR matched annotation)
-  - Red    = False Positive (OCR word, no annotation match)
-  - Orange = False Negative (annotation word, no OCR match)
-
-Output images are saved to reports/visualizations/.
-
-Usage:
-    python scripts/visualize.py
-    python scripts/visualize.py --engine paddle
-    python scripts/visualize.py --engine tesseract --image invoice_001.jpg
-"""
-
 from __future__ import annotations
 
 import sys
@@ -36,10 +21,9 @@ from ocr.utils.image import draw_bboxes_on_image, load_image_rgb, save_image
 
 logger = get_logger(__name__)
 
-# Color palette: (R, G, B)
-COLOR_TP = (0, 200, 0)     # Green — True Positive
-COLOR_FP = (220, 30, 30)   # Red   — False Positive
-COLOR_FN = (255, 165, 0)   # Orange — False Negative
+COLOR_TP = (0, 200, 0)
+COLOR_FP = (220, 30, 30)
+COLOR_FN = (255, 165, 0)
 
 
 @click.command()
@@ -74,15 +58,12 @@ def main(
     annotations: Path | None,
     config: Path | None,
 ) -> None:
-    """Generate visualization images with color-coded OCR bounding boxes."""
     cfg = load_config(config)
     configure_logging(cfg.logging, cfg.paths.logs_dir)
 
-    # Output directory for visualization images
     vis_dir = cfg.paths.reports_dir / "visualizations"
     vis_dir.mkdir(parents=True, exist_ok=True)
 
-    # Load annotations
     ann_path = annotations or _find_export(cfg.paths.annotations_dir)
     if ann_path is None or not ann_path.exists():
         click.echo("ERROR: No annotation export found. Use --annotations.", err=True)
@@ -93,7 +74,6 @@ def main(
         images_dir=cfg.paths.images_dir,
     )
 
-    # Determine engines
     engines = (
         list(EngineType) if engine == "all" else [EngineType.from_str(engine)]
     )
@@ -124,14 +104,12 @@ def main(
                 logger.error("Failed to load '%s': %s", img_path, exc)
                 continue
 
-            # Match words for this image
             matched = match_words(
                 ocr_words=result.words,
                 annotation_words=ann.words,
                 cfg=cfg.matching,
             )
 
-            # Build bbox/color lists
             bboxes = []
             colors = []
             for m in matched:
@@ -160,8 +138,6 @@ def main(
                     colors.append(COLOR_FN)
 
             annotated = draw_bboxes_on_image(rgb, bboxes, colors, thickness=2)
-
-            # Add legend
             _draw_legend(annotated)
 
             stem = Path(result.image_name).stem
@@ -173,7 +149,6 @@ def main(
 
 
 def _draw_legend(image: "cv2.typing.MatLike") -> None:
-    """Draw a small color legend in the top-left corner of the image."""
     legend_items = [
         (COLOR_TP, "True Positive"),
         (COLOR_FP, "False Positive"),

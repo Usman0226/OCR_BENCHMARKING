@@ -1,5 +1,3 @@
-"""Unit tests for ocr.core.geometry."""
-
 from __future__ import annotations
 
 import pytest
@@ -18,11 +16,6 @@ from ocr.core.geometry import (
 from ocr.core.models import BoundingBox, Polygon
 
 
-# =============================================================================
-# bbox_intersection
-# =============================================================================
-
-
 class TestBboxIntersection:
     def test_identical_boxes(self, unit_box: BoundingBox) -> None:
         assert bbox_intersection(unit_box, unit_box) == pytest.approx(1.0)
@@ -35,20 +28,18 @@ class TestBboxIntersection:
     def test_half_overlap(
         self, unit_box: BoundingBox, overlapping_box: BoundingBox
     ) -> None:
-        # Intersection is 0.5×0.5 = 0.25
         result = bbox_intersection(unit_box, overlapping_box)
         assert result == pytest.approx(0.25)
 
     def test_contained(
         self, unit_box: BoundingBox, contained_box: BoundingBox
     ) -> None:
-        # contained_box (0.6×0.6) is fully inside unit_box
         result = bbox_intersection(unit_box, contained_box)
         assert result == pytest.approx(0.36)
 
     def test_touching_edge(self) -> None:
         a = BoundingBox(0, 0, 1, 1)
-        b = BoundingBox(1, 0, 2, 1)  # touching, not overlapping
+        b = BoundingBox(1, 0, 2, 1)
         assert bbox_intersection(a, b) == 0.0
 
     def test_symmetry(
@@ -59,11 +50,6 @@ class TestBboxIntersection:
         )
 
 
-# =============================================================================
-# bbox_union
-# =============================================================================
-
-
 class TestBboxUnion:
     def test_identical_boxes(self, unit_box: BoundingBox) -> None:
         assert bbox_union(unit_box, unit_box) == pytest.approx(1.0)
@@ -71,19 +57,12 @@ class TestBboxUnion:
     def test_no_overlap(
         self, unit_box: BoundingBox, non_overlapping_box: BoundingBox
     ) -> None:
-        # 1×1 + 1×1 = 2.0
         assert bbox_union(unit_box, non_overlapping_box) == pytest.approx(2.0)
 
     def test_half_overlap(
         self, unit_box: BoundingBox, overlapping_box: BoundingBox
     ) -> None:
-        # 1 + 1 - 0.25 = 1.75
         assert bbox_union(unit_box, overlapping_box) == pytest.approx(1.75)
-
-
-# =============================================================================
-# bbox_iou
-# =============================================================================
 
 
 class TestBboxIoU:
@@ -98,7 +77,6 @@ class TestBboxIoU:
     def test_half_overlap(
         self, unit_box: BoundingBox, overlapping_box: BoundingBox
     ) -> None:
-        # intersection=0.25, union=1.75 → IoU ≈ 0.1429
         iou = bbox_iou(unit_box, overlapping_box)
         assert iou == pytest.approx(0.25 / 1.75, rel=1e-4)
 
@@ -118,7 +96,6 @@ class TestBboxIoU:
         self, unit_box: BoundingBox, contained_box: BoundingBox
     ) -> None:
         iou = bbox_iou(unit_box, contained_box)
-        # IoU = 0.36 / (1 + 0.36 - 0.36) = 0.36
         assert 0 < iou < 1.0
         assert iou == pytest.approx(0.36 / 1.0, rel=1e-4)
 
@@ -127,11 +104,6 @@ class TestBboxIoU:
     ) -> None:
         iou = bbox_iou(unit_box, overlapping_box)
         assert 0.0 <= iou <= 1.0
-
-
-# =============================================================================
-# bbox_coverage
-# =============================================================================
 
 
 class TestBboxCoverage:
@@ -146,7 +118,6 @@ class TestBboxCoverage:
     def test_contained_coverage(
         self, unit_box: BoundingBox, contained_box: BoundingBox
     ) -> None:
-        # Query box (contained) covers 0.36 of reference (unit_box)
         result = bbox_coverage(unit_box, contained_box)
         assert result == pytest.approx(0.36, rel=1e-4)
 
@@ -154,11 +125,6 @@ class TestBboxCoverage:
         zero = BoundingBox(0, 0, 0, 0)
         normal = BoundingBox(0, 0, 1, 1)
         assert bbox_coverage(zero, normal) == 0.0
-
-
-# =============================================================================
-# Coordinate normalization
-# =============================================================================
 
 
 class TestCoordinateNormalization:
@@ -187,11 +153,6 @@ class TestCoordinateNormalization:
             normalize_bbox(bbox, 0, 100)
 
 
-# =============================================================================
-# Polygon area
-# =============================================================================
-
-
 class TestPolygonArea:
     def test_unit_square(self) -> None:
         square = Polygon(points=((0, 0), (1, 0), (1, 1), (0, 1)))
@@ -212,11 +173,6 @@ class TestPolygonArea:
         assert bbox.y_min == 2.0
         assert bbox.x_max == 5.0
         assert bbox.y_max == 8.0
-
-
-# =============================================================================
-# Merge bboxes
-# =============================================================================
 
 
 class TestMergeBboxes:

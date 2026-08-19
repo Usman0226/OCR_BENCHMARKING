@@ -1,0 +1,164 @@
+{
+  "image_name": "IMG_093.jpg",
+  "image_path": "images/IMG_093.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "Desermonville, Agathe Josephe Desabrevois",
+      "bbox": {
+        "x_min": 86.0,
+        "y_min": 303.0,
+        "x_max": 1021.0,
+        "y_max": 352.0
+      },
+      "confidence": 0.9964969158172607,
+      "page": 1,
+      "image_name": "IMG_093.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          86.0,
+          303.0
+        ],
+        [
+          1021.0,
+          305.0
+        ],
+        [
+          1021.0,
+          352.0
+        ],
+        [
+          86.0,
+          350.0
+        ]
+      ]
+    },
+    {
+      "text": "Naissance : 6 nov 1737 Montréal, Québec, Canada.",
+      "bbox": {
+        "x_min": 84.0,
+        "y_min": 359.0,
+        "x_max": 1110.0,
+        "y_max": 407.0
+      },
+      "confidence": 0.980013370513916,
+      "page": 1,
+      "image_name": "IMG_093.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          84.0,
+          359.0
+        ],
+        [
+          1110.0,
+          360.0
+        ],
+        [
+          1110.0,
+          407.0
+        ],
+        [
+          84.0,
+          405.0
+        ]
+      ]
+    },
+    {
+      "text": "Déces : 14 nov 1737 Montréal, Québec, Canada.",
+      "bbox": {
+        "x_min": 84.0,
+        "y_min": 417.0,
+        "x_max": 1055.0,
+        "y_max": 461.0
+      },
+      "confidence": 0.9824303388595581,
+      "page": 1,
+      "image_name": "IMG_093.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          84.0,
+          417.0
+        ],
+        [
+          1055.0,
+          421.0
+        ],
+        [
+          1055.0,
+          461.0
+        ],
+        [
+          84.0,
+          457.0
+        ]
+      ]
+    },
+    {
+      "text": "Pere : Desermonville, Christophe Desabrevois",
+      "bbox": {
+        "x_min": 84.0,
+        "y_min": 473.0,
+        "x_max": 1012.0,
+        "y_max": 518.0
+      },
+      "confidence": 0.9933519959449768,
+      "page": 1,
+      "image_name": "IMG_093.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          84.0,
+          473.0
+        ],
+        [
+          1012.0,
+          476.0
+        ],
+        [
+          1012.0,
+          518.0
+        ],
+        [
+          84.0,
+          514.0
+        ]
+      ]
+    },
+    {
+      "text": "Mere : Hertel, Agathe",
+      "bbox": {
+        "x_min": 86.0,
+        "y_min": 528.0,
+        "x_max": 524.0,
+        "y_max": 580.0
+      },
+      "confidence": 0.9965149164199829,
+      "page": 1,
+      "image_name": "IMG_093.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          86.0,
+          528.0
+        ],
+        [
+          524.0,
+          532.0
+        ],
+        [
+          524.0,
+          580.0
+        ],
+        [
+          86.0,
+          577.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 1.5957567890000064,
+  "error": null
+}

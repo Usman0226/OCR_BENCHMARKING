@@ -1,5 +1,3 @@
-"""Unit tests for ocr.core.matching."""
-
 from __future__ import annotations
 
 import pytest
@@ -12,11 +10,6 @@ from ocr.core.models import (
     MatchStatus,
     NormalizedWord,
 )
-
-
-# =============================================================================
-# text_similarity
-# =============================================================================
 
 
 class TestTextSimilarity:
@@ -41,11 +34,6 @@ class TestTextSimilarity:
 
     def test_whitespace_stripped(self) -> None:
         assert text_similarity("  hello  ", "hello") == pytest.approx(1.0)
-
-
-# =============================================================================
-# Helpers
-# =============================================================================
 
 
 def _make_cfg(
@@ -95,14 +83,8 @@ def _ann(
     )
 
 
-# =============================================================================
-# match_words
-# =============================================================================
-
-
 class TestMatchWords:
     def test_perfect_match(self) -> None:
-        """One OCR word exactly matches one annotation word."""
         ocr = [_word("Hello", 0, 0, 100, 50)]
         ann = [_ann("Hello", 0, 0, 100, 50)]
         cfg = _make_cfg(strategy="iou_and_text")
@@ -115,7 +97,6 @@ class TestMatchWords:
         assert len(fn) == 0
 
     def test_all_false_positives(self) -> None:
-        """OCR found words, annotation is empty → all FP."""
         ocr = [_word("Ghost", 0, 0, 50, 20), _word("Word", 60, 0, 100, 20)]
         ann: list[AnnotationWord] = []
         cfg = _make_cfg()
@@ -124,7 +105,6 @@ class TestMatchWords:
         assert len(results) == 2
 
     def test_all_false_negatives(self) -> None:
-        """OCR output is empty, annotation has words → all FN."""
         ocr: list[NormalizedWord] = []
         ann = [_ann("Word1", 0, 0, 50, 20), _ann("Word2", 60, 0, 100, 20)]
         cfg = _make_cfg()
@@ -133,16 +113,14 @@ class TestMatchWords:
         assert len(results) == 2
 
     def test_no_spatial_overlap_gives_fp_and_fn(self) -> None:
-        """OCR word and annotation word are far apart → FP + FN."""
         ocr = [_word("Bonjour", 0, 0, 50, 20)]
-        ann = [_ann("Bonjour", 500, 500, 600, 520)]  # same text, different position
+        ann = [_ann("Bonjour", 500, 500, 600, 520)]
         cfg = _make_cfg(strategy="iou_and_text", iou_threshold=0.5)
         results = match_words(ocr, ann, cfg)
         statuses = {r.status for r in results}
         assert MatchStatus.TRUE_POSITIVE not in statuses
 
     def test_text_only_strategy_matches_by_text(self) -> None:
-        """text_only strategy matches regardless of position."""
         ocr = [_word("Bonjour", 0, 0, 50, 20)]
         ann = [_ann("Bonjour", 500, 500, 600, 520)]
         cfg = _make_cfg(strategy="text_only", text_threshold=0.9)
@@ -151,27 +129,23 @@ class TestMatchWords:
         assert len(tp) == 1
 
     def test_iou_only_strategy(self) -> None:
-        """iou_only ignores text content."""
         ocr = [_word("Foo", 0, 0, 100, 50)]
-        ann = [_ann("Bar", 0, 0, 100, 50)]  # same position, different text
+        ann = [_ann("Bar", 0, 0, 100, 50)]
         cfg = _make_cfg(strategy="iou_only", iou_threshold=0.5)
         results = match_words(ocr, ann, cfg)
         tp = [r for r in results if r.status == MatchStatus.TRUE_POSITIVE]
         assert len(tp) == 1
 
     def test_greedy_one_to_one_assignment(self) -> None:
-        """Each annotation word is matched to at most one OCR word."""
-        # Two OCR words at the same position as one annotation word
         ocr = [
             _word("Hello", 0, 0, 100, 50),
-            _word("World", 0, 0, 100, 50),  # same bbox as annotation
+            _word("World", 0, 0, 100, 50),
         ]
         ann = [_ann("Hello", 0, 0, 100, 50)]
         cfg = _make_cfg(strategy="iou_and_text")
         results = match_words(ocr, ann, cfg)
         tp = [r for r in results if r.status == MatchStatus.TRUE_POSITIVE]
         fp = [r for r in results if r.status == MatchStatus.FALSE_POSITIVE]
-        # Only one TP allowed; the other OCR word is FP
         assert len(tp) == 1
         assert len(fp) == 1
 
@@ -182,7 +156,6 @@ class TestMatchWords:
         annotation_word_hello: AnnotationWord,
         annotation_word_world: AnnotationWord,
     ) -> None:
-        """Two matching pairs are both resolved as TP."""
         cfg = _make_cfg(strategy="iou_and_text")
         results = match_words(
             [ocr_word_hello, ocr_word_world],
@@ -198,7 +171,6 @@ class TestMatchWords:
         annotation_word_hello: AnnotationWord,
         annotation_word_missing: AnnotationWord,
     ) -> None:
-        """An annotation word with no OCR counterpart becomes FN."""
         cfg = _make_cfg()
         results = match_words(
             [ocr_word_hello],

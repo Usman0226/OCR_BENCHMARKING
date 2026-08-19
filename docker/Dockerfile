@@ -73,7 +73,7 @@ RUN --mount=type=cache,target=/root/.cache/pip,sharing=locked \
     # Install PaddlePaddle CPU first (large package, needs separate index)
     pip install --no-cache-dir --ignore-installed \
         paddlepaddle==3.3.1 "numpy<2" \
-    && pip install --no-cache-dir --ignore-installed -r requirements.txt
+        -r requirements.txt
 
 # =============================================================================
 # Stage 3: Final runtime image

@@ -1,11 +1,3 @@
-"""I/O layer — loading annotations and persisting OCR results.
-
-Handles:
-  - Loading Label Studio JSON exports (rectanglelabels + polygonlabels)
-  - Saving / loading normalized OCR output (JSON)
-  - Saving / loading scoring results (JSON)
-"""
-
 from __future__ import annotations
 
 import json
@@ -29,28 +21,10 @@ from ocr.utils.image import get_image_dimensions
 logger = get_logger(__name__)
 
 
-# =============================================================================
-# Label Studio annotation loading
-# =============================================================================
-
-
 def load_label_studio_annotations(
     export_path: Path,
     images_dir: Path,
 ) -> dict[str, ImageAnnotation]:
-    """Load a Label Studio JSON export and return per-image annotations.
-
-    Label Studio exports a list of tasks. Each task has one or more
-    annotations, each containing results (rectanglelabels / polygonlabels).
-
-    Args:
-        export_path: Path to the Label Studio JSON export file.
-        images_dir: Directory where the source images reside.
-                    Needed to convert percentage coordinates to pixels.
-
-    Returns:
-        Dict mapping image_name (basename) → ImageAnnotation.
-    """
     if not export_path.exists():
         raise FileNotFoundError(f"Label Studio export not found: {export_path}")
 
@@ -60,7 +34,7 @@ def load_label_studio_annotations(
     for task in raw:
         task_id: int = task.get("id", -1)
         image_url: str = task.get("data", {}).get("image", "")
-        image_name = Path(image_url).name  # Extract basename
+        image_name = Path(image_url).name
 
         image_path = images_dir / image_name
         if not image_path.exists():
@@ -112,27 +86,14 @@ def _parse_result(
     image_width: int,
     image_height: int,
 ) -> AnnotationWord | None:
-    """Parse a single Label Studio result item into an AnnotationWord.
-
-    Supports:
-      - rectanglelabels
-      - polygonlabels
-
-    Returns None if the result type is not supported or is malformed.
-    """
     result_type = result.get("type", "")
     value = result.get("value", {})
     annotation_id = str(result.get("id", ""))
 
-    # ---- Rectangle labels ----
     if result_type == "rectanglelabels":
         labels: list[str] = value.get("rectanglelabels", [])
         label = labels[0] if labels else "text"
-
         text = value.get("text", "")
-        if not text:
-            # Label Studio sometimes puts transcription in a sibling result
-            text = ""
 
         try:
             bbox = denormalize_bbox(
@@ -157,7 +118,6 @@ def _parse_result(
             image_name=image_name,
         )
 
-    # ---- Polygon labels ----
     if result_type == "polygonlabels":
         labels = value.get("polygonlabels", [])
         label = labels[0] if labels else "text"
@@ -167,7 +127,6 @@ def _parse_result(
         if not raw_points:
             return None
 
-        # Convert percentage points to pixel coordinates
         pixel_points = [
             [p[0] / 100.0 * image_width, p[1] / 100.0 * image_height]
             for p in raw_points
@@ -184,34 +143,12 @@ def _parse_result(
             polygon=polygon,
         )
 
-    # ---- Transcription pairs (text linked to a shape) ----
-    # Label Studio sometimes uses a separate 'textarea' result with text.
-    # These are handled by the caller correlating by `from_name` / `to_name`.
-    # We skip unsupported types silently.
     return None
 
 
-# =============================================================================
-# OCR output persistence
-# =============================================================================
-
-
 def save_ocr_result(result: OCRResult, output_dir: Path) -> Path:
-    """Persist an OCRResult to a JSON file.
-
-    Filename pattern: ``{image_name}_{engine}.json``
-
-    Args:
-        result: The OCRResult to save.
-        output_dir: Directory where the file will be written.
-
-    Returns:
-        Path to the written file.
-    """
     output_dir.mkdir(parents=True, exist_ok=True)
     stem = Path(result.image_name).stem
-    # Filename is just the image stem — the engine is encoded in the
-    # parent directory (ocr_output/paddle/ or ocr_output/tesseract/).
     filename = f"{stem}.json"
     out_path = output_dir / filename
     out_path.write_text(
@@ -223,14 +160,6 @@ def save_ocr_result(result: OCRResult, output_dir: Path) -> Path:
 
 
 def load_ocr_result(json_path: Path) -> OCRResult:
-    """Load an OCRResult from a previously saved JSON file.
-
-    Args:
-        json_path: Path to the JSON file.
-
-    Returns:
-        Reconstructed OCRResult.
-    """
     data: dict[str, Any] = json.loads(json_path.read_text(encoding="utf-8"))
     words = [NormalizedWord.from_dict(w) for w in data.get("words", [])]
     return OCRResult(
@@ -247,15 +176,6 @@ def load_all_ocr_results(
     output_dir: Path,
     engine: EngineType | None = None,
 ) -> list[OCRResult]:
-    """Load all OCR result JSON files from *output_dir*.
-
-    Args:
-        output_dir: Directory containing ``*_paddle.json`` / ``*_tesseract.json``.
-        engine: If provided, filter to only this engine's results.
-
-    Returns:
-        List of OCRResult objects, sorted by image name.
-    """
     pattern = "*.json"
     paths = sorted(output_dir.glob(pattern))
 
@@ -277,39 +197,17 @@ def load_all_ocr_results(
     return results
 
 
-# =============================================================================
-# Annotation text-pair loading (CSV/TSV format alternative)
-# =============================================================================
-
-
 def load_annotations_from_directory(annotations_dir: Path) -> dict[str, ImageAnnotation]:
-    """Load all annotation JSON files from a directory.
-
-    Expects files previously exported from Label Studio and named
-    ``{image_name}_annotations.json`` or a single ``export.json``.
-
-    Falls back to searching for any ``.json`` file in the directory.
-
-    Args:
-        annotations_dir: Directory containing annotation JSON files.
-
-    Returns:
-        Dict mapping image_name → ImageAnnotation.
-    """
     all_annotations: dict[str, ImageAnnotation] = {}
 
-    # Try a single export.json first
     single_export = annotations_dir / "export.json"
     if single_export.exists():
-        # We need image dimensions but don't have them here.
-        # Return empty — caller must use load_label_studio_annotations() directly.
         logger.warning(
             "Found export.json but image dir is needed for coordinate conversion. "
             "Use load_label_studio_annotations() with images_dir instead."
         )
         return all_annotations
 
-    # Try individual per-image annotation files
     for json_path in sorted(annotations_dir.glob("*_annotations.json")):
         try:
             data: dict[str, Any] = json.loads(json_path.read_text(encoding="utf-8"))

@@ -1,0 +1,257 @@
+{
+  "image_name": "IMG_096.jpg",
+  "image_path": "images/IMG_096.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "Paquet Chs Eugene:",
+      "bbox": {
+        "x_min": 185.0,
+        "y_min": 143.0,
+        "x_max": 605.0,
+        "y_max": 197.0
+      },
+      "confidence": 0.940313994884491,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          186.0,
+          143.0
+        ],
+        [
+          605.0,
+          161.0
+        ],
+        [
+          604.0,
+          197.0
+        ],
+        [
+          185.0,
+          179.0
+        ]
+      ]
+    },
+    {
+      "text": "Thomas",
+      "bbox": {
+        "x_min": 672.0,
+        "y_min": 159.0,
+        "x_max": 818.0,
+        "y_max": 207.0
+      },
+      "confidence": 0.977268636226654,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          676.0,
+          159.0
+        ],
+        [
+          818.0,
+          173.0
+        ],
+        [
+          814.0,
+          207.0
+        ],
+        [
+          672.0,
+          193.0
+        ]
+      ]
+    },
+    {
+      "text": "Alvina Martel",
+      "bbox": {
+        "x_min": 670.0,
+        "y_min": 197.0,
+        "x_max": 970.0,
+        "y_max": 242.0
+      },
+      "confidence": 0.9508233666419983,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          671.0,
+          197.0
+        ],
+        [
+          970.0,
+          209.0
+        ],
+        [
+          969.0,
+          242.0
+        ],
+        [
+          670.0,
+          230.0
+        ]
+      ]
+    },
+    {
+      "text": "X",
+      "bbox": {
+        "x_min": 365.0,
+        "y_min": 256.0,
+        "x_max": 391.0,
+        "y_max": 275.0
+      },
+      "confidence": 0.8266167044639587,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          365.0,
+          256.0
+        ],
+        [
+          391.0,
+          256.0
+        ],
+        [
+          391.0,
+          275.0
+        ],
+        [
+          365.0,
+          275.0
+        ]
+      ]
+    },
+    {
+      "text": "GauviniMaria",
+      "bbox": {
+        "x_min": 175.0,
+        "y_min": 290.0,
+        "x_max": 454.0,
+        "y_max": 339.0
+      },
+      "confidence": 0.9119498133659363,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          177.0,
+          290.0
+        ],
+        [
+          454.0,
+          303.0
+        ],
+        [
+          452.0,
+          339.0
+        ],
+        [
+          175.0,
+          326.0
+        ]
+      ]
+    },
+    {
+      "text": "Iréne",
+      "bbox": {
+        "x_min": 665.0,
+        "y_min": 311.0,
+        "x_max": 782.0,
+        "y_max": 350.0
+      },
+      "confidence": 0.8367201685905457,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          666.0,
+          311.0
+        ],
+        [
+          782.0,
+          317.0
+        ],
+        [
+          780.0,
+          350.0
+        ],
+        [
+          665.0,
+          344.0
+        ]
+      ]
+    },
+    {
+      "text": "Anne Giibert",
+      "bbox": {
+        "x_min": 659.0,
+        "y_min": 346.0,
+        "x_max": 938.0,
+        "y_max": 390.0
+      },
+      "confidence": 0.9168677926063538,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          660.0,
+          346.0
+        ],
+        [
+          938.0,
+          356.0
+        ],
+        [
+          936.0,
+          390.0
+        ],
+        [
+          659.0,
+          380.0
+        ]
+      ]
+    },
+    {
+      "text": "ST RAYMOND P0RTNEUF:M.1937-16/6",
+      "bbox": {
+        "x_min": 191.0,
+        "y_min": 400.0,
+        "x_max": 956.0,
+        "y_max": 471.0
+      },
+      "confidence": 0.895104706287384,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          192.0,
+          400.0
+        ],
+        [
+          956.0,
+          431.0
+        ],
+        [
+          954.0,
+          471.0
+        ],
+        [
+          191.0,
+          440.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 1.5519189829999505,
+  "error": null
+}

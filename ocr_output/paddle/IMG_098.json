@@ -1,0 +1,1559 @@
+{
+  "image_name": "IMG_098.jpg",
+  "image_path": "images/IMG_098.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "DULAC,Sylvio",
+      "bbox": {
+        "x_min": 126.0,
+        "y_min": 395.0,
+        "x_max": 296.0,
+        "y_max": 422.0
+      },
+      "confidence": 0.9337701797485352,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          126.0,
+          395.0
+        ],
+        [
+          296.0,
+          395.0
+        ],
+        [
+          296.0,
+          422.0
+        ],
+        [
+          126.0,
+          422.0
+        ]
+      ]
+    },
+    {
+      "text": "1949-2015",
+      "bbox": {
+        "x_min": 154.0,
+        "y_min": 422.0,
+        "x_max": 268.0,
+        "y_max": 444.0
+      },
+      "confidence": 0.998784065246582,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          154.0,
+          422.0
+        ],
+        [
+          268.0,
+          422.0
+        ],
+        [
+          268.0,
+          444.0
+        ],
+        [
+          154.0,
+          444.0
+        ]
+      ]
+    },
+    {
+      "text": "AI'Hotel-DieudeLevis,le24septembre",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 453.0,
+        "x_max": 409.0,
+        "y_max": 484.0
+      },
+      "confidence": 0.9252759218215942,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          453.0
+        ],
+        [
+          409.0,
+          458.0
+        ],
+        [
+          409.0,
+          484.0
+        ],
+        [
+          11.0,
+          479.0
+        ]
+      ]
+    },
+    {
+      "text": "2015,al'agede66ansestdecede",
+      "bbox": {
+        "x_min": 13.0,
+        "y_min": 479.0,
+        "x_max": 408.0,
+        "y_max": 501.0
+      },
+      "confidence": 0.9253154993057251,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          13.0,
+          479.0
+        ],
+        [
+          408.0,
+          479.0
+        ],
+        [
+          408.0,
+          501.0
+        ],
+        [
+          13.0,
+          501.0
+        ]
+      ]
+    },
+    {
+      "text": "entourede safamille,monsieurSylvio",
+      "bbox": {
+        "x_min": 13.0,
+        "y_min": 501.0,
+        "x_max": 408.0,
+        "y_max": 523.0
+      },
+      "confidence": 0.9717950224876404,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          13.0,
+          501.0
+        ],
+        [
+          408.0,
+          501.0
+        ],
+        [
+          408.0,
+          523.0
+        ],
+        [
+          13.0,
+          523.0
+        ]
+      ]
+    },
+    {
+      "text": "Dulac,époux de madame Huguette",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 517.0,
+        "x_max": 409.0,
+        "y_max": 546.0
+      },
+      "confidence": 0.9417973756790161,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          517.0
+        ],
+        [
+          409.0,
+          520.0
+        ],
+        [
+          409.0,
+          546.0
+        ],
+        [
+          11.0,
+          543.0
+        ]
+      ]
+    },
+    {
+      "text": "ChamberlandetfilsdefeuHenereDulac",
+      "bbox": {
+        "x_min": 15.0,
+        "y_min": 540.0,
+        "x_max": 406.0,
+        "y_max": 562.0
+      },
+      "confidence": 0.9830087423324585,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          15.0,
+          540.0
+        ],
+        [
+          406.0,
+          540.0
+        ],
+        [
+          406.0,
+          562.0
+        ],
+        [
+          15.0,
+          562.0
+        ]
+      ]
+    },
+    {
+      "text": "etdefeuMartinaLaprise.lldemeuraita",
+      "bbox": {
+        "x_min": 13.0,
+        "y_min": 563.0,
+        "x_max": 408.0,
+        "y_max": 585.0
+      },
+      "confidence": 0.9756869077682495,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          13.0,
+          563.0
+        ],
+        [
+          408.0,
+          563.0
+        ],
+        [
+          408.0,
+          585.0
+        ],
+        [
+          13.0,
+          585.0
+        ]
+      ]
+    },
+    {
+      "text": "Saint-Malachie,Bellechasse.La famille",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 580.0,
+        "x_max": 408.0,
+        "y_max": 605.0
+      },
+      "confidence": 0.9620331525802612,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          580.0
+        ],
+        [
+          408.0,
+          584.0
+        ],
+        [
+          407.0,
+          605.0
+        ],
+        [
+          11.0,
+          602.0
+        ]
+      ]
+    },
+    {
+      "text": "recevralescondoleances,enpresence",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 604.0,
+        "x_max": 408.0,
+        "y_max": 627.0
+      },
+      "confidence": 0.9767974019050598,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          604.0
+        ],
+        [
+          408.0,
+          605.0
+        ],
+        [
+          407.0,
+          627.0
+        ],
+        [
+          11.0,
+          626.0
+        ]
+      ]
+    },
+    {
+      "text": "descendresau",
+      "bbox": {
+        "x_min": 13.0,
+        "y_min": 626.0,
+        "x_max": 160.0,
+        "y_max": 647.0
+      },
+      "confidence": 0.9961972236633301,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          13.0,
+          626.0
+        ],
+        [
+          160.0,
+          626.0
+        ],
+        [
+          160.0,
+          647.0
+        ],
+        [
+          13.0,
+          647.0
+        ]
+      ]
+    },
+    {
+      "text": "SalonFuneraire",
+      "bbox": {
+        "x_min": 127.0,
+        "y_min": 639.0,
+        "x_max": 295.0,
+        "y_max": 669.0
+      },
+      "confidence": 0.9901134371757507,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          128.0,
+          639.0
+        ],
+        [
+          295.0,
+          643.0
+        ],
+        [
+          294.0,
+          669.0
+        ],
+        [
+          127.0,
+          666.0
+        ]
+      ]
+    },
+    {
+      "text": "Roy&Rouleau Inc.",
+      "bbox": {
+        "x_min": 113.0,
+        "y_min": 663.0,
+        "x_max": 305.0,
+        "y_max": 691.0
+      },
+      "confidence": 0.957394003868103,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          113.0,
+          663.0
+        ],
+        [
+          305.0,
+          665.0
+        ],
+        [
+          304.0,
+          691.0
+        ],
+        [
+          113.0,
+          689.0
+        ]
+      ]
+    },
+    {
+      "text": "1108,avenuePrincipale",
+      "bbox": {
+        "x_min": 88.0,
+        "y_min": 683.0,
+        "x_max": 331.0,
+        "y_max": 711.0
+      },
+      "confidence": 0.9770695567131042,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          89.0,
+          683.0
+        ],
+        [
+          331.0,
+          685.0
+        ],
+        [
+          330.0,
+          711.0
+        ],
+        [
+          88.0,
+          710.0
+        ]
+      ]
+    },
+    {
+      "text": "Saint-Malachie,G0R3N0",
+      "bbox": {
+        "x_min": 88.0,
+        "y_min": 708.0,
+        "x_max": 334.0,
+        "y_max": 730.0
+      },
+      "confidence": 0.9239746332168579,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          88.0,
+          708.0
+        ],
+        [
+          334.0,
+          708.0
+        ],
+        [
+          334.0,
+          730.0
+        ],
+        [
+          88.0,
+          730.0
+        ]
+      ]
+    },
+    {
+      "text": "vendredile2octobre2015de19ha",
+      "bbox": {
+        "x_min": 13.0,
+        "y_min": 728.0,
+        "x_max": 409.0,
+        "y_max": 750.0
+      },
+      "confidence": 0.9860491752624512,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          13.0,
+          728.0
+        ],
+        [
+          409.0,
+          728.0
+        ],
+        [
+          409.0,
+          750.0
+        ],
+        [
+          13.0,
+          750.0
+        ]
+      ]
+    },
+    {
+      "text": "22h.Samedi,jour des funerailles,le",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 745.0,
+        "x_max": 409.0,
+        "y_max": 775.0
+      },
+      "confidence": 0.9476889371871948,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          745.0
+        ],
+        [
+          409.0,
+          749.0
+        ],
+        [
+          409.0,
+          775.0
+        ],
+        [
+          10.0,
+          772.0
+        ]
+      ]
+    },
+    {
+      "text": "salonfuneraireseraouvertacompterde",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 769.0,
+        "x_max": 408.0,
+        "y_max": 792.0
+      },
+      "confidence": 0.989547073841095,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          769.0
+        ],
+        [
+          408.0,
+          770.0
+        ],
+        [
+          407.0,
+          792.0
+        ],
+        [
+          11.0,
+          791.0
+        ]
+      ]
+    },
+    {
+      "text": "9h.Leservicereligieuxseracelebre",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 789.0,
+        "x_max": 408.0,
+        "y_max": 812.0
+      },
+      "confidence": 0.9872280359268188,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          789.0
+        ],
+        [
+          408.0,
+          791.0
+        ],
+        [
+          407.0,
+          812.0
+        ],
+        [
+          11.0,
+          811.0
+        ]
+      ]
+    },
+    {
+      "text": "samedi le3octobre2015a10h30en",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 808.0,
+        "x_max": 408.0,
+        "y_max": 836.0
+      },
+      "confidence": 0.9635617733001709,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          808.0
+        ],
+        [
+          408.0,
+          809.0
+        ],
+        [
+          407.0,
+          836.0
+        ],
+        [
+          10.0,
+          834.0
+        ]
+      ]
+    },
+    {
+      "text": "I'eglise de Saint-Malachie.Les cendres",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 829.0,
+        "x_max": 408.0,
+        "y_max": 854.0
+      },
+      "confidence": 0.9303820729255676,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          829.0
+        ],
+        [
+          408.0,
+          833.0
+        ],
+        [
+          407.0,
+          854.0
+        ],
+        [
+          10.0,
+          851.0
+        ]
+      ]
+    },
+    {
+      "text": "serontdeposeesulterieurementau",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 851.0,
+        "x_max": 408.0,
+        "y_max": 876.0
+      },
+      "confidence": 0.9883862733840942,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          851.0
+        ],
+        [
+          408.0,
+          854.0
+        ],
+        [
+          407.0,
+          876.0
+        ],
+        [
+          11.0,
+          873.0
+        ]
+      ]
+    },
+    {
+      "text": "ColumbariumduComplexefuneraireRoy",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 868.0,
+        "x_max": 408.0,
+        "y_max": 900.0
+      },
+      "confidence": 0.994391918182373,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          868.0
+        ],
+        [
+          408.0,
+          873.0
+        ],
+        [
+          407.0,
+          900.0
+        ],
+        [
+          10.0,
+          895.0
+        ]
+      ]
+    },
+    {
+      "text": "&Rouleau inc.136,rue Principalea",
+      "bbox": {
+        "x_min": 8.0,
+        "y_min": 890.0,
+        "x_max": 409.0,
+        "y_max": 918.0
+      },
+      "confidence": 0.9434822201728821,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          8.0,
+          890.0
+        ],
+        [
+          409.0,
+          892.0
+        ],
+        [
+          409.0,
+          918.0
+        ],
+        [
+          8.0,
+          917.0
+        ]
+      ]
+    },
+    {
+      "text": "Sainte-Claire.Illaissedansledeuiloutre",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 913.0,
+        "x_max": 408.0,
+        "y_max": 938.0
+      },
+      "confidence": 0.9679697155952454,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          913.0
+        ],
+        [
+          408.0,
+          917.0
+        ],
+        [
+          407.0,
+          938.0
+        ],
+        [
+          11.0,
+          935.0
+        ]
+      ]
+    },
+    {
+      "text": "sonepouseHuguetteChamberland et",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 937.0,
+        "x_max": 408.0,
+        "y_max": 959.0
+      },
+      "confidence": 0.977135181427002,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          11.0,
+          937.0
+        ],
+        [
+          408.0,
+          937.0
+        ],
+        [
+          408.0,
+          959.0
+        ],
+        [
+          11.0,
+          959.0
+        ]
+      ]
+    },
+    {
+      "text": "ses 3garcons:Alain (Marie-France",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 957.0,
+        "x_max": 408.0,
+        "y_max": 979.0
+      },
+      "confidence": 0.9526197910308838,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          11.0,
+          957.0
+        ],
+        [
+          408.0,
+          957.0
+        ],
+        [
+          408.0,
+          979.0
+        ],
+        [
+          11.0,
+          979.0
+        ]
+      ]
+    },
+    {
+      "text": "Allaire),Tony etJimmy（Sonia Gagnon);",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 976.0,
+        "x_max": 406.0,
+        "y_max": 1001.0
+      },
+      "confidence": 0.936217725276947,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          976.0
+        ],
+        [
+          406.0,
+          979.0
+        ],
+        [
+          406.0,
+          1001.0
+        ],
+        [
+          11.0,
+          998.0
+        ]
+      ]
+    },
+    {
+      "text": "ses5petits-enfants:Alex,Gabriel,Olivier,",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 998.0,
+        "x_max": 406.0,
+        "y_max": 1021.0
+      },
+      "confidence": 0.9219829440116882,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          998.0
+        ],
+        [
+          406.0,
+          999.0
+        ],
+        [
+          406.0,
+          1021.0
+        ],
+        [
+          11.0,
+          1019.0
+        ]
+      ]
+    },
+    {
+      "text": "EmilieetChristopher.lletaitlefrerede:",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 1015.0,
+        "x_max": 408.0,
+        "y_max": 1043.0
+      },
+      "confidence": 0.9511125087738037,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          1015.0
+        ],
+        [
+          408.0,
+          1016.0
+        ],
+        [
+          407.0,
+          1043.0
+        ],
+        [
+          10.0,
+          1041.0
+        ]
+      ]
+    },
+    {
+      "text": "Omer (feu Simone Hince),Marie-Jeanne",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 1036.0,
+        "x_max": 408.0,
+        "y_max": 1065.0
+      },
+      "confidence": 0.9399551749229431,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          1036.0
+        ],
+        [
+          408.0,
+          1038.0
+        ],
+        [
+          407.0,
+          1065.0
+        ],
+        [
+          10.0,
+          1063.0
+        ]
+      ]
+    },
+    {
+      "text": "（feuMaurice Veilleux),Cecile(feuGerard",
+      "bbox": {
+        "x_min": 15.0,
+        "y_min": 1060.0,
+        "x_max": 404.0,
+        "y_max": 1082.0
+      },
+      "confidence": 0.9379602670669556,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          15.0,
+          1060.0
+        ],
+        [
+          404.0,
+          1060.0
+        ],
+        [
+          404.0,
+          1082.0
+        ],
+        [
+          15.0,
+          1082.0
+        ]
+      ]
+    },
+    {
+      "text": "Bureau),feuJeannine,Bruyere（Rolande",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 1080.0,
+        "x_max": 408.0,
+        "y_max": 1103.0
+      },
+      "confidence": 0.9570356011390686,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          1080.0
+        ],
+        [
+          408.0,
+          1082.0
+        ],
+        [
+          407.0,
+          1103.0
+        ],
+        [
+          11.0,
+          1102.0
+        ]
+      ]
+    },
+    {
+      "text": "Dorval),Paul-Emile (feu Therese Audet),",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 1099.0,
+        "x_max": 404.0,
+        "y_max": 1127.0
+      },
+      "confidence": 0.909645676612854,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          1099.0
+        ],
+        [
+          404.0,
+          1100.0
+        ],
+        [
+          404.0,
+          1127.0
+        ],
+        [
+          10.0,
+          1125.0
+        ]
+      ]
+    },
+    {
+      "text": "feu Doris（feu Roger Dupont),feu Lionel",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 1119.0,
+        "x_max": 408.0,
+        "y_max": 1147.0
+      },
+      "confidence": 0.9157870411872864,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          1119.0
+        ],
+        [
+          408.0,
+          1121.0
+        ],
+        [
+          407.0,
+          1147.0
+        ],
+        [
+          10.0,
+          1145.0
+        ]
+      ]
+    },
+    {
+      "text": "(feu Gertrude Huard),feu Micheline (feu",
+      "bbox": {
+        "x_min": 13.0,
+        "y_min": 1141.0,
+        "x_max": 408.0,
+        "y_max": 1166.0
+      },
+      "confidence": 0.914461076259613,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          13.0,
+          1141.0
+        ],
+        [
+          408.0,
+          1144.0
+        ],
+        [
+          407.0,
+          1166.0
+        ],
+        [
+          13.0,
+          1162.0
+        ]
+      ]
+    },
+    {
+      "text": "Gerard Cote),Miville(Huguette Caron)et",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 1161.0,
+        "x_max": 409.0,
+        "y_max": 1189.0
+      },
+      "confidence": 0.9324037432670593,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          1161.0
+        ],
+        [
+          409.0,
+          1164.0
+        ],
+        [
+          409.0,
+          1189.0
+        ],
+        [
+          11.0,
+          1186.0
+        ]
+      ]
+    },
+    {
+      "text": "Richard (Therese Brochu).ll laisse",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 1181.0,
+        "x_max": 409.0,
+        "y_max": 1209.0
+      },
+      "confidence": 0.9302524328231812,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          1181.0
+        ],
+        [
+          409.0,
+          1183.0
+        ],
+        [
+          409.0,
+          1209.0
+        ],
+        [
+          10.0,
+          1208.0
+        ]
+      ]
+    },
+    {
+      "text": "egalementdansledeuilsabelle-mere",
+      "bbox": {
+        "x_min": 13.0,
+        "y_min": 1206.0,
+        "x_max": 408.0,
+        "y_max": 1228.0
+      },
+      "confidence": 0.9900191426277161,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          13.0,
+          1206.0
+        ],
+        [
+          408.0,
+          1206.0
+        ],
+        [
+          408.0,
+          1228.0
+        ],
+        [
+          13.0,
+          1228.0
+        ]
+      ]
+    },
+    {
+      "text": "madameAnnetteFournier(feuDonat",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 1225.0,
+        "x_max": 408.0,
+        "y_max": 1250.0
+      },
+      "confidence": 0.9690006971359253,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          1225.0
+        ],
+        [
+          408.0,
+          1228.0
+        ],
+        [
+          407.0,
+          1250.0
+        ],
+        [
+          10.0,
+          1247.0
+        ]
+      ]
+    },
+    {
+      "text": "Chamberland)ainsi quesesbeaux-freres",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 1243.0,
+        "x_max": 409.0,
+        "y_max": 1271.0
+      },
+      "confidence": 0.9803670048713684,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          1243.0
+        ],
+        [
+          409.0,
+          1245.0
+        ],
+        [
+          409.0,
+          1271.0
+        ],
+        [
+          10.0,
+          1270.0
+        ]
+      ]
+    },
+    {
+      "text": "etbelles-soeursdelafamille",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 1267.0,
+        "x_max": 408.0,
+        "y_max": 1290.0
+      },
+      "confidence": 0.986904501914978,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          1267.0
+        ],
+        [
+          408.0,
+          1268.0
+        ],
+        [
+          407.0,
+          1290.0
+        ],
+        [
+          10.0,
+          1289.0
+        ]
+      ]
+    },
+    {
+      "text": "Chamberlandetplusieursneveux,nieces,",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 1287.0,
+        "x_max": 403.0,
+        "y_max": 1312.0
+      },
+      "confidence": 0.9656782150268555,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          1287.0
+        ],
+        [
+          403.0,
+          1290.0
+        ],
+        [
+          403.0,
+          1312.0
+        ],
+        [
+          11.0,
+          1309.0
+        ]
+      ]
+    },
+    {
+      "text": "cousins,cousines et ami（e)s.La famille",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 1310.0,
+        "x_max": 404.0,
+        "y_max": 1332.0
+      },
+      "confidence": 0.9466571807861328,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          11.0,
+          1310.0
+        ],
+        [
+          404.0,
+          1310.0
+        ],
+        [
+          404.0,
+          1332.0
+        ],
+        [
+          11.0,
+          1332.0
+        ]
+      ]
+    },
+    {
+      "text": "tientaremerciersincerementle",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 1329.0,
+        "x_max": 408.0,
+        "y_max": 1352.0
+      },
+      "confidence": 0.9887867569923401,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          1329.0
+        ],
+        [
+          408.0,
+          1331.0
+        ],
+        [
+          407.0,
+          1352.0
+        ],
+        [
+          10.0,
+          1351.0
+        ]
+      ]
+    },
+    {
+      "text": "personnel duCSSSdeSaint-Lazareainsi",
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 1348.0,
+        "x_max": 408.0,
+        "y_max": 1376.0
+      },
+      "confidence": 0.9770905375480652,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          10.0,
+          1348.0
+        ],
+        [
+          408.0,
+          1349.0
+        ],
+        [
+          407.0,
+          1376.0
+        ],
+        [
+          10.0,
+          1374.0
+        ]
+      ]
+    },
+    {
+      "text": "queceluideI'Hotel-DieudeLevispour",
+      "bbox": {
+        "x_min": 13.0,
+        "y_min": 1373.0,
+        "x_max": 406.0,
+        "y_max": 1394.0
+      },
+      "confidence": 0.9607419967651367,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          13.0,
+          1373.0
+        ],
+        [
+          406.0,
+          1373.0
+        ],
+        [
+          406.0,
+          1394.0
+        ],
+        [
+          13.0,
+          1394.0
+        ]
+      ]
+    },
+    {
+      "text": "lesbonssoinsprodigues.",
+      "bbox": {
+        "x_min": 11.0,
+        "y_min": 1391.0,
+        "x_max": 250.0,
+        "y_max": 1415.0
+      },
+      "confidence": 0.9720390439033508,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          12.0,
+          1391.0
+        ],
+        [
+          250.0,
+          1393.0
+        ],
+        [
+          250.0,
+          1415.0
+        ],
+        [
+          11.0,
+          1413.0
+        ]
+      ]
+    },
+    {
+      "text": "JoumaldeQuebec",
+      "bbox": {
+        "x_min": 100.0,
+        "y_min": 1419.0,
+        "x_max": 301.0,
+        "y_max": 1446.0
+      },
+      "confidence": 0.976568341255188,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          100.0,
+          1419.0
+        ],
+        [
+          301.0,
+          1419.0
+        ],
+        [
+          301.0,
+          1446.0
+        ],
+        [
+          100.0,
+          1446.0
+        ]
+      ]
+    },
+    {
+      "text": "01-10-2015",
+      "bbox": {
+        "x_min": 139.0,
+        "y_min": 1452.0,
+        "x_max": 264.0,
+        "y_max": 1480.0
+      },
+      "confidence": 0.998451828956604,
+      "page": 1,
+      "image_name": "IMG_098.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          139.0,
+          1452.0
+        ],
+        [
+          264.0,
+          1452.0
+        ],
+        [
+          264.0,
+          1480.0
+        ],
+        [
+          139.0,
+          1480.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 9.557413707000023,
+  "error": null
+}

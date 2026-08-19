@@ -1,0 +1,261 @@
+{
+  "image_name": "IMG_096.jpg",
+  "image_path": "images/IMG_096.jpg",
+  "engine": "tesseract",
+  "words": [
+    {
+      "text": "Paquet",
+      "bbox": {
+        "x_min": 190.0,
+        "y_min": 149.0,
+        "x_max": 321.0,
+        "y_max": 181.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Chs",
+      "bbox": {
+        "x_min": 352.0,
+        "y_min": 155.0,
+        "x_max": 417.0,
+        "y_max": 181.0
+      },
+      "confidence": 0.89,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Eugène:",
+      "bbox": {
+        "x_min": 445.0,
+        "y_min": 158.0,
+        "x_max": 599.0,
+        "y_max": 193.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "thomas",
+      "bbox": {
+        "x_min": 677.0,
+        "y_min": 159.0,
+        "x_max": 812.0,
+        "y_max": 209.0
+      },
+      "confidence": 0.41,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Alvina",
+      "bbox": {
+        "x_min": 673.0,
+        "y_min": 203.0,
+        "x_max": 809.0,
+        "y_max": 232.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Martel",
+      "bbox": {
+        "x_min": 834.0,
+        "y_min": 208.0,
+        "x_max": 972.0,
+        "y_max": 238.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "a",
+      "bbox": {
+        "x_min": 366.0,
+        "y_min": 257.0,
+        "x_max": 389.0,
+        "y_max": 274.0
+      },
+      "confidence": 0.48,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Gauvin",
+      "bbox": {
+        "x_min": 179.0,
+        "y_min": 297.0,
+        "x_max": 314.0,
+        "y_max": 328.0
+      },
+      "confidence": 0.55,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Maria",
+      "bbox": {
+        "x_min": 337.0,
+        "y_min": 304.0,
+        "x_max": 450.0,
+        "y_max": 334.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": ":",
+      "bbox": {
+        "x_min": 602.0,
+        "y_min": 323.0,
+        "x_max": 611.0,
+        "y_max": 340.0
+      },
+      "confidence": 0.72,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Iréné",
+      "bbox": {
+        "x_min": 666.0,
+        "y_min": 317.0,
+        "x_max": 777.0,
+        "y_max": 347.0
+      },
+      "confidence": 0.27,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Anne",
+      "bbox": {
+        "x_min": 656.0,
+        "y_min": 347.0,
+        "x_max": 760.0,
+        "y_max": 387.0
+      },
+      "confidence": 0.8,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Gilbert",
+      "bbox": {
+        "x_min": 780.0,
+        "y_min": 352.0,
+        "x_max": 944.0,
+        "y_max": 393.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ST",
+      "bbox": {
+        "x_min": 194.0,
+        "y_min": 408.0,
+        "x_max": 236.0,
+        "y_max": 433.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "LAYMOND",
+      "bbox": {
+        "x_min": 261.0,
+        "y_min": 411.0,
+        "x_max": 420.0,
+        "y_max": 441.0
+      },
+      "confidence": 0.1,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "PORTNEUF:",
+      "bbox": {
+        "x_min": 448.0,
+        "y_min": 419.0,
+        "x_max": 650.0,
+        "y_max": 450.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "M.",
+      "bbox": {
+        "x_min": 677.0,
+        "y_min": 428.0,
+        "x_max": 719.0,
+        "y_max": 453.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1937-16/6",
+      "bbox": {
+        "x_min": 750.0,
+        "y_min": 431.0,
+        "x_max": 956.0,
+        "y_max": 469.0
+      },
+      "confidence": 0.89,
+      "page": 1,
+      "image_name": "IMG_096.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    }
+  ],
+  "processing_time_s": 0.7099604190000264,
+  "error": null
+}

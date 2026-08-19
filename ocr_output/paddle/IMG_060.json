@@ -1,0 +1,195 @@
+{
+  "image_name": "IMG_060.jpg",
+  "image_path": "images/IMG_060.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "Desormeaux-Monciaux Charles: Antoine （S.Cyprien)",
+      "bbox": {
+        "x_min": 191.0,
+        "y_min": 145.0,
+        "x_max": 1109.0,
+        "y_max": 180.0
+      },
+      "confidence": 0.9574305415153503,
+      "page": 1,
+      "image_name": "IMG_060.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          191.0,
+          145.0
+        ],
+        [
+          1109.0,
+          147.0
+        ],
+        [
+          1108.0,
+          180.0
+        ],
+        [
+          191.0,
+          178.0
+        ]
+      ]
+    },
+    {
+      "text": "Marie Gravel",
+      "bbox": {
+        "x_min": 745.0,
+        "y_min": 175.0,
+        "x_max": 982.0,
+        "y_max": 216.0
+      },
+      "confidence": 0.948929488658905,
+      "page": 1,
+      "image_name": "IMG_060.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          746.0,
+          175.0
+        ],
+        [
+          982.0,
+          183.0
+        ],
+        [
+          981.0,
+          216.0
+        ],
+        [
+          745.0,
+          208.0
+        ]
+      ]
+    },
+    {
+      "text": "LongtinuPiisabeth",
+      "bbox": {
+        "x_min": 194.0,
+        "y_min": 316.0,
+        "x_max": 518.0,
+        "y_max": 351.0
+      },
+      "confidence": 0.8730650544166565,
+      "page": 1,
+      "image_name": "IMG_060.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          194.0,
+          320.0
+        ],
+        [
+          517.0,
+          316.0
+        ],
+        [
+          518.0,
+          347.0
+        ],
+        [
+          194.0,
+          351.0
+        ]
+      ]
+    },
+    {
+      "text": "Celestin",
+      "bbox": {
+        "x_min": 752.0,
+        "y_min": 315.0,
+        "x_max": 908.0,
+        "y_max": 351.0
+      },
+      "confidence": 0.9693291187286377,
+      "page": 1,
+      "image_name": "IMG_060.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          754.0,
+          315.0
+        ],
+        [
+          908.0,
+          322.0
+        ],
+        [
+          906.0,
+          351.0
+        ],
+        [
+          752.0,
+          344.0
+        ]
+      ]
+    },
+    {
+      "text": "TheotisteBenoit",
+      "bbox": {
+        "x_min": 751.0,
+        "y_min": 346.0,
+        "x_max": 1054.0,
+        "y_max": 382.0
+      },
+      "confidence": 0.971030592918396,
+      "page": 1,
+      "image_name": "IMG_060.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          752.0,
+          346.0
+        ],
+        [
+          1054.0,
+          349.0
+        ],
+        [
+          1054.0,
+          382.0
+        ],
+        [
+          751.0,
+          379.0
+        ]
+      ]
+    },
+    {
+      "text": "STCONSTANT TAPRATRIE:M.1862-11-11",
+      "bbox": {
+        "x_min": 315.0,
+        "y_min": 431.0,
+        "x_max": 963.0,
+        "y_max": 458.0
+      },
+      "confidence": 0.8484081625938416,
+      "page": 1,
+      "image_name": "IMG_060.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          315.0,
+          432.0
+        ],
+        [
+          963.0,
+          431.0
+        ],
+        [
+          963.0,
+          456.0
+        ],
+        [
+          315.0,
+          458.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 2.487274118000073,
+  "error": null
+}

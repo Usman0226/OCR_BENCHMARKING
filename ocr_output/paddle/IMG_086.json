@@ -1,0 +1,2923 @@
+{
+  "image_name": "IMG_086.jpg",
+  "image_path": "images/IMG_086.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "&c",
+      "bbox": {
+        "x_min": 1512.0,
+        "y_min": 125.0,
+        "x_max": 1534.0,
+        "y_max": 149.0
+      },
+      "confidence": 0.7488639950752258,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1512.0,
+          125.0
+        ],
+        [
+          1534.0,
+          125.0
+        ],
+        [
+          1534.0,
+          149.0
+        ],
+        [
+          1512.0,
+          149.0
+        ]
+      ]
+    },
+    {
+      "text": "REVUEDE",
+      "bbox": {
+        "x_min": 368.0,
+        "y_min": 201.0,
+        "x_max": 666.0,
+        "y_max": 255.0
+      },
+      "confidence": 0.9619884490966797,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          368.0,
+          211.0
+        ],
+        [
+          664.0,
+          201.0
+        ],
+        [
+          666.0,
+          245.0
+        ],
+        [
+          369.0,
+          255.0
+        ]
+      ]
+    },
+    {
+      "text": "LIINSTITUTGAGNON",
+      "bbox": {
+        "x_min": 675.0,
+        "y_min": 189.0,
+        "x_max": 1333.0,
+        "y_max": 245.0
+      },
+      "confidence": 0.9487575888633728,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          675.0,
+          204.0
+        ],
+        [
+          1332.0,
+          189.0
+        ],
+        [
+          1333.0,
+          230.0
+        ],
+        [
+          676.0,
+          245.0
+        ]
+      ]
+    },
+    {
+      "text": "VOLUME I.NUMERO 3.",
+      "bbox": {
+        "x_min": 255.0,
+        "y_min": 242.0,
+        "x_max": 614.0,
+        "y_max": 288.0
+      },
+      "confidence": 0.9343411326408386,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          255.0,
+          247.0
+        ],
+        [
+          613.0,
+          242.0
+        ],
+        [
+          614.0,
+          283.0
+        ],
+        [
+          256.0,
+          288.0
+        ]
+      ]
+    },
+    {
+      "text": "OCTOBRE T94I,DOUZE PAGES.PRIX 50C.",
+      "bbox": {
+        "x_min": 785.0,
+        "y_min": 223.0,
+        "x_max": 1478.0,
+        "y_max": 276.0
+      },
+      "confidence": 0.9121404886245728,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          785.0,
+          238.0
+        ],
+        [
+          1477.0,
+          223.0
+        ],
+        [
+          1478.0,
+          261.0
+        ],
+        [
+          786.0,
+          276.0
+        ]
+      ]
+    },
+    {
+      "text": "ANTOINE GAGNON.",
+      "bbox": {
+        "x_min": 1185.0,
+        "y_min": 266.0,
+        "x_max": 1476.0,
+        "y_max": 308.0
+      },
+      "confidence": 0.9715791344642639,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1185.0,
+          274.0
+        ],
+        [
+          1475.0,
+          266.0
+        ],
+        [
+          1476.0,
+          300.0
+        ],
+        [
+          1186.0,
+          308.0
+        ]
+      ]
+    },
+    {
+      "text": "EDITEUR-DIRECTEUR",
+      "bbox": {
+        "x_min": 255.0,
+        "y_min": 283.0,
+        "x_max": 602.0,
+        "y_max": 329.0
+      },
+      "confidence": 0.9882886409759521,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          255.0,
+          288.0
+        ],
+        [
+          601.0,
+          283.0
+        ],
+        [
+          602.0,
+          324.0
+        ],
+        [
+          256.0,
+          329.0
+        ]
+      ]
+    },
+    {
+      "text": "Mme.RAYOND ERDMAN",
+      "bbox": {
+        "x_min": 1080.0,
+        "y_min": 295.0,
+        "x_max": 1471.0,
+        "y_max": 348.0
+      },
+      "confidence": 0.9542217254638672,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1080.0,
+          308.0
+        ],
+        [
+          1469.0,
+          295.0
+        ],
+        [
+          1471.0,
+          336.0
+        ],
+        [
+          1081.0,
+          348.0
+        ]
+      ]
+    },
+    {
+      "text": "ASSISTANTE",
+      "bbox": {
+        "x_min": 258.0,
+        "y_min": 324.0,
+        "x_max": 464.0,
+        "y_max": 363.0
+      },
+      "confidence": 0.9900809526443481,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          258.0,
+          326.0
+        ],
+        [
+          464.0,
+          324.0
+        ],
+        [
+          464.0,
+          360.0
+        ],
+        [
+          258.0,
+          363.0
+        ]
+      ]
+    },
+    {
+      "text": "FRANCOIS A.SYLVESTRE",
+      "bbox": {
+        "x_min": 1043.0,
+        "y_min": 333.0,
+        "x_max": 1453.0,
+        "y_max": 382.0
+      },
+      "confidence": 0.9441774487495422,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1043.0,
+          344.0
+        ],
+        [
+          1452.0,
+          333.0
+        ],
+        [
+          1453.0,
+          372.0
+        ],
+        [
+          1044.0,
+          382.0
+        ]
+      ]
+    },
+    {
+      "text": "COMPILTEUR",
+      "bbox": {
+        "x_min": 260.0,
+        "y_min": 360.0,
+        "x_max": 484.0,
+        "y_max": 394.0
+      },
+      "confidence": 0.9874326586723328,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          260.0,
+          360.0
+        ],
+        [
+          484.0,
+          360.0
+        ],
+        [
+          484.0,
+          394.0
+        ],
+        [
+          260.0,
+          394.0
+        ]
+      ]
+    },
+    {
+      "text": "MIIe.BLANCHE GAGNON",
+      "bbox": {
+        "x_min": 1082.0,
+        "y_min": 369.0,
+        "x_max": 1468.0,
+        "y_max": 411.0
+      },
+      "confidence": 0.917251706123352,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1082.0,
+          377.0
+        ],
+        [
+          1467.0,
+          369.0
+        ],
+        [
+          1468.0,
+          403.0
+        ],
+        [
+          1083.0,
+          411.0
+        ]
+      ]
+    },
+    {
+      "text": "MIMOGRAPHE par",
+      "bbox": {
+        "x_min": 253.0,
+        "y_min": 386.0,
+        "x_max": 545.0,
+        "y_max": 432.0
+      },
+      "confidence": 0.922408401966095,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          253.0,
+          389.0
+        ],
+        [
+          545.0,
+          386.0
+        ],
+        [
+          545.0,
+          430.0
+        ],
+        [
+          253.0,
+          432.0
+        ]
+      ]
+    },
+    {
+      "text": "GENEALOGIE-BIOGRAPHIE-STATISTIQUES-VITALES- ET PETITE HISTOIRE.",
+      "bbox": {
+        "x_min": 255.0,
+        "y_min": 408.0,
+        "x_max": 1500.0,
+        "y_max": 476.0
+      },
+      "confidence": 0.9572204351425171,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          255.0,
+          435.0
+        ],
+        [
+          1499.0,
+          408.0
+        ],
+        [
+          1500.0,
+          449.0
+        ],
+        [
+          256.0,
+          476.0
+        ]
+      ]
+    },
+    {
+      "text": "A la page 20I du premier numero de la REvue,a l'inscrip-",
+      "bbox": {
+        "x_min": 370.0,
+        "y_min": 482.0,
+        "x_max": 1488.0,
+        "y_max": 555.0
+      },
+      "confidence": 0.8951020836830139,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          370.0,
+          504.0
+        ],
+        [
+          1487.0,
+          482.0
+        ],
+        [
+          1488.0,
+          532.0
+        ],
+        [
+          371.0,
+          555.0
+        ]
+      ]
+    },
+    {
+      "text": "pouse.Pour y remedier l'onission,nous avons reimprime la page,ici",
+      "bbox": {
+        "x_min": 221.0,
+        "y_min": 554.0,
+        "x_max": 1510.0,
+        "y_max": 627.0
+      },
+      "confidence": 0.9512730240821838,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          221.0,
+          583.0
+        ],
+        [
+          1509.0,
+          554.0
+        ],
+        [
+          1510.0,
+          597.0
+        ],
+        [
+          222.0,
+          627.0
+        ]
+      ]
+    },
+    {
+      "text": "inclus,pour remlacer l'originale,soit en la collant ou en retirant",
+      "bbox": {
+        "x_min": 221.0,
+        "y_min": 590.0,
+        "x_max": 1532.0,
+        "y_max": 660.0
+      },
+      "confidence": 0.9599304795265198,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          221.0,
+          617.0
+        ],
+        [
+          1531.0,
+          590.0
+        ],
+        [
+          1532.0,
+          633.0
+        ],
+        [
+          221.0,
+          660.0
+        ]
+      ]
+    },
+    {
+      "text": "l'uatre,",
+      "bbox": {
+        "x_min": 226.0,
+        "y_min": 653.0,
+        "x_max": 385.0,
+        "y_max": 686.0
+      },
+      "confidence": 0.9110902547836304,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          226.0,
+          653.0
+        ],
+        [
+          385.0,
+          653.0
+        ],
+        [
+          385.0,
+          686.0
+        ],
+        [
+          226.0,
+          686.0
+        ]
+      ]
+    },
+    {
+      "text": "Nous comnengons,dans ce nunero,la compilation de rensei=",
+      "bbox": {
+        "x_min": 370.0,
+        "y_min": 655.0,
+        "x_max": 1495.0,
+        "y_max": 725.0
+      },
+      "confidence": 0.9537826776504517,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          370.0,
+          677.0
+        ],
+        [
+          1494.0,
+          655.0
+        ],
+        [
+          1495.0,
+          703.0
+        ],
+        [
+          371.0,
+          725.0
+        ]
+      ]
+    },
+    {
+      "text": "gnementss contenus dans le Grand Dictionnaire Gaealogique des famil",
+      "bbox": {
+        "x_min": 221.0,
+        "y_min": 691.0,
+        "x_max": 1552.0,
+        "y_max": 764.0
+      },
+      "confidence": 0.9736202955245972,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          221.0,
+          723.0
+        ],
+        [
+          1551.0,
+          691.0
+        ],
+        [
+          1552.0,
+          732.0
+        ],
+        [
+          222.0,
+          764.0
+        ]
+      ]
+    },
+    {
+      "text": "les Canadiennes,de Mgr.Cyprien Tanguay,pour le benefice du grand",
+      "bbox": {
+        "x_min": 221.0,
+        "y_min": 727.0,
+        "x_max": 1498.0,
+        "y_max": 802.0
+      },
+      "confidence": 0.9422608017921448,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          221.0,
+          754.0
+        ],
+        [
+          1497.0,
+          727.0
+        ],
+        [
+          1498.0,
+          775.0
+        ],
+        [
+          222.0,
+          802.0
+        ]
+      ]
+    },
+    {
+      "text": "renseignements sont d'une importance extreme pour les recherches ge",
+      "bbox": {
+        "x_min": 223.0,
+        "y_min": 797.0,
+        "x_max": 1552.0,
+        "y_max": 864.0
+      },
+      "confidence": 0.9723740816116333,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          223.0,
+          823.0
+        ],
+        [
+          1551.0,
+          797.0
+        ],
+        [
+          1552.0,
+          837.0
+        ],
+        [
+          224.0,
+          864.0
+        ]
+      ]
+    },
+    {
+      "text": "nealogiques.",
+      "bbox": {
+        "x_min": 223.0,
+        "y_min": 859.0,
+        "x_max": 461.0,
+        "y_max": 893.0
+      },
+      "confidence": 0.9820526242256165,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          223.0,
+          859.0
+        ],
+        [
+          461.0,
+          859.0
+        ],
+        [
+          461.0,
+          893.0
+        ],
+        [
+          223.0,
+          893.0
+        ]
+      ]
+    },
+    {
+      "text": "Dans le premier volume ces renseignements couvrent 6o pages",
+      "bbox": {
+        "x_min": 373.0,
+        "y_min": 864.0,
+        "x_max": 1552.0,
+        "y_max": 929.0
+      },
+      "confidence": 0.9724966287612915,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          373.0,
+          888.0
+        ],
+        [
+          1551.0,
+          864.0
+        ],
+        [
+          1552.0,
+          905.0
+        ],
+        [
+          374.0,
+          929.0
+        ]
+      ]
+    },
+    {
+      "text": "tiques de France,en l'annee I6sI:-Table alphabetique des viiles de",
+      "bbox": {
+        "x_min": 228.0,
+        "y_min": 964.0,
+        "x_max": 1537.0,
+        "y_max": 1037.0
+      },
+      "confidence": 0.9266332387924194,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          228.0,
+          994.0
+        ],
+        [
+          1536.0,
+          964.0
+        ],
+        [
+          1537.0,
+          1008.0
+        ],
+        [
+          229.0,
+          1037.0
+        ]
+      ]
+    },
+    {
+      "text": "France,avec le non de leurs provinces,en I63I:-Table chronologique",
+      "bbox": {
+        "x_min": 226.0,
+        "y_min": 1001.0,
+        "x_max": 1537.0,
+        "y_max": 1068.0
+      },
+      "confidence": 0.9435744881629944,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          226.0,
+          1027.0
+        ],
+        [
+          1536.0,
+          1001.0
+        ],
+        [
+          1537.0,
+          1041.0
+        ],
+        [
+          226.0,
+          1068.0
+        ]
+      ]
+    },
+    {
+      "text": "des paroisses et missions de la province de quebec,tenant registre",
+      "bbox": {
+        "x_min": 226.0,
+        "y_min": 1037.0,
+        "x_max": 1534.0,
+        "y_max": 1102.0
+      },
+      "confidence": 0.9493603110313416,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          226.0,
+          1063.0
+        ],
+        [
+          1534.0,
+          1037.0
+        ],
+        [
+          1534.0,
+          1075.0
+        ],
+        [
+          226.0,
+          1102.0
+        ]
+      ]
+    },
+    {
+      "text": ",de I62I a I87I:-Table geographique des paroisses de la province ae",
+      "bbox": {
+        "x_min": 233.0,
+        "y_min": 1070.0,
+        "x_max": 1556.0,
+        "y_max": 1135.0
+      },
+      "confidence": 0.9433483481407166,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          233.0,
+          1095.0
+        ],
+        [
+          1556.0,
+          1070.0
+        ],
+        [
+          1556.0,
+          1111.0
+        ],
+        [
+          234.0,
+          1135.0
+        ]
+      ]
+    },
+    {
+      "text": "yuebec:en I87I:-Table alphabetique des paroisses de la province de",
+      "bbox": {
+        "x_min": 230.0,
+        "y_min": 1104.0,
+        "x_max": 1537.0,
+        "y_max": 1171.0
+      },
+      "confidence": 0.9416042566299438,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          230.0,
+          1131.0
+        ],
+        [
+          1536.0,
+          1104.0
+        ],
+        [
+          1537.0,
+          1145.0
+        ],
+        [
+          231.0,
+          1171.0
+        ]
+      ]
+    },
+    {
+      "text": "uebec,en I87I.",
+      "bbox": {
+        "x_min": 228.0,
+        "y_min": 1156.0,
+        "x_max": 528.0,
+        "y_max": 1208.0
+      },
+      "confidence": 0.9306947588920593,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          228.0,
+          1167.0
+        ],
+        [
+          527.0,
+          1156.0
+        ],
+        [
+          528.0,
+          1197.0
+        ],
+        [
+          229.0,
+          1208.0
+        ]
+      ]
+    },
+    {
+      "text": "A bon en tendeur selut,l'Editaur.",
+      "bbox": {
+        "x_min": 778.0,
+        "y_min": 1173.0,
+        "x_max": 1441.0,
+        "y_max": 1229.0
+      },
+      "confidence": 0.8944507241249084,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          778.0,
+          1186.0
+        ],
+        [
+          1440.0,
+          1173.0
+        ],
+        [
+          1441.0,
+          1217.0
+        ],
+        [
+          779.0,
+          1229.0
+        ]
+      ]
+    },
+    {
+      "text": "TABLE DES MTIERES",
+      "bbox": {
+        "x_min": 680.0,
+        "y_min": 1226.0,
+        "x_max": 1048.0,
+        "y_max": 1275.0
+      },
+      "confidence": 0.9653007388114929,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          680.0,
+          1234.0
+        ],
+        [
+          1048.0,
+          1226.0
+        ],
+        [
+          1048.0,
+          1267.0
+        ],
+        [
+          680.0,
+          1275.0
+        ]
+      ]
+    },
+    {
+      "text": "Pages",
+      "bbox": {
+        "x_min": 1394.0,
+        "y_min": 1279.0,
+        "x_max": 1500.0,
+        "y_max": 1315.0
+      },
+      "confidence": 0.9859575033187866,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1394.0,
+          1279.0
+        ],
+        [
+          1500.0,
+          1279.0
+        ],
+        [
+          1500.0,
+          1315.0
+        ],
+        [
+          1394.0,
+          1315.0
+        ]
+      ]
+    },
+    {
+      "text": "6",
+      "bbox": {
+        "x_min": 1475.0,
+        "y_min": 1315.0,
+        "x_max": 1500.0,
+        "y_max": 1342.0
+      },
+      "confidence": 0.9971219897270203,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1475.0,
+          1315.0
+        ],
+        [
+          1500.0,
+          1315.0
+        ],
+        [
+          1500.0,
+          1342.0
+        ],
+        [
+          1475.0,
+          1342.0
+        ]
+      ]
+    },
+    {
+      "text": "I.FAMILIE GUYON",
+      "bbox": {
+        "x_min": 292.0,
+        "y_min": 1327.0,
+        "x_max": 594.0,
+        "y_max": 1371.0
+      },
+      "confidence": 0.9261122941970825,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          292.0,
+          1330.0
+        ],
+        [
+          594.0,
+          1327.0
+        ],
+        [
+          594.0,
+          1368.0
+        ],
+        [
+          292.0,
+          1371.0
+        ]
+      ]
+    },
+    {
+      "text": "e",
+      "bbox": {
+        "x_min": 1343.0,
+        "y_min": 1327.0,
+        "x_max": 1355.0,
+        "y_max": 1339.0
+      },
+      "confidence": 0.5105133056640625,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1343.0,
+          1327.0
+        ],
+        [
+          1355.0,
+          1327.0
+        ],
+        [
+          1355.0,
+          1339.0
+        ],
+        [
+          1343.0,
+          1339.0
+        ]
+      ]
+    },
+    {
+      "text": "6",
+      "bbox": {
+        "x_min": 1470.0,
+        "y_min": 1344.0,
+        "x_max": 1502.0,
+        "y_max": 1378.0
+      },
+      "confidence": 0.9910141825675964,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1470.0,
+          1344.0
+        ],
+        [
+          1502.0,
+          1344.0
+        ],
+        [
+          1502.0,
+          1378.0
+        ],
+        [
+          1470.0,
+          1378.0
+        ]
+      ]
+    },
+    {
+      "text": "II.",
+      "bbox": {
+        "x_min": 272.0,
+        "y_min": 1368.0,
+        "x_max": 334.0,
+        "y_max": 1404.0
+      },
+      "confidence": 0.9713589549064636,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          272.0,
+          1368.0
+        ],
+        [
+          334.0,
+          1368.0
+        ],
+        [
+          334.0,
+          1404.0
+        ],
+        [
+          272.0,
+          1404.0
+        ]
+      ]
+    },
+    {
+      "text": "PEPIN,",
+      "bbox": {
+        "x_min": 488.0,
+        "y_min": 1366.0,
+        "x_max": 604.0,
+        "y_max": 1399.0
+      },
+      "confidence": 0.9895064234733582,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          488.0,
+          1366.0
+        ],
+        [
+          604.0,
+          1366.0
+        ],
+        [
+          604.0,
+          1399.0
+        ],
+        [
+          488.0,
+          1399.0
+        ]
+      ]
+    },
+    {
+      "text": "I06",
+      "bbox": {
+        "x_min": 1432.0,
+        "y_min": 1374.0,
+        "x_max": 1503.0,
+        "y_max": 1419.0
+      },
+      "confidence": 0.714615523815155,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1432.0,
+          1381.0
+        ],
+        [
+          1499.0,
+          1374.0
+        ],
+        [
+          1503.0,
+          1412.0
+        ],
+        [
+          1436.0,
+          1419.0
+        ]
+      ]
+    },
+    {
+      "text": "III.",
+      "bbox": {
+        "x_min": 255.0,
+        "y_min": 1402.0,
+        "x_max": 334.0,
+        "y_max": 1435.0
+      },
+      "confidence": 0.9823037385940552,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          255.0,
+          1402.0
+        ],
+        [
+          334.0,
+          1402.0
+        ],
+        [
+          334.0,
+          1435.0
+        ],
+        [
+          255.0,
+          1435.0
+        ]
+      ]
+    },
+    {
+      "text": "MARTINEAU,",
+      "bbox": {
+        "x_min": 486.0,
+        "y_min": 1394.0,
+        "x_max": 687.0,
+        "y_max": 1433.0
+      },
+      "confidence": 0.9801023602485657,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          486.0,
+          1397.0
+        ],
+        [
+          687.0,
+          1394.0
+        ],
+        [
+          687.0,
+          1430.0
+        ],
+        [
+          486.0,
+          1433.0
+        ]
+      ]
+    },
+    {
+      "text": "一",
+      "bbox": {
+        "x_min": 1087.0,
+        "y_min": 1399.0,
+        "x_max": 1100.0,
+        "y_max": 1416.0
+      },
+      "confidence": 0.6496875882148743,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1087.0,
+          1399.0
+        ],
+        [
+          1100.0,
+          1399.0
+        ],
+        [
+          1100.0,
+          1416.0
+        ],
+        [
+          1087.0,
+          1416.0
+        ]
+      ]
+    },
+    {
+      "text": "一",
+      "bbox": {
+        "x_min": 734.0,
+        "y_min": 1409.0,
+        "x_max": 746.0,
+        "y_max": 1426.0
+      },
+      "confidence": 0.7986146807670593,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          734.0,
+          1409.0
+        ],
+        [
+          746.0,
+          1409.0
+        ],
+        [
+          746.0,
+          1426.0
+        ],
+        [
+          734.0,
+          1426.0
+        ]
+      ]
+    },
+    {
+      "text": "IV.",
+      "bbox": {
+        "x_min": 272.0,
+        "y_min": 1435.0,
+        "x_max": 334.0,
+        "y_max": 1471.0
+      },
+      "confidence": 0.9798954129219055,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          272.0,
+          1435.0
+        ],
+        [
+          334.0,
+          1435.0
+        ],
+        [
+          334.0,
+          1471.0
+        ],
+        [
+          272.0,
+          1471.0
+        ]
+      ]
+    },
+    {
+      "text": "LEFRANGOIS,",
+      "bbox": {
+        "x_min": 488.0,
+        "y_min": 1425.0,
+        "x_max": 705.0,
+        "y_max": 1472.0
+      },
+      "confidence": 0.9177570343017578,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          488.0,
+          1431.0
+        ],
+        [
+          704.0,
+          1425.0
+        ],
+        [
+          705.0,
+          1466.0
+        ],
+        [
+          489.0,
+          1472.0
+        ]
+      ]
+    },
+    {
+      "text": "I06",
+      "bbox": {
+        "x_min": 1435.0,
+        "y_min": 1441.0,
+        "x_max": 1503.0,
+        "y_max": 1484.0
+      },
+      "confidence": 0.8744669556617737,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1435.0,
+          1448.0
+        ],
+        [
+          1499.0,
+          1441.0
+        ],
+        [
+          1503.0,
+          1477.0
+        ],
+        [
+          1439.0,
+          1484.0
+        ]
+      ]
+    },
+    {
+      "text": "V.",
+      "bbox": {
+        "x_min": 290.0,
+        "y_min": 1471.0,
+        "x_max": 331.0,
+        "y_max": 1502.0
+      },
+      "confidence": 0.9143913388252258,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          290.0,
+          1471.0
+        ],
+        [
+          331.0,
+          1471.0
+        ],
+        [
+          331.0,
+          1502.0
+        ],
+        [
+          290.0,
+          1502.0
+        ]
+      ]
+    },
+    {
+      "text": "OUELLET,",
+      "bbox": {
+        "x_min": 493.0,
+        "y_min": 1466.0,
+        "x_max": 646.0,
+        "y_max": 1500.0
+      },
+      "confidence": 0.9746586084365845,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          493.0,
+          1466.0
+        ],
+        [
+          646.0,
+          1466.0
+        ],
+        [
+          646.0,
+          1500.0
+        ],
+        [
+          493.0,
+          1500.0
+        ]
+      ]
+    },
+    {
+      "text": "一",
+      "bbox": {
+        "x_min": 871.0,
+        "y_min": 1471.0,
+        "x_max": 884.0,
+        "y_max": 1488.0
+      },
+      "confidence": 0.5039107799530029,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          871.0,
+          1471.0
+        ],
+        [
+          884.0,
+          1471.0
+        ],
+        [
+          884.0,
+          1488.0
+        ],
+        [
+          871.0,
+          1488.0
+        ]
+      ]
+    },
+    {
+      "text": "一",
+      "bbox": {
+        "x_min": 989.0,
+        "y_min": 1469.0,
+        "x_max": 1001.0,
+        "y_max": 1486.0
+      },
+      "confidence": 0.7707889080047607,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          989.0,
+          1469.0
+        ],
+        [
+          1001.0,
+          1469.0
+        ],
+        [
+          1001.0,
+          1486.0
+        ],
+        [
+          989.0,
+          1486.0
+        ]
+      ]
+    },
+    {
+      "text": "106",
+      "bbox": {
+        "x_min": 1438.0,
+        "y_min": 1481.0,
+        "x_max": 1502.0,
+        "y_max": 1517.0
+      },
+      "confidence": 0.8412858843803406,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1438.0,
+          1481.0
+        ],
+        [
+          1502.0,
+          1481.0
+        ],
+        [
+          1502.0,
+          1517.0
+        ],
+        [
+          1438.0,
+          1517.0
+        ]
+      ]
+    },
+    {
+      "text": "VI.TROISIEME GENERATIONS,de PIERRE GAGNON",
+      "bbox": {
+        "x_min": 267.0,
+        "y_min": 1485.0,
+        "x_max": 1097.0,
+        "y_max": 1541.0
+      },
+      "confidence": 0.927615761756897,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          267.0,
+          1498.0
+        ],
+        [
+          1097.0,
+          1485.0
+        ],
+        [
+          1097.0,
+          1529.0
+        ],
+        [
+          268.0,
+          1541.0
+        ]
+      ]
+    },
+    {
+      "text": "I-",
+      "bbox": {
+        "x_min": 1102.0,
+        "y_min": 1493.0,
+        "x_max": 1146.0,
+        "y_max": 1519.0
+      },
+      "confidence": 0.9514151811599731,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1102.0,
+          1493.0
+        ],
+        [
+          1146.0,
+          1493.0
+        ],
+        [
+          1146.0,
+          1519.0
+        ],
+        [
+          1102.0,
+          1519.0
+        ]
+      ]
+    },
+    {
+      "text": "206",
+      "bbox": {
+        "x_min": 1438.0,
+        "y_min": 1519.0,
+        "x_max": 1502.0,
+        "y_max": 1548.0
+      },
+      "confidence": 0.9687382578849792,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1438.0,
+          1519.0
+        ],
+        [
+          1502.0,
+          1519.0
+        ],
+        [
+          1502.0,
+          1548.0
+        ],
+        [
+          1438.0,
+          1548.0
+        ]
+      ]
+    },
+    {
+      "text": "VII.FAMI.IE",
+      "bbox": {
+        "x_min": 250.0,
+        "y_min": 1531.0,
+        "x_max": 481.0,
+        "y_max": 1577.0
+      },
+      "confidence": 0.8994434475898743,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          250.0,
+          1536.0
+        ],
+        [
+          480.0,
+          1531.0
+        ],
+        [
+          481.0,
+          1572.0
+        ],
+        [
+          251.0,
+          1577.0
+        ]
+      ]
+    },
+    {
+      "text": "CHAMARE.",
+      "bbox": {
+        "x_min": 513.0,
+        "y_min": 1536.0,
+        "x_max": 677.0,
+        "y_max": 1570.0
+      },
+      "confidence": 0.9522944092750549,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          513.0,
+          1536.0
+        ],
+        [
+          677.0,
+          1536.0
+        ],
+        [
+          677.0,
+          1570.0
+        ],
+        [
+          513.0,
+          1570.0
+        ]
+      ]
+    },
+    {
+      "text": "208",
+      "bbox": {
+        "x_min": 1432.0,
+        "y_min": 1545.0,
+        "x_max": 1506.0,
+        "y_max": 1590.0
+      },
+      "confidence": 0.8632164597511292,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1432.0,
+          1551.0
+        ],
+        [
+          1502.0,
+          1545.0
+        ],
+        [
+          1506.0,
+          1583.0
+        ],
+        [
+          1436.0,
+          1590.0
+        ]
+      ]
+    },
+    {
+      "text": "VIII.",
+      "bbox": {
+        "x_min": 233.0,
+        "y_min": 1574.0,
+        "x_max": 334.0,
+        "y_max": 1608.0
+      },
+      "confidence": 0.9733378291130066,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          233.0,
+          1574.0
+        ],
+        [
+          334.0,
+          1574.0
+        ],
+        [
+          334.0,
+          1608.0
+        ],
+        [
+          233.0,
+          1608.0
+        ]
+      ]
+    },
+    {
+      "text": "RENAUD",
+      "bbox": {
+        "x_min": 508.0,
+        "y_min": 1565.0,
+        "x_max": 643.0,
+        "y_max": 1606.0
+      },
+      "confidence": 0.9804592132568359,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          508.0,
+          1565.0
+        ],
+        [
+          643.0,
+          1565.0
+        ],
+        [
+          643.0,
+          1606.0
+        ],
+        [
+          508.0,
+          1606.0
+        ]
+      ]
+    },
+    {
+      "text": "203",
+      "bbox": {
+        "x_min": 1438.0,
+        "y_min": 1584.0,
+        "x_max": 1505.0,
+        "y_max": 1620.0
+      },
+      "confidence": 0.9175366759300232,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1438.0,
+          1584.0
+        ],
+        [
+          1505.0,
+          1584.0
+        ],
+        [
+          1505.0,
+          1620.0
+        ],
+        [
+          1438.0,
+          1620.0
+        ]
+      ]
+    },
+    {
+      "text": "IX.",
+      "bbox": {
+        "x_min": 275.0,
+        "y_min": 1606.0,
+        "x_max": 336.0,
+        "y_max": 1644.0
+      },
+      "confidence": 0.9544630646705627,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          275.0,
+          1606.0
+        ],
+        [
+          336.0,
+          1606.0
+        ],
+        [
+          336.0,
+          1644.0
+        ],
+        [
+          275.0,
+          1644.0
+        ]
+      ]
+    },
+    {
+      "text": "DE LA VOYE,",
+      "bbox": {
+        "x_min": 508.0,
+        "y_min": 1603.0,
+        "x_max": 734.0,
+        "y_max": 1637.0
+      },
+      "confidence": 0.9693880677223206,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          508.0,
+          1603.0
+        ],
+        [
+          734.0,
+          1603.0
+        ],
+        [
+          734.0,
+          1637.0
+        ],
+        [
+          508.0,
+          1637.0
+        ]
+      ]
+    },
+    {
+      "text": "、",
+      "bbox": {
+        "x_min": 865.0,
+        "y_min": 1601.0,
+        "x_max": 895.0,
+        "y_max": 1630.0
+      },
+      "confidence": 0.7527530193328857,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          865.0,
+          1614.0
+        ],
+        [
+          879.0,
+          1601.0
+        ],
+        [
+          895.0,
+          1616.0
+        ],
+        [
+          881.0,
+          1630.0
+        ]
+      ]
+    },
+    {
+      "text": "0",
+      "bbox": {
+        "x_min": 1166.0,
+        "y_min": 1630.0,
+        "x_max": 1188.0,
+        "y_max": 1654.0
+      },
+      "confidence": 0.692474365234375,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1166.0,
+          1630.0
+        ],
+        [
+          1188.0,
+          1630.0
+        ],
+        [
+          1188.0,
+          1654.0
+        ],
+        [
+          1166.0,
+          1654.0
+        ]
+      ]
+    },
+    {
+      "text": "203",
+      "bbox": {
+        "x_min": 1436.0,
+        "y_min": 1622.0,
+        "x_max": 1505.0,
+        "y_max": 1654.0
+      },
+      "confidence": 0.8449621796607971,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1436.0,
+          1622.0
+        ],
+        [
+          1505.0,
+          1622.0
+        ],
+        [
+          1505.0,
+          1654.0
+        ],
+        [
+          1436.0,
+          1654.0
+        ]
+      ]
+    },
+    {
+      "text": "X.",
+      "bbox": {
+        "x_min": 292.0,
+        "y_min": 1644.0,
+        "x_max": 334.0,
+        "y_max": 1675.0
+      },
+      "confidence": 0.9008687138557434,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          292.0,
+          1644.0
+        ],
+        [
+          334.0,
+          1644.0
+        ],
+        [
+          334.0,
+          1675.0
+        ],
+        [
+          292.0,
+          1675.0
+        ]
+      ]
+    },
+    {
+      "text": "GUIMOND,",
+      "bbox": {
+        "x_min": 513.0,
+        "y_min": 1639.0,
+        "x_max": 675.0,
+        "y_max": 1673.0
+      },
+      "confidence": 0.9900194406509399,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          513.0,
+          1639.0
+        ],
+        [
+          675.0,
+          1639.0
+        ],
+        [
+          675.0,
+          1673.0
+        ],
+        [
+          513.0,
+          1673.0
+        ]
+      ]
+    },
+    {
+      "text": "203",
+      "bbox": {
+        "x_min": 1436.0,
+        "y_min": 1654.0,
+        "x_max": 1505.0,
+        "y_max": 1690.0
+      },
+      "confidence": 0.9395653605461121,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1436.0,
+          1654.0
+        ],
+        [
+          1505.0,
+          1654.0
+        ],
+        [
+          1505.0,
+          1690.0
+        ],
+        [
+          1436.0,
+          1690.0
+        ]
+      ]
+    },
+    {
+      "text": "XI.",
+      "bbox": {
+        "x_min": 272.0,
+        "y_min": 1675.0,
+        "x_max": 336.0,
+        "y_max": 1711.0
+      },
+      "confidence": 0.9375104904174805,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          272.0,
+          1675.0
+        ],
+        [
+          336.0,
+          1675.0
+        ],
+        [
+          336.0,
+          1711.0
+        ],
+        [
+          272.0,
+          1711.0
+        ]
+      ]
+    },
+    {
+      "text": "PARE,",
+      "bbox": {
+        "x_min": 511.0,
+        "y_min": 1673.0,
+        "x_max": 609.0,
+        "y_max": 1706.0
+      },
+      "confidence": 0.898551344871521,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          511.0,
+          1673.0
+        ],
+        [
+          609.0,
+          1673.0
+        ],
+        [
+          609.0,
+          1706.0
+        ],
+        [
+          511.0,
+          1706.0
+        ]
+      ]
+    },
+    {
+      "text": "306",
+      "bbox": {
+        "x_min": 1441.0,
+        "y_min": 1692.0,
+        "x_max": 1502.0,
+        "y_max": 1721.0
+      },
+      "confidence": 0.8623682856559753,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1441.0,
+          1692.0
+        ],
+        [
+          1502.0,
+          1692.0
+        ],
+        [
+          1502.0,
+          1721.0
+        ],
+        [
+          1441.0,
+          1721.0
+        ]
+      ]
+    },
+    {
+      "text": "XII.",
+      "bbox": {
+        "x_min": 255.0,
+        "y_min": 1709.0,
+        "x_max": 336.0,
+        "y_max": 1750.0
+      },
+      "confidence": 0.97469162940979,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          255.0,
+          1709.0
+        ],
+        [
+          336.0,
+          1709.0
+        ],
+        [
+          336.0,
+          1750.0
+        ],
+        [
+          255.0,
+          1750.0
+        ]
+      ]
+    },
+    {
+      "text": "THIBAUT,",
+      "bbox": {
+        "x_min": 511.0,
+        "y_min": 1704.0,
+        "x_max": 677.0,
+        "y_max": 1745.0
+      },
+      "confidence": 0.9860986471176147,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          511.0,
+          1704.0
+        ],
+        [
+          677.0,
+          1704.0
+        ],
+        [
+          677.0,
+          1745.0
+        ],
+        [
+          511.0,
+          1745.0
+        ]
+      ]
+    },
+    {
+      "text": "26",
+      "bbox": {
+        "x_min": 1436.0,
+        "y_min": 1721.0,
+        "x_max": 1505.0,
+        "y_max": 1757.0
+      },
+      "confidence": 0.5808566808700562,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1436.0,
+          1721.0
+        ],
+        [
+          1505.0,
+          1721.0
+        ],
+        [
+          1505.0,
+          1757.0
+        ],
+        [
+          1436.0,
+          1757.0
+        ]
+      ]
+    },
+    {
+      "text": "PARENT,-",
+      "bbox": {
+        "x_min": 510.0,
+        "y_min": 1732.0,
+        "x_max": 678.0,
+        "y_max": 1779.0
+      },
+      "confidence": 0.8941391706466675,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          511.0,
+          1732.0
+        ],
+        [
+          678.0,
+          1738.0
+        ],
+        [
+          677.0,
+          1779.0
+        ],
+        [
+          510.0,
+          1773.0
+        ]
+      ]
+    },
+    {
+      "text": "XIII.",
+      "bbox": {
+        "x_min": 236.0,
+        "y_min": 1745.0,
+        "x_max": 334.0,
+        "y_max": 1778.0
+      },
+      "confidence": 0.9838507771492004,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          236.0,
+          1745.0
+        ],
+        [
+          334.0,
+          1745.0
+        ],
+        [
+          334.0,
+          1778.0
+        ],
+        [
+          236.0,
+          1778.0
+        ]
+      ]
+    },
+    {
+      "text": "408",
+      "bbox": {
+        "x_min": 1438.0,
+        "y_min": 1759.0,
+        "x_max": 1507.0,
+        "y_max": 1790.0
+      },
+      "confidence": 0.8711142539978027,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1438.0,
+          1759.0
+        ],
+        [
+          1507.0,
+          1759.0
+        ],
+        [
+          1507.0,
+          1790.0
+        ],
+        [
+          1438.0,
+          1790.0
+        ]
+      ]
+    },
+    {
+      "text": "XIV.",
+      "bbox": {
+        "x_min": 255.0,
+        "y_min": 1778.0,
+        "x_max": 336.0,
+        "y_max": 1814.0
+      },
+      "confidence": 0.9841657876968384,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          255.0,
+          1778.0
+        ],
+        [
+          336.0,
+          1778.0
+        ],
+        [
+          336.0,
+          1814.0
+        ],
+        [
+          255.0,
+          1814.0
+        ]
+      ]
+    },
+    {
+      "text": "”",
+      "bbox": {
+        "x_min": 398.0,
+        "y_min": 1776.0,
+        "x_max": 420.0,
+        "y_max": 1798.0
+      },
+      "confidence": 0.5136619806289673,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          398.0,
+          1776.0
+        ],
+        [
+          420.0,
+          1776.0
+        ],
+        [
+          420.0,
+          1798.0
+        ],
+        [
+          398.0,
+          1798.0
+        ]
+      ]
+    },
+    {
+      "text": "MIGNOT,---",
+      "bbox": {
+        "x_min": 511.0,
+        "y_min": 1776.0,
+        "x_max": 714.0,
+        "y_max": 1810.0
+      },
+      "confidence": 0.9636143445968628,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          511.0,
+          1776.0
+        ],
+        [
+          714.0,
+          1776.0
+        ],
+        [
+          714.0,
+          1810.0
+        ],
+        [
+          511.0,
+          1810.0
+        ]
+      ]
+    },
+    {
+      "text": "305",
+      "bbox": {
+        "x_min": 1438.0,
+        "y_min": 1790.0,
+        "x_max": 1507.0,
+        "y_max": 1826.0
+      },
+      "confidence": 0.75689297914505,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1438.0,
+          1790.0
+        ],
+        [
+          1507.0,
+          1790.0
+        ],
+        [
+          1507.0,
+          1826.0
+        ],
+        [
+          1438.0,
+          1826.0
+        ]
+      ]
+    },
+    {
+      "text": "406",
+      "bbox": {
+        "x_min": 1443.0,
+        "y_min": 1824.0,
+        "x_max": 1507.0,
+        "y_max": 1860.0
+      },
+      "confidence": 0.9796518683433533,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1443.0,
+          1824.0
+        ],
+        [
+          1507.0,
+          1824.0
+        ],
+        [
+          1507.0,
+          1860.0
+        ],
+        [
+          1443.0,
+          1860.0
+        ]
+      ]
+    },
+    {
+      "text": "da ROBERT GAGNON I",
+      "bbox": {
+        "x_min": 748.0,
+        "y_min": 1829.0,
+        "x_max": 1129.0,
+        "y_max": 1877.0
+      },
+      "confidence": 0.9064118266105652,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          748.0,
+          1836.0
+        ],
+        [
+          1129.0,
+          1829.0
+        ],
+        [
+          1129.0,
+          1869.0
+        ],
+        [
+          749.0,
+          1877.0
+        ]
+      ]
+    },
+    {
+      "text": "XVI.",
+      "bbox": {
+        "x_min": 258.0,
+        "y_min": 1848.0,
+        "x_max": 334.0,
+        "y_max": 1884.0
+      },
+      "confidence": 0.9860901832580566,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          258.0,
+          1848.0
+        ],
+        [
+          334.0,
+          1848.0
+        ],
+        [
+          334.0,
+          1884.0
+        ],
+        [
+          258.0,
+          1884.0
+        ]
+      ]
+    },
+    {
+      "text": "”",
+      "bbox": {
+        "x_min": 417.0,
+        "y_min": 1848.0,
+        "x_max": 439.0,
+        "y_max": 1870.0
+      },
+      "confidence": 0.5956776738166809,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          417.0,
+          1848.0
+        ],
+        [
+          439.0,
+          1848.0
+        ],
+        [
+          439.0,
+          1870.0
+        ],
+        [
+          417.0,
+          1870.0
+        ]
+      ]
+    },
+    {
+      "text": "518",
+      "bbox": {
+        "x_min": 1438.0,
+        "y_min": 1858.0,
+        "x_max": 1507.0,
+        "y_max": 1894.0
+      },
+      "confidence": 0.7912313342094421,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1438.0,
+          1858.0
+        ],
+        [
+          1507.0,
+          1858.0
+        ],
+        [
+          1507.0,
+          1894.0
+        ],
+        [
+          1438.0,
+          1894.0
+        ]
+      ]
+    },
+    {
+      "text": "XVII.LES GAGNON CELEBRE LE Se CENENAIRT,",
+      "bbox": {
+        "x_min": 233.0,
+        "y_min": 1867.0,
+        "x_max": 1078.0,
+        "y_max": 1920.0
+      },
+      "confidence": 0.9146970510482788,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          233.0,
+          1879.0
+        ],
+        [
+          1077.0,
+          1867.0
+        ],
+        [
+          1078.0,
+          1908.0
+        ],
+        [
+          234.0,
+          1920.0
+        ]
+      ]
+    },
+    {
+      "text": "5.20",
+      "bbox": {
+        "x_min": 1438.0,
+        "y_min": 1894.0,
+        "x_max": 1507.0,
+        "y_max": 1930.0
+      },
+      "confidence": 0.9624099731445312,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1438.0,
+          1894.0
+        ],
+        [
+          1507.0,
+          1894.0
+        ],
+        [
+          1507.0,
+          1930.0
+        ],
+        [
+          1438.0,
+          1930.0
+        ]
+      ]
+    },
+    {
+      "text": "XVIII.STATISTIUES VITALES,",
+      "bbox": {
+        "x_min": 216.0,
+        "y_min": 1908.0,
+        "x_max": 759.0,
+        "y_max": 1956.0
+      },
+      "confidence": 0.965584397315979,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          216.0,
+          1915.0
+        ],
+        [
+          758.0,
+          1908.0
+        ],
+        [
+          759.0,
+          1949.0
+        ],
+        [
+          216.0,
+          1956.0
+        ]
+      ]
+    },
+    {
+      "text": "522",
+      "bbox": {
+        "x_min": 1441.0,
+        "y_min": 1927.0,
+        "x_max": 1510.0,
+        "y_max": 1963.0
+      },
+      "confidence": 0.880719006061554,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1441.0,
+          1927.0
+        ],
+        [
+          1510.0,
+          1927.0
+        ],
+        [
+          1510.0,
+          1963.0
+        ],
+        [
+          1441.0,
+          1963.0
+        ]
+      ]
+    },
+    {
+      "text": "XIX.LUCIEN GAGNON \"IES ADIEUX DU SOLDAT\",-",
+      "bbox": {
+        "x_min": 255.0,
+        "y_min": 1934.0,
+        "x_max": 1095.0,
+        "y_max": 1990.0
+      },
+      "confidence": 0.9235801696777344,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          255.0,
+          1949.0
+        ],
+        [
+          1094.0,
+          1934.0
+        ],
+        [
+          1095.0,
+          1975.0
+        ],
+        [
+          256.0,
+          1990.0
+        ]
+      ]
+    },
+    {
+      "text": "523",
+      "bbox": {
+        "x_min": 1441.0,
+        "y_min": 1961.0,
+        "x_max": 1507.0,
+        "y_max": 1997.0
+      },
+      "confidence": 0.964972198009491,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1441.0,
+          1961.0
+        ],
+        [
+          1507.0,
+          1961.0
+        ],
+        [
+          1507.0,
+          1997.0
+        ],
+        [
+          1441.0,
+          1997.0
+        ]
+      ]
+    },
+    {
+      "text": "XX.APergu ETYMOLOGIUE ET HISTORIUE SUR LES NOMS,",
+      "bbox": {
+        "x_min": 275.0,
+        "y_min": 1963.0,
+        "x_max": 1272.0,
+        "y_max": 2023.0
+      },
+      "confidence": 0.9196069836616516,
+      "page": 1,
+      "image_name": "IMG_086.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          275.0,
+          1983.0
+        ],
+        [
+          1271.0,
+          1963.0
+        ],
+        [
+          1272.0,
+          2004.0
+        ],
+        [
+          275.0,
+          2023.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 14.288648826999975,
+  "error": null
+}

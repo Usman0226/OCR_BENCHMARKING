@@ -1,0 +1,164 @@
+{
+  "image_name": "IMG_075.jpg",
+  "image_path": "images/IMG_075.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "Murbiy",
+      "bbox": {
+        "x_min": 610.0,
+        "y_min": 31.0,
+        "x_max": 793.0,
+        "y_max": 73.0
+      },
+      "confidence": 0.7466955780982971,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          610.0,
+          31.0
+        ],
+        [
+          793.0,
+          31.0
+        ],
+        [
+          793.0,
+          73.0
+        ],
+        [
+          610.0,
+          73.0
+        ]
+      ]
+    },
+    {
+      "text": "hlary.lxx",
+      "bbox": {
+        "x_min": 785.0,
+        "y_min": 31.0,
+        "x_max": 993.0,
+        "y_max": 68.0
+      },
+      "confidence": 0.7387978434562683,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          785.0,
+          31.0
+        ],
+        [
+          993.0,
+          31.0
+        ],
+        [
+          993.0,
+          68.0
+        ],
+        [
+          785.0,
+          68.0
+        ]
+      ]
+    },
+    {
+      "text": "nnaa",
+      "bbox": {
+        "x_min": 803.0,
+        "y_min": 158.0,
+        "x_max": 950.0,
+        "y_max": 181.0
+      },
+      "confidence": 0.6628870368003845,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          803.0,
+          158.0
+        ],
+        [
+          950.0,
+          158.0
+        ],
+        [
+          950.0,
+          181.0
+        ],
+        [
+          803.0,
+          181.0
+        ]
+      ]
+    },
+    {
+      "text": "Creroet",
+      "bbox": {
+        "x_min": 570.0,
+        "y_min": 221.0,
+        "x_max": 762.0,
+        "y_max": 275.0
+      },
+      "confidence": 0.6794762015342712,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          570.0,
+          221.0
+        ],
+        [
+          762.0,
+          221.0
+        ],
+        [
+          762.0,
+          275.0
+        ],
+        [
+          570.0,
+          275.0
+        ]
+      ]
+    },
+    {
+      "text": "marguerit",
+      "bbox": {
+        "x_min": 795.0,
+        "y_min": 223.0,
+        "x_max": 993.0,
+        "y_max": 281.0
+      },
+      "confidence": 0.8440573811531067,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          799.0,
+          223.0
+        ],
+        [
+          993.0,
+          240.0
+        ],
+        [
+          989.0,
+          281.0
+        ],
+        [
+          795.0,
+          265.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 0.6821020810000391,
+  "error": null
+}

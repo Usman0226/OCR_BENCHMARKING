@@ -1,0 +1,163 @@
+{
+  "image_name": "IMG_075.jpg",
+  "image_path": "images/IMG_075.jpg",
+  "engine": "tesseract",
+  "words": [
+    {
+      "text": ")",
+      "bbox": {
+        "x_min": 812.0,
+        "y_min": 26.0,
+        "x_max": 828.0,
+        "y_max": 43.0
+      },
+      "confidence": 0.7,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "à",
+      "bbox": {
+        "x_min": 923.0,
+        "y_min": 39.0,
+        "x_max": 926.0,
+        "y_max": 41.0
+      },
+      "confidence": 0.0,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Lu",
+      "bbox": {
+        "x_min": 725.0,
+        "y_min": 49.0,
+        "x_max": 768.0,
+        "y_max": 64.0
+      },
+      "confidence": 0.49,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Party",
+      "bbox": {
+        "x_min": 801.0,
+        "y_min": 28.0,
+        "x_max": 894.0,
+        "y_max": 74.0
+      },
+      "confidence": 0.21,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "lun",
+      "bbox": {
+        "x_min": 916.0,
+        "y_min": 43.0,
+        "x_max": 1016.0,
+        "y_max": 46.0
+      },
+      "confidence": 0.53,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "SMATVYH",
+      "bbox": {
+        "x_min": 752.0,
+        "y_min": 164.0,
+        "x_max": 910.0,
+        "y_max": 181.0
+      },
+      "confidence": 0.07,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "At",
+      "bbox": {
+        "x_min": 921.0,
+        "y_min": 166.0,
+        "x_max": 936.0,
+        "y_max": 178.0
+      },
+      "confidence": 0.28,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": ":",
+      "bbox": {
+        "x_min": 667.0,
+        "y_min": 226.0,
+        "x_max": 669.0,
+        "y_max": 229.0
+      },
+      "confidence": 0.41,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1)?",
+      "bbox": {
+        "x_min": 810.0,
+        "y_min": 234.0,
+        "x_max": 841.0,
+        "y_max": 250.0
+      },
+      "confidence": 0.52,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ere",
+      "bbox": {
+        "x_min": 618.0,
+        "y_min": 242.0,
+        "x_max": 754.0,
+        "y_max": 268.0
+      },
+      "confidence": 0.0,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "“hatguertt",
+      "bbox": {
+        "x_min": 793.0,
+        "y_min": 240.0,
+        "x_max": 1003.0,
+        "y_max": 269.0
+      },
+      "confidence": 0.18,
+      "page": 1,
+      "image_name": "IMG_075.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    }
+  ],
+  "processing_time_s": 0.3108529539999836,
+  "error": null
+}

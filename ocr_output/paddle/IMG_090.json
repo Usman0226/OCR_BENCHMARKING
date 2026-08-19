@@ -1,0 +1,164 @@
+{
+  "image_name": "IMG_090.jpg",
+  "image_path": "images/IMG_090.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "Coté,Pierre",
+      "bbox": {
+        "x_min": 89.0,
+        "y_min": 305.0,
+        "x_max": 345.0,
+        "y_max": 346.0
+      },
+      "confidence": 0.9739043712615967,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          89.0,
+          305.0
+        ],
+        [
+          345.0,
+          305.0
+        ],
+        [
+          345.0,
+          346.0
+        ],
+        [
+          89.0,
+          346.0
+        ]
+      ]
+    },
+    {
+      "text": "Naissance : 8 mai 1733 Rimouski, Québec, Canada",
+      "bbox": {
+        "x_min": 84.0,
+        "y_min": 360.0,
+        "x_max": 1117.0,
+        "y_max": 404.0
+      },
+      "confidence": 0.9903689622879028,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          84.0,
+          360.0
+        ],
+        [
+          1117.0,
+          362.0
+        ],
+        [
+          1117.0,
+          404.0
+        ],
+        [
+          84.0,
+          402.0
+        ]
+      ]
+    },
+    {
+      "text": "Déces :",
+      "bbox": {
+        "x_min": 86.0,
+        "y_min": 417.0,
+        "x_max": 239.0,
+        "y_max": 459.0
+      },
+      "confidence": 0.9244276881217957,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          87.0,
+          417.0
+        ],
+        [
+          239.0,
+          421.0
+        ],
+        [
+          238.0,
+          459.0
+        ],
+        [
+          86.0,
+          455.0
+        ]
+      ]
+    },
+    {
+      "text": "Pere : Coté, Jean Baptiste",
+      "bbox": {
+        "x_min": 86.0,
+        "y_min": 473.0,
+        "x_max": 598.0,
+        "y_max": 518.0
+      },
+      "confidence": 0.9602148532867432,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          86.0,
+          473.0
+        ],
+        [
+          598.0,
+          476.0
+        ],
+        [
+          598.0,
+          518.0
+        ],
+        [
+          86.0,
+          514.0
+        ]
+      ]
+    },
+    {
+      "text": "Mere : Jeandeparis, Genevieve Bernier",
+      "bbox": {
+        "x_min": 91.0,
+        "y_min": 534.0,
+        "x_max": 866.0,
+        "y_max": 575.0
+      },
+      "confidence": 0.9944203495979309,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          91.0,
+          534.0
+        ],
+        [
+          866.0,
+          534.0
+        ],
+        [
+          866.0,
+          575.0
+        ],
+        [
+          91.0,
+          575.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 0.8479111890000013,
+  "error": null
+}

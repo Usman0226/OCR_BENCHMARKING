@@ -1,0 +1,2095 @@
+{
+  "image_name": "IMG_059.jpg",
+  "image_path": "images/IMG_059.jpg",
+  "engine": "tesseract",
+  "words": [
+    {
+      "text": "09/08/2019",
+      "bbox": {
+        "x_min": 74.0,
+        "y_min": 45.0,
+        "x_max": 183.0,
+        "y_max": 61.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "https://services.",
+      "bbox": {
+        "x_min": 585.0,
+        "y_min": 41.0,
+        "x_max": 732.0,
+        "y_max": 69.0
+      },
+      "confidence": 0.52,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "etatcivil.gouv.qc.ca/Publications/PublicationsMariage.aspx",
+      "bbox": {
+        "x_min": 735.0,
+        "y_min": 45.0,
+        "x_max": 1309.0,
+        "y_max": 65.0
+      },
+      "confidence": 0.52,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Directeur",
+      "bbox": {
+        "x_min": 124.0,
+        "y_min": 140.0,
+        "x_max": 240.0,
+        "y_max": 156.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 124.0,
+        "y_min": 164.0,
+        "x_max": 154.0,
+        "y_max": 180.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "l'état",
+      "bbox": {
+        "x_min": 162.0,
+        "y_min": 164.0,
+        "x_max": 228.0,
+        "y_max": 180.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "civil",
+      "bbox": {
+        "x_min": 236.0,
+        "y_min": 164.0,
+        "x_max": 284.0,
+        "y_max": 181.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Québec",
+      "bbox": {
+        "x_min": 194.0,
+        "y_min": 190.0,
+        "x_max": 387.0,
+        "y_max": 242.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ra",
+      "bbox": {
+        "x_min": 401.0,
+        "y_min": 184.0,
+        "x_max": 435.0,
+        "y_max": 234.0
+      },
+      "confidence": 0.46,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ra",
+      "bbox": {
+        "x_min": 445.0,
+        "y_min": 184.0,
+        "x_max": 479.0,
+        "y_max": 234.0
+      },
+      "confidence": 0.47,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Ministère",
+      "bbox": {
+        "x_min": 515.0,
+        "y_min": 243.0,
+        "x_max": 623.0,
+        "y_max": 260.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "du",
+      "bbox": {
+        "x_min": 633.0,
+        "y_min": 243.0,
+        "x_max": 660.0,
+        "y_max": 260.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Travail,",
+      "bbox": {
+        "x_min": 669.0,
+        "y_min": 243.0,
+        "x_max": 757.0,
+        "y_max": 264.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 767.0,
+        "y_min": 243.0,
+        "x_max": 794.0,
+        "y_max": 260.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "l'Emploi",
+      "bbox": {
+        "x_min": 804.0,
+        "y_min": 243.0,
+        "x_max": 897.0,
+        "y_max": 264.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "et",
+      "bbox": {
+        "x_min": 907.0,
+        "y_min": 245.0,
+        "x_max": 930.0,
+        "y_max": 260.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 938.0,
+        "y_min": 243.0,
+        "x_max": 965.0,
+        "y_max": 260.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "la",
+      "bbox": {
+        "x_min": 975.0,
+        "y_min": 243.0,
+        "x_max": 993.0,
+        "y_max": 260.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Solidarité",
+      "bbox": {
+        "x_min": 1003.0,
+        "y_min": 243.0,
+        "x_max": 1117.0,
+        "y_max": 260.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "sociale",
+      "bbox": {
+        "x_min": 1125.0,
+        "y_min": 243.0,
+        "x_max": 1207.0,
+        "y_max": 260.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Publication",
+      "bbox": {
+        "x_min": 93.0,
+        "y_min": 367.0,
+        "x_max": 273.0,
+        "y_max": 390.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "des",
+      "bbox": {
+        "x_min": 286.0,
+        "y_min": 367.0,
+        "x_max": 341.0,
+        "y_max": 390.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "avis",
+      "bbox": {
+        "x_min": 353.0,
+        "y_min": 367.0,
+        "x_max": 417.0,
+        "y_max": 390.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 430.0,
+        "y_min": 367.0,
+        "x_max": 467.0,
+        "y_max": 390.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "mariage",
+      "bbox": {
+        "x_min": 481.0,
+        "y_min": 367.0,
+        "x_max": 612.0,
+        "y_max": 396.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "et",
+      "bbox": {
+        "x_min": 625.0,
+        "y_min": 369.0,
+        "x_max": 655.0,
+        "y_max": 390.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "d'union",
+      "bbox": {
+        "x_min": 667.0,
+        "y_min": 367.0,
+        "x_max": 788.0,
+        "y_max": 390.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "civile",
+      "bbox": {
+        "x_min": 800.0,
+        "y_min": 367.0,
+        "x_max": 884.0,
+        "y_max": 390.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Épouse",
+      "bbox": {
+        "x_min": 192.0,
+        "y_min": 441.0,
+        "x_max": 285.0,
+        "y_max": 471.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Époux",
+      "bbox": {
+        "x_min": 554.0,
+        "y_min": 441.0,
+        "x_max": 633.0,
+        "y_max": 471.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Lieu",
+      "bbox": {
+        "x_min": 916.0,
+        "y_min": 446.0,
+        "x_max": 967.0,
+        "y_max": 466.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "du",
+      "bbox": {
+        "x_min": 978.0,
+        "y_min": 446.0,
+        "x_max": 1007.0,
+        "y_max": 466.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "mariage",
+      "bbox": {
+        "x_min": 1019.0,
+        "y_min": 446.0,
+        "x_max": 1118.0,
+        "y_max": 471.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Date",
+      "bbox": {
+        "x_min": 1279.0,
+        "y_min": 446.0,
+        "x_max": 1333.0,
+        "y_max": 466.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "du",
+      "bbox": {
+        "x_min": 1343.0,
+        "y_min": 446.0,
+        "x_max": 1373.0,
+        "y_max": 466.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "mariage",
+      "bbox": {
+        "x_min": 1384.0,
+        "y_min": 446.0,
+        "x_max": 1483.0,
+        "y_max": 471.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "BEAUDOIN,",
+      "bbox": {
+        "x_min": 192.0,
+        "y_min": 480.0,
+        "x_max": 322.0,
+        "y_max": 501.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Stéphanie",
+      "bbox": {
+        "x_min": 334.0,
+        "y_min": 477.0,
+        "x_max": 452.0,
+        "y_max": 502.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "AVDIC,",
+      "bbox": {
+        "x_min": 552.0,
+        "y_min": 480.0,
+        "x_max": 629.0,
+        "y_max": 501.0
+      },
+      "confidence": 0.86,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Esad",
+      "bbox": {
+        "x_min": 642.0,
+        "y_min": 477.0,
+        "x_max": 699.0,
+        "y_max": 497.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Montréal",
+      "bbox": {
+        "x_min": 917.0,
+        "y_min": 473.0,
+        "x_max": 1016.0,
+        "y_max": 505.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "2019-08-25",
+      "bbox": {
+        "x_min": 1278.0,
+        "y_min": 477.0,
+        "x_max": 1412.0,
+        "y_max": 497.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Prenez",
+      "bbox": {
+        "x_min": 193.0,
+        "y_min": 535.0,
+        "x_max": 279.0,
+        "y_max": 555.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "avis",
+      "bbox": {
+        "x_min": 297.0,
+        "y_min": 535.0,
+        "x_max": 348.0,
+        "y_max": 555.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "qu'un",
+      "bbox": {
+        "x_min": 365.0,
+        "y_min": 534.0,
+        "x_max": 437.0,
+        "y_max": 560.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "mariage",
+      "bbox": {
+        "x_min": 457.0,
+        "y_min": 535.0,
+        "x_max": 563.0,
+        "y_max": 560.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "sera",
+      "bbox": {
+        "x_min": 581.0,
+        "y_min": 540.0,
+        "x_max": 635.0,
+        "y_max": 555.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "célébré",
+      "bbox": {
+        "x_min": 653.0,
+        "y_min": 533.0,
+        "x_max": 749.0,
+        "y_max": 555.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "par",
+      "bbox": {
+        "x_min": 767.0,
+        "y_min": 540.0,
+        "x_max": 810.0,
+        "y_max": 560.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Éliane",
+      "bbox": {
+        "x_min": 828.0,
+        "y_min": 528.0,
+        "x_max": 905.0,
+        "y_max": 555.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Touchette-Dansereau,",
+      "bbox": {
+        "x_min": 921.0,
+        "y_min": 534.0,
+        "x_max": 1215.0,
+        "y_max": 560.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "notaire,",
+      "bbox": {
+        "x_min": 1235.0,
+        "y_min": 535.0,
+        "x_max": 1335.0,
+        "y_max": 560.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "au",
+      "bbox": {
+        "x_min": 1354.0,
+        "y_min": 540.0,
+        "x_max": 1384.0,
+        "y_max": 555.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "55,",
+      "bbox": {
+        "x_min": 1403.0,
+        "y_min": 535.0,
+        "x_max": 1443.0,
+        "y_max": 560.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ch.",
+      "bbox": {
+        "x_min": 1462.0,
+        "y_min": 534.0,
+        "x_max": 1498.0,
+        "y_max": 555.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "des",
+      "bbox": {
+        "x_min": 1518.0,
+        "y_min": 534.0,
+        "x_max": 1563.0,
+        "y_max": 555.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Floralies,",
+      "bbox": {
+        "x_min": 193.0,
+        "y_min": 566.0,
+        "x_max": 308.0,
+        "y_max": 592.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Montréal",
+      "bbox": {
+        "x_min": 333.0,
+        "y_min": 565.0,
+        "x_max": 445.0,
+        "y_max": 587.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "(Québec)",
+      "bbox": {
+        "x_min": 469.0,
+        "y_min": 565.0,
+        "x_max": 589.0,
+        "y_max": 592.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "H3C",
+      "bbox": {
+        "x_min": 635.0,
+        "y_min": 567.0,
+        "x_max": 687.0,
+        "y_max": 587.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1A9,",
+      "bbox": {
+        "x_min": 711.0,
+        "y_min": 567.0,
+        "x_max": 767.0,
+        "y_max": 592.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Canada,",
+      "bbox": {
+        "x_min": 791.0,
+        "y_min": 566.0,
+        "x_max": 897.0,
+        "y_max": 592.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "le",
+      "bbox": {
+        "x_min": 922.0,
+        "y_min": 566.0,
+        "x_max": 942.0,
+        "y_max": 587.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "25",
+      "bbox": {
+        "x_min": 965.0,
+        "y_min": 567.0,
+        "x_max": 995.0,
+        "y_max": 587.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "août",
+      "bbox": {
+        "x_min": 1018.0,
+        "y_min": 565.0,
+        "x_max": 1076.0,
+        "y_max": 587.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "2019,",
+      "bbox": {
+        "x_min": 1099.0,
+        "y_min": 567.0,
+        "x_max": 1172.0,
+        "y_max": 592.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "entre",
+      "bbox": {
+        "x_min": 1196.0,
+        "y_min": 568.0,
+        "x_max": 1264.0,
+        "y_max": 587.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Stéphanie",
+      "bbox": {
+        "x_min": 1287.0,
+        "y_min": 565.0,
+        "x_max": 1419.0,
+        "y_max": 592.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Beaudoin",
+      "bbox": {
+        "x_min": 1443.0,
+        "y_min": 566.0,
+        "x_max": 1562.0,
+        "y_max": 587.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "domiciliée",
+      "bbox": {
+        "x_min": 191.0,
+        "y_min": 597.0,
+        "x_max": 323.0,
+        "y_max": 619.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "au",
+      "bbox": {
+        "x_min": 338.0,
+        "y_min": 604.0,
+        "x_max": 368.0,
+        "y_max": 619.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "4144,",
+      "bbox": {
+        "x_min": 385.0,
+        "y_min": 599.0,
+        "x_max": 460.0,
+        "y_max": 624.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "rue",
+      "bbox": {
+        "x_min": 477.0,
+        "y_min": 604.0,
+        "x_max": 519.0,
+        "y_max": 619.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Léon-Paré,",
+      "bbox": {
+        "x_min": 536.0,
+        "y_min": 597.0,
+        "x_max": 676.0,
+        "y_max": 624.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Carignan",
+      "bbox": {
+        "x_min": 694.0,
+        "y_min": 599.0,
+        "x_max": 809.0,
+        "y_max": 624.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "(Québec)",
+      "bbox": {
+        "x_min": 827.0,
+        "y_min": 597.0,
+        "x_max": 947.0,
+        "y_max": 624.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "J3L",
+      "bbox": {
+        "x_min": 978.0,
+        "y_min": 599.0,
+        "x_max": 1021.0,
+        "y_max": 619.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "7B5,",
+      "bbox": {
+        "x_min": 1037.0,
+        "y_min": 599.0,
+        "x_max": 1095.0,
+        "y_max": 624.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Canada,",
+      "bbox": {
+        "x_min": 1113.0,
+        "y_min": 598.0,
+        "x_max": 1219.0,
+        "y_max": 624.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "née",
+      "bbox": {
+        "x_min": 1236.0,
+        "y_min": 597.0,
+        "x_max": 1282.0,
+        "y_max": 619.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "en",
+      "bbox": {
+        "x_min": 1298.0,
+        "y_min": 604.0,
+        "x_max": 1328.0,
+        "y_max": 619.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1988",
+      "bbox": {
+        "x_min": 1347.0,
+        "y_min": 599.0,
+        "x_max": 1409.0,
+        "y_max": 619.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "à",
+      "bbox": {
+        "x_min": 1426.0,
+        "y_min": 597.0,
+        "x_max": 1439.0,
+        "y_max": 619.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Val-d'Or",
+      "bbox": {
+        "x_min": 1455.0,
+        "y_min": 598.0,
+        "x_max": 1564.0,
+        "y_max": 619.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "d'une",
+      "bbox": {
+        "x_min": 191.0,
+        "y_min": 630.0,
+        "x_max": 262.0,
+        "y_max": 651.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "part",
+      "bbox": {
+        "x_min": 276.0,
+        "y_min": 632.0,
+        "x_max": 328.0,
+        "y_max": 656.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "et",
+      "bbox": {
+        "x_min": 341.0,
+        "y_min": 632.0,
+        "x_max": 365.0,
+        "y_max": 651.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Esad",
+      "bbox": {
+        "x_min": 380.0,
+        "y_min": 630.0,
+        "x_max": 439.0,
+        "y_max": 651.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Avdic",
+      "bbox": {
+        "x_min": 451.0,
+        "y_min": 630.0,
+        "x_max": 521.0,
+        "y_max": 651.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "domicilié",
+      "bbox": {
+        "x_min": 534.0,
+        "y_min": 629.0,
+        "x_max": 650.0,
+        "y_max": 651.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "au",
+      "bbox": {
+        "x_min": 663.0,
+        "y_min": 636.0,
+        "x_max": 693.0,
+        "y_max": 651.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "4144,",
+      "bbox": {
+        "x_min": 707.0,
+        "y_min": 631.0,
+        "x_max": 782.0,
+        "y_max": 656.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "rue",
+      "bbox": {
+        "x_min": 796.0,
+        "y_min": 636.0,
+        "x_max": 838.0,
+        "y_max": 651.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Léon-Paré,",
+      "bbox": {
+        "x_min": 852.0,
+        "y_min": 629.0,
+        "x_max": 992.0,
+        "y_max": 656.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Carignan",
+      "bbox": {
+        "x_min": 1007.0,
+        "y_min": 631.0,
+        "x_max": 1123.0,
+        "y_max": 656.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "(Québec)",
+      "bbox": {
+        "x_min": 1137.0,
+        "y_min": 629.0,
+        "x_max": 1258.0,
+        "y_max": 656.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "J3L",
+      "bbox": {
+        "x_min": 1283.0,
+        "y_min": 631.0,
+        "x_max": 1326.0,
+        "y_max": 651.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "7B5,",
+      "bbox": {
+        "x_min": 1338.0,
+        "y_min": 631.0,
+        "x_max": 1396.0,
+        "y_max": 656.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Canada,",
+      "bbox": {
+        "x_min": 1411.0,
+        "y_min": 630.0,
+        "x_max": 1518.0,
+        "y_max": 656.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "né",
+      "bbox": {
+        "x_min": 1532.0,
+        "y_min": 629.0,
+        "x_max": 1562.0,
+        "y_max": 651.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "en",
+      "bbox": {
+        "x_min": 191.0,
+        "y_min": 668.0,
+        "x_max": 221.0,
+        "y_max": 683.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1986",
+      "bbox": {
+        "x_min": 236.0,
+        "y_min": 663.0,
+        "x_max": 298.0,
+        "y_max": 683.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "à",
+      "bbox": {
+        "x_min": 310.0,
+        "y_min": 661.0,
+        "x_max": 323.0,
+        "y_max": 683.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Yougoslavie",
+      "bbox": {
+        "x_min": 335.0,
+        "y_min": 662.0,
+        "x_max": 490.0,
+        "y_max": 688.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "d'autre",
+      "bbox": {
+        "x_min": 502.0,
+        "y_min": 662.0,
+        "x_max": 594.0,
+        "y_max": 683.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "part.",
+      "bbox": {
+        "x_min": 607.0,
+        "y_min": 664.0,
+        "x_max": 665.0,
+        "y_max": 688.0
+      },
+      "confidence": 0.94,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Maxime",
+      "bbox": {
+        "x_min": 193.0,
+        "y_min": 715.0,
+        "x_max": 292.0,
+        "y_max": 735.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Albors,",
+      "bbox": {
+        "x_min": 309.0,
+        "y_min": 714.0,
+        "x_max": 400.0,
+        "y_max": 740.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "agissant",
+      "bbox": {
+        "x_min": 419.0,
+        "y_min": 715.0,
+        "x_max": 528.0,
+        "y_max": 740.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "comme",
+      "bbox": {
+        "x_min": 546.0,
+        "y_min": 720.0,
+        "x_max": 642.0,
+        "y_max": 735.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "témoin",
+      "bbox": {
+        "x_min": 658.0,
+        "y_min": 713.0,
+        "x_max": 749.0,
+        "y_max": 735.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "majeur,",
+      "bbox": {
+        "x_min": 768.0,
+        "y_min": 715.0,
+        "x_max": 866.0,
+        "y_max": 740.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "atteste",
+      "bbox": {
+        "x_min": 884.0,
+        "y_min": 716.0,
+        "x_max": 976.0,
+        "y_max": 735.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "avoir",
+      "bbox": {
+        "x_min": 993.0,
+        "y_min": 715.0,
+        "x_max": 1059.0,
+        "y_max": 735.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "pris",
+      "bbox": {
+        "x_min": 1076.0,
+        "y_min": 715.0,
+        "x_max": 1122.0,
+        "y_max": 740.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "connaissance",
+      "bbox": {
+        "x_min": 1140.0,
+        "y_min": 715.0,
+        "x_max": 1316.0,
+        "y_max": 735.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "des",
+      "bbox": {
+        "x_min": 1333.0,
+        "y_min": 714.0,
+        "x_max": 1378.0,
+        "y_max": 735.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "informations",
+      "bbox": {
+        "x_min": 1396.0,
+        "y_min": 714.0,
+        "x_max": 1561.0,
+        "y_max": 735.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "précitées",
+      "bbox": {
+        "x_min": 192.0,
+        "y_min": 745.0,
+        "x_max": 310.0,
+        "y_max": 772.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "et",
+      "bbox": {
+        "x_min": 321.0,
+        "y_min": 748.0,
+        "x_max": 346.0,
+        "y_max": 767.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "confirme",
+      "bbox": {
+        "x_min": 357.0,
+        "y_min": 746.0,
+        "x_max": 472.0,
+        "y_max": 767.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "que",
+      "bbox": {
+        "x_min": 484.0,
+        "y_min": 752.0,
+        "x_max": 531.0,
+        "y_max": 772.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ces",
+      "bbox": {
+        "x_min": 542.0,
+        "y_min": 752.0,
+        "x_max": 584.0,
+        "y_max": 767.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "énonciations",
+      "bbox": {
+        "x_min": 595.0,
+        "y_min": 745.0,
+        "x_max": 762.0,
+        "y_max": 767.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "sont",
+      "bbox": {
+        "x_min": 773.0,
+        "y_min": 748.0,
+        "x_max": 829.0,
+        "y_max": 767.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "exactes.",
+      "bbox": {
+        "x_min": 840.0,
+        "y_min": 748.0,
+        "x_max": 947.0,
+        "y_max": 767.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Période",
+      "bbox": {
+        "x_min": 193.0,
+        "y_min": 797.0,
+        "x_max": 288.0,
+        "y_max": 819.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 300.0,
+        "y_min": 798.0,
+        "x_max": 330.0,
+        "y_max": 819.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "publication",
+      "bbox": {
+        "x_min": 342.0,
+        "y_min": 798.0,
+        "x_max": 484.0,
+        "y_max": 824.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "du",
+      "bbox": {
+        "x_min": 496.0,
+        "y_min": 798.0,
+        "x_max": 527.0,
+        "y_max": 819.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "30",
+      "bbox": {
+        "x_min": 540.0,
+        "y_min": 799.0,
+        "x_max": 570.0,
+        "y_max": 819.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "juillet",
+      "bbox": {
+        "x_min": 581.0,
+        "y_min": 798.0,
+        "x_max": 656.0,
+        "y_max": 824.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "2019",
+      "bbox": {
+        "x_min": 668.0,
+        "y_min": 799.0,
+        "x_max": 731.0,
+        "y_max": 819.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "au",
+      "bbox": {
+        "x_min": 744.0,
+        "y_min": 804.0,
+        "x_max": 774.0,
+        "y_max": 819.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "18",
+      "bbox": {
+        "x_min": 789.0,
+        "y_min": 799.0,
+        "x_max": 817.0,
+        "y_max": 819.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "août",
+      "bbox": {
+        "x_min": 829.0,
+        "y_min": 797.0,
+        "x_max": 888.0,
+        "y_max": 819.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "2019",
+      "bbox": {
+        "x_min": 899.0,
+        "y_min": 799.0,
+        "x_max": 963.0,
+        "y_max": 819.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Version",
+      "bbox": {
+        "x_min": 753.0,
+        "y_min": 952.0,
+        "x_max": 835.0,
+        "y_max": 969.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1.0.0.0",
+      "bbox": {
+        "x_min": 849.0,
+        "y_min": 952.0,
+        "x_max": 926.0,
+        "y_max": 969.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "p",
+      "bbox": {
+        "x_min": 937.0,
+        "y_min": 956.0,
+        "x_max": 948.0,
+        "y_max": 974.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Québec",
+      "bbox": {
+        "x_min": 767.0,
+        "y_min": 1007.0,
+        "x_max": 893.0,
+        "y_max": 1041.0
+      },
+      "confidence": 0.02,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "an",
+      "bbox": {
+        "x_min": 899.0,
+        "y_min": 1007.0,
+        "x_max": 941.0,
+        "y_max": 1035.0
+      },
+      "confidence": 0.02,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "©",
+      "bbox": {
+        "x_min": 686.0,
+        "y_min": 1067.0,
+        "x_max": 702.0,
+        "y_max": 1083.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Gouvernement",
+      "bbox": {
+        "x_min": 711.0,
+        "y_min": 1067.0,
+        "x_max": 849.0,
+        "y_max": 1081.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "du",
+      "bbox": {
+        "x_min": 857.0,
+        "y_min": 1066.0,
+        "x_max": 878.0,
+        "y_max": 1081.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Québec,",
+      "bbox": {
+        "x_min": 887.0,
+        "y_min": 1066.0,
+        "x_max": 961.0,
+        "y_max": 1085.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "2017",
+      "bbox": {
+        "x_min": 972.0,
+        "y_min": 1067.0,
+        "x_max": 1015.0,
+        "y_max": 1081.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "https://services.etatcivil.gouv.qc.ca/Publications/PublicationsMariage.aspx",
+      "bbox": {
+        "x_min": 74.0,
+        "y_min": 2136.0,
+        "x_max": 798.0,
+        "y_max": 2156.0
+      },
+      "confidence": 0.71,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1/1",
+      "bbox": {
+        "x_min": 1597.0,
+        "y_min": 2136.0,
+        "x_max": 1622.0,
+        "y_max": 2152.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_059.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    }
+  ],
+  "processing_time_s": 1.3332716569999548,
+  "error": null
+}

@@ -1,0 +1,567 @@
+{
+  "image_name": "IMG_071.jpg",
+  "image_path": "images/IMG_071.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "GARNEAU,Fernand",
+      "bbox": {
+        "x_min": 93.0,
+        "y_min": 20.0,
+        "x_max": 256.0,
+        "y_max": 39.0
+      },
+      "confidence": 0.9502463936805725,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          93.0,
+          20.0
+        ],
+        [
+          256.0,
+          21.0
+        ],
+        [
+          256.0,
+          39.0
+        ],
+        [
+          93.0,
+          38.0
+        ]
+      ]
+    },
+    {
+      "text": "AMontréal,le 1mars 1999,a",
+      "bbox": {
+        "x_min": 50.0,
+        "y_min": 36.0,
+        "x_max": 318.0,
+        "y_max": 60.0
+      },
+      "confidence": 0.8766216039657593,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          50.0,
+          36.0
+        ],
+        [
+          318.0,
+          38.0
+        ],
+        [
+          318.0,
+          60.0
+        ],
+        [
+          50.0,
+          58.0
+        ]
+      ]
+    },
+    {
+      "text": "age de 66ans,est decedeM.Fenand",
+      "bbox": {
+        "x_min": 29.0,
+        "y_min": 54.0,
+        "x_max": 319.0,
+        "y_max": 78.0
+      },
+      "confidence": 0.8954718112945557,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          29.0,
+          54.0
+        ],
+        [
+          319.0,
+          54.0
+        ],
+        [
+          319.0,
+          78.0
+        ],
+        [
+          29.0,
+          78.0
+        ]
+      ]
+    },
+    {
+      "text": "Garneau,epoux de Rejeanne Desga-",
+      "bbox": {
+        "x_min": 30.0,
+        "y_min": 69.0,
+        "x_max": 318.0,
+        "y_max": 92.0
+      },
+      "confidence": 0.9496323466300964,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          30.0,
+          69.0
+        ],
+        [
+          318.0,
+          71.0
+        ],
+        [
+          318.0,
+          92.0
+        ],
+        [
+          30.0,
+          91.0
+        ]
+      ]
+    },
+    {
+      "text": "gne,Outre son epouse,illaisse dansle",
+      "bbox": {
+        "x_min": 29.0,
+        "y_min": 85.0,
+        "x_max": 320.0,
+        "y_max": 108.0
+      },
+      "confidence": 0.9232762455940247,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          29.0,
+          87.0
+        ],
+        [
+          320.0,
+          85.0
+        ],
+        [
+          320.0,
+          106.0
+        ],
+        [
+          29.0,
+          108.0
+        ]
+      ]
+    },
+    {
+      "text": "deuil ses quatre enfants,Danielle,Loui-",
+      "bbox": {
+        "x_min": 30.0,
+        "y_min": 103.0,
+        "x_max": 317.0,
+        "y_max": 121.0
+      },
+      "confidence": 0.9167789816856384,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          30.0,
+          104.0
+        ],
+        [
+          317.0,
+          103.0
+        ],
+        [
+          317.0,
+          120.0
+        ],
+        [
+          30.0,
+          121.0
+        ]
+      ]
+    },
+    {
+      "text": "se,Diane,Francois,et ses sept petits-",
+      "bbox": {
+        "x_min": 29.0,
+        "y_min": 118.0,
+        "x_max": 317.0,
+        "y_max": 139.0
+      },
+      "confidence": 0.8889508843421936,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          29.0,
+          118.0
+        ],
+        [
+          317.0,
+          118.0
+        ],
+        [
+          317.0,
+          139.0
+        ],
+        [
+          29.0,
+          139.0
+        ]
+      ]
+    },
+    {
+      "text": "enfants ainsique sestroisfreresetqua",
+      "bbox": {
+        "x_min": 30.0,
+        "y_min": 133.0,
+        "x_max": 315.0,
+        "y_max": 155.0
+      },
+      "confidence": 0.9434300661087036,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          30.0,
+          135.0
+        ],
+        [
+          315.0,
+          133.0
+        ],
+        [
+          315.0,
+          152.0
+        ],
+        [
+          30.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "text": "tre soeurs,parents et amis.Expose le",
+      "bbox": {
+        "x_min": 29.0,
+        "y_min": 149.0,
+        "x_max": 319.0,
+        "y_max": 169.0
+      },
+      "confidence": 0.9128386974334717,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          29.0,
+          151.0
+        ],
+        [
+          319.0,
+          149.0
+        ],
+        [
+          319.0,
+          167.0
+        ],
+        [
+          29.0,
+          169.0
+        ]
+      ]
+    },
+    {
+      "text": "mercredi3mars,de14a17heureset",
+      "bbox": {
+        "x_min": 30.0,
+        "y_min": 164.0,
+        "x_max": 321.0,
+        "y_max": 185.0
+      },
+      "confidence": 0.9606890678405762,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          30.0,
+          164.0
+        ],
+        [
+          321.0,
+          164.0
+        ],
+        [
+          321.0,
+          185.0
+        ],
+        [
+          30.0,
+          185.0
+        ]
+      ]
+    },
+    {
+      "text": "de19a22heures,au salon funeraire:",
+      "bbox": {
+        "x_min": 30.0,
+        "y_min": 178.0,
+        "x_max": 313.0,
+        "y_max": 201.0
+      },
+      "confidence": 0.9025501608848572,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          30.0,
+          178.0
+        ],
+        [
+          313.0,
+          180.0
+        ],
+        [
+          313.0,
+          201.0
+        ],
+        [
+          30.0,
+          200.0
+        ]
+      ]
+    },
+    {
+      "text": "GREGOIRE&FILS",
+      "bbox": {
+        "x_min": 122.0,
+        "y_min": 199.0,
+        "x_max": 230.0,
+        "y_max": 214.0
+      },
+      "confidence": 0.9779633283615112,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          122.0,
+          199.0
+        ],
+        [
+          230.0,
+          199.0
+        ],
+        [
+          230.0,
+          214.0
+        ],
+        [
+          122.0,
+          214.0
+        ]
+      ]
+    },
+    {
+      "text": "14RUEJONCAS",
+      "bbox": {
+        "x_min": 127.0,
+        "y_min": 214.0,
+        "x_max": 225.0,
+        "y_max": 228.0
+      },
+      "confidence": 0.9429202675819397,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          127.0,
+          214.0
+        ],
+        [
+          225.0,
+          214.0
+        ],
+        [
+          225.0,
+          228.0
+        ],
+        [
+          127.0,
+          228.0
+        ]
+      ]
+    },
+    {
+      "text": "KINGSEYFALLS",
+      "bbox": {
+        "x_min": 129.0,
+        "y_min": 228.0,
+        "x_max": 222.0,
+        "y_max": 243.0
+      },
+      "confidence": 0.990830659866333,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          129.0,
+          228.0
+        ],
+        [
+          222.0,
+          228.0
+        ],
+        [
+          222.0,
+          243.0
+        ],
+        [
+          129.0,
+          243.0
+        ]
+      ]
+    },
+    {
+      "text": "Les funerailles auront lieu le jeudi4",
+      "bbox": {
+        "x_min": 51.0,
+        "y_min": 243.0,
+        "x_max": 318.0,
+        "y_max": 264.0
+      },
+      "confidence": 0.9223793745040894,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          51.0,
+          243.0
+        ],
+        [
+          318.0,
+          243.0
+        ],
+        [
+          318.0,
+          264.0
+        ],
+        [
+          51.0,
+          264.0
+        ]
+      ]
+    },
+    {
+      "text": "mars,a14heures,en′egliseparoissia",
+      "bbox": {
+        "x_min": 30.0,
+        "y_min": 259.0,
+        "x_max": 317.0,
+        "y_max": 280.0
+      },
+      "confidence": 0.8913336396217346,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          30.0,
+          259.0
+        ],
+        [
+          317.0,
+          259.0
+        ],
+        [
+          317.0,
+          280.0
+        ],
+        [
+          30.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "text": "leSt-Aime.",
+      "bbox": {
+        "x_min": 31.0,
+        "y_min": 274.0,
+        "x_max": 111.0,
+        "y_max": 294.0
+      },
+      "confidence": 0.9160560369491577,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          31.0,
+          274.0
+        ],
+        [
+          111.0,
+          276.0
+        ],
+        [
+          110.0,
+          294.0
+        ],
+        [
+          31.0,
+          291.0
+        ]
+      ]
+    },
+    {
+      "text": "Cartes",
+      "bbox": {
+        "x_min": 136.0,
+        "y_min": 295.0,
+        "x_max": 209.0,
+        "y_max": 317.0
+      },
+      "confidence": 0.9936508536338806,
+      "page": 1,
+      "image_name": "IMG_071.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          136.0,
+          295.0
+        ],
+        [
+          209.0,
+          295.0
+        ],
+        [
+          209.0,
+          317.0
+        ],
+        [
+          136.0,
+          317.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 2.70972240399999,
+  "error": null
+}

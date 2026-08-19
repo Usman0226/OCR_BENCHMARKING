@@ -1,0 +1,877 @@
+{
+  "image_name": "IMG_067.jpg",
+  "image_path": "images/IMG_067.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "https://services.etatcivil.gouv.qc.ca/Publications/PublicationsMariage.aspx",
+      "bbox": {
+        "x_min": 1299.0,
+        "y_min": 3.0,
+        "x_max": 2547.0,
+        "y_max": 55.0
+      },
+      "confidence": 0.9936857223510742,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1299.0,
+          3.0
+        ],
+        [
+          2547.0,
+          7.0
+        ],
+        [
+          2546.0,
+          55.0
+        ],
+        [
+          1299.0,
+          52.0
+        ]
+      ]
+    },
+    {
+      "text": "Directeur",
+      "bbox": {
+        "x_min": 215.0,
+        "y_min": 234.0,
+        "x_max": 395.0,
+        "y_max": 272.0
+      },
+      "confidence": 0.9946365356445312,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          215.0,
+          234.0
+        ],
+        [
+          395.0,
+          234.0
+        ],
+        [
+          395.0,
+          272.0
+        ],
+        [
+          215.0,
+          272.0
+        ]
+      ]
+    },
+    {
+      "text": "de I'etat civil",
+      "bbox": {
+        "x_min": 207.0,
+        "y_min": 257.0,
+        "x_max": 461.0,
+        "y_max": 313.0
+      },
+      "confidence": 0.9483572244644165,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          207.0,
+          265.0
+        ],
+        [
+          460.0,
+          257.0
+        ],
+        [
+          461.0,
+          305.0
+        ],
+        [
+          209.0,
+          313.0
+        ]
+      ]
+    },
+    {
+      "text": "Quebec",
+      "bbox": {
+        "x_min": 314.0,
+        "y_min": 302.0,
+        "x_max": 746.0,
+        "y_max": 393.0
+      },
+      "confidence": 0.9344062209129333,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          318.0,
+          302.0
+        ],
+        [
+          746.0,
+          321.0
+        ],
+        [
+          743.0,
+          393.0
+        ],
+        [
+          314.0,
+          374.0
+        ]
+      ]
+    },
+    {
+      "text": "中国",
+      "bbox": {
+        "x_min": 620.0,
+        "y_min": 299.0,
+        "x_max": 735.0,
+        "y_max": 337.0
+      },
+      "confidence": 0.7287864685058594,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          620.0,
+          299.0
+        ],
+        [
+          735.0,
+          299.0
+        ],
+        [
+          735.0,
+          337.0
+        ],
+        [
+          620.0,
+          337.0
+        ]
+      ]
+    },
+    {
+      "text": "Ministere du Travail, de I'Emploi et de la Solidarité sociale",
+      "bbox": {
+        "x_min": 780.0,
+        "y_min": 382.0,
+        "x_max": 1798.0,
+        "y_max": 426.0
+      },
+      "confidence": 0.9832044839859009,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          780.0,
+          382.0
+        ],
+        [
+          1798.0,
+          382.0
+        ],
+        [
+          1798.0,
+          426.0
+        ],
+        [
+          780.0,
+          426.0
+        ]
+      ]
+    },
+    {
+      "text": "Publication des avis de mariage et d'union civile",
+      "bbox": {
+        "x_min": 166.0,
+        "y_min": 560.0,
+        "x_max": 1327.0,
+        "y_max": 605.0
+      },
+      "confidence": 0.9883107542991638,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          166.0,
+          560.0
+        ],
+        [
+          1327.0,
+          560.0
+        ],
+        [
+          1327.0,
+          605.0
+        ],
+        [
+          166.0,
+          605.0
+        ]
+      ]
+    },
+    {
+      "text": "Epoux",
+      "bbox": {
+        "x_min": 307.0,
+        "y_min": 666.0,
+        "x_max": 445.0,
+        "y_max": 726.0
+      },
+      "confidence": 0.9941118359565735,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          311.0,
+          666.0
+        ],
+        [
+          445.0,
+          675.0
+        ],
+        [
+          441.0,
+          726.0
+        ],
+        [
+          307.0,
+          717.0
+        ]
+      ]
+    },
+    {
+      "text": "Epouse",
+      "bbox": {
+        "x_min": 834.0,
+        "y_min": 666.0,
+        "x_max": 988.0,
+        "y_max": 726.0
+      },
+      "confidence": 0.9994423389434814,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          837.0,
+          666.0
+        ],
+        [
+          988.0,
+          675.0
+        ],
+        [
+          985.0,
+          726.0
+        ],
+        [
+          834.0,
+          718.0
+        ]
+      ]
+    },
+    {
+      "text": "Lieu du mariage",
+      "bbox": {
+        "x_min": 1354.0,
+        "y_min": 663.0,
+        "x_max": 1688.0,
+        "y_max": 733.0
+      },
+      "confidence": 0.9893338084220886,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1356.0,
+          663.0
+        ],
+        [
+          1688.0,
+          674.0
+        ],
+        [
+          1686.0,
+          733.0
+        ],
+        [
+          1354.0,
+          721.0
+        ]
+      ]
+    },
+    {
+      "text": " Date du mariage",
+      "bbox": {
+        "x_min": 1881.0,
+        "y_min": 663.0,
+        "x_max": 2225.0,
+        "y_max": 733.0
+      },
+      "confidence": 0.968084454536438,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1883.0,
+          663.0
+        ],
+        [
+          2225.0,
+          674.0
+        ],
+        [
+          2223.0,
+          733.0
+        ],
+        [
+          1881.0,
+          721.0
+        ]
+      ]
+    },
+    {
+      "text": "RoUSSEAU, Karl",
+      "bbox": {
+        "x_min": 305.0,
+        "y_min": 725.0,
+        "x_max": 606.0,
+        "y_max": 773.0
+      },
+      "confidence": 0.8760606050491333,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          305.0,
+          725.0
+        ],
+        [
+          606.0,
+          725.0
+        ],
+        [
+          606.0,
+          773.0
+        ],
+        [
+          305.0,
+          773.0
+        ]
+      ]
+    },
+    {
+      "text": "BEKHITI, Madina",
+      "bbox": {
+        "x_min": 832.0,
+        "y_min": 725.0,
+        "x_max": 1143.0,
+        "y_max": 773.0
+      },
+      "confidence": 0.9807184338569641,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          832.0,
+          725.0
+        ],
+        [
+          1143.0,
+          725.0
+        ],
+        [
+          1143.0,
+          773.0
+        ],
+        [
+          832.0,
+          773.0
+        ]
+      ]
+    },
+    {
+      "text": "Laval",
+      "bbox": {
+        "x_min": 1358.0,
+        "y_min": 725.0,
+        "x_max": 1462.0,
+        "y_max": 773.0
+      },
+      "confidence": 0.9992162585258484,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1358.0,
+          725.0
+        ],
+        [
+          1462.0,
+          725.0
+        ],
+        [
+          1462.0,
+          773.0
+        ],
+        [
+          1358.0,
+          773.0
+        ]
+      ]
+    },
+    {
+      "text": "2020-01-07",
+      "bbox": {
+        "x_min": 1892.0,
+        "y_min": 729.0,
+        "x_max": 2093.0,
+        "y_max": 767.0
+      },
+      "confidence": 0.9998246431350708,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1892.0,
+          729.0
+        ],
+        [
+          2093.0,
+          729.0
+        ],
+        [
+          2093.0,
+          767.0
+        ],
+        [
+          1892.0,
+          767.0
+        ]
+      ]
+    },
+    {
+      "text": "Prenez avis qu'un mariage sera célébré par Ahmed Mouci, ministre du culte, au 3871, Autoroute des",
+      "bbox": {
+        "x_min": 308.0,
+        "y_min": 808.0,
+        "x_max": 2307.0,
+        "y_max": 852.0
+      },
+      "confidence": 0.9797653555870056,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          308.0,
+          808.0
+        ],
+        [
+          2307.0,
+          808.0
+        ],
+        [
+          2307.0,
+          852.0
+        ],
+        [
+          308.0,
+          852.0
+        ]
+      ]
+    },
+    {
+      "text": "Laurentides, 15, Laval (Québec) H7L 3H7, Canada, le 7 janvier 2020, entre Karl Rousseau domicilié",
+      "bbox": {
+        "x_min": 305.0,
+        "y_min": 849.0,
+        "x_max": 2318.0,
+        "y_max": 901.0
+      },
+      "confidence": 0.9824095368385315,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          305.0,
+          853.0
+        ],
+        [
+          2318.0,
+          849.0
+        ],
+        [
+          2318.0,
+          897.0
+        ],
+        [
+          305.0,
+          901.0
+        ]
+      ]
+    },
+    {
+      "text": "au 12307, boul Lacordaire, app. 6, Montréal-Nord (Québec)  H1G 4L5, Canada, né en 1979 a",
+      "bbox": {
+        "x_min": 305.0,
+        "y_min": 897.0,
+        "x_max": 2321.0,
+        "y_max": 956.0
+      },
+      "confidence": 0.9770744442939758,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          305.0,
+          897.0
+        ],
+        [
+          2321.0,
+          897.0
+        ],
+        [
+          2321.0,
+          956.0
+        ],
+        [
+          305.0,
+          956.0
+        ]
+      ]
+    },
+    {
+      "text": "Sherbrooke d'une part et Madina Bekhiti domiciliée au 7065, rue Deslierres, Saint-Léonard",
+      "bbox": {
+        "x_min": 312.0,
+        "y_min": 949.0,
+        "x_max": 2318.0,
+        "y_max": 997.0
+      },
+      "confidence": 0.9764312505722046,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          312.0,
+          949.0
+        ],
+        [
+          2318.0,
+          949.0
+        ],
+        [
+          2318.0,
+          997.0
+        ],
+        [
+          312.0,
+          997.0
+        ]
+      ]
+    },
+    {
+      "text": "(Québec) H1S 2B8, Canada, née en 1976 a Bologhine, Alger, Algérie d'autre part.",
+      "bbox": {
+        "x_min": 312.0,
+        "y_min": 993.0,
+        "x_max": 1919.0,
+        "y_max": 1042.0
+      },
+      "confidence": 0.9705743193626404,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          312.0,
+          993.0
+        ],
+        [
+          1919.0,
+          993.0
+        ],
+        [
+          1919.0,
+          1042.0
+        ],
+        [
+          312.0,
+          1042.0
+        ]
+      ]
+    },
+    {
+      "text": "Assil Elias, agissant comme témoin majeur, atteste avoir pris connaissance des informations précitées",
+      "bbox": {
+        "x_min": 308.0,
+        "y_min": 1066.0,
+        "x_max": 2314.0,
+        "y_max": 1117.0
+      },
+      "confidence": 0.9787253737449646,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          308.0,
+          1066.0
+        ],
+        [
+          2314.0,
+          1069.0
+        ],
+        [
+          2314.0,
+          1117.0
+        ],
+        [
+          308.0,
+          1114.0
+        ]
+      ]
+    },
+    {
+      "text": "et confirme que ces énonciations sont exactes.",
+      "bbox": {
+        "x_min": 308.0,
+        "y_min": 1114.0,
+        "x_max": 1226.0,
+        "y_max": 1162.0
+      },
+      "confidence": 0.9924441576004028,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          308.0,
+          1114.0
+        ],
+        [
+          1226.0,
+          1114.0
+        ],
+        [
+          1226.0,
+          1162.0
+        ],
+        [
+          308.0,
+          1162.0
+        ]
+      ]
+    },
+    {
+      "text": "Période de publication du 18 décembre 2019 au 6 janvier 2020",
+      "bbox": {
+        "x_min": 305.0,
+        "y_min": 1186.0,
+        "x_max": 1549.0,
+        "y_max": 1238.0
+      },
+      "confidence": 0.990469753742218,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          305.0,
+          1186.0
+        ],
+        [
+          1549.0,
+          1189.0
+        ],
+        [
+          1549.0,
+          1238.0
+        ],
+        [
+          305.0,
+          1234.0
+        ]
+      ]
+    },
+    {
+      "text": "Version 1.0.0.0 p",
+      "bbox": {
+        "x_min": 1119.0,
+        "y_min": 1399.0,
+        "x_max": 1428.0,
+        "y_max": 1465.0
+      },
+      "confidence": 0.9987744688987732,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1120.0,
+          1399.0
+        ],
+        [
+          1428.0,
+          1406.0
+        ],
+        [
+          1426.0,
+          1465.0
+        ],
+        [
+          1119.0,
+          1457.0
+        ]
+      ]
+    },
+    {
+      "text": "Quebec",
+      "bbox": {
+        "x_min": 1143.0,
+        "y_min": 1488.0,
+        "x_max": 1414.0,
+        "y_max": 1554.0
+      },
+      "confidence": 0.9867434501647949,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1143.0,
+          1492.0
+        ],
+        [
+          1413.0,
+          1488.0
+        ],
+        [
+          1414.0,
+          1550.0
+        ],
+        [
+          1144.0,
+          1554.0
+        ]
+      ]
+    },
+    {
+      "text": "① Gouvernement du Quebec, 2017",
+      "bbox": {
+        "x_min": 1029.0,
+        "y_min": 1578.0,
+        "x_max": 1521.0,
+        "y_max": 1622.0
+      },
+      "confidence": 0.9572241306304932,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1029.0,
+          1578.0
+        ],
+        [
+          1521.0,
+          1578.0
+        ],
+        [
+          1521.0,
+          1622.0
+        ],
+        [
+          1029.0,
+          1622.0
+        ]
+      ]
+    },
+    {
+      "text": "1 sur 1",
+      "bbox": {
+        "x_min": 3.0,
+        "y_min": 3259.0,
+        "x_max": 111.0,
+        "y_max": 3297.0
+      },
+      "confidence": 0.9016233682632446,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          3.0,
+          3259.0
+        ],
+        [
+          111.0,
+          3259.0
+        ],
+        [
+          111.0,
+          3297.0
+        ],
+        [
+          3.0,
+          3297.0
+        ]
+      ]
+    },
+    {
+      "text": "2019-12-2711:56",
+      "bbox": {
+        "x_min": 2252.0,
+        "y_min": 3259.0,
+        "x_max": 2543.0,
+        "y_max": 3293.0
+      },
+      "confidence": 0.996365487575531,
+      "page": 1,
+      "image_name": "IMG_067.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          2252.0,
+          3259.0
+        ],
+        [
+          2543.0,
+          3259.0
+        ],
+        [
+          2543.0,
+          3293.0
+        ],
+        [
+          2252.0,
+          3293.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 8.161193472000036,
+  "error": null
+}

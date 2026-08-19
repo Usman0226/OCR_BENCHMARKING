@@ -1,0 +1,975 @@
+{
+  "image_name": "IMG_085.jpg",
+  "image_path": "images/IMG_085.jpg",
+  "engine": "tesseract",
+  "words": [
+    {
+      "text": "60e",
+      "bbox": {
+        "x_min": 25.0,
+        "y_min": 431.0,
+        "x_max": 98.0,
+        "y_max": 462.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "anniversaire",
+      "bbox": {
+        "x_min": 109.0,
+        "y_min": 429.0,
+        "x_max": 364.0,
+        "y_max": 461.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 377.0,
+        "y_min": 429.0,
+        "x_max": 427.0,
+        "y_max": 460.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "fonda",
+      "bbox": {
+        "x_min": 440.0,
+        "y_min": 428.0,
+        "x_max": 556.0,
+        "y_max": 460.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Imacom-Da",
+      "bbox": {
+        "x_min": 680.0,
+        "y_min": 477.0,
+        "x_max": 750.0,
+        "y_max": 489.0
+      },
+      "confidence": 0.85,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Les",
+      "bbox": {
+        "x_min": 23.0,
+        "y_min": 496.0,
+        "x_max": 45.0,
+        "y_max": 511.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Clubs",
+      "bbox": {
+        "x_min": 51.0,
+        "y_min": 495.0,
+        "x_max": 90.0,
+        "y_max": 511.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Lions",
+      "bbox": {
+        "x_min": 97.0,
+        "y_min": 495.0,
+        "x_max": 133.0,
+        "y_max": 511.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 139.0,
+        "y_min": 494.0,
+        "x_max": 157.0,
+        "y_max": 510.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Magog",
+      "bbox": {
+        "x_min": 163.0,
+        "y_min": 495.0,
+        "x_max": 213.0,
+        "y_max": 515.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "et",
+      "bbox": {
+        "x_min": 219.0,
+        "y_min": 497.0,
+        "x_max": 233.0,
+        "y_max": 510.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "du",
+      "bbox": {
+        "x_min": 239.0,
+        "y_min": 494.0,
+        "x_max": 256.0,
+        "y_max": 510.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Sherbrooke-Métro",
+      "bbox": {
+        "x_min": 262.0,
+        "y_min": 494.0,
+        "x_max": 396.0,
+        "y_max": 510.0
+      },
+      "confidence": 0.84,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "fétaient,",
+      "bbox": {
+        "x_min": 401.0,
+        "y_min": 493.0,
+        "x_max": 463.0,
+        "y_max": 512.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "samedi",
+      "bbox": {
+        "x_min": 469.0,
+        "y_min": 493.0,
+        "x_max": 521.0,
+        "y_max": 510.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "soir,",
+      "bbox": {
+        "x_min": 527.0,
+        "y_min": 495.0,
+        "x_max": 559.0,
+        "y_max": 512.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "leur",
+      "bbox": {
+        "x_min": 565.0,
+        "y_min": 493.0,
+        "x_max": 593.0,
+        "y_max": 509.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "60e",
+      "bbox": {
+        "x_min": 598.0,
+        "y_min": 494.0,
+        "x_max": 625.0,
+        "y_max": 509.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "anniversaire",
+      "bbox": {
+        "x_min": 631.0,
+        "y_min": 494.0,
+        "x_max": 722.0,
+        "y_max": 509.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "det",
+      "bbox": {
+        "x_min": 728.0,
+        "y_min": 481.0,
+        "x_max": 758.0,
+        "y_max": 509.0
+      },
+      "confidence": 0.42,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": ".",
+      "bbox": {
+        "x_min": 822.0,
+        "y_min": 504.0,
+        "x_max": 826.0,
+        "y_max": 508.0
+      },
+      "confidence": 0.38,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Vordre,",
+      "bbox": {
+        "x_min": 23.0,
+        "y_min": 516.0,
+        "x_max": 77.0,
+        "y_max": 534.0
+      },
+      "confidence": 0.85,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "le",
+      "bbox": {
+        "x_min": 83.0,
+        "y_min": 515.0,
+        "x_max": 95.0,
+        "y_max": 532.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "président",
+      "bbox": {
+        "x_min": 101.0,
+        "y_min": 515.0,
+        "x_max": 170.0,
+        "y_max": 535.0
+      },
+      "confidence": 0.94,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "du",
+      "bbox": {
+        "x_min": 175.0,
+        "y_min": 515.0,
+        "x_max": 193.0,
+        "y_max": 531.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Club",
+      "bbox": {
+        "x_min": 199.0,
+        "y_min": 515.0,
+        "x_max": 231.0,
+        "y_max": 531.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Lions",
+      "bbox": {
+        "x_min": 238.0,
+        "y_min": 515.0,
+        "x_max": 275.0,
+        "y_max": 531.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Sherbrooke-Métro,",
+      "bbox": {
+        "x_min": 280.0,
+        "y_min": 514.0,
+        "x_max": 418.0,
+        "y_max": 533.0
+      },
+      "confidence": 0.86,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Gilles",
+      "bbox": {
+        "x_min": 441.0,
+        "y_min": 514.0,
+        "x_max": 465.0,
+        "y_max": 530.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Tardif,",
+      "bbox": {
+        "x_min": 471.0,
+        "y_min": 514.0,
+        "x_max": 519.0,
+        "y_max": 533.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Noëlla",
+      "bbox": {
+        "x_min": 525.0,
+        "y_min": 514.0,
+        "x_max": 572.0,
+        "y_max": 530.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Morin",
+      "bbox": {
+        "x_min": 578.0,
+        "y_min": 515.0,
+        "x_max": 620.0,
+        "y_max": 530.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "du",
+      "bbox": {
+        "x_min": 627.0,
+        "y_min": 514.0,
+        "x_max": 644.0,
+        "y_max": 530.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Club",
+      "bbox": {
+        "x_min": 651.0,
+        "y_min": 514.0,
+        "x_max": 683.0,
+        "y_max": 530.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Lions",
+      "bbox": {
+        "x_min": 689.0,
+        "y_min": 514.0,
+        "x_max": 726.0,
+        "y_max": 530.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 732.0,
+        "y_min": 513.0,
+        "x_max": 750.0,
+        "y_max": 530.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Boucherville,",
+      "bbox": {
+        "x_min": 756.0,
+        "y_min": 513.0,
+        "x_max": 850.0,
+        "y_max": 532.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "le",
+      "bbox": {
+        "x_min": 856.0,
+        "y_min": 513.0,
+        "x_max": 869.0,
+        "y_max": 529.0
+      },
+      "confidence": 0.94,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "gouverneur",
+      "bbox": {
+        "x_min": 23.0,
+        "y_min": 541.0,
+        "x_max": 106.0,
+        "y_max": 557.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "du",
+      "bbox": {
+        "x_min": 111.0,
+        "y_min": 536.0,
+        "x_max": 129.0,
+        "y_max": 552.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "district",
+      "bbox": {
+        "x_min": 135.0,
+        "y_min": 536.0,
+        "x_max": 184.0,
+        "y_max": 552.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "U-4,",
+      "bbox": {
+        "x_min": 190.0,
+        "y_min": 536.0,
+        "x_max": 222.0,
+        "y_max": 554.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Pierre-Paul",
+      "bbox": {
+        "x_min": 228.0,
+        "y_min": 535.0,
+        "x_max": 310.0,
+        "y_max": 552.0
+      },
+      "confidence": 0.83,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Thériault,",
+      "bbox": {
+        "x_min": 316.0,
+        "y_min": 535.0,
+        "x_max": 386.0,
+        "y_max": 554.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "le",
+      "bbox": {
+        "x_min": 393.0,
+        "y_min": 535.0,
+        "x_max": 405.0,
+        "y_max": 551.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "président",
+      "bbox": {
+        "x_min": 412.0,
+        "y_min": 535.0,
+        "x_max": 480.0,
+        "y_max": 555.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "du",
+      "bbox": {
+        "x_min": 485.0,
+        "y_min": 535.0,
+        "x_max": 503.0,
+        "y_max": 551.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Club",
+      "bbox": {
+        "x_min": 509.0,
+        "y_min": 535.0,
+        "x_max": 542.0,
+        "y_max": 551.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Lions",
+      "bbox": {
+        "x_min": 548.0,
+        "y_min": 535.0,
+        "x_max": 585.0,
+        "y_max": 551.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 590.0,
+        "y_min": 535.0,
+        "x_max": 608.0,
+        "y_max": 551.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Magog,",
+      "bbox": {
+        "x_min": 614.0,
+        "y_min": 535.0,
+        "x_max": 670.0,
+        "y_max": 555.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Bertrand",
+      "bbox": {
+        "x_min": 676.0,
+        "y_min": 534.0,
+        "x_max": 739.0,
+        "y_max": 550.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Roy,",
+      "bbox": {
+        "x_min": 745.0,
+        "y_min": 535.0,
+        "x_max": 776.0,
+        "y_max": 554.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "sa",
+      "bbox": {
+        "x_min": 781.0,
+        "y_min": 540.0,
+        "x_max": 796.0,
+        "y_max": 550.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "conjointe,",
+      "bbox": {
+        "x_min": 802.0,
+        "y_min": 535.0,
+        "x_max": 875.0,
+        "y_max": 554.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Yvonne",
+      "bbox": {
+        "x_min": 22.0,
+        "y_min": 558.0,
+        "x_max": 75.0,
+        "y_max": 573.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Roy",
+      "bbox": {
+        "x_min": 81.0,
+        "y_min": 558.0,
+        "x_max": 107.0,
+        "y_max": 577.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "et",
+      "bbox": {
+        "x_min": 112.0,
+        "y_min": 560.0,
+        "x_max": 126.0,
+        "y_max": 573.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Denyse",
+      "bbox": {
+        "x_min": 132.0,
+        "y_min": 557.0,
+        "x_max": 184.0,
+        "y_max": 576.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Dezainde,",
+      "bbox": {
+        "x_min": 190.0,
+        "y_min": 556.0,
+        "x_max": 263.0,
+        "y_max": 575.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "conjointe",
+      "bbox": {
+        "x_min": 268.0,
+        "y_min": 558.0,
+        "x_max": 336.0,
+        "y_max": 576.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 341.0,
+        "y_min": 556.0,
+        "x_max": 359.0,
+        "y_max": 572.0
+      },
+      "confidence": 0.97,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Jacques",
+      "bbox": {
+        "x_min": 364.0,
+        "y_min": 557.0,
+        "x_max": 421.0,
+        "y_max": 576.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Dezainde.",
+      "bbox": {
+        "x_min": 428.0,
+        "y_min": 556.0,
+        "x_max": 500.0,
+        "y_max": 572.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "su",
+      "bbox": {
+        "x_min": 665.0,
+        "y_min": 552.0,
+        "x_max": 700.0,
+        "y_max": 592.0
+      },
+      "confidence": 0.26,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Be",
+      "bbox": {
+        "x_min": 705.0,
+        "y_min": 551.0,
+        "x_max": 739.0,
+        "y_max": 592.0
+      },
+      "confidence": 0.39,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Wy",
+      "bbox": {
+        "x_min": 734.0,
+        "y_min": 566.0,
+        "x_max": 789.0,
+        "y_max": 589.0
+      },
+      "confidence": 0.65,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "=)",
+      "bbox": {
+        "x_min": 823.0,
+        "y_min": 551.0,
+        "x_max": 843.0,
+        "y_max": 592.0
+      },
+      "confidence": 0.05,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ndati",
+      "bbox": {
+        "x_min": 766.0,
+        "y_min": 492.0,
+        "x_max": 799.0,
+        "y_max": 509.0
+      },
+      "confidence": 0.67,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    }
+  ],
+  "processing_time_s": 2.6296606189998784,
+  "error": null
+}

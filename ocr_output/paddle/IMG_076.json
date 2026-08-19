@@ -1,0 +1,133 @@
+{
+  "image_name": "IMG_076.jpg",
+  "image_path": "images/IMG_076.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "INVENTAIRE CONT.MARIAGE",
+      "bbox": {
+        "x_min": 326.0,
+        "y_min": 322.0,
+        "x_max": 716.0,
+        "y_max": 394.0
+      },
+      "confidence": 0.962629497051239,
+      "page": 1,
+      "image_name": "IMG_076.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          330.0,
+          322.0
+        ],
+        [
+          716.0,
+          361.0
+        ],
+        [
+          713.0,
+          394.0
+        ],
+        [
+          326.0,
+          355.0
+        ]
+      ]
+    },
+    {
+      "text": "ENTRE 1C2 ETENVIRON 18O0 MASSICOTTE",
+      "bbox": {
+        "x_min": 290.0,
+        "y_min": 376.0,
+        "x_max": 911.0,
+        "y_max": 474.0
+      },
+      "confidence": 0.79836505651474,
+      "page": 1,
+      "image_name": "IMG_076.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          293.0,
+          376.0
+        ],
+        [
+          911.0,
+          437.0
+        ],
+        [
+          908.0,
+          474.0
+        ],
+        [
+          290.0,
+          412.0
+        ]
+      ]
+    },
+    {
+      "text": "GREFFE MONTREAL",
+      "bbox": {
+        "x_min": 385.0,
+        "y_min": 447.0,
+        "x_max": 663.0,
+        "y_max": 510.0
+      },
+      "confidence": 0.9585512280464172,
+      "page": 1,
+      "image_name": "IMG_076.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          388.0,
+          447.0
+        ],
+        [
+          663.0,
+          474.0
+        ],
+        [
+          659.0,
+          510.0
+        ],
+        [
+          385.0,
+          483.0
+        ]
+      ]
+    },
+    {
+      "text": "e3.790",
+      "bbox": {
+        "x_min": 365.0,
+        "y_min": 578.0,
+        "x_max": 829.0,
+        "y_max": 637.0
+      },
+      "confidence": 0.5044602751731873,
+      "page": 1,
+      "image_name": "IMG_076.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          365.0,
+          582.0
+        ],
+        [
+          829.0,
+          578.0
+        ],
+        [
+          829.0,
+          633.0
+        ],
+        [
+          365.0,
+          637.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 0.7312496669999291,
+  "error": null
+}

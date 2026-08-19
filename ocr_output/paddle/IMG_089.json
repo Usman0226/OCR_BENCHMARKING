@@ -1,0 +1,660 @@
+{
+  "image_name": "IMG_089.jpg",
+  "image_path": "images/IMG_089.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "deces",
+      "bbox": {
+        "x_min": 411.0,
+        "y_min": 71.0,
+        "x_max": 720.0,
+        "y_max": 160.0
+      },
+      "confidence": 0.989349365234375,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          413.0,
+          71.0
+        ],
+        [
+          720.0,
+          78.0
+        ],
+        [
+          718.0,
+          160.0
+        ],
+        [
+          411.0,
+          153.0
+        ]
+      ]
+    },
+    {
+      "text": "LA PRESSE,MONTREAL,MARDI17 SEPTEMBRE 1968/55",
+      "bbox": {
+        "x_min": 66.0,
+        "y_min": 188.0,
+        "x_max": 1111.0,
+        "y_max": 257.0
+      },
+      "confidence": 0.9261707663536072,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          67.0,
+          188.0
+        ],
+        [
+          1111.0,
+          211.0
+        ],
+        [
+          1110.0,
+          257.0
+        ],
+        [
+          66.0,
+          234.0
+        ]
+      ]
+    },
+    {
+      "text": "JODoIN (Maximilienne)AMont-",
+      "bbox": {
+        "x_min": 315.0,
+        "y_min": 268.0,
+        "x_max": 835.0,
+        "y_max": 306.0
+      },
+      "confidence": 0.9200282692909241,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          315.0,
+          268.0
+        ],
+        [
+          835.0,
+          276.0
+        ],
+        [
+          835.0,
+          306.0
+        ],
+        [
+          315.0,
+          298.0
+        ]
+      ]
+    },
+    {
+      "text": "real,1e 14 septembre 1968,a l'age",
+      "bbox": {
+        "x_min": 340.0,
+        "y_min": 297.0,
+        "x_max": 833.0,
+        "y_max": 331.0
+      },
+      "confidence": 0.8934688568115234,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          341.0,
+          297.0
+        ],
+        [
+          833.0,
+          304.0
+        ],
+        [
+          832.0,
+          331.0
+        ],
+        [
+          340.0,
+          323.0
+        ]
+      ]
+    },
+    {
+      "text": "de 67 ans,est decedee Mme Raoul",
+      "bbox": {
+        "x_min": 344.0,
+        "y_min": 322.0,
+        "x_max": 833.0,
+        "y_max": 357.0
+      },
+      "confidence": 0.9418294429779053,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          345.0,
+          322.0
+        ],
+        [
+          833.0,
+          328.0
+        ],
+        [
+          832.0,
+          357.0
+        ],
+        [
+          344.0,
+          350.0
+        ]
+      ]
+    },
+    {
+      "text": "Jodoin,neeMaximilienne Payette",
+      "bbox": {
+        "x_min": 342.0,
+        "y_min": 348.0,
+        "x_max": 829.0,
+        "y_max": 380.0
+      },
+      "confidence": 0.965427041053772,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          342.0,
+          348.0
+        ],
+        [
+          829.0,
+          354.0
+        ],
+        [
+          829.0,
+          380.0
+        ],
+        [
+          342.0,
+          374.0
+        ]
+      ]
+    },
+    {
+      "text": "epouse en 1eres noces de feu Gas-",
+      "bbox": {
+        "x_min": 342.0,
+        "y_min": 373.0,
+        "x_max": 832.0,
+        "y_max": 405.0
+      },
+      "confidence": 0.9141160249710083,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          342.0,
+          373.0
+        ],
+        [
+          832.0,
+          380.0
+        ],
+        [
+          831.0,
+          405.0
+        ],
+        [
+          342.0,
+          398.0
+        ]
+      ]
+    },
+    {
+      "text": "pard Lahaise,demeurant a 2371 rue",
+      "bbox": {
+        "x_min": 338.0,
+        "y_min": 398.0,
+        "x_max": 833.0,
+        "y_max": 433.0
+      },
+      "confidence": 0.9673418998718262,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          338.0,
+          398.0
+        ],
+        [
+          833.0,
+          404.0
+        ],
+        [
+          832.0,
+          433.0
+        ],
+        [
+          338.0,
+          426.0
+        ]
+      ]
+    },
+    {
+      "text": "Jean-Langlois,mere de MmeJean",
+      "bbox": {
+        "x_min": 338.0,
+        "y_min": 424.0,
+        "x_max": 831.0,
+        "y_max": 455.0
+      },
+      "confidence": 0.9541404247283936,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          338.0,
+          424.0
+        ],
+        [
+          831.0,
+          430.0
+        ],
+        [
+          831.0,
+          455.0
+        ],
+        [
+          338.0,
+          449.0
+        ]
+      ]
+    },
+    {
+      "text": "Laframboise.Les  funerailles  au-",
+      "bbox": {
+        "x_min": 337.0,
+        "y_min": 446.0,
+        "x_max": 830.0,
+        "y_max": 484.0
+      },
+      "confidence": 0.9233450293540955,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          337.0,
+          446.0
+        ],
+        [
+          830.0,
+          455.0
+        ],
+        [
+          830.0,
+          484.0
+        ],
+        [
+          337.0,
+          475.0
+        ]
+      ]
+    },
+    {
+      "text": "ront lieu mercredi le 18 courant. Le",
+      "bbox": {
+        "x_min": 338.0,
+        "y_min": 475.0,
+        "x_max": 832.0,
+        "y_max": 509.0
+      },
+      "confidence": 0.9499585032463074,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          338.0,
+          475.0
+        ],
+        [
+          832.0,
+          483.0
+        ],
+        [
+          831.0,
+          509.0
+        ],
+        [
+          338.0,
+          501.0
+        ]
+      ]
+    },
+    {
+      "text": "convoi funebre partira des salons",
+      "bbox": {
+        "x_min": 338.0,
+        "y_min": 500.0,
+        "x_max": 780.0,
+        "y_max": 534.0
+      },
+      "confidence": 0.9650258421897888,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          338.0,
+          500.0
+        ],
+        [
+          780.0,
+          508.0
+        ],
+        [
+          780.0,
+          534.0
+        ],
+        [
+          338.0,
+          526.0
+        ]
+      ]
+    },
+    {
+      "text": "J.A.Gauthier Enrg.,",
+      "bbox": {
+        "x_min": 438.0,
+        "y_min": 525.0,
+        "x_max": 723.0,
+        "y_max": 558.0
+      },
+      "confidence": 0.9551952481269836,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          439.0,
+          525.0
+        ],
+        [
+          723.0,
+          531.0
+        ],
+        [
+          722.0,
+          558.0
+        ],
+        [
+          438.0,
+          551.0
+        ]
+      ]
+    },
+    {
+      "text": "2521 est,rue Ste-Catherine",
+      "bbox": {
+        "x_min": 404.0,
+        "y_min": 549.0,
+        "x_max": 761.0,
+        "y_max": 584.0
+      },
+      "confidence": 0.9780457615852356,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          404.0,
+          549.0
+        ],
+        [
+          761.0,
+          555.0
+        ],
+        [
+          760.0,
+          584.0
+        ],
+        [
+          404.0,
+          577.0
+        ]
+      ]
+    },
+    {
+      "text": "a 10 h 45,pour se rendre a 1eglise",
+      "bbox": {
+        "x_min": 337.0,
+        "y_min": 572.0,
+        "x_max": 829.0,
+        "y_max": 610.0
+      },
+      "confidence": 0.913844883441925,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          337.0,
+          572.0
+        ],
+        [
+          829.0,
+          580.0
+        ],
+        [
+          829.0,
+          610.0
+        ],
+        [
+          337.0,
+          602.0
+        ]
+      ]
+    },
+    {
+      "text": "St-Vincent-de-Paul de Montreal ou",
+      "bbox": {
+        "x_min": 337.0,
+        "y_min": 600.0,
+        "x_max": 828.0,
+        "y_max": 632.0
+      },
+      "confidence": 0.9449353218078613,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          337.0,
+          600.0
+        ],
+        [
+          828.0,
+          607.0
+        ],
+        [
+          827.0,
+          632.0
+        ],
+        [
+          337.0,
+          625.0
+        ]
+      ]
+    },
+    {
+      "text": "le service sera celebré a 1l h et",
+      "bbox": {
+        "x_min": 336.0,
+        "y_min": 625.0,
+        "x_max": 827.0,
+        "y_max": 656.0
+      },
+      "confidence": 0.9065520167350769,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          336.0,
+          625.0
+        ],
+        [
+          827.0,
+          630.0
+        ],
+        [
+          826.0,
+          656.0
+        ],
+        [
+          336.0,
+          651.0
+        ]
+      ]
+    },
+    {
+      "text": "de la au cimetiere de Lavaltrie",
+      "bbox": {
+        "x_min": 336.0,
+        "y_min": 650.0,
+        "x_max": 822.0,
+        "y_max": 681.0
+      },
+      "confidence": 0.9241611361503601,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          336.0,
+          650.0
+        ],
+        [
+          822.0,
+          655.0
+        ],
+        [
+          821.0,
+          681.0
+        ],
+        [
+          336.0,
+          676.0
+        ]
+      ]
+    },
+    {
+      "text": "lieu de la  sepulture. Parents et",
+      "bbox": {
+        "x_min": 334.0,
+        "y_min": 673.0,
+        "x_max": 827.0,
+        "y_max": 707.0
+      },
+      "confidence": 0.9036468863487244,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          335.0,
+          673.0
+        ],
+        [
+          827.0,
+          681.0
+        ],
+        [
+          826.0,
+          707.0
+        ],
+        [
+          334.0,
+          699.0
+        ]
+      ]
+    },
+    {
+      "text": "amis sont pries d'y assister sans",
+      "bbox": {
+        "x_min": 334.0,
+        "y_min": 699.0,
+        "x_max": 827.0,
+        "y_max": 732.0
+      },
+      "confidence": 0.9314389824867249,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          335.0,
+          699.0
+        ],
+        [
+          827.0,
+          706.0
+        ],
+        [
+          826.0,
+          732.0
+        ],
+        [
+          334.0,
+          726.0
+        ]
+      ]
+    },
+    {
+      "text": "autre invitation.",
+      "bbox": {
+        "x_min": 334.0,
+        "y_min": 724.0,
+        "x_max": 552.0,
+        "y_max": 753.0
+      },
+      "confidence": 0.9882540702819824,
+      "page": 1,
+      "image_name": "IMG_089.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          335.0,
+          724.0
+        ],
+        [
+          552.0,
+          728.0
+        ],
+        [
+          552.0,
+          753.0
+        ],
+        [
+          334.0,
+          749.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 4.015421348000018,
+  "error": null
+}

@@ -1,0 +1,317 @@
+{
+  "image_name": "IMG_090.jpg",
+  "image_path": "images/IMG_090.jpg",
+  "engine": "tesseract",
+  "words": [
+    {
+      "text": "Côté,",
+      "bbox": {
+        "x_min": 90.0,
+        "y_min": 305.0,
+        "x_max": 199.0,
+        "y_max": 348.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Pierre",
+      "bbox": {
+        "x_min": 214.0,
+        "y_min": 306.0,
+        "x_max": 344.0,
+        "y_max": 341.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Naissance",
+      "bbox": {
+        "x_min": 89.0,
+        "y_min": 363.0,
+        "x_max": 290.0,
+        "y_max": 397.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": ":",
+      "bbox": {
+        "x_min": 308.0,
+        "y_min": 373.0,
+        "x_max": 313.0,
+        "y_max": 397.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "8",
+      "bbox": {
+        "x_min": 333.0,
+        "y_min": 363.0,
+        "x_max": 352.0,
+        "y_max": 397.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "mai",
+      "bbox": {
+        "x_min": 369.0,
+        "y_min": 363.0,
+        "x_max": 440.0,
+        "y_max": 397.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1733",
+      "bbox": {
+        "x_min": 461.0,
+        "y_min": 363.0,
+        "x_max": 551.0,
+        "y_max": 397.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Rimouski,",
+      "bbox": {
+        "x_min": 568.0,
+        "y_min": 363.0,
+        "x_max": 772.0,
+        "y_max": 403.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Québec,",
+      "bbox": {
+        "x_min": 789.0,
+        "y_min": 363.0,
+        "x_max": 949.0,
+        "y_max": 405.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Canada,",
+      "bbox": {
+        "x_min": 965.0,
+        "y_min": 363.0,
+        "x_max": 1124.0,
+        "y_max": 403.0
+      },
+      "confidence": 0.94,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Décès",
+      "bbox": {
+        "x_min": 89.0,
+        "y_min": 419.0,
+        "x_max": 208.0,
+        "y_max": 453.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": ":",
+      "bbox": {
+        "x_min": 227.0,
+        "y_min": 430.0,
+        "x_max": 232.0,
+        "y_max": 453.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Père",
+      "bbox": {
+        "x_min": 89.0,
+        "y_min": 475.0,
+        "x_max": 176.0,
+        "y_max": 509.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": ":",
+      "bbox": {
+        "x_min": 194.0,
+        "y_min": 486.0,
+        "x_max": 199.0,
+        "y_max": 509.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Côté,",
+      "bbox": {
+        "x_min": 217.0,
+        "y_min": 475.0,
+        "x_max": 321.0,
+        "y_max": 515.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Jean",
+      "bbox": {
+        "x_min": 336.0,
+        "y_min": 476.0,
+        "x_max": 424.0,
+        "y_max": 509.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Baptiste",
+      "bbox": {
+        "x_min": 438.0,
+        "y_min": 475.0,
+        "x_max": 600.0,
+        "y_max": 519.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Mère",
+      "bbox": {
+        "x_min": 89.0,
+        "y_min": 532.0,
+        "x_max": 193.0,
+        "y_max": 566.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": ":",
+      "bbox": {
+        "x_min": 210.0,
+        "y_min": 542.0,
+        "x_max": 215.0,
+        "y_max": 566.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Jeandeparis,",
+      "bbox": {
+        "x_min": 233.0,
+        "y_min": 532.0,
+        "x_max": 477.0,
+        "y_max": 576.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Genevieve",
+      "bbox": {
+        "x_min": 494.0,
+        "y_min": 532.0,
+        "x_max": 704.0,
+        "y_max": 566.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Bernier",
+      "bbox": {
+        "x_min": 719.0,
+        "y_min": 532.0,
+        "x_max": 868.0,
+        "y_max": 566.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_090.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    }
+  ],
+  "processing_time_s": 0.4639784139999392,
+  "error": null
+}

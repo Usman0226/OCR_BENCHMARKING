@@ -1,5 +1,3 @@
-"""Unit tests for ocr.core.scoring."""
-
 from __future__ import annotations
 
 from pathlib import Path
@@ -15,11 +13,6 @@ from ocr.core.models import (
     OCRResult,
 )
 from ocr.core.scoring import _safe_divide, score_all, score_image
-
-
-# =============================================================================
-# Helpers
-# =============================================================================
 
 
 def _make_matching_cfg(
@@ -91,11 +84,6 @@ def _ann(
     )
 
 
-# =============================================================================
-# _safe_divide
-# =============================================================================
-
-
 class TestSafeDivide:
     def test_normal(self) -> None:
         assert _safe_divide(3, 4) == pytest.approx(0.75)
@@ -107,14 +95,8 @@ class TestSafeDivide:
         assert _safe_divide(0, 4) == 0.0
 
 
-# =============================================================================
-# score_image
-# =============================================================================
-
-
 class TestScoreImage:
     def test_perfect_match(self) -> None:
-        """All OCR words match annotations → P=R=F1=1."""
         ocr = _ocr_result([_word("Hello"), _word("World", x=110)])
         ann = _annotation(
             "test.jpg", [_ann("Hello"), _ann("World", x=110)]
@@ -128,7 +110,6 @@ class TestScoreImage:
         assert result.false_negatives == 0
 
     def test_no_ocr_output(self) -> None:
-        """Empty OCR → P=1.0 (vacuously) R=0 F1=0."""
         ocr = _ocr_result([])
         ann = _annotation("test.jpg", [_ann("Hello"), _ann("World", x=110)])
         result = score_image(ocr, ann, _make_matching_cfg())
@@ -138,7 +119,6 @@ class TestScoreImage:
         assert len(result.missed_words) == 2
 
     def test_no_annotations(self) -> None:
-        """Empty annotation → R=1.0 (vacuously) P=0 F1=0."""
         ocr = _ocr_result([_word("Ghost")])
         ann = _annotation("test.jpg", [])
         result = score_image(ocr, ann, _make_matching_cfg())
@@ -149,7 +129,6 @@ class TestScoreImage:
         assert "Ghost" in result.invented_words
 
     def test_partial_match(self) -> None:
-        """One match, one miss, one invented."""
         ocr = _ocr_result([_word("Hello"), _word("Ghost", x=200)])
         ann = _annotation("test.jpg", [_ann("Hello"), _ann("Missed", x=400)])
         result = score_image(ocr, ann, _make_matching_cfg())
@@ -160,7 +139,6 @@ class TestScoreImage:
         assert "Ghost" in result.invented_words
 
     def test_ocr_error_returns_zero_score(self) -> None:
-        """An OCR result with an error returns all-zero metrics."""
         ocr = _ocr_result([], error="Engine crashed")
         ann = _annotation("test.jpg", [_ann("Hello")])
         result = score_image(ocr, ann, _make_matching_cfg())
@@ -170,20 +148,13 @@ class TestScoreImage:
         assert result.error == "Engine crashed"
 
     def test_coverage(self) -> None:
-        """Coverage = TP / total annotation words."""
         ocr = _ocr_result([_word("Hello"), _word("World", x=110)])
         ann = _annotation(
             "test.jpg",
             [_ann("Hello"), _ann("World", x=110), _ann("Missing", x=300)],
         )
         result = score_image(ocr, ann, _make_matching_cfg())
-        # 2 out of 3 annotation words matched
         assert result.coverage == pytest.approx(2 / 3, rel=1e-4)
-
-
-# =============================================================================
-# score_all
-# =============================================================================
 
 
 class TestScoreAll:

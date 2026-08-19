@@ -1,0 +1,226 @@
+{
+  "image_name": "IMG_088.jpg",
+  "image_path": "images/IMG_088.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "Belanger Marg.:",
+      "bbox": {
+        "x_min": 200.0,
+        "y_min": 124.0,
+        "x_max": 491.0,
+        "y_max": 160.0
+      },
+      "confidence": 0.9486700892448425,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          201.0,
+          124.0
+        ],
+        [
+          491.0,
+          127.0
+        ],
+        [
+          491.0,
+          160.0
+        ],
+        [
+          200.0,
+          158.0
+        ]
+      ]
+    },
+    {
+      "text": "Winliam",
+      "bbox": {
+        "x_min": 546.0,
+        "y_min": 124.0,
+        "x_max": 686.0,
+        "y_max": 162.0
+      },
+      "confidence": 0.8899371027946472,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          548.0,
+          124.0
+        ],
+        [
+          686.0,
+          132.0
+        ],
+        [
+          684.0,
+          162.0
+        ],
+        [
+          546.0,
+          153.0
+        ]
+      ]
+    },
+    {
+      "text": "Adale Belisle",
+      "bbox": {
+        "x_min": 545.0,
+        "y_min": 155.0,
+        "x_max": 798.0,
+        "y_max": 197.0
+      },
+      "confidence": 0.9101403951644897,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          547.0,
+          155.0
+        ],
+        [
+          798.0,
+          163.0
+        ],
+        [
+          797.0,
+          197.0
+        ],
+        [
+          545.0,
+          189.0
+        ]
+      ]
+    },
+    {
+      "text": "Gravel Onesime:",
+      "bbox": {
+        "x_min": 178.0,
+        "y_min": 287.0,
+        "x_max": 463.0,
+        "y_max": 325.0
+      },
+      "confidence": 0.9386489391326904,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          179.0,
+          287.0
+        ],
+        [
+          463.0,
+          292.0
+        ],
+        [
+          463.0,
+          325.0
+        ],
+        [
+          178.0,
+          320.0
+        ]
+      ]
+    },
+    {
+      "text": "Aubert",
+      "bbox": {
+        "x_min": 517.0,
+        "y_min": 286.0,
+        "x_max": 640.0,
+        "y_max": 330.0
+      },
+      "confidence": 0.9934211373329163,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          520.0,
+          286.0
+        ],
+        [
+          640.0,
+          295.0
+        ],
+        [
+          638.0,
+          330.0
+        ],
+        [
+          517.0,
+          321.0
+        ]
+      ]
+    },
+    {
+      "text": "Philomene Perron",
+      "bbox": {
+        "x_min": 517.0,
+        "y_min": 322.0,
+        "x_max": 827.0,
+        "y_max": 360.0
+      },
+      "confidence": 0.967250406742096,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          517.0,
+          322.0
+        ],
+        [
+          827.0,
+          325.0
+        ],
+        [
+          826.0,
+          360.0
+        ],
+        [
+          517.0,
+          357.0
+        ]
+      ]
+    },
+    {
+      "text": "ST HARCDRSCARRIERES:1902-7-4",
+      "bbox": {
+        "x_min": 286.0,
+        "y_min": 389.0,
+        "x_max": 879.0,
+        "y_max": 427.0
+      },
+      "confidence": 0.9158456921577454,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          286.0,
+          389.0
+        ],
+        [
+          879.0,
+          394.0
+        ],
+        [
+          879.0,
+          427.0
+        ],
+        [
+          286.0,
+          422.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 1.6776357179999195,
+  "error": null
+}

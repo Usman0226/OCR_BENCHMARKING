@@ -1,0 +1,226 @@
+{
+  "image_name": "IMG_061.jpg",
+  "image_path": "images/IMG_061.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "LongtinImelda:",
+      "bbox": {
+        "x_min": 187.0,
+        "y_min": 160.0,
+        "x_max": 476.0,
+        "y_max": 197.0
+      },
+      "confidence": 0.9592970609664917,
+      "page": 1,
+      "image_name": "IMG_061.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          188.0,
+          160.0
+        ],
+        [
+          476.0,
+          166.0
+        ],
+        [
+          475.0,
+          197.0
+        ],
+        [
+          187.0,
+          190.0
+        ]
+      ]
+    },
+    {
+      "text": "Zenophile",
+      "bbox": {
+        "x_min": 574.0,
+        "y_min": 165.0,
+        "x_max": 754.0,
+        "y_max": 203.0
+      },
+      "confidence": 0.9917214512825012,
+      "page": 1,
+      "image_name": "IMG_061.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          575.0,
+          165.0
+        ],
+        [
+          754.0,
+          170.0
+        ],
+        [
+          753.0,
+          203.0
+        ],
+        [
+          574.0,
+          197.0
+        ]
+      ]
+    },
+    {
+      "text": "Geraldine Bergevin",
+      "bbox": {
+        "x_min": 572.0,
+        "y_min": 191.0,
+        "x_max": 926.0,
+        "y_max": 237.0
+      },
+      "confidence": 0.9731978178024292,
+      "page": 1,
+      "image_name": "IMG_061.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          573.0,
+          191.0
+        ],
+        [
+          926.0,
+          204.0
+        ],
+        [
+          925.0,
+          237.0
+        ],
+        [
+          572.0,
+          224.0
+        ]
+      ]
+    },
+    {
+      "text": "Levesque Albarmi",
+      "bbox": {
+        "x_min": 162.0,
+        "y_min": 317.0,
+        "x_max": 452.0,
+        "y_max": 355.0
+      },
+      "confidence": 0.8560383319854736,
+      "page": 1,
+      "image_name": "IMG_061.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          162.0,
+          317.0
+        ],
+        [
+          452.0,
+          323.0
+        ],
+        [
+          451.0,
+          355.0
+        ],
+        [
+          162.0,
+          350.0
+        ]
+      ]
+    },
+    {
+      "text": "Jos.(Joliette)",
+      "bbox": {
+        "x_min": 571.0,
+        "y_min": 325.0,
+        "x_max": 842.0,
+        "y_max": 365.0
+      },
+      "confidence": 0.9764794111251831,
+      "page": 1,
+      "image_name": "IMG_061.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          572.0,
+          325.0
+        ],
+        [
+          842.0,
+          331.0
+        ],
+        [
+          841.0,
+          365.0
+        ],
+        [
+          571.0,
+          359.0
+        ]
+      ]
+    },
+    {
+      "text": "ParmeliaMelancon",
+      "bbox": {
+        "x_min": 567.0,
+        "y_min": 366.0,
+        "x_max": 898.0,
+        "y_max": 402.0
+      },
+      "confidence": 0.9550372362136841,
+      "page": 1,
+      "image_name": "IMG_061.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          568.0,
+          366.0
+        ],
+        [
+          898.0,
+          374.0
+        ],
+        [
+          898.0,
+          402.0
+        ],
+        [
+          567.0,
+          394.0
+        ]
+      ]
+    },
+    {
+      "text": "HOWICK:M.1916-25-7",
+      "bbox": {
+        "x_min": 213.0,
+        "y_min": 442.0,
+        "x_max": 564.0,
+        "y_max": 484.0
+      },
+      "confidence": 0.9692574739456177,
+      "page": 1,
+      "image_name": "IMG_061.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          214.0,
+          442.0
+        ],
+        [
+          564.0,
+          451.0
+        ],
+        [
+          563.0,
+          484.0
+        ],
+        [
+          213.0,
+          475.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 1.9598902459999863,
+  "error": null
+}

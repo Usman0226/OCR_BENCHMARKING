@@ -1,9 +1,3 @@
-"""Core data models for the OCR Benchmark Framework.
-
-All OCR engines normalize their output to the types defined here.
-Downstream pipeline (matching, scoring, reporting) only ever sees these types.
-"""
-
 from __future__ import annotations
 
 import json
@@ -13,21 +7,12 @@ from pathlib import Path
 from typing import Any
 
 
-# =============================================================================
-# Enums
-# =============================================================================
-
-
 class EngineType(str, Enum):
-    """Supported OCR engine identifiers."""
-
     PADDLE = "paddle"
     TESSERACT = "tesseract"
-    # Extend here when adding new engines — no other files need changing.
 
     @classmethod
     def from_str(cls, value: str) -> "EngineType":
-        """Parse engine name case-insensitively."""
         try:
             return cls(value.lower())
         except ValueError:
@@ -36,25 +21,13 @@ class EngineType(str, Enum):
 
 
 class MatchStatus(str, Enum):
-    """Result of matching an OCR word against an annotation word."""
-
     TRUE_POSITIVE = "true_positive"
     FALSE_POSITIVE = "false_positive"
     FALSE_NEGATIVE = "false_negative"
 
 
-# =============================================================================
-# Bounding Box
-# =============================================================================
-
-
 @dataclass(frozen=True)
 class BoundingBox:
-    """Axis-aligned bounding box in pixel coordinates.
-
-    Origin is top-left corner (standard image coordinate system).
-    """
-
     x_min: float
     y_min: float
     x_max: float
@@ -84,7 +57,6 @@ class BoundingBox:
 
     @classmethod
     def from_points(cls, points: list[list[float]]) -> "BoundingBox":
-        """Build an AABB from an arbitrary list of [x, y] points."""
         xs = [p[0] for p in points]
         ys = [p[1] for p in points]
         return cls(x_min=min(xs), y_min=min(ys), x_max=max(xs), y_max=max(ys))
@@ -93,31 +65,18 @@ class BoundingBox:
         return asdict(self)
 
     def to_xywh(self) -> tuple[float, float, float, float]:
-        """Return (x, y, width, height) format."""
         return self.x_min, self.y_min, self.width, self.height
-
-
-# =============================================================================
-# Polygon
-# =============================================================================
 
 
 @dataclass(frozen=True)
 class Polygon:
-    """Arbitrary polygon defined by an ordered list of (x, y) vertices.
-
-    Used to store the raw quadrilateral output from OCR engines.
-    """
-
     points: tuple[tuple[float, float], ...]
 
     @classmethod
     def from_list(cls, points: list[list[float]]) -> "Polygon":
-        """Construct from a list of [x, y] pairs."""
         return cls(points=tuple((float(p[0]), float(p[1])) for p in points))
 
     def to_bounding_box(self) -> BoundingBox:
-        """Convert polygon to its enclosing AABB."""
         xs = [p[0] for p in self.points]
         ys = [p[1] for p in self.points]
         return BoundingBox(
@@ -128,26 +87,15 @@ class Polygon:
         return [[p[0], p[1]] for p in self.points]
 
 
-# =============================================================================
-# Normalized OCR Word (unified output format for all engines)
-# =============================================================================
-
-
 @dataclass
 class NormalizedWord:
-    """Single OCR-detected word in normalized format.
-
-    Every OCR engine must produce a list of these objects.
-    Downstream matching and scoring only operates on this type.
-    """
-
     text: str
     bbox: BoundingBox
-    confidence: float                   # 0.0 – 1.0
-    page: int                           # 1-indexed page number
-    image_name: str                     # Filename of source image (no path)
+    confidence: float
+    page: int
+    image_name: str
     engine: EngineType
-    polygon: Polygon | None = None      # Original quadrilateral if available
+    polygon: Polygon | None = None
 
     def __post_init__(self) -> None:
         if not 0.0 <= self.confidence <= 1.0:
@@ -158,7 +106,6 @@ class NormalizedWord:
             raise ValueError(f"Page must be >= 1, got {self.page}")
 
     def to_dict(self) -> dict[str, Any]:
-        """Serialize to a JSON-compatible dictionary."""
         return {
             "text": self.text,
             "bbox": self.bbox.to_dict(),
@@ -171,7 +118,6 @@ class NormalizedWord:
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "NormalizedWord":
-        """Deserialize from a dictionary (e.g. loaded JSON)."""
         bbox_data = data["bbox"]
         bbox = BoundingBox(
             x_min=bbox_data["x_min"],
@@ -193,15 +139,8 @@ class NormalizedWord:
         )
 
 
-# =============================================================================
-# OCR Result (per image)
-# =============================================================================
-
-
 @dataclass
 class OCRResult:
-    """All normalized words extracted from a single image by one engine."""
-
     image_name: str
     image_path: Path
     engine: EngineType
@@ -228,18 +167,11 @@ class OCRResult:
         }
 
 
-# =============================================================================
-# Annotation (ground truth from Label Studio)
-# =============================================================================
-
-
 @dataclass
 class AnnotationWord:
-    """A single annotated word from Label Studio."""
-
     text: str
     bbox: BoundingBox
-    label: str                    # Label Studio label class
+    label: str
     annotation_id: str
     image_name: str
     page: int = 1
@@ -259,8 +191,6 @@ class AnnotationWord:
 
 @dataclass
 class ImageAnnotation:
-    """All ground-truth words for a single image."""
-
     image_name: str
     words: list[AnnotationWord] = field(default_factory=list)
     task_id: int | None = None
@@ -270,18 +200,11 @@ class ImageAnnotation:
         return len(self.words)
 
 
-# =============================================================================
-# Matched Word (output of the matching step)
-# =============================================================================
-
-
 @dataclass
 class MatchedWord:
-    """Result of matching one OCR word to one annotation word."""
-
     status: MatchStatus
-    ocr_word: NormalizedWord | None        # None for false negatives
-    annotation_word: AnnotationWord | None  # None for false positives
+    ocr_word: NormalizedWord | None
+    annotation_word: AnnotationWord | None
     iou: float = 0.0
     text_similarity: float = 0.0
 
@@ -297,35 +220,24 @@ class MatchedWord:
         }
 
 
-# =============================================================================
-# Scoring Result (per image, per engine)
-# =============================================================================
-
-
 @dataclass
 class ImageScoringResult:
-    """Scoring metrics for a single image and engine pair."""
-
     image_name: str
     engine: EngineType
 
-    # Counts
     true_positives: int = 0
     false_positives: int = 0
     false_negatives: int = 0
 
-    # Metrics (0–1)
     precision: float = 0.0
     recall: float = 0.0
     f1: float = 0.0
-    coverage: float = 0.0          # Fraction of annotation words matched
+    coverage: float = 0.0
 
-    # Word-level lists
-    missed_words: list[str] = field(default_factory=list)    # In annotation, not in OCR
-    invented_words: list[str] = field(default_factory=list)  # In OCR, not in annotation
+    missed_words: list[str] = field(default_factory=list)
+    invented_words: list[str] = field(default_factory=list)
     matched_words: list[MatchedWord] = field(default_factory=list)
 
-    # Timing
     processing_time_s: float = 0.0
     error: str | None = None
 
@@ -347,7 +259,6 @@ class ImageScoringResult:
         }
 
     def to_flat_dict(self) -> dict[str, Any]:
-        """Flat dict suitable for CSV rows (excludes word lists)."""
         return {
             "image_name": self.image_name,
             "engine": self.engine.value,
@@ -367,8 +278,6 @@ class ImageScoringResult:
 
 @dataclass
 class AggregateScoringResult:
-    """Macro-averaged metrics across all images for one engine."""
-
     engine: EngineType
     image_count: int
     total_true_positives: int = 0
@@ -399,7 +308,6 @@ class AggregateScoringResult:
         }
 
     def save_json(self, path: Path) -> None:
-        """Serialize to a JSON file."""
         path.write_text(
             json.dumps(self.to_dict(), indent=2, ensure_ascii=False),
             encoding="utf-8",

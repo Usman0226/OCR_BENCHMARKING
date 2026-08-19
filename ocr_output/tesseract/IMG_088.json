@@ -1,0 +1,275 @@
+{
+  "image_name": "IMG_088.jpg",
+  "image_path": "images/IMG_088.jpg",
+  "engine": "tesseract",
+  "words": [
+    {
+      "text": "Bélanger",
+      "bbox": {
+        "x_min": 205.0,
+        "y_min": 123.0,
+        "x_max": 358.0,
+        "y_max": 158.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Marg.:",
+      "bbox": {
+        "x_min": 375.0,
+        "y_min": 131.0,
+        "x_max": 487.0,
+        "y_max": 160.0
+      },
+      "confidence": 0.85,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "William",
+      "bbox": {
+        "x_min": 550.0,
+        "y_min": 129.0,
+        "x_max": 682.0,
+        "y_max": 156.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Âdèle",
+      "bbox": {
+        "x_min": 549.0,
+        "y_min": 160.0,
+        "x_max": 644.0,
+        "y_max": 189.0
+      },
+      "confidence": 0.81,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Belisle",
+      "bbox": {
+        "x_min": 662.0,
+        "y_min": 165.0,
+        "x_max": 795.0,
+        "y_max": 190.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "x",
+      "bbox": {
+        "x_min": 314.0,
+        "y_min": 236.0,
+        "x_max": 334.0,
+        "y_max": 252.0
+      },
+      "confidence": 0.94,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Gravel",
+      "bbox": {
+        "x_min": 180.0,
+        "y_min": 293.0,
+        "x_max": 291.0,
+        "y_max": 329.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Onésime:",
+      "bbox": {
+        "x_min": 315.0,
+        "y_min": 294.0,
+        "x_max": 461.0,
+        "y_max": 319.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Aubert",
+      "bbox": {
+        "x_min": 522.0,
+        "y_min": 287.0,
+        "x_max": 636.0,
+        "y_max": 330.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Philomène",
+      "bbox": {
+        "x_min": 520.0,
+        "y_min": 328.0,
+        "x_max": 690.0,
+        "y_max": 355.0
+      },
+      "confidence": 0.86,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Perron",
+      "bbox": {
+        "x_min": 711.0,
+        "y_min": 328.0,
+        "x_max": 826.0,
+        "y_max": 355.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ST",
+      "bbox": {
+        "x_min": 289.0,
+        "y_min": 396.0,
+        "x_max": 325.0,
+        "y_max": 416.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "MARC",
+      "bbox": {
+        "x_min": 344.0,
+        "y_min": 395.0,
+        "x_max": 418.0,
+        "y_max": 418.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "DES",
+      "bbox": {
+        "x_min": 441.0,
+        "y_min": 396.0,
+        "x_max": 497.0,
+        "y_max": 419.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "CARRIERES:",
+      "bbox": {
+        "x_min": 518.0,
+        "y_min": 397.0,
+        "x_max": 702.0,
+        "y_max": 420.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1902-7-4",
+      "bbox": {
+        "x_min": 726.0,
+        "y_min": 399.0,
+        "x_max": 880.0,
+        "y_max": 426.0
+      },
+      "confidence": 0.56,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "AU",
+      "bbox": {
+        "x_min": 1010.0,
+        "y_min": 578.0,
+        "x_max": 1022.0,
+        "y_max": 589.0
+      },
+      "confidence": 0.31,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Nl",
+      "bbox": {
+        "x_min": 1039.0,
+        "y_min": 587.0,
+        "x_max": 1061.0,
+        "y_max": 589.0
+      },
+      "confidence": 0.28,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "eS",
+      "bbox": {
+        "x_min": 1085.0,
+        "y_min": 576.0,
+        "x_max": 1143.0,
+        "y_max": 589.0
+      },
+      "confidence": 0.18,
+      "page": 1,
+      "image_name": "IMG_088.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    }
+  ],
+  "processing_time_s": 1.6035902369999349,
+  "error": null
+}

@@ -1,9 +1,3 @@
-"""Configuration loader for the OCR Benchmark Framework.
-
-Reads config.yaml and exposes strongly-typed dataclasses.
-Environment variables take precedence over YAML values for path overrides.
-"""
-
 from __future__ import annotations
 
 import os
@@ -12,11 +6,6 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-
-
-# =============================================================================
-# Sub-configs
-# =============================================================================
 
 
 @dataclass
@@ -30,7 +19,6 @@ class PathsConfig:
     paddle_model_dir: Path
 
     def ensure_dirs(self) -> None:
-        """Create all directories if they do not exist."""
         for attr in vars(self).values():
             if isinstance(attr, Path):
                 attr.mkdir(parents=True, exist_ok=True)
@@ -39,7 +27,7 @@ class PathsConfig:
 @dataclass
 class LoggingConfig:
     level: str = "INFO"
-    max_bytes: int = 10_485_760   # 10 MB
+    max_bytes: int = 10_485_760
     backup_count: int = 5
     files: dict[str, str] = field(
         default_factory=lambda: {
@@ -125,11 +113,6 @@ class LabelStudioConfig:
     result_type: str = "rectanglelabels"
 
 
-# =============================================================================
-# Root config
-# =============================================================================
-
-
 @dataclass
 class AppConfig:
     paths: PathsConfig
@@ -142,13 +125,7 @@ class AppConfig:
     label_studio: LabelStudioConfig
 
 
-# =============================================================================
-# Loader
-# =============================================================================
-
-
 def _resolve_path(value: str, env_key: str | None = None) -> Path:
-    """Return Path from env var (if set) or YAML value."""
     if env_key:
         env_val = os.environ.get(env_key)
         if env_val:
@@ -157,28 +134,11 @@ def _resolve_path(value: str, env_key: str | None = None) -> Path:
 
 
 def load_config(config_path: Path | None = None) -> AppConfig:
-    """Load and validate the application configuration.
-
-    Precedence: environment variables > config.yaml values.
-
-    Args:
-        config_path: Explicit path to config.yaml.
-                     Falls back to CONFIG_PATH env var, then the default
-                     path relative to this file.
-
-    Returns:
-        Fully validated AppConfig instance.
-
-    Raises:
-        FileNotFoundError: If the config file cannot be located.
-        ValueError: If required config values are invalid.
-    """
     if config_path is None:
         env_path = os.environ.get("CONFIG_PATH")
         if env_path:
             config_path = Path(env_path)
         else:
-            # Default: configs/config.yaml relative to project root
             config_path = Path(__file__).parents[2] / "configs" / "config.yaml"
 
     if not config_path.exists():
@@ -189,7 +149,6 @@ def load_config(config_path: Path | None = None) -> AppConfig:
 
     raw: dict[str, Any] = yaml.safe_load(config_path.read_text(encoding="utf-8")) or {}
 
-    # --- Paths ---
     p = raw.get("paths", {})
     paths = PathsConfig(
         images_dir=_resolve_path(p.get("images_dir", "./images"), "OCR_IMAGES_DIR"),
@@ -207,7 +166,6 @@ def load_config(config_path: Path | None = None) -> AppConfig:
         ),
     )
 
-    # --- Logging ---
     lc = raw.get("logging", {})
     logging_cfg = LoggingConfig(
         level=lc.get("level", "INFO"),
@@ -223,7 +181,6 @@ def load_config(config_path: Path | None = None) -> AppConfig:
         ),
     )
 
-    # --- Engines ---
     ec = raw.get("engines", {})
 
     paddle_raw = ec.get("paddle", {})
@@ -248,7 +205,6 @@ def load_config(config_path: Path | None = None) -> AppConfig:
         dpi=int(tess_raw.get("dpi", 300)),
     )
 
-    # --- Matching ---
     mc = raw.get("matching", {})
     matching_cfg = MatchingConfig(
         iou_threshold=float(mc.get("iou_threshold", 0.5)),
@@ -256,11 +212,9 @@ def load_config(config_path: Path | None = None) -> AppConfig:
         strategy=mc.get("strategy", "iou_and_text"),
     )
 
-    # --- Scoring ---
     sc = raw.get("scoring", {})
     scoring_cfg = ScoringConfig(metrics=sc.get("metrics", ScoringConfig().metrics))
 
-    # --- Reports ---
     rc = raw.get("reports", {})
     reports_cfg = ReportsConfig(
         formats=rc.get("formats", ["csv", "json", "markdown"]),
@@ -269,7 +223,6 @@ def load_config(config_path: Path | None = None) -> AppConfig:
         markdown_template=rc.get("markdown_template"),
     )
 
-    # --- Preprocessing ---
     pp = raw.get("preprocessing", {})
     max_edge = pp.get("max_long_edge", 4096)
     preprocessing_cfg = PreprocessingConfig(
@@ -279,7 +232,6 @@ def load_config(config_path: Path | None = None) -> AppConfig:
         default_dpi=int(pp.get("default_dpi", 300)),
     )
 
-    # --- Label Studio ---
     ls = raw.get("label_studio", {})
     ls_cfg = LabelStudioConfig(
         url=ls.get("url", "http://labelstudio:8080"),

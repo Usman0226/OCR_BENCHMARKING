@@ -1,14 +1,4 @@
 #!/usr/bin/env python3
-"""CLI: Export scoring results to CSV, JSON, and Markdown reports.
-
-This script is called automatically by score.py, but can also be run
-standalone to re-export from previously computed scoring results.
-
-Usage:
-    python scripts/export_results.py
-    python scripts/export_results.py --engine paddle
-"""
-
 from __future__ import annotations
 
 import csv
@@ -32,23 +22,11 @@ if TYPE_CHECKING:
 logger = get_logger(__name__)
 
 
-# =============================================================================
-# Public export entry point
-# =============================================================================
-
-
 def export_all(
     aggregate: AggregateScoringResult,
     reports_dir: Path,
     reports_cfg: "ReportsConfig",
 ) -> None:
-    """Export an AggregateScoringResult to all configured report formats.
-
-    Args:
-        aggregate: Scoring result to export.
-        reports_dir: Directory where reports will be written.
-        reports_cfg: Reports configuration (formats, flags).
-    """
     reports_dir.mkdir(parents=True, exist_ok=True)
     engine_name = aggregate.engine.value
 
@@ -69,17 +47,11 @@ def export_all(
     )
 
 
-# =============================================================================
-# Format exporters
-# =============================================================================
-
-
 def _export_json(
     aggregate: AggregateScoringResult,
     reports_dir: Path,
     engine_name: str,
 ) -> Path:
-    """Write full JSON report."""
     out_path = reports_dir / f"{engine_name}_results.json"
     out_path.write_text(
         json.dumps(aggregate.to_dict(), indent=2, ensure_ascii=False),
@@ -95,12 +67,10 @@ def _export_csv(
     engine_name: str,
     cfg: "ReportsConfig",
 ) -> Path:
-    """Write CSV report (per-image rows + aggregate summary row)."""
     out_path = reports_dir / f"{engine_name}_results.csv"
 
     rows = [r.to_flat_dict() for r in aggregate.per_image]
 
-    # Aggregate summary row
     summary = {
         "image_name": "AGGREGATE",
         "engine": engine_name,
@@ -139,7 +109,6 @@ def _export_markdown(
     engine_name: str,
     cfg: "ReportsConfig",
 ) -> Path:
-    """Write Markdown report with aggregate + per-image table."""
     out_path = reports_dir / f"{engine_name}_results.md"
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
@@ -193,11 +162,6 @@ def _export_markdown(
     return out_path
 
 
-# =============================================================================
-# Standalone CLI
-# =============================================================================
-
-
 @click.command()
 @click.option(
     "--engine",
@@ -214,7 +178,6 @@ def _export_markdown(
     help="Path to config.yaml.",
 )
 def main(engine: str, config: Path | None) -> None:
-    """Re-export scoring results from previously saved JSON files."""
     cfg = load_config(config)
     configure_logging(cfg.logging, cfg.paths.logs_dir)
 
@@ -237,8 +200,7 @@ def main(engine: str, config: Path | None) -> None:
             continue
 
         data = json.loads(json_path.read_text(encoding="utf-8"))
-        # Reconstruct a minimal AggregateScoringResult for re-export
-        from ocr.core.models import ImageScoringResult  # noqa: PLC0415
+        from ocr.core.models import ImageScoringResult
         per_image = []
         for img in data.get("per_image", []):
             per_image.append(

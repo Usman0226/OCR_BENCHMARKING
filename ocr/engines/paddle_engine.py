@@ -1,8 +1,3 @@
-"""PaddleOCR engine implementation.
-
-CPU-only. Models are downloaded on first run and cached in PADDLE_MODEL_DIR.
-"""
-
 from __future__ import annotations
 
 from pathlib import Path
@@ -20,29 +15,15 @@ logger = get_logger(__name__)
 
 
 class PaddleEngine(OCREngine):
-    """OCR engine backed by PaddleOCR (CPU-only).
-
-    Configuration keys (all from config.yaml → engines.paddle):
-      lang, use_angle_cls, use_gpu, det_db_thresh, det_db_box_thresh,
-      rec_batch_num, enable_mkldnn, show_log, cls_thresh
-    """
+    """OCR engine backed by PaddleOCR (CPU-only)."""
 
     engine_type = EngineType.PADDLE
 
     def __init__(self, config: "AppConfig") -> None:
         super().__init__(config)
-        self._paddle: Any = None  # paddleocr.PaddleOCR instance
-
-    # ------------------------------------------------------------------
-    # Lifecycle
-    # ------------------------------------------------------------------
+        self._paddle: Any = None
 
     def initialize(self) -> None:
-        """Load PaddleOCR model.
-
-        Models are stored in PADDLE_MODEL_DIR to avoid re-downloading
-        on every container restart.
-        """
         cfg = self._config.engines.paddle
         model_dir = self._config.paths.paddle_model_dir
         model_dir.mkdir(parents=True, exist_ok=True)
@@ -55,6 +36,15 @@ class PaddleEngine(OCREngine):
         )
 
         try:
+            try:
+                import paddle.inference as paddle_infer
+                _orig_cp = paddle_infer.create_predictor
+                def _safe_create_predictor(config):
+                    config.delete_pass("self_attention_fuse_pass")
+                    return _orig_cp(config)
+                paddle_infer.create_predictor = _safe_create_predictor
+            except Exception:
+                pass
             from paddleocr import PaddleOCR  # type: ignore[import]
         except ImportError as exc:
             raise RuntimeError(
@@ -78,18 +68,11 @@ class PaddleEngine(OCREngine):
         logger.info("PaddleOCR initialized successfully.")
 
     def shutdown(self) -> None:
-        """Release PaddleOCR resources."""
         self._paddle = None
         self._initialized = False
         logger.info("PaddleOCR engine shut down.")
 
-    # ------------------------------------------------------------------
-    # Raw run
-    # ------------------------------------------------------------------
-
     def _run_raw(self, image_path: Path) -> list[NormalizedWord]:
-        """Run PaddleOCR on *image_path* and return normalized words."""
-        # PaddleOCR accepts file paths directly
         raw_result = self._paddle.ocr(str(image_path), cls=True)
 
         words: list[NormalizedWord] = []
@@ -98,8 +81,6 @@ class PaddleEngine(OCREngine):
             logger.debug("PaddleOCR returned no results for '%s'.", image_path.name)
             return words
 
-        # PaddleOCR output structure (per page, per line):
-        # [ [ [[x1,y1],[x2,y2],[x3,y3],[x4,y4]], (text, confidence) ], ... ]
         for page_idx, page in enumerate(raw_result):
             if page is None:
                 continue

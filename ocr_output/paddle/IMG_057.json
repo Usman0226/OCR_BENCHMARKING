@@ -1,0 +1,3016 @@
+{
+  "image_name": "IMG_057.jpg",
+  "image_path": "images/IMG_057.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "1",
+      "bbox": {
+        "x_min": 942.0,
+        "y_min": 4.0,
+        "x_max": 955.0,
+        "y_max": 15.0
+      },
+      "confidence": 0.972973644733429,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          942.0,
+          4.0
+        ],
+        [
+          955.0,
+          4.0
+        ],
+        [
+          955.0,
+          15.0
+        ],
+        [
+          942.0,
+          15.0
+        ]
+      ]
+    },
+    {
+      "text": "4eANNIVERSAIRE",
+      "bbox": {
+        "x_min": 46.0,
+        "y_min": 15.0,
+        "x_max": 221.0,
+        "y_max": 53.0
+      },
+      "confidence": 0.9857543706893921,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          46.0,
+          20.0
+        ],
+        [
+          220.0,
+          15.0
+        ],
+        [
+          221.0,
+          49.0
+        ],
+        [
+          47.0,
+          53.0
+        ]
+      ]
+    },
+    {
+      "text": "2004",
+      "bbox": {
+        "x_min": 628.0,
+        "y_min": 18.0,
+        "x_max": 646.0,
+        "y_max": 57.0
+      },
+      "confidence": 0.996984601020813,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          628.0,
+          18.0
+        ],
+        [
+          646.0,
+          18.0
+        ],
+        [
+          646.0,
+          57.0
+        ],
+        [
+          628.0,
+          57.0
+        ]
+      ]
+    },
+    {
+      "text": "6",
+      "bbox": {
+        "x_min": 936.0,
+        "y_min": 18.0,
+        "x_max": 959.0,
+        "y_max": 41.0
+      },
+      "confidence": 0.5072528123855591,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          936.0,
+          30.0
+        ],
+        [
+          948.0,
+          18.0
+        ],
+        [
+          959.0,
+          29.0
+        ],
+        [
+          947.0,
+          41.0
+        ]
+      ]
+    },
+    {
+      "text": "DROIT,",
+      "bbox": {
+        "x_min": 966.0,
+        "y_min": 34.0,
+        "x_max": 985.0,
+        "y_max": 89.0
+      },
+      "confidence": 0.9776139259338379,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          966.0,
+          34.0
+        ],
+        [
+          985.0,
+          34.0
+        ],
+        [
+          985.0,
+          89.0
+        ],
+        [
+          966.0,
+          89.0
+        ]
+      ]
+    },
+    {
+      "text": "6eANNIVERSAIRE",
+      "bbox": {
+        "x_min": 1067.0,
+        "y_min": 28.0,
+        "x_max": 1240.0,
+        "y_max": 65.0
+      },
+      "confidence": 0.9723734855651855,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1067.0,
+          31.0
+        ],
+        [
+          1240.0,
+          28.0
+        ],
+        [
+          1240.0,
+          61.0
+        ],
+        [
+          1068.0,
+          65.0
+        ]
+      ]
+    },
+    {
+      "text": "5e ANNIVERSAIRE",
+      "bbox": {
+        "x_min": 375.0,
+        "y_min": 59.0,
+        "x_max": 545.0,
+        "y_max": 87.0
+      },
+      "confidence": 0.9492132067680359,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          375.0,
+          59.0
+        ],
+        [
+          545.0,
+          59.0
+        ],
+        [
+          545.0,
+          87.0
+        ],
+        [
+          375.0,
+          87.0
+        ]
+      ]
+    },
+    {
+      "text": "AOOT",
+      "bbox": {
+        "x_min": 627.0,
+        "y_min": 50.0,
+        "x_max": 646.0,
+        "y_max": 96.0
+      },
+      "confidence": 0.8326627612113953,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          627.0,
+          50.0
+        ],
+        [
+          646.0,
+          50.0
+        ],
+        [
+          646.0,
+          96.0
+        ],
+        [
+          627.0,
+          96.0
+        ]
+      ]
+    },
+    {
+      "text": "5e ANNIVERSAIRE",
+      "bbox": {
+        "x_min": 705.0,
+        "y_min": 49.0,
+        "x_max": 878.0,
+        "y_max": 83.0
+      },
+      "confidence": 0.9526568055152893,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          705.0,
+          53.0
+        ],
+        [
+          877.0,
+          49.0
+        ],
+        [
+          878.0,
+          78.0
+        ],
+        [
+          706.0,
+          83.0
+        ]
+      ]
+    },
+    {
+      "text": "18",
+      "bbox": {
+        "x_min": 628.0,
+        "y_min": 91.0,
+        "x_max": 645.0,
+        "y_max": 117.0
+      },
+      "confidence": 0.9976892471313477,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          628.0,
+          91.0
+        ],
+        [
+          645.0,
+          91.0
+        ],
+        [
+          645.0,
+          117.0
+        ],
+        [
+          628.0,
+          117.0
+        ]
+      ]
+    },
+    {
+      "text": "OTTAWA-",
+      "bbox": {
+        "x_min": 967.0,
+        "y_min": 84.0,
+        "x_max": 985.0,
+        "y_max": 153.0
+      },
+      "confidence": 0.9907494783401489,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          967.0,
+          85.0
+        ],
+        [
+          981.0,
+          84.0
+        ],
+        [
+          985.0,
+          152.0
+        ],
+        [
+          972.0,
+          153.0
+        ]
+      ]
+    },
+    {
+      "text": "MERCREDI",
+      "bbox": {
+        "x_min": 627.0,
+        "y_min": 112.0,
+        "x_max": 646.0,
+        "y_max": 190.0
+      },
+      "confidence": 0.9853195548057556,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          627.0,
+          112.0
+        ],
+        [
+          646.0,
+          112.0
+        ],
+        [
+          646.0,
+          190.0
+        ],
+        [
+          627.0,
+          190.0
+        ]
+      ]
+    },
+    {
+      "text": "-GATINEAU,",
+      "bbox": {
+        "x_min": 970.0,
+        "y_min": 147.0,
+        "x_max": 984.0,
+        "y_max": 224.0
+      },
+      "confidence": 0.9898325800895691,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          970.0,
+          147.0
+        ],
+        [
+          984.0,
+          147.0
+        ],
+        [
+          984.0,
+          224.0
+        ],
+        [
+          970.0,
+          224.0
+        ]
+      ]
+    },
+    {
+      "text": "GATINEAU",
+      "bbox": {
+        "x_min": 307.0,
+        "y_min": 169.0,
+        "x_max": 320.0,
+        "y_max": 241.0
+      },
+      "confidence": 0.9909248948097229,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          307.0,
+          169.0
+        ],
+        [
+          318.0,
+          169.0
+        ],
+        [
+          320.0,
+          240.0
+        ],
+        [
+          309.0,
+          241.0
+        ]
+      ]
+    },
+    {
+      "text": "-GATINEAU,",
+      "bbox": {
+        "x_min": 630.0,
+        "y_min": 186.0,
+        "x_max": 643.0,
+        "y_max": 268.0
+      },
+      "confidence": 0.9192973971366882,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          630.0,
+          186.0
+        ],
+        [
+          643.0,
+          186.0
+        ],
+        [
+          643.0,
+          268.0
+        ],
+        [
+          630.0,
+          268.0
+        ]
+      ]
+    },
+    {
+      "text": "MARDI",
+      "bbox": {
+        "x_min": 973.0,
+        "y_min": 231.0,
+        "x_max": 986.0,
+        "y_max": 280.0
+      },
+      "confidence": 0.9885972142219543,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          973.0,
+          231.0
+        ],
+        [
+          986.0,
+          231.0
+        ],
+        [
+          986.0,
+          280.0
+        ],
+        [
+          973.0,
+          280.0
+        ]
+      ]
+    },
+    {
+      "text": "TTA",
+      "bbox": {
+        "x_min": 310.0,
+        "y_min": 266.0,
+        "x_max": 321.0,
+        "y_max": 291.0
+      },
+      "confidence": 0.9806084632873535,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          310.0,
+          266.0
+        ],
+        [
+          321.0,
+          266.0
+        ],
+        [
+          321.0,
+          291.0
+        ],
+        [
+          310.0,
+          291.0
+        ]
+      ]
+    },
+    {
+      "text": "7SEPTEMBRE",
+      "bbox": {
+        "x_min": 971.0,
+        "y_min": 274.0,
+        "x_max": 990.0,
+        "y_max": 377.0
+      },
+      "confidence": 0.98725825548172,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          971.0,
+          274.0
+        ],
+        [
+          990.0,
+          274.0
+        ],
+        [
+          990.0,
+          377.0
+        ],
+        [
+          971.0,
+          377.0
+        ]
+      ]
+    },
+    {
+      "text": "LEDROIT,OT",
+      "bbox": {
+        "x_min": 303.0,
+        "y_min": 284.0,
+        "x_max": 327.0,
+        "y_max": 372.0
+      },
+      "confidence": 0.7977257370948792,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          303.0,
+          284.0
+        ],
+        [
+          327.0,
+          284.0
+        ],
+        [
+          327.0,
+          372.0
+        ],
+        [
+          303.0,
+          372.0
+        ]
+      ]
+    },
+    {
+      "text": "OTTAI",
+      "bbox": {
+        "x_min": 631.0,
+        "y_min": 288.0,
+        "x_max": 641.0,
+        "y_max": 324.0
+      },
+      "confidence": 0.874882698059082,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          631.0,
+          288.0
+        ],
+        [
+          641.0,
+          288.0
+        ],
+        [
+          641.0,
+          324.0
+        ],
+        [
+          631.0,
+          324.0
+        ]
+      ]
+    },
+    {
+      "text": "DROIT,",
+      "bbox": {
+        "x_min": 628.0,
+        "y_min": 331.0,
+        "x_max": 643.0,
+        "y_max": 376.0
+      },
+      "confidence": 0.951321542263031,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          628.0,
+          331.0
+        ],
+        [
+          643.0,
+          331.0
+        ],
+        [
+          643.0,
+          376.0
+        ],
+        [
+          628.0,
+          376.0
+        ]
+      ]
+    },
+    {
+      "text": "32",
+      "bbox": {
+        "x_min": 302.0,
+        "y_min": 370.0,
+        "x_max": 329.0,
+        "y_max": 393.0
+      },
+      "confidence": 0.9971621036529541,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          302.0,
+          370.0
+        ],
+        [
+          329.0,
+          370.0
+        ],
+        [
+          329.0,
+          393.0
+        ],
+        [
+          302.0,
+          393.0
+        ]
+      ]
+    },
+    {
+      "text": "2004",
+      "bbox": {
+        "x_min": 971.0,
+        "y_min": 369.0,
+        "x_max": 992.0,
+        "y_max": 411.0
+      },
+      "confidence": 0.9969857931137085,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          971.0,
+          369.0
+        ],
+        [
+          992.0,
+          369.0
+        ],
+        [
+          992.0,
+          411.0
+        ],
+        [
+          971.0,
+          411.0
+        ]
+      ]
+    },
+    {
+      "text": "ANGELINA CARDINAL",
+      "bbox": {
+        "x_min": 1078.0,
+        "y_min": 368.0,
+        "x_max": 1233.0,
+        "y_max": 387.0
+      },
+      "confidence": 0.9821069240570068,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1078.0,
+          368.0
+        ],
+        [
+          1233.0,
+          368.0
+        ],
+        [
+          1233.0,
+          387.0
+        ],
+        [
+          1078.0,
+          387.0
+        ]
+      ]
+    },
+    {
+      "text": "m",
+      "bbox": {
+        "x_min": 1277.0,
+        "y_min": 361.0,
+        "x_max": 1291.0,
+        "y_max": 376.0
+      },
+      "confidence": 0.6202753782272339,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1277.0,
+          361.0
+        ],
+        [
+          1291.0,
+          361.0
+        ],
+        [
+          1291.0,
+          376.0
+        ],
+        [
+          1277.0,
+          376.0
+        ]
+      ]
+    },
+    {
+      "text": "ANGELINA CARDINAL",
+      "bbox": {
+        "x_min": 60.0,
+        "y_min": 377.0,
+        "x_max": 221.0,
+        "y_max": 403.0
+      },
+      "confidence": 0.9763330817222595,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          60.0,
+          379.0
+        ],
+        [
+          221.0,
+          377.0
+        ],
+        [
+          221.0,
+          401.0
+        ],
+        [
+          60.0,
+          403.0
+        ]
+      ]
+    },
+    {
+      "text": "3",
+      "bbox": {
+        "x_min": 630.0,
+        "y_min": 372.0,
+        "x_max": 641.0,
+        "y_max": 391.0
+      },
+      "confidence": 0.5091313123703003,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          630.0,
+          372.0
+        ],
+        [
+          641.0,
+          372.0
+        ],
+        [
+          641.0,
+          391.0
+        ],
+        [
+          630.0,
+          391.0
+        ]
+      ]
+    },
+    {
+      "text": "A la douce memoire de Angeli-",
+      "bbox": {
+        "x_min": 1052.0,
+        "y_min": 386.0,
+        "x_max": 1257.0,
+        "y_max": 411.0
+      },
+      "confidence": 0.9165046215057373,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1052.0,
+          386.0
+        ],
+        [
+          1257.0,
+          387.0
+        ],
+        [
+          1257.0,
+          411.0
+        ],
+        [
+          1052.0,
+          410.0
+        ]
+      ]
+    },
+    {
+      "text": "A la douce memoire de Angele,",
+      "bbox": {
+        "x_min": 38.0,
+        "y_min": 398.0,
+        "x_max": 243.0,
+        "y_max": 424.0
+      },
+      "confidence": 0.9316533207893372,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          38.0,
+          401.0
+        ],
+        [
+          243.0,
+          398.0
+        ],
+        [
+          243.0,
+          421.0
+        ],
+        [
+          39.0,
+          424.0
+        ]
+      ]
+    },
+    {
+      "text": "52",
+      "bbox": {
+        "x_min": 624.0,
+        "y_min": 400.0,
+        "x_max": 648.0,
+        "y_max": 415.0
+      },
+      "confidence": 0.9995871186256409,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          624.0,
+          400.0
+        ],
+        [
+          648.0,
+          400.0
+        ],
+        [
+          648.0,
+          415.0
+        ],
+        [
+          624.0,
+          415.0
+        ]
+      ]
+    },
+    {
+      "text": "ANGELINA CARDINAL",
+      "bbox": {
+        "x_min": 717.0,
+        "y_min": 400.0,
+        "x_max": 878.0,
+        "y_max": 425.0
+      },
+      "confidence": 0.9872418642044067,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          717.0,
+          401.0
+        ],
+        [
+          878.0,
+          400.0
+        ],
+        [
+          878.0,
+          424.0
+        ],
+        [
+          718.0,
+          425.0
+        ]
+      ]
+    },
+    {
+      "text": "43",
+      "bbox": {
+        "x_min": 973.0,
+        "y_min": 414.0,
+        "x_max": 995.0,
+        "y_max": 432.0
+      },
+      "confidence": 0.9993741512298584,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          973.0,
+          414.0
+        ],
+        [
+          995.0,
+          414.0
+        ],
+        [
+          995.0,
+          432.0
+        ],
+        [
+          973.0,
+          432.0
+        ]
+      ]
+    },
+    {
+      "text": "na,quinousaquittesle18aout",
+      "bbox": {
+        "x_min": 1052.0,
+        "y_min": 407.0,
+        "x_max": 1259.0,
+        "y_max": 432.0
+      },
+      "confidence": 0.8159717321395874,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1052.0,
+          408.0
+        ],
+        [
+          1259.0,
+          407.0
+        ],
+        [
+          1259.0,
+          431.0
+        ],
+        [
+          1052.0,
+          432.0
+        ]
+      ]
+    },
+    {
+      "text": "decedeele18 aout1999et de",
+      "bbox": {
+        "x_min": 40.0,
+        "y_min": 418.0,
+        "x_max": 247.0,
+        "y_max": 445.0
+      },
+      "confidence": 0.9415389895439148,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          40.0,
+          421.0
+        ],
+        [
+          247.0,
+          418.0
+        ],
+        [
+          247.0,
+          442.0
+        ],
+        [
+          40.0,
+          445.0
+        ]
+      ]
+    },
+    {
+      "text": "ANGELINA CARDINAL",
+      "bbox": {
+        "x_min": 380.0,
+        "y_min": 426.0,
+        "x_max": 538.0,
+        "y_max": 450.0
+      },
+      "confidence": 0.9776513576507568,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          380.0,
+          426.0
+        ],
+        [
+          538.0,
+          426.0
+        ],
+        [
+          538.0,
+          450.0
+        ],
+        [
+          380.0,
+          450.0
+        ]
+      ]
+    },
+    {
+      "text": "Ala doucememoire dunemere",
+      "bbox": {
+        "x_min": 697.0,
+        "y_min": 424.0,
+        "x_max": 901.0,
+        "y_max": 443.0
+      },
+      "confidence": 0.9642999768257141,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          697.0,
+          424.0
+        ],
+        [
+          901.0,
+          424.0
+        ],
+        [
+          901.0,
+          443.0
+        ],
+        [
+          697.0,
+          443.0
+        ]
+      ]
+    },
+    {
+      "text": "1999.En ce 6e anniversaire",
+      "bbox": {
+        "x_min": 1056.0,
+        "y_min": 429.0,
+        "x_max": 1255.0,
+        "y_max": 449.0
+      },
+      "confidence": 0.9597595930099487,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1056.0,
+          429.0
+        ],
+        [
+          1255.0,
+          429.0
+        ],
+        [
+          1255.0,
+          449.0
+        ],
+        [
+          1056.0,
+          449.0
+        ]
+      ]
+    },
+    {
+      "text": "son epouxDorice.decedele17",
+      "bbox": {
+        "x_min": 38.0,
+        "y_min": 439.0,
+        "x_max": 247.0,
+        "y_max": 466.0
+      },
+      "confidence": 0.9668140411376953,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          38.0,
+          442.0
+        ],
+        [
+          247.0,
+          439.0
+        ],
+        [
+          247.0,
+          463.0
+        ],
+        [
+          39.0,
+          466.0
+        ]
+      ]
+    },
+    {
+      "text": "tres chere,Angelina,quinous a",
+      "bbox": {
+        "x_min": 697.0,
+        "y_min": 445.0,
+        "x_max": 903.0,
+        "y_max": 464.0
+      },
+      "confidence": 0.9305335283279419,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          697.0,
+          445.0
+        ],
+        [
+          903.0,
+          445.0
+        ],
+        [
+          903.0,
+          464.0
+        ],
+        [
+          697.0,
+          464.0
+        ]
+      ]
+    },
+    {
+      "text": "nous nous faisons un devoirde",
+      "bbox": {
+        "x_min": 1055.0,
+        "y_min": 452.0,
+        "x_max": 1257.0,
+        "y_max": 470.0
+      },
+      "confidence": 0.9522243738174438,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1055.0,
+          452.0
+        ],
+        [
+          1257.0,
+          452.0
+        ],
+        [
+          1257.0,
+          470.0
+        ],
+        [
+          1055.0,
+          470.0
+        ]
+      ]
+    },
+    {
+      "text": "avril 1960. En ce quatrieme,",
+      "bbox": {
+        "x_min": 37.0,
+        "y_min": 460.0,
+        "x_max": 244.0,
+        "y_max": 487.0
+      },
+      "confidence": 0.9014599919319153,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          37.0,
+          463.0
+        ],
+        [
+          244.0,
+          460.0
+        ],
+        [
+          244.0,
+          484.0
+        ],
+        [
+          37.0,
+          487.0
+        ]
+      ]
+    },
+    {
+      "text": "Ala douce memoire dune mere",
+      "bbox": {
+        "x_min": 357.0,
+        "y_min": 465.0,
+        "x_max": 561.0,
+        "y_max": 492.0
+      },
+      "confidence": 0.9246020913124084,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          357.0,
+          465.0
+        ],
+        [
+          561.0,
+          468.0
+        ],
+        [
+          561.0,
+          492.0
+        ],
+        [
+          357.0,
+          489.0
+        ]
+      ]
+    },
+    {
+      "text": "quittes le 18 aout 1999.5",
+      "bbox": {
+        "x_min": 697.0,
+        "y_min": 460.0,
+        "x_max": 904.0,
+        "y_max": 487.0
+      },
+      "confidence": 0.9198048114776611,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          697.0,
+          464.0
+        ],
+        [
+          904.0,
+          460.0
+        ],
+        [
+          904.0,
+          482.0
+        ],
+        [
+          697.0,
+          487.0
+        ]
+      ]
+    },
+    {
+      "text": "rappeler son nom et de deman-",
+      "bbox": {
+        "x_min": 1053.0,
+        "y_min": 467.0,
+        "x_max": 1258.0,
+        "y_max": 494.0
+      },
+      "confidence": 0.9449859857559204,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1053.0,
+          470.0
+        ],
+        [
+          1258.0,
+          467.0
+        ],
+        [
+          1258.0,
+          491.0
+        ],
+        [
+          1054.0,
+          494.0
+        ]
+      ]
+    },
+    {
+      "text": "anniversaire,nousnous",
+      "bbox": {
+        "x_min": 40.0,
+        "y_min": 482.0,
+        "x_max": 246.0,
+        "y_max": 506.0
+      },
+      "confidence": 0.9665135741233826,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          40.0,
+          487.0
+        ],
+        [
+          245.0,
+          482.0
+        ],
+        [
+          246.0,
+          502.0
+        ],
+        [
+          40.0,
+          506.0
+        ]
+      ]
+    },
+    {
+      "text": "tres chere,Angelina,qui nous a",
+      "bbox": {
+        "x_min": 357.0,
+        "y_min": 491.0,
+        "x_max": 561.0,
+        "y_max": 510.0
+      },
+      "confidence": 0.898967981338501,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          357.0,
+          491.0
+        ],
+        [
+          561.0,
+          491.0
+        ],
+        [
+          561.0,
+          510.0
+        ],
+        [
+          357.0,
+          510.0
+        ]
+      ]
+    },
+    {
+      "text": "longues annees se sont ecou-",
+      "bbox": {
+        "x_min": 697.0,
+        "y_min": 481.0,
+        "x_max": 903.0,
+        "y_max": 508.0
+      },
+      "confidence": 0.9422674179077148,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          697.0,
+          485.0
+        ],
+        [
+          902.0,
+          481.0
+        ],
+        [
+          903.0,
+          503.0
+        ],
+        [
+          697.0,
+          508.0
+        ]
+      ]
+    },
+    {
+      "text": "der une penseeet uneprierea",
+      "bbox": {
+        "x_min": 1055.0,
+        "y_min": 491.0,
+        "x_max": 1258.0,
+        "y_max": 510.0
+      },
+      "confidence": 0.9419254660606384,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1055.0,
+          491.0
+        ],
+        [
+          1258.0,
+          491.0
+        ],
+        [
+          1258.0,
+          510.0
+        ],
+        [
+          1055.0,
+          510.0
+        ]
+      ]
+    },
+    {
+      "text": "faisons un devoir de rappeler",
+      "bbox": {
+        "x_min": 38.0,
+        "y_min": 500.0,
+        "x_max": 247.0,
+        "y_max": 527.0
+      },
+      "confidence": 0.9677062034606934,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          38.0,
+          503.0
+        ],
+        [
+          247.0,
+          500.0
+        ],
+        [
+          247.0,
+          524.0
+        ],
+        [
+          39.0,
+          527.0
+        ]
+      ]
+    },
+    {
+      "text": "quittes le 18aout 1999.5",
+      "bbox": {
+        "x_min": 359.0,
+        "y_min": 510.0,
+        "x_max": 561.0,
+        "y_max": 530.0
+      },
+      "confidence": 0.9262382388114929,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          359.0,
+          510.0
+        ],
+        [
+          561.0,
+          510.0
+        ],
+        [
+          561.0,
+          530.0
+        ],
+        [
+          359.0,
+          530.0
+        ]
+      ]
+    },
+    {
+      "text": "lees depuis ton depart pour un",
+      "bbox": {
+        "x_min": 697.0,
+        "y_min": 500.0,
+        "x_max": 904.0,
+        "y_max": 527.0
+      },
+      "confidence": 0.9061212539672852,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          697.0,
+          503.0
+        ],
+        [
+          904.0,
+          500.0
+        ],
+        [
+          904.0,
+          524.0
+        ],
+        [
+          697.0,
+          527.0
+        ]
+      ]
+    },
+    {
+      "text": "tous ceux quilont connue et",
+      "bbox": {
+        "x_min": 1055.0,
+        "y_min": 510.0,
+        "x_max": 1259.0,
+        "y_max": 530.0
+      },
+      "confidence": 0.9267174005508423,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1055.0,
+          510.0
+        ],
+        [
+          1259.0,
+          510.0
+        ],
+        [
+          1259.0,
+          530.0
+        ],
+        [
+          1055.0,
+          530.0
+        ]
+      ]
+    },
+    {
+      "text": "leurs noms et demander une",
+      "bbox": {
+        "x_min": 41.0,
+        "y_min": 523.0,
+        "x_max": 246.0,
+        "y_max": 544.0
+      },
+      "confidence": 0.9400088787078857,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          41.0,
+          524.0
+        ],
+        [
+          245.0,
+          523.0
+        ],
+        [
+          246.0,
+          542.0
+        ],
+        [
+          41.0,
+          544.0
+        ]
+      ]
+    },
+    {
+      "text": "longues anneesse sont ecou-",
+      "bbox": {
+        "x_min": 359.0,
+        "y_min": 531.0,
+        "x_max": 558.0,
+        "y_max": 551.0
+      },
+      "confidence": 0.9230018854141235,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          359.0,
+          531.0
+        ],
+        [
+          558.0,
+          531.0
+        ],
+        [
+          558.0,
+          551.0
+        ],
+        [
+          359.0,
+          551.0
+        ]
+      ]
+    },
+    {
+      "text": "monde meilleur.Le temps pour-",
+      "bbox": {
+        "x_min": 695.0,
+        "y_min": 521.0,
+        "x_max": 903.0,
+        "y_max": 547.0
+      },
+      "confidence": 0.8968608379364014,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          695.0,
+          523.0
+        ],
+        [
+          903.0,
+          521.0
+        ],
+        [
+          903.0,
+          545.0
+        ],
+        [
+          696.0,
+          547.0
+        ]
+      ]
+    },
+    {
+      "text": "aimee.",
+      "bbox": {
+        "x_min": 1054.0,
+        "y_min": 530.0,
+        "x_max": 1100.0,
+        "y_max": 551.0
+      },
+      "confidence": 0.9827902913093567,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1054.0,
+          530.0
+        ],
+        [
+          1100.0,
+          530.0
+        ],
+        [
+          1100.0,
+          551.0
+        ],
+        [
+          1054.0,
+          551.0
+        ]
+      ]
+    },
+    {
+      "text": "pensee et une priere a tous",
+      "bbox": {
+        "x_min": 40.0,
+        "y_min": 539.0,
+        "x_max": 248.0,
+        "y_max": 568.0
+      },
+      "confidence": 0.9499919414520264,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          40.0,
+          544.0
+        ],
+        [
+          248.0,
+          539.0
+        ],
+        [
+          248.0,
+          563.0
+        ],
+        [
+          40.0,
+          568.0
+        ]
+      ]
+    },
+    {
+      "text": "leesdepuis ton departpour un",
+      "bbox": {
+        "x_min": 359.0,
+        "y_min": 551.0,
+        "x_max": 561.0,
+        "y_max": 570.0
+      },
+      "confidence": 0.9470339417457581,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          359.0,
+          551.0
+        ],
+        [
+          561.0,
+          551.0
+        ],
+        [
+          561.0,
+          570.0
+        ],
+        [
+          359.0,
+          570.0
+        ]
+      ]
+    },
+    {
+      "text": "ra s'enfuir,mais il n'effacera",
+      "bbox": {
+        "x_min": 698.0,
+        "y_min": 541.0,
+        "x_max": 904.0,
+        "y_max": 565.0
+      },
+      "confidence": 0.9076324105262756,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          698.0,
+          545.0
+        ],
+        [
+          904.0,
+          541.0
+        ],
+        [
+          904.0,
+          561.0
+        ],
+        [
+          699.0,
+          565.0
+        ]
+      ]
+    },
+    {
+      "text": "ceux qui les ont connus et",
+      "bbox": {
+        "x_min": 40.0,
+        "y_min": 559.0,
+        "x_max": 250.0,
+        "y_max": 586.0
+      },
+      "confidence": 0.9373980164527893,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          40.0,
+          562.0
+        ],
+        [
+          249.0,
+          559.0
+        ],
+        [
+          250.0,
+          583.0
+        ],
+        [
+          40.0,
+          586.0
+        ]
+      ]
+    },
+    {
+      "text": "mondemeilleur. Le temps pour-",
+      "bbox": {
+        "x_min": 354.0,
+        "y_min": 568.0,
+        "x_max": 561.0,
+        "y_max": 593.0
+      },
+      "confidence": 0.9072299003601074,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          354.0,
+          568.0
+        ],
+        [
+          561.0,
+          569.0
+        ],
+        [
+          561.0,
+          593.0
+        ],
+        [
+          354.0,
+          591.0
+        ]
+      ]
+    },
+    {
+      "text": "jamais de nos coeurs ceque tu",
+      "bbox": {
+        "x_min": 697.0,
+        "y_min": 560.0,
+        "x_max": 906.0,
+        "y_max": 587.0
+      },
+      "confidence": 0.9352459907531738,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          697.0,
+          564.0
+        ],
+        [
+          905.0,
+          560.0
+        ],
+        [
+          906.0,
+          584.0
+        ],
+        [
+          697.0,
+          587.0
+        ]
+      ]
+    },
+    {
+      "text": "Son fils Andreet sa famille",
+      "bbox": {
+        "x_min": 1084.0,
+        "y_min": 570.0,
+        "x_max": 1258.0,
+        "y_max": 590.0
+      },
+      "confidence": 0.9238976836204529,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1084.0,
+          570.0
+        ],
+        [
+          1258.0,
+          570.0
+        ],
+        [
+          1258.0,
+          590.0
+        ],
+        [
+          1084.0,
+          590.0
+        ]
+      ]
+    },
+    {
+      "text": "aimes.",
+      "bbox": {
+        "x_min": 41.0,
+        "y_min": 584.0,
+        "x_max": 89.0,
+        "y_max": 605.0
+      },
+      "confidence": 0.986484944820404,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          41.0,
+          584.0
+        ],
+        [
+          89.0,
+          584.0
+        ],
+        [
+          89.0,
+          605.0
+        ],
+        [
+          41.0,
+          605.0
+        ]
+      ]
+    },
+    {
+      "text": "ra s'enfuir,mais iln'effacera",
+      "bbox": {
+        "x_min": 357.0,
+        "y_min": 590.0,
+        "x_max": 561.0,
+        "y_max": 611.0
+      },
+      "confidence": 0.9240343570709229,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          357.0,
+          590.0
+        ],
+        [
+          561.0,
+          591.0
+        ],
+        [
+          561.0,
+          611.0
+        ],
+        [
+          357.0,
+          609.0
+        ]
+      ]
+    },
+    {
+      "text": "as ete pour nous.Ton souvenir",
+      "bbox": {
+        "x_min": 697.0,
+        "y_min": 582.0,
+        "x_max": 906.0,
+        "y_max": 607.0
+      },
+      "confidence": 0.9305039644241333,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          697.0,
+          583.0
+        ],
+        [
+          905.0,
+          582.0
+        ],
+        [
+          906.0,
+          605.0
+        ],
+        [
+          697.0,
+          607.0
+        ]
+      ]
+    },
+    {
+      "text": "UDI",
+      "bbox": {
+        "x_min": 1276.0,
+        "y_min": 583.0,
+        "x_max": 1292.0,
+        "y_max": 608.0
+      },
+      "confidence": 0.9881636500358582,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1276.0,
+          583.0
+        ],
+        [
+          1292.0,
+          583.0
+        ],
+        [
+          1292.0,
+          608.0
+        ],
+        [
+          1276.0,
+          608.0
+        ]
+      ]
+    },
+    {
+      "text": "Leur fils Andre et sa famille",
+      "bbox": {
+        "x_min": 66.0,
+        "y_min": 600.0,
+        "x_max": 247.0,
+        "y_max": 625.0
+      },
+      "confidence": 0.9022220373153687,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          66.0,
+          603.0
+        ],
+        [
+          247.0,
+          600.0
+        ],
+        [
+          247.0,
+          622.0
+        ],
+        [
+          66.0,
+          625.0
+        ]
+      ]
+    },
+    {
+      "text": "jamais de nos coeurs ce que tu",
+      "bbox": {
+        "x_min": 357.0,
+        "y_min": 608.0,
+        "x_max": 561.0,
+        "y_max": 633.0
+      },
+      "confidence": 0.9323623180389404,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          357.0,
+          608.0
+        ],
+        [
+          561.0,
+          610.0
+        ],
+        [
+          561.0,
+          633.0
+        ],
+        [
+          357.0,
+          632.0
+        ]
+      ]
+    },
+    {
+      "text": "reste toujours vivace et nous",
+      "bbox": {
+        "x_min": 698.0,
+        "y_min": 600.0,
+        "x_max": 906.0,
+        "y_max": 628.0
+      },
+      "confidence": 0.9752032160758972,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          698.0,
+          604.0
+        ],
+        [
+          905.0,
+          600.0
+        ],
+        [
+          906.0,
+          623.0
+        ],
+        [
+          699.0,
+          628.0
+        ]
+      ]
+    },
+    {
+      "text": "Une messe commemorative",
+      "bbox": {
+        "x_min": 1055.0,
+        "y_min": 611.0,
+        "x_max": 1258.0,
+        "y_max": 631.0
+      },
+      "confidence": 0.9765217900276184,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1055.0,
+          611.0
+        ],
+        [
+          1258.0,
+          611.0
+        ],
+        [
+          1258.0,
+          631.0
+        ],
+        [
+          1055.0,
+          631.0
+        ]
+      ]
+    },
+    {
+      "text": "Une messe sera celebree le",
+      "bbox": {
+        "x_min": 42.0,
+        "y_min": 619.0,
+        "x_max": 250.0,
+        "y_max": 648.0
+      },
+      "confidence": 0.9563483595848083,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          42.0,
+          625.0
+        ],
+        [
+          249.0,
+          619.0
+        ],
+        [
+          250.0,
+          641.0
+        ],
+        [
+          43.0,
+          648.0
+        ]
+      ]
+    },
+    {
+      "text": "asete pour nous.Ton souvenir",
+      "bbox": {
+        "x_min": 355.0,
+        "y_min": 629.0,
+        "x_max": 560.0,
+        "y_max": 652.0
+      },
+      "confidence": 0.9562355875968933,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          355.0,
+          629.0
+        ],
+        [
+          560.0,
+          631.0
+        ],
+        [
+          560.0,
+          652.0
+        ],
+        [
+          355.0,
+          650.0
+        ]
+      ]
+    },
+    {
+      "text": "accompagne partout ou nous",
+      "bbox": {
+        "x_min": 698.0,
+        "y_min": 621.0,
+        "x_max": 906.0,
+        "y_max": 649.0
+      },
+      "confidence": 0.969898521900177,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          698.0,
+          625.0
+        ],
+        [
+          905.0,
+          621.0
+        ],
+        [
+          906.0,
+          644.0
+        ],
+        [
+          699.0,
+          649.0
+        ]
+      ]
+    },
+    {
+      "text": "sera celebree-le7septembre,",
+      "bbox": {
+        "x_min": 1055.0,
+        "y_min": 631.0,
+        "x_max": 1257.0,
+        "y_max": 650.0
+      },
+      "confidence": 0.9375362396240234,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1055.0,
+          631.0
+        ],
+        [
+          1257.0,
+          631.0
+        ],
+        [
+          1257.0,
+          650.0
+        ],
+        [
+          1055.0,
+          650.0
+        ]
+      ]
+    },
+    {
+      "text": "AO",
+      "bbox": {
+        "x_min": 1279.0,
+        "y_min": 629.0,
+        "x_max": 1291.0,
+        "y_max": 647.0
+      },
+      "confidence": 0.9529799222946167,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1279.0,
+          629.0
+        ],
+        [
+          1291.0,
+          629.0
+        ],
+        [
+          1291.0,
+          647.0
+        ],
+        [
+          1279.0,
+          647.0
+        ]
+      ]
+    },
+    {
+      "text": "mercredi3septembrea19h30",
+      "bbox": {
+        "x_min": 41.0,
+        "y_min": 639.0,
+        "x_max": 248.0,
+        "y_max": 667.0
+      },
+      "confidence": 0.9544362425804138,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          41.0,
+          643.0
+        ],
+        [
+          248.0,
+          639.0
+        ],
+        [
+          248.0,
+          663.0
+        ],
+        [
+          41.0,
+          667.0
+        ]
+      ]
+    },
+    {
+      "text": "reste toujours vivace et nous",
+      "bbox": {
+        "x_min": 355.0,
+        "y_min": 650.0,
+        "x_max": 561.0,
+        "y_max": 671.0
+      },
+      "confidence": 0.9540566802024841,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          355.0,
+          650.0
+        ],
+        [
+          561.0,
+          652.0
+        ],
+        [
+          561.0,
+          671.0
+        ],
+        [
+          355.0,
+          670.0
+        ]
+      ]
+    },
+    {
+      "text": "allons. Une messe commemo-",
+      "bbox": {
+        "x_min": 698.0,
+        "y_min": 640.0,
+        "x_max": 904.0,
+        "y_max": 666.0
+      },
+      "confidence": 0.9505745768547058,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          698.0,
+          642.0
+        ],
+        [
+          904.0,
+          640.0
+        ],
+        [
+          904.0,
+          664.0
+        ],
+        [
+          698.0,
+          666.0
+        ]
+      ]
+    },
+    {
+      "text": "enI'eglise Ste-TriniteaRock-",
+      "bbox": {
+        "x_min": 1055.0,
+        "y_min": 650.0,
+        "x_max": 1257.0,
+        "y_max": 670.0
+      },
+      "confidence": 0.9374245405197144,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1055.0,
+          650.0
+        ],
+        [
+          1257.0,
+          650.0
+        ],
+        [
+          1257.0,
+          670.0
+        ],
+        [
+          1055.0,
+          670.0
+        ]
+      ]
+    },
+    {
+      "text": "OT",
+      "bbox": {
+        "x_min": 1280.0,
+        "y_min": 646.0,
+        "x_max": 1292.0,
+        "y_max": 664.0
+      },
+      "confidence": 0.7479326725006104,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1280.0,
+          646.0
+        ],
+        [
+          1292.0,
+          646.0
+        ],
+        [
+          1292.0,
+          664.0
+        ],
+        [
+          1280.0,
+          664.0
+        ]
+      ]
+    },
+    {
+      "text": "en leglise Ste-Trinite",
+      "bbox": {
+        "x_min": 42.0,
+        "y_min": 660.0,
+        "x_max": 218.0,
+        "y_max": 687.0
+      },
+      "confidence": 0.9376624822616577,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          42.0,
+          663.0
+        ],
+        [
+          218.0,
+          660.0
+        ],
+        [
+          218.0,
+          684.0
+        ],
+        [
+          43.0,
+          687.0
+        ]
+      ]
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 230.0,
+        "y_min": 667.0,
+        "x_max": 246.0,
+        "y_max": 678.0
+      },
+      "confidence": 0.959632158279419,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          230.0,
+          667.0
+        ],
+        [
+          246.0,
+          667.0
+        ],
+        [
+          246.0,
+          678.0
+        ],
+        [
+          230.0,
+          678.0
+        ]
+      ]
+    },
+    {
+      "text": "accompagne partout ou nous",
+      "bbox": {
+        "x_min": 357.0,
+        "y_min": 672.0,
+        "x_max": 561.0,
+        "y_max": 692.0
+      },
+      "confidence": 0.9690927863121033,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          357.0,
+          672.0
+        ],
+        [
+          561.0,
+          672.0
+        ],
+        [
+          561.0,
+          692.0
+        ],
+        [
+          357.0,
+          692.0
+        ]
+      ]
+    },
+    {
+      "text": "rative sera celebreele8sep-",
+      "bbox": {
+        "x_min": 701.0,
+        "y_min": 664.0,
+        "x_max": 903.0,
+        "y_max": 684.0
+      },
+      "confidence": 0.9440402388572693,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          701.0,
+          664.0
+        ],
+        [
+          903.0,
+          664.0
+        ],
+        [
+          903.0,
+          684.0
+        ],
+        [
+          701.0,
+          684.0
+        ]
+      ]
+    },
+    {
+      "text": "landa 19h30.",
+      "bbox": {
+        "x_min": 1055.0,
+        "y_min": 668.0,
+        "x_max": 1144.0,
+        "y_max": 688.0
+      },
+      "confidence": 0.9409109950065613,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1055.0,
+          668.0
+        ],
+        [
+          1144.0,
+          668.0
+        ],
+        [
+          1144.0,
+          688.0
+        ],
+        [
+          1055.0,
+          688.0
+        ]
+      ]
+    },
+    {
+      "text": "2005",
+      "bbox": {
+        "x_min": 1274.0,
+        "y_min": 665.0,
+        "x_max": 1294.0,
+        "y_max": 702.0
+      },
+      "confidence": 0.9984865784645081,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1274.0,
+          667.0
+        ],
+        [
+          1290.0,
+          665.0
+        ],
+        [
+          1294.0,
+          701.0
+        ],
+        [
+          1278.0,
+          702.0
+        ]
+      ]
+    },
+    {
+      "text": "Rockland.",
+      "bbox": {
+        "x_min": 45.0,
+        "y_min": 685.0,
+        "x_max": 112.0,
+        "y_max": 705.0
+      },
+      "confidence": 0.9568899869918823,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          45.0,
+          685.0
+        ],
+        [
+          112.0,
+          685.0
+        ],
+        [
+          112.0,
+          705.0
+        ],
+        [
+          45.0,
+          705.0
+        ]
+      ]
+    },
+    {
+      "text": "allons.Une messe commemo-",
+      "bbox": {
+        "x_min": 357.0,
+        "y_min": 691.0,
+        "x_max": 558.0,
+        "y_max": 710.0
+      },
+      "confidence": 0.978238046169281,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          357.0,
+          691.0
+        ],
+        [
+          558.0,
+          691.0
+        ],
+        [
+          558.0,
+          710.0
+        ],
+        [
+          357.0,
+          710.0
+        ]
+      ]
+    },
+    {
+      "text": "tembre,en egliseSte-Trinitea",
+      "bbox": {
+        "x_min": 698.0,
+        "y_min": 679.0,
+        "x_max": 908.0,
+        "y_max": 708.0
+      },
+      "confidence": 0.8746139407157898,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          698.0,
+          684.0
+        ],
+        [
+          908.0,
+          679.0
+        ],
+        [
+          908.0,
+          703.0
+        ],
+        [
+          699.0,
+          708.0
+        ]
+      ]
+    },
+    {
+      "text": "Rockland a 19h30.",
+      "bbox": {
+        "x_min": 698.0,
+        "y_min": 700.0,
+        "x_max": 827.0,
+        "y_max": 727.0
+      },
+      "confidence": 0.9434182643890381,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          698.0,
+          703.0
+        ],
+        [
+          827.0,
+          700.0
+        ],
+        [
+          827.0,
+          724.0
+        ],
+        [
+          699.0,
+          727.0
+        ]
+      ]
+    },
+    {
+      "text": "8A0UT2005",
+      "bbox": {
+        "x_min": 1044.0,
+        "y_min": 689.0,
+        "x_max": 1238.0,
+        "y_max": 730.0
+      },
+      "confidence": 0.9850131273269653,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1044.0,
+          697.0
+        ],
+        [
+          1237.0,
+          689.0
+        ],
+        [
+          1238.0,
+          722.0
+        ],
+        [
+          1045.0,
+          730.0
+        ]
+      ]
+    },
+    {
+      "text": "rative sera celebree en'eglise",
+      "bbox": {
+        "x_min": 355.0,
+        "y_min": 707.0,
+        "x_max": 561.0,
+        "y_max": 733.0
+      },
+      "confidence": 0.9419816136360168,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          355.0,
+          707.0
+        ],
+        [
+          561.0,
+          709.0
+        ],
+        [
+          561.0,
+          733.0
+        ],
+        [
+          355.0,
+          731.0
+        ]
+      ]
+    },
+    {
+      "text": "37",
+      "bbox": {
+        "x_min": 1277.0,
+        "y_min": 710.0,
+        "x_max": 1298.0,
+        "y_max": 724.0
+      },
+      "confidence": 0.995920717716217,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          1277.0,
+          710.0
+        ],
+        [
+          1298.0,
+          710.0
+        ],
+        [
+          1298.0,
+          724.0
+        ],
+        [
+          1277.0,
+          724.0
+        ]
+      ]
+    },
+    {
+      "text": "Ste-Trinitea Rockland a19h30",
+      "bbox": {
+        "x_min": 357.0,
+        "y_min": 730.0,
+        "x_max": 557.0,
+        "y_max": 749.0
+      },
+      "confidence": 0.9598387479782104,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          357.0,
+          730.0
+        ],
+        [
+          557.0,
+          730.0
+        ],
+        [
+          557.0,
+          749.0
+        ],
+        [
+          357.0,
+          749.0
+        ]
+      ]
+    },
+    {
+      "text": "Son filsAndreet sa famille",
+      "bbox": {
+        "x_min": 733.0,
+        "y_min": 744.0,
+        "x_max": 907.0,
+        "y_max": 763.0
+      },
+      "confidence": 0.942957878112793,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          733.0,
+          744.0
+        ],
+        [
+          907.0,
+          744.0
+        ],
+        [
+          907.0,
+          763.0
+        ],
+        [
+          733.0,
+          763.0
+        ]
+      ]
+    },
+    {
+      "text": "Leurfils Andre et sa famille",
+      "bbox": {
+        "x_min": 383.0,
+        "y_min": 769.0,
+        "x_max": 560.0,
+        "y_max": 790.0
+      },
+      "confidence": 0.949521541595459,
+      "page": 1,
+      "image_name": "IMG_057.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          383.0,
+          769.0
+        ],
+        [
+          560.0,
+          770.0
+        ],
+        [
+          560.0,
+          790.0
+        ],
+        [
+          383.0,
+          788.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 17.403530129000046,
+  "error": null
+}

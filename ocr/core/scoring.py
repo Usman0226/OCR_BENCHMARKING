@@ -1,9 +1,3 @@
-"""Scoring engine — computes Precision, Recall, F1, Coverage and word lists.
-
-Takes the output of the matching layer and produces ImageScoringResult and
-AggregateScoringResult objects ready for report generation.
-"""
-
 from __future__ import annotations
 
 import statistics
@@ -16,8 +10,6 @@ from ocr.core.models import (
     ImageAnnotation,
     ImageScoringResult,
     MatchStatus,
-    MatchedWord,
-    NormalizedWord,
     OCRResult,
 )
 from ocr.core.matching import match_words
@@ -28,26 +20,11 @@ if TYPE_CHECKING:
 logger = get_logger(__name__)
 
 
-# =============================================================================
-# Per-image scoring
-# =============================================================================
-
-
 def score_image(
     ocr_result: OCRResult,
     annotation: ImageAnnotation,
     matching_cfg: "MatchingConfig",
 ) -> ImageScoringResult:
-    """Score a single image's OCR output against its annotation.
-
-    Args:
-        ocr_result: Normalized OCR output for one image.
-        annotation: Ground-truth annotation for the same image.
-        matching_cfg: Matching thresholds and strategy.
-
-    Returns:
-        ImageScoringResult with all metrics populated.
-    """
     if not ocr_result.succeeded:
         logger.warning(
             "OCR failed for '%s' (%s): %s — returning zero-score result.",
@@ -118,31 +95,12 @@ def score_image(
     return result
 
 
-# =============================================================================
-# Aggregate scoring
-# =============================================================================
-
-
 def score_all(
     ocr_results: list[OCRResult],
     annotations: dict[str, ImageAnnotation],
     matching_cfg: "MatchingConfig",
     engine: EngineType,
 ) -> AggregateScoringResult:
-    """Score all OCR results for one engine and aggregate metrics.
-
-    Images present in OCR results but lacking annotations are skipped
-    with a warning.
-
-    Args:
-        ocr_results: All OCR results for *engine*.
-        annotations: Annotation map (image_name → ImageAnnotation).
-        matching_cfg: Matching configuration.
-        engine: The engine being scored.
-
-    Returns:
-        AggregateScoringResult with macro-averaged metrics.
-    """
     per_image: list[ImageScoringResult] = []
 
     for result in ocr_results:
@@ -164,7 +122,6 @@ def score_all(
     total_missed = sum(len(r.missed_words) for r in per_image)
     total_invented = sum(len(r.invented_words) for r in per_image)
 
-    # Macro-average (mean of per-image metrics)
     valid = [r for r in per_image if r.error is None]
     mean_p = statistics.mean(r.precision for r in valid) if valid else 0.0
     mean_r = statistics.mean(r.recall for r in valid) if valid else 0.0
@@ -197,11 +154,5 @@ def score_all(
     return aggregate
 
 
-# =============================================================================
-# Helpers
-# =============================================================================
-
-
 def _safe_divide(numerator: float, denominator: float) -> float:
-    """Return numerator / denominator, or 0.0 if denominator is zero."""
     return numerator / denominator if denominator > 0 else 0.0

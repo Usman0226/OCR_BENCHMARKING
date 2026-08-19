@@ -1,11 +1,6 @@
-"""Tesseract OCR engine implementation.
-
-Uses pytesseract (Python wrapper for Tesseract 5).
-Supports French + English (fra+eng) by default, configurable via config.yaml.
-"""
-
 from __future__ import annotations
 
+import os
 import re
 from pathlib import Path
 from typing import TYPE_CHECKING
@@ -23,29 +18,22 @@ if TYPE_CHECKING:
 
 logger = get_logger(__name__)
 
-# Regex to strip Tesseract control characters from output
 _CONTROL_CHAR_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
 
 
 class TesseractEngine(OCREngine):
-    """OCR engine backed by Tesseract 5 via pytesseract.
-
-    Configuration keys (all from config.yaml → engines.tesseract):
-      lang, psm, oem, config_extra, dpi
-    """
+    """OCR engine backed by Tesseract 5 via pytesseract."""
 
     engine_type = EngineType.TESSERACT
 
     def __init__(self, config: "AppConfig") -> None:
         super().__init__(config)
 
-    # ------------------------------------------------------------------
-    # Lifecycle
-    # ------------------------------------------------------------------
-
     def initialize(self) -> None:
-        """Verify Tesseract is installed and the requested languages are available."""
         cfg = self._config.engines.tesseract
+
+        if os.name == "nt":
+            pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
         try:
             version = pytesseract.get_tesseract_version()
@@ -56,7 +44,6 @@ class TesseractEngine(OCREngine):
                 "Ensure tesseract-ocr is installed in the Docker image."
             ) from exc
 
-        # Validate that all requested language packs are present
         available_langs = pytesseract.get_languages()
         requested = [lang.strip() for lang in cfg.lang.split("+")]
         missing = [lang for lang in requested if lang not in available_langs]
@@ -76,16 +63,10 @@ class TesseractEngine(OCREngine):
         )
 
     def shutdown(self) -> None:
-        """No persistent resources to release for Tesseract."""
         self._initialized = False
         logger.info("TesseractEngine shut down.")
 
-    # ------------------------------------------------------------------
-    # Raw run
-    # ------------------------------------------------------------------
-
     def _run_raw(self, image_path: Path) -> list[NormalizedWord]:
-        """Run Tesseract on *image_path* and return normalized words."""
         cfg = self._config.engines.tesseract
 
         pil_image = load_image_pil(image_path)
@@ -96,7 +77,6 @@ class TesseractEngine(OCREngine):
                 max_long_edge=self._config.preprocessing.max_long_edge,
             )
 
-        # Build tesseract custom config string
         config_parts = [
             f"--psm {cfg.psm}",
             f"--oem {cfg.oem}",
@@ -106,7 +86,6 @@ class TesseractEngine(OCREngine):
             config_parts.append(cfg.config_extra)
         tess_config = " ".join(config_parts)
 
-        # Run Tesseract and get word-level bounding boxes
         data = pytesseract.image_to_data(
             pil_image,
             lang=cfg.lang,
@@ -115,27 +94,26 @@ class TesseractEngine(OCREngine):
         )
 
         words: list[NormalizedWord] = []
-        n_boxes = len(data["level"])
-        img_w, img_h = pil_image.size
+        n_boxes = len(data["text"])
 
         for i in range(n_boxes):
-            # level 5 = word
             if data["level"][i] != 5:
                 continue
 
-            text: str = str(data["text"][i]).strip()
+            text = str(data["text"][i]).strip()
             if not text:
                 continue
 
-            # Clean control characters
             text = _CONTROL_CHAR_RE.sub("", text)
             if not text:
                 continue
 
-            # Tesseract confidence is 0–100; normalize to 0–1
-            conf_raw = data["conf"][i]
+            try:
+                conf_raw = float(data["conf"][i])
+            except (ValueError, TypeError):
+                continue
+
             if conf_raw < 0:
-                # -1 means Tesseract could not compute confidence — skip
                 continue
             confidence = float(conf_raw) / 100.0
 
@@ -154,7 +132,6 @@ class TesseractEngine(OCREngine):
                 y_max=float(y + h),
             )
 
-            # Page number (Tesseract page index is 0-based in image_to_data)
             page_num = int(data["page_num"][i]) if "page_num" in data else 1
             page = max(1, page_num)
 
@@ -165,7 +142,7 @@ class TesseractEngine(OCREngine):
                 page=page,
                 image_name=image_path.name,
                 engine=self.engine_type,
-                polygon=None,  # Tesseract doesn't produce quadrilaterals at word level
+                polygon=None,
             )
             words.append(word)
 

@@ -1,0 +1,317 @@
+{
+  "image_name": "IMG_055.jpg",
+  "image_path": "images/IMG_055.jpg",
+  "engine": "tesseract",
+  "words": [
+    {
+      "text": "2er",
+      "bbox": {
+        "x_min": 414.0,
+        "y_min": 827.0,
+        "x_max": 524.0,
+        "y_max": 862.0
+      },
+      "confidence": 0.0,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "2a",
+      "bbox": {
+        "x_min": 553.0,
+        "y_min": 827.0,
+        "x_max": 635.0,
+        "y_max": 861.0
+      },
+      "confidence": 0.0,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "gauche",
+      "bbox": {
+        "x_min": 667.0,
+        "y_min": 827.0,
+        "x_max": 829.0,
+        "y_max": 869.0
+      },
+      "confidence": 0.86,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "te",
+      "bbox": {
+        "x_min": 920.0,
+        "y_min": 851.0,
+        "x_max": 935.0,
+        "y_max": 854.0
+      },
+      "confidence": 0.28,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Pere",
+      "bbox": {
+        "x_min": 413.0,
+        "y_min": 877.0,
+        "x_max": 522.0,
+        "y_max": 910.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Dominique",
+      "bbox": {
+        "x_min": 553.0,
+        "y_min": 876.0,
+        "x_max": 800.0,
+        "y_max": 919.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "capusin",
+      "bbox": {
+        "x_min": 831.0,
+        "y_min": 878.0,
+        "x_max": 1024.0,
+        "y_max": 920.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "nee",
+      "bbox": {
+        "x_min": 469.0,
+        "y_min": 934.0,
+        "x_max": 550.0,
+        "y_max": 960.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Louis",
+      "bbox": {
+        "x_min": 581.0,
+        "y_min": 926.0,
+        "x_max": 718.0,
+        "y_max": 979.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Maynard",
+      "bbox": {
+        "x_min": 746.0,
+        "y_min": 927.0,
+        "x_max": 941.0,
+        "y_max": 982.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "se",
+      "bbox": {
+        "x_min": 971.0,
+        "y_min": 927.0,
+        "x_max": 1080.0,
+        "y_max": 999.0
+      },
+      "confidence": 0.05,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1972",
+      "bbox": {
+        "x_min": 1110.0,
+        "y_min": 927.0,
+        "x_max": 1219.0,
+        "y_max": 967.0
+      },
+      "confidence": 0.94,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "photo",
+      "bbox": {
+        "x_min": 373.0,
+        "y_min": 1003.0,
+        "x_max": 522.0,
+        "y_max": 1045.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "prise",
+      "bbox": {
+        "x_min": 550.0,
+        "y_min": 990.0,
+        "x_max": 689.0,
+        "y_max": 1045.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "a",
+      "bbox": {
+        "x_min": 720.0,
+        "y_min": 1012.0,
+        "x_max": 746.0,
+        "y_max": 1036.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "la",
+      "bbox": {
+        "x_min": 777.0,
+        "y_min": 1004.0,
+        "x_max": 829.0,
+        "y_max": 1037.0
+      },
+      "confidence": 0.95,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "=",
+      "bbox": {
+        "x_min": 953.0,
+        "y_min": 1027.0,
+        "x_max": 966.0,
+        "y_max": 1030.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Dhapelle",
+      "bbox": {
+        "x_min": 524.0,
+        "y_min": 1052.0,
+        "x_max": 745.0,
+        "y_max": 1105.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "de",
+      "bbox": {
+        "x_min": 777.0,
+        "y_min": 1055.0,
+        "x_max": 827.0,
+        "y_max": 1087.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "la",
+      "bbox": {
+        "x_min": 860.0,
+        "y_min": 1053.0,
+        "x_max": 914.0,
+        "y_max": 1087.0
+      },
+      "confidence": 0.93,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Reparation",
+      "bbox": {
+        "x_min": 941.0,
+        "y_min": 1054.0,
+        "x_max": 1220.0,
+        "y_max": 1095.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "POT",
+      "bbox": {
+        "x_min": 608.0,
+        "y_min": 1128.0,
+        "x_max": 747.0,
+        "y_max": 1163.0
+      },
+      "confidence": 0.49,
+      "page": 1,
+      "image_name": "IMG_055.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    }
+  ],
+  "processing_time_s": 2.3957508180000104,
+  "error": null
+}

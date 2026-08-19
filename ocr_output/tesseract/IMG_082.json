@@ -1,0 +1,443 @@
+{
+  "image_name": "IMG_082.jpg",
+  "image_path": "images/IMG_082.jpg",
+  "engine": "tesseract",
+  "words": [
+    {
+      "text": "bo",
+      "bbox": {
+        "x_min": 178.0,
+        "y_min": 7.0,
+        "x_max": 218.0,
+        "y_max": 87.0
+      },
+      "confidence": 0.52,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "allons",
+      "bbox": {
+        "x_min": 238.0,
+        "y_min": 7.0,
+        "x_max": 445.0,
+        "y_max": 87.0
+      },
+      "confidence": 0.07,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "y",
+      "bbox": {
+        "x_min": 504.0,
+        "y_min": 7.0,
+        "x_max": 525.0,
+        "y_max": 87.0
+      },
+      "confidence": 0.57,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Ê-",
+      "bbox": {
+        "x_min": 470.0,
+        "y_min": 82.0,
+        "x_max": 528.0,
+        "y_max": 102.0
+      },
+      "confidence": 0.0,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "2,",
+      "bbox": {
+        "x_min": 208.0,
+        "y_min": 110.0,
+        "x_max": 257.0,
+        "y_max": 142.0
+      },
+      "confidence": 0.52,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "7-2",
+      "bbox": {
+        "x_min": 284.0,
+        "y_min": 114.0,
+        "x_max": 393.0,
+        "y_max": 145.0
+      },
+      "confidence": 0.84,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Ne",
+      "bbox": {
+        "x_min": 1085.0,
+        "y_min": 206.0,
+        "x_max": 1237.0,
+        "y_max": 248.0
+      },
+      "confidence": 0.23,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "NV",
+      "bbox": {
+        "x_min": 1328.0,
+        "y_min": 207.0,
+        "x_max": 1360.0,
+        "y_max": 255.0
+      },
+      "confidence": 0.72,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "80",
+      "bbox": {
+        "x_min": 1384.0,
+        "y_min": 216.0,
+        "x_max": 1424.0,
+        "y_max": 244.0
+      },
+      "confidence": 0.34,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "ae",
+      "bbox": {
+        "x_min": 1440.0,
+        "y_min": 207.0,
+        "x_max": 1487.0,
+        "y_max": 255.0
+      },
+      "confidence": 0.88,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "FAX",
+      "bbox": {
+        "x_min": 1503.0,
+        "y_min": 218.0,
+        "x_max": 1585.0,
+        "y_max": 282.0
+      },
+      "confidence": 0.23,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "pere",
+      "bbox": {
+        "x_min": 1611.0,
+        "y_min": 218.0,
+        "x_max": 1739.0,
+        "y_max": 282.0
+      },
+      "confidence": 0.16,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "peopel,",
+      "bbox": {
+        "x_min": 1803.0,
+        "y_min": 218.0,
+        "x_max": 1969.0,
+        "y_max": 282.0
+      },
+      "confidence": 0.08,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Ca:",
+      "bbox": {
+        "x_min": 1991.0,
+        "y_min": 226.0,
+        "x_max": 2136.0,
+        "y_max": 273.0
+      },
+      "confidence": 0.01,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Boma",
+      "bbox": {
+        "x_min": 2214.0,
+        "y_min": 225.0,
+        "x_max": 2221.0,
+        "y_max": 231.0
+      },
+      "confidence": 0.56,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "_",
+      "bbox": {
+        "x_min": 2725.0,
+        "y_min": 272.0,
+        "x_max": 2771.0,
+        "y_max": 339.0
+      },
+      "confidence": 0.0,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "VU",
+      "bbox": {
+        "x_min": 201.0,
+        "y_min": 200.0,
+        "x_max": 274.0,
+        "y_max": 239.0
+      },
+      "confidence": 0.37,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "B98,",
+      "bbox": {
+        "x_min": 324.0,
+        "y_min": 207.0,
+        "x_max": 415.0,
+        "y_max": 248.0
+      },
+      "confidence": 0.2,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Bulqer",
+      "bbox": {
+        "x_min": 486.0,
+        "y_min": 208.0,
+        "x_max": 666.0,
+        "y_max": 267.0
+      },
+      "confidence": 0.26,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Las",
+      "bbox": {
+        "x_min": 682.0,
+        "y_min": 213.0,
+        "x_max": 810.0,
+        "y_max": 254.0
+      },
+      "confidence": 0.42,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "é",
+      "bbox": {
+        "x_min": 1036.0,
+        "y_min": 215.0,
+        "x_max": 1077.0,
+        "y_max": 313.0
+      },
+      "confidence": 0.08,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "a",
+      "bbox": {
+        "x_min": 1096.0,
+        "y_min": 280.0,
+        "x_max": 1175.0,
+        "y_max": 315.0
+      },
+      "confidence": 0.45,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": ",",
+      "bbox": {
+        "x_min": 1396.0,
+        "y_min": 289.0,
+        "x_max": 1419.0,
+        "y_max": 306.0
+      },
+      "confidence": 0.54,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Pons",
+      "bbox": {
+        "x_min": 1633.0,
+        "y_min": 284.0,
+        "x_max": 1746.0,
+        "y_max": 328.0
+      },
+      "confidence": 0.51,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "|",
+      "bbox": {
+        "x_min": 2387.0,
+        "y_min": 351.0,
+        "x_max": 2390.0,
+        "y_max": 354.0
+      },
+      "confidence": 0.96,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "€",
+      "bbox": {
+        "x_min": 2711.0,
+        "y_min": 312.0,
+        "x_max": 2750.0,
+        "y_max": 365.0
+      },
+      "confidence": 0.86,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1928",
+      "bbox": {
+        "x_min": 218.0,
+        "y_min": 286.0,
+        "x_max": 327.0,
+        "y_max": 318.0
+      },
+      "confidence": 0.63,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "paid",
+      "bbox": {
+        "x_min": 349.0,
+        "y_min": 289.0,
+        "x_max": 459.0,
+        "y_max": 334.0
+      },
+      "confidence": 0.37,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Yoh",
+      "bbox": {
+        "x_min": 532.0,
+        "y_min": 284.0,
+        "x_max": 645.0,
+        "y_max": 344.0
+      },
+      "confidence": 0.4,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "1",
+      "bbox": {
+        "x_min": 728.0,
+        "y_min": 301.0,
+        "x_max": 753.0,
+        "y_max": 317.0
+      },
+      "confidence": 0.46,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "4)",
+      "bbox": {
+        "x_min": 831.0,
+        "y_min": 289.0,
+        "x_max": 888.0,
+        "y_max": 330.0
+      },
+      "confidence": 0.51,
+      "page": 1,
+      "image_name": "IMG_082.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    }
+  ],
+  "processing_time_s": 2.170571085000006,
+  "error": null
+}

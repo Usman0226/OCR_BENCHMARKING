@@ -1,0 +1,79 @@
+{
+  "image_name": "IMG_078.jpg",
+  "image_path": "images/IMG_078.jpg",
+  "engine": "tesseract",
+  "words": [
+    {
+      "text": "SHEES",
+      "bbox": {
+        "x_min": 45.0,
+        "y_min": 34.0,
+        "x_max": 115.0,
+        "y_max": 49.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_078.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Esther-Lois",
+      "bbox": {
+        "x_min": 357.0,
+        "y_min": 35.0,
+        "x_max": 516.0,
+        "y_max": 52.0
+      },
+      "confidence": 0.9,
+      "page": 1,
+      "image_name": "IMG_078.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "John",
+      "bbox": {
+        "x_min": 44.0,
+        "y_min": 232.0,
+        "x_max": 100.0,
+        "y_max": 248.0
+      },
+      "confidence": 0.91,
+      "page": 1,
+      "image_name": "IMG_078.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Patrick",
+      "bbox": {
+        "x_min": 118.0,
+        "y_min": 232.0,
+        "x_max": 220.0,
+        "y_max": 248.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_078.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    },
+    {
+      "text": "Lasanté",
+      "bbox": {
+        "x_min": 237.0,
+        "y_min": 231.0,
+        "x_max": 338.0,
+        "y_max": 249.0
+      },
+      "confidence": 0.92,
+      "page": 1,
+      "image_name": "IMG_078.jpg",
+      "engine": "tesseract",
+      "polygon": null
+    }
+  ],
+  "processing_time_s": 0.2173173119999774,
+  "error": null
+}

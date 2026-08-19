@@ -1,0 +1,102 @@
+{
+  "image_name": "IMG_078.jpg",
+  "image_path": "images/IMG_078.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "SHEES",
+      "bbox": {
+        "x_min": 43.0,
+        "y_min": 31.0,
+        "x_max": 118.0,
+        "y_max": 52.0
+      },
+      "confidence": 0.9970961809158325,
+      "page": 1,
+      "image_name": "IMG_078.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          43.0,
+          31.0
+        ],
+        [
+          118.0,
+          31.0
+        ],
+        [
+          118.0,
+          52.0
+        ],
+        [
+          43.0,
+          52.0
+        ]
+      ]
+    },
+    {
+      "text": "Esther-Lois",
+      "bbox": {
+        "x_min": 355.0,
+        "y_min": 34.0,
+        "x_max": 519.0,
+        "y_max": 55.0
+      },
+      "confidence": 0.99477219581604,
+      "page": 1,
+      "image_name": "IMG_078.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          355.0,
+          34.0
+        ],
+        [
+          519.0,
+          34.0
+        ],
+        [
+          519.0,
+          55.0
+        ],
+        [
+          355.0,
+          55.0
+        ]
+      ]
+    },
+    {
+      "text": "John Patrick Lasanté",
+      "bbox": {
+        "x_min": 43.0,
+        "y_min": 228.0,
+        "x_max": 338.0,
+        "y_max": 250.0
+      },
+      "confidence": 0.9551510810852051,
+      "page": 1,
+      "image_name": "IMG_078.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          43.0,
+          229.0
+        ],
+        [
+          338.0,
+          228.0
+        ],
+        [
+          338.0,
+          249.0
+        ],
+        [
+          43.0,
+          250.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 0.40741413299997475,
+  "error": null
+}

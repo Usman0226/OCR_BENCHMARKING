@@ -1,23 +1,4 @@
 #!/usr/bin/env python3
-"""Run OCR engines on a directory of images and save per-image JSON boxes.
-
-Output layout:
-    ocr_output/
-        paddle/        # one JSON per image from PaddleOCR
-        tesseract/     # one JSON per image from Tesseract
-
-Usage:
-    # Run both engines (default)
-    python run_ocr.py --images images/
-
-    # Run a single engine
-    python run_ocr.py --engine paddle    --images images/
-    python run_ocr.py --engine tesseract --images images/
-
-    # Override Tesseract language
-    python run_ocr.py --engine tesseract --lang fra --images images/
-"""
-
 from __future__ import annotations
 
 import sys
@@ -26,7 +7,6 @@ from pathlib import Path
 import click
 from tqdm import tqdm
 
-# Allow running from project root without installing the package
 sys.path.insert(0, str(Path(__file__).parent))
 
 from ocr.core.config import load_config
@@ -71,18 +51,15 @@ def main(
     config: Path | None,
     lang: str | None,
 ) -> None:
-    """Run OCR engine(s) on all images and save normalized word-box JSON files."""
     cfg = load_config(config)
     configure_logging(cfg.logging, cfg.paths.logs_dir)
     logger = get_logger(__name__)
 
     images_dir = images or cfg.paths.images_dir
 
-    # Override Tesseract language from CLI
     if lang:
         cfg.engines.tesseract.lang = lang
 
-    # Discover images
     try:
         image_paths = list_images(images_dir)
     except NotADirectoryError as exc:
@@ -97,7 +74,6 @@ def main(
         )
         sys.exit(1)
 
-    # Determine engines to run
     engines_to_run: list[EngineType]
     if engine == "all":
         engines_to_run = [EngineType.PADDLE, EngineType.TESSERACT]
@@ -107,7 +83,6 @@ def main(
     overall_errors = 0
 
     for eng_type in engines_to_run:
-        # Engine-specific output subdirectory: ocr_output/paddle/ or ocr_output/tesseract/
         engine_output_dir = cfg.paths.ocr_output_dir / eng_type.value
         engine_output_dir.mkdir(parents=True, exist_ok=True)
 

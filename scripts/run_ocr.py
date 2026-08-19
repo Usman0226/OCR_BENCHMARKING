@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""CLI: Run an OCR engine on a directory of images.
-
-Usage:
-    python scripts/run_ocr.py --engine paddle --images images/
-    python scripts/run_ocr.py --engine tesseract --images images/
-    python scripts/run_ocr.py --engine tesseract --images images/ --config configs/config.yaml
-"""
-
 from __future__ import annotations
 
 import sys
@@ -15,7 +7,6 @@ from pathlib import Path
 import click
 from tqdm import tqdm
 
-# Ensure project root is on PYTHONPATH when running directly
 sys.path.insert(0, str(Path(__file__).parents[1]))
 
 from ocr.core.config import load_config
@@ -71,10 +62,8 @@ def main(
     output: Path | None,
     lang: str | None,
 ) -> None:
-    """Run an OCR engine on all images in a directory and save normalized output."""
     cfg = load_config(config)
 
-    # Override lang from CLI if provided
     if lang:
         if engine.lower() == "tesseract":
             cfg.engines.tesseract.lang = lang
@@ -91,7 +80,6 @@ def main(
     engine_type = EngineType.from_str(engine)
     ocr_engine = create_engine(engine_type, cfg)
 
-    # Discover images
     try:
         image_paths = list_images(images_dir)
     except NotADirectoryError as exc:
@@ -114,14 +102,12 @@ def main(
         f"{'-'*60}\n"
     )
 
-    # Initialize engine
     try:
         ocr_engine.initialize()
     except RuntimeError as exc:
         click.echo(f"ERROR: Engine initialization failed — {exc}", err=True)
         sys.exit(1)
 
-    # Process images
     success_count = 0
     error_count = 0
 

@@ -1,5 +1,3 @@
-"""Unit tests for ocr.core.models — serialization and validation."""
-
 from __future__ import annotations
 
 import pytest
@@ -10,11 +8,6 @@ from ocr.core.models import (
     NormalizedWord,
     Polygon,
 )
-
-
-# =============================================================================
-# BoundingBox
-# =============================================================================
 
 
 class TestBoundingBox:
@@ -59,11 +52,6 @@ class TestBoundingBox:
         assert box.to_xywh() == (10, 20, 100, 50)
 
 
-# =============================================================================
-# EngineType
-# =============================================================================
-
-
 class TestEngineType:
     def test_from_str_paddle(self) -> None:
         assert EngineType.from_str("paddle") == EngineType.PADDLE
@@ -74,11 +62,6 @@ class TestEngineType:
     def test_from_str_invalid(self) -> None:
         with pytest.raises(ValueError, match="Unknown engine"):
             EngineType.from_str("easyocr")
-
-
-# =============================================================================
-# NormalizedWord
-# =============================================================================
 
 
 class TestNormalizedWord:
@@ -98,7 +81,7 @@ class TestNormalizedWord:
             NormalizedWord(
                 text="x",
                 bbox=BoundingBox(0, 0, 10, 10),
-                confidence=1.5,  # invalid
+                confidence=1.5,
                 page=1,
                 image_name="doc.jpg",
                 engine=EngineType.TESSERACT,
@@ -110,7 +93,7 @@ class TestNormalizedWord:
                 text="x",
                 bbox=BoundingBox(0, 0, 10, 10),
                 confidence=0.5,
-                page=0,  # invalid
+                page=0,
                 image_name="doc.jpg",
                 engine=EngineType.TESSERACT,
             )
@@ -151,11 +134,6 @@ class TestNormalizedWord:
         recovered = NormalizedWord.from_dict(d)
         assert recovered.polygon is not None
         assert len(recovered.polygon.points) == 4
-
-
-# =============================================================================
-# Polygon
-# =============================================================================
 
 
 class TestPolygon:

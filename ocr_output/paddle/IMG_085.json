@@ -1,0 +1,257 @@
+{
+  "image_name": "IMG_085.jpg",
+  "image_path": "images/IMG_085.jpg",
+  "engine": "paddle",
+  "words": [
+    {
+      "text": "CLUB",
+      "bbox": {
+        "x_min": 23.0,
+        "y_min": 67.0,
+        "x_max": 103.0,
+        "y_max": 108.0
+      },
+      "confidence": 0.9786069393157959,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          23.0,
+          78.0
+        ],
+        [
+          99.0,
+          67.0
+        ],
+        [
+          103.0,
+          96.0
+        ],
+        [
+          27.0,
+          108.0
+        ]
+      ]
+    },
+    {
+      "text": "60e anniversaire de fondation Mrur",
+      "bbox": {
+        "x_min": 25.0,
+        "y_min": 421.0,
+        "x_max": 876.0,
+        "y_max": 466.0
+      },
+      "confidence": 0.8601990342140198,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          25.0,
+          428.0
+        ],
+        [
+          876.0,
+          421.0
+        ],
+        [
+          876.0,
+          459.0
+        ],
+        [
+          25.0,
+          466.0
+        ]
+      ]
+    },
+    {
+      "text": "Imacom-Daguerre,ReneMarquis",
+      "bbox": {
+        "x_min": 678.0,
+        "y_min": 475.0,
+        "x_max": 881.0,
+        "y_max": 492.0
+      },
+      "confidence": 0.970342755317688,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          678.0,
+          475.0
+        ],
+        [
+          881.0,
+          475.0
+        ],
+        [
+          881.0,
+          492.0
+        ],
+        [
+          678.0,
+          492.0
+        ]
+      ]
+    },
+    {
+      "text": "Les Clubs Lions de Magog et du Sherbrooke-Metro fetaient,samedi soir,leur 60e anniversaire de fondation. Dans",
+      "bbox": {
+        "x_min": 23.0,
+        "y_min": 490.0,
+        "x_max": 872.0,
+        "y_max": 513.0
+      },
+      "confidence": 0.9561790227890015,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          23.0,
+          492.0
+        ],
+        [
+          872.0,
+          490.0
+        ],
+        [
+          872.0,
+          511.0
+        ],
+        [
+          23.0,
+          513.0
+        ]
+      ]
+    },
+    {
+      "text": "Iordre,le president du Club Lions Sherbrooke-Metro,Gilles Tardif,Noella Morin du Club Lions de Boucherville,le",
+      "bbox": {
+        "x_min": 20.0,
+        "y_min": 512.0,
+        "x_max": 871.0,
+        "y_max": 534.0
+      },
+      "confidence": 0.9501547813415527,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          20.0,
+          514.0
+        ],
+        [
+          871.0,
+          512.0
+        ],
+        [
+          871.0,
+          532.0
+        ],
+        [
+          20.0,
+          534.0
+        ]
+      ]
+    },
+    {
+      "text": "gouverneur dudistrict U4PierrePaul Theriaultlepresident du ClubLions deMagog,Bertrand Roy,sa conjoint",
+      "bbox": {
+        "x_min": 19.0,
+        "y_min": 530.0,
+        "x_max": 876.0,
+        "y_max": 558.0
+      },
+      "confidence": 0.8474028706550598,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          19.0,
+          533.0
+        ],
+        [
+          876.0,
+          530.0
+        ],
+        [
+          876.0,
+          555.0
+        ],
+        [
+          19.0,
+          558.0
+        ]
+      ]
+    },
+    {
+      "text": "Yvonne Roy et Denyse Dezainde,conjointe de Jacques Dezainde.",
+      "bbox": {
+        "x_min": 22.0,
+        "y_min": 555.0,
+        "x_max": 501.0,
+        "y_max": 577.0
+      },
+      "confidence": 0.9537525773048401,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          22.0,
+          556.0
+        ],
+        [
+          501.0,
+          555.0
+        ],
+        [
+          501.0,
+          576.0
+        ],
+        [
+          22.0,
+          577.0
+        ]
+      ]
+    },
+    {
+      "text": "2310-20m",
+      "bbox": {
+        "x_min": 669.0,
+        "y_min": 560.0,
+        "x_max": 840.0,
+        "y_max": 590.0
+      },
+      "confidence": 0.7697656154632568,
+      "page": 1,
+      "image_name": "IMG_085.jpg",
+      "engine": "paddle",
+      "polygon": [
+        [
+          669.0,
+          560.0
+        ],
+        [
+          840.0,
+          562.0
+        ],
+        [
+          840.0,
+          590.0
+        ],
+        [
+          669.0,
+          588.0
+        ]
+      ]
+    }
+  ],
+  "processing_time_s": 3.091353136999942,
+  "error": null
+}
