@@ -1,6 +1,6 @@
 {
   "image_name": "IMG_073.jpg",
-  "image_path": "images/IMG_073.jpg",
+  "image_path": "/workspace/images/IMG_073.jpg",
   "engine": "paddle",
   "words": [
     {
@@ -2391,6 +2391,6 @@
       ]
     }
   ],
-  "processing_time_s": 6.728676732999929,
+  "processing_time_s": 4.313818203999972,
   "error": null
 }

@@ -1,629 +1,156 @@
 {
-  "image_name": "IMG_063.jpg",
-  "image_path": "images/IMG_063.jpg",
-  "engine": "paddle",
   "words": [
     {
-      "text": "RAOULGIROUX",
       "bbox": {
         "x_min": 123.0,
-        "y_min": 164.0,
+        "y_min": 163.0,
         "x_max": 229.0,
-        "y_max": 187.0
-      },
-      "confidence": 0.9943597316741943,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          123.0,
-          166.0
-        ],
-        [
-          228.0,
-          164.0
-        ],
-        [
-          229.0,
-          185.0
-        ],
-        [
-          123.0,
-          187.0
-        ]
-      ]
+        "y_max": 186.0
+      }
     },
     {
-      "text": "decedele11juillet2002aHullaage de79ans.lletaitlepouxdeLucette",
       "bbox": {
-        "x_min": 7.0,
+        "x_min": 9.0,
         "y_min": 201.0,
-        "x_max": 345.0,
-        "y_max": 222.0
-      },
-      "confidence": 0.879034161567688,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          7.0,
-          206.0
-        ],
-        [
-          345.0,
-          201.0
-        ],
-        [
-          345.0,
-          217.0
-        ],
-        [
-          7.0,
-          222.0
-        ]
-      ]
+        "x_max": 342.0,
+        "y_max": 220.0
+      }
     },
     {
-      "text": "Giroux(nee Poirier) et fils de feu OziasGirouxet de feu Eva Clouthier.ll",
       "bbox": {
         "x_min": 9.0,
         "y_min": 216.0,
+        "x_max": 344.0,
+        "y_max": 234.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 9.0,
+        "y_min": 230.0,
         "x_max": 345.0,
-        "y_max": 235.0
-      },
-      "confidence": 0.8924728035926819,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          9.0,
-          221.0
-        ],
-        [
-          345.0,
-          216.0
-        ],
-        [
-          345.0,
-          230.0
-        ],
-        [
-          10.0,
-          235.0
-        ]
-      ]
+        "y_max": 249.0
+      }
     },
     {
-      "text": "laisse dans le deuil sa fille Jocelyne (Jean-Claude Moreau):ses fils:Jean-",
       "bbox": {
         "x_min": 9.0,
-        "y_min": 231.0,
-        "x_max": 344.0,
-        "y_max": 250.0
-      },
-      "confidence": 0.8813172578811646,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          9.0,
-          236.0
-        ],
-        [
-          344.0,
-          231.0
-        ],
-        [
-          344.0,
-          245.0
-        ],
-        [
-          10.0,
-          250.0
-        ]
-      ]
+        "y_min": 245.0,
+        "x_max": 342.0,
+        "y_max": 262.0
+      }
     },
     {
-      "text": "Marc (Marguerite Boucher)et Henri-Paul (France Bourdon) de St-",
       "bbox": {
-        "x_min": 8.0,
-        "y_min": 244.0,
-        "x_max": 344.0,
-        "y_max": 265.0
-      },
-      "confidence": 0.9204428195953369,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          8.0,
-          249.0
-        ],
-        [
-          344.0,
-          244.0
-        ],
-        [
-          344.0,
-          260.0
-        ],
-        [
-          9.0,
-          265.0
-        ]
-      ]
-    },
-    {
-      "text": "Constant,ses petits-enfants:Claudine Moreau,Etienne Moreau,Mar",
-      "bbox": {
-        "x_min": 9.0,
+        "x_min": 10.0,
         "y_min": 258.0,
-        "x_max": 343.0,
-        "y_max": 279.0
-      },
-      "confidence": 0.8988749980926514,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          9.0,
-          263.0
-        ],
-        [
-          343.0,
-          258.0
-        ],
-        [
-          343.0,
-          274.0
-        ],
-        [
-          10.0,
-          279.0
-        ]
-      ]
+        "x_max": 342.0,
+        "y_max": 277.0
+      }
     },
     {
-      "text": "Andre Giroux.Annick Giroux,Jessica Giroux et Sebastien Giroux; ses",
       "bbox": {
-        "x_min": 8.0,
+        "x_min": 9.0,
         "y_min": 272.0,
-        "x_max": 345.0,
-        "y_max": 292.0
-      },
-      "confidence": 0.9221523404121399,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          8.0,
-          276.0
-        ],
-        [
-          345.0,
-          272.0
-        ],
-        [
-          345.0,
-          288.0
-        ],
-        [
-          8.0,
-          292.0
-        ]
-      ]
-    },
-    {
-      "text": "belles-soeurs:Fleurette Deslauriers et Jacqueline Poirier,ainsi que",
-      "bbox": {
-        "x_min": 9.0,
-        "y_min": 288.0,
         "x_max": 344.0,
-        "y_max": 305.0
-      },
-      "confidence": 0.949008584022522,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          9.0,
-          291.0
-        ],
-        [
-          344.0,
-          288.0
-        ],
-        [
-          344.0,
-          302.0
-        ],
-        [
-          9.0,
-          305.0
-        ]
-      ]
+        "y_max": 290.0
+      }
     },
     {
-      "text": "plusieurscousinscousines,neveux,niecesetamie)s.Lont predecede",
-      "bbox": {
-        "x_min": 8.0,
-        "y_min": 300.0,
-        "x_max": 346.0,
-        "y_max": 322.0
-      },
-      "confidence": 0.830672025680542,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          8.0,
-          305.0
-        ],
-        [
-          346.0,
-          300.0
-        ],
-        [
-          346.0,
-          317.0
-        ],
-        [
-          8.0,
-          322.0
-        ]
-      ]
-    },
-    {
-      "text": "son frere Alcide et ses soeurs:Soiange et Lucille.",
       "bbox": {
         "x_min": 9.0,
+        "y_min": 287.0,
+        "x_max": 344.0,
+        "y_max": 304.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 10.0,
+        "y_min": 301.0,
+        "x_max": 344.0,
+        "y_max": 319.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 10.0,
         "y_min": 317.0,
         "x_max": 236.0,
-        "y_max": 336.0
-      },
-      "confidence": 0.9026141166687012,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          9.0,
-          320.0
-        ],
-        [
-          236.0,
-          317.0
-        ],
-        [
-          236.0,
-          333.0
-        ],
-        [
-          10.0,
-          336.0
-        ]
-      ]
+        "y_max": 333.0
+      }
     },
     {
-      "text": "Iny aurapas devisitesa la maison funeraire.Le service religieux aura",
-      "bbox": {
-        "x_min": 9.0,
-        "y_min": 346.0,
-        "x_max": 348.0,
-        "y_max": 367.0
-      },
-      "confidence": 0.9140067100524902,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          9.0,
-          351.0
-        ],
-        [
-          348.0,
-          346.0
-        ],
-        [
-          348.0,
-          362.0
-        ],
-        [
-          10.0,
-          367.0
-        ]
-      ]
-    },
-    {
-      "text": "lieuenegliseNotre-Dame-de-la-Guadeloupe au30,rueSt-OngeaHull,",
       "bbox": {
         "x_min": 10.0,
+        "y_min": 347.0,
+        "x_max": 346.0,
+        "y_max": 364.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 11.0,
         "y_min": 360.0,
-        "x_max": 347.0,
-        "y_max": 381.0
-      },
-      "confidence": 0.870621919631958,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          10.0,
-          364.0
-        ],
-        [
-          347.0,
-          360.0
-        ],
-        [
-          347.0,
-          377.0
-        ],
-        [
-          11.0,
-          381.0
-        ]
-      ]
+        "x_max": 344.0,
+        "y_max": 379.0
+      }
     },
     {
-      "text": "le samedi 13juillet2002a11h.La famile recevra les condoleancesa",
       "bbox": {
-        "x_min": 10.0,
+        "x_min": 11.0,
         "y_min": 374.0,
-        "x_max": 349.0,
-        "y_max": 395.0
-      },
-      "confidence": 0.9232264757156372,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          10.0,
-          378.0
-        ],
-        [
-          349.0,
-          374.0
-        ],
-        [
-          349.0,
-          391.0
-        ],
-        [
-          11.0,
-          395.0
-        ]
-      ]
+        "x_max": 347.0,
+        "y_max": 393.0
+      }
     },
     {
-      "text": "l'eglise.suite auservice religieux.",
       "bbox": {
         "x_min": 11.0,
-        "y_min": 392.0,
-        "x_max": 165.0,
-        "y_max": 408.0
-      },
-      "confidence": 0.913784384727478,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          11.0,
-          394.0
-        ],
-        [
-          165.0,
-          392.0
-        ],
-        [
-          165.0,
-          406.0
-        ],
-        [
-          12.0,
-          408.0
-        ]
-      ]
+        "y_min": 391.0,
+        "x_max": 166.0,
+        "y_max": 407.0
+      }
     },
     {
-      "text": "La direction des funeraillesa ete confiee a la COOPERATIVE",
       "bbox": {
-        "x_min": 10.0,
+        "x_min": 11.0,
         "y_min": 400.0,
-        "x_max": 347.0,
-        "y_max": 424.0
-      },
-      "confidence": 0.918877899646759,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          10.0,
-          407.0
-        ],
-        [
-          347.0,
-          400.0
-        ],
-        [
-          347.0,
-          417.0
-        ],
-        [
-          11.0,
-          424.0
-        ]
-      ]
+        "x_max": 346.0,
+        "y_max": 422.0
+      }
     },
     {
-      "text": "FUNERAIREDEL'OUTAOUAIS.Pourrenseignements:（819)568-2425.",
       "bbox": {
-        "x_min": 11.0,
-        "y_min": 416.0,
-        "x_max": 347.0,
-        "y_max": 438.0
-      },
-      "confidence": 0.9270553588867188,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          11.0,
-          421.0
-        ],
-        [
-          347.0,
-          416.0
-        ],
-        [
-          347.0,
-          433.0
-        ],
-        [
-          12.0,
-          438.0
-        ]
-      ]
+        "x_min": 12.0,
+        "y_min": 417.0,
+        "x_max": 345.0,
+        "y_max": 435.0
+      }
     },
     {
-      "text": "courel:cfam@cfo.coop,telecopieur:(819)568-2426.",
       "bbox": {
-        "x_min": 11.0,
-        "y_min": 432.0,
+        "x_min": 12.0,
+        "y_min": 433.0,
         "x_max": 255.0,
-        "y_max": 452.0
-      },
-      "confidence": 0.9293444156646729,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          11.0,
-          436.0
-        ],
-        [
-          255.0,
-          432.0
-        ],
-        [
-          255.0,
-          447.0
-        ],
-        [
-          12.0,
-          452.0
-        ]
-      ]
+        "y_max": 450.0
+      }
     },
     {
-      "text": "Des dons a la Societe canadienne du cancer seraient apprecies.",
       "bbox": {
-        "x_min": 11.0,
-        "y_min": 445.0,
+        "x_min": 12.0,
+        "y_min": 446.0,
+        "x_max": 346.0,
+        "y_max": 464.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 13.0,
+        "y_min": 459.0,
         "x_max": 347.0,
-        "y_max": 465.0
-      },
-      "confidence": 0.9506183862686157,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          11.0,
-          449.0
-        ],
-        [
-          347.0,
-          445.0
-        ],
-        [
-          347.0,
-          461.0
-        ],
-        [
-          12.0,
-          465.0
-        ]
-      ]
-    },
-    {
-      "text": "Remerciements engeneralaupersonnelmedicaletinfirmierduCHvOde",
-      "bbox": {
-        "x_min": 12.0,
-        "y_min": 458.0,
-        "x_max": 349.0,
-        "y_max": 480.0
-      },
-      "confidence": 0.95157790184021,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          12.0,
-          464.0
-        ],
-        [
-          349.0,
-          458.0
-        ],
-        [
-          349.0,
-          475.0
-        ],
-        [
-          13.0,
-          480.0
-        ]
-      ]
-    },
-    {
-      "text": "Hull pourles bons soins prodigues.Le Drolt Ottawa-Gatlneau 2002",
-      "bbox": {
-        "x_min": 12.0,
-        "y_min": 471.0,
-        "x_max": 325.0,
-        "y_max": 494.0
-      },
-      "confidence": 0.8996521830558777,
-      "page": 1,
-      "image_name": "IMG_063.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          12.0,
-          477.0
-        ],
-        [
-          324.0,
-          471.0
-        ],
-        [
-          325.0,
-          488.0
-        ],
-        [
-          13.0,
-          494.0
-        ]
-      ]
+        "y_max": 477.0
+      }
     }
-  ],
-  "processing_time_s": 5.461548932000028,
-  "error": null
+  ]
 }

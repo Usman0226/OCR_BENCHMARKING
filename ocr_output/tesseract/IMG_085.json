@@ -1,6 +1,6 @@
 {
   "image_name": "IMG_085.jpg",
-  "image_path": "images/IMG_085.jpg",
+  "image_path": "/workspace/images/IMG_085.jpg",
   "engine": "tesseract",
   "words": [
     {
@@ -970,6 +970,6 @@
       "polygon": null
     }
   ],
-  "processing_time_s": 2.6296606189998784,
+  "processing_time_s": 0.46782205600004545,
   "error": null
 }

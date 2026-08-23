@@ -1,261 +1,148 @@
 {
-  "image_name": "IMG_061.jpg",
-  "image_path": "images/IMG_061.jpg",
-  "engine": "tesseract",
   "words": [
     {
-      "text": "Longtin",
       "bbox": {
-        "x_min": 190.0,
-        "y_min": 165.0,
-        "x_max": 327.0,
-        "y_max": 188.0
-      },
-      "confidence": 0.92,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 190,
+        "y_min": 165,
+        "x_max": 327,
+        "y_max": 188
+      }
     },
     {
-      "text": "Imelda:",
       "bbox": {
-        "x_min": 346.0,
-        "y_min": 167.0,
-        "x_max": 475.0,
-        "y_max": 191.0
-      },
-      "confidence": 0.96,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 346,
+        "y_min": 167,
+        "x_max": 475,
+        "y_max": 191
+      }
     },
     {
-      "text": "Zénophile",
       "bbox": {
-        "x_min": 578.0,
-        "y_min": 170.0,
-        "x_max": 750.0,
-        "y_max": 197.0
-      },
-      "confidence": 0.89,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 578,
+        "y_min": 170,
+        "x_max": 657,
+        "y_max": 196
+      }
     },
     {
-      "text": "nf",
       "bbox": {
-        "x_min": 244.0,
-        "y_min": 163.0,
-        "x_max": 286.0,
-        "y_max": 224.0
-      },
-      "confidence": 0.45,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 712,
+        "y_min": 174,
+        "x_max": 750,
+        "y_max": 197
+      }
     },
     {
-      "text": "Gé",
       "bbox": {
-        "x_min": 571.0,
-        "y_min": 193.0,
-        "x_max": 615.0,
-        "y_max": 231.0
-      },
-      "confidence": 0.96,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 244,
+        "y_min": 163,
+        "x_max": 286,
+        "y_max": 224
+      }
     },
     {
-      "text": "ne",
       "bbox": {
-        "x_min": 712.0,
-        "y_min": 206.0,
-        "x_max": 746.0,
-        "y_max": 225.0
-      },
-      "confidence": 0.83,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 571,
+        "y_min": 193,
+        "x_max": 615,
+        "y_max": 231
+      }
     },
     {
-      "text": "bergevin",
       "bbox": {
-        "x_min": 769.0,
-        "y_min": 203.0,
-        "x_max": 926.0,
-        "y_max": 232.0
-      },
-      "confidence": 0.75,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 712,
+        "y_min": 206,
+        "x_max": 746,
+        "y_max": 225
+      }
     },
     {
-      "text": "x",
       "bbox": {
-        "x_min": 227.0,
-        "y_min": 256.0,
-        "x_max": 246.0,
-        "y_max": 271.0
-      },
-      "confidence": 0.87,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 769,
+        "y_min": 203,
+        "x_max": 926,
+        "y_max": 232
+      }
     },
     {
-      "text": "|",
       "bbox": {
-        "x_min": 1153.0,
-        "y_min": 264.0,
-        "x_max": 1156.0,
-        "y_max": 276.0
-      },
-      "confidence": 0.6,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 227,
+        "y_min": 256,
+        "x_max": 246,
+        "y_max": 271
+      }
     },
     {
-      "text": "Levesque",
       "bbox": {
-        "x_min": 163.0,
-        "y_min": 325.0,
-        "x_max": 317.0,
-        "y_max": 354.0
-      },
-      "confidence": 0.96,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 163,
+        "y_min": 325,
+        "x_max": 317,
+        "y_max": 354
+      }
     },
     {
-      "text": "Albani",
       "bbox": {
-        "x_min": 338.0,
-        "y_min": 326.0,
-        "x_max": 448.0,
-        "y_max": 353.0
-      },
-      "confidence": 0.78,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 338,
+        "y_min": 326,
+        "x_max": 448,
+        "y_max": 353
+      }
     },
     {
-      "text": ":",
       "bbox": {
-        "x_min": 478.0,
-        "y_min": 336.0,
-        "x_max": 487.0,
-        "y_max": 352.0
-      },
-      "confidence": 0.87,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 478,
+        "y_min": 336,
+        "x_max": 487,
+        "y_max": 352
+      }
     },
     {
-      "text": "Jos.",
       "bbox": {
-        "x_min": 568.0,
-        "y_min": 326.0,
-        "x_max": 644.0,
-        "y_max": 368.0
-      },
-      "confidence": 0.59,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 568,
+        "y_min": 326,
+        "x_max": 838,
+        "y_max": 370
+      }
     },
     {
-      "text": "(Joliette)",
       "bbox": {
-        "x_min": 652.0,
-        "y_min": 326.0,
-        "x_max": 838.0,
-        "y_max": 368.0
-      },
-      "confidence": 0.59,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 1143,
+        "y_min": 340,
+        "x_max": 1154,
+        "y_max": 384
+      }
     },
     {
-      "text": "a",
       "bbox": {
-        "x_min": 1143.0,
-        "y_min": 340.0,
-        "x_max": 1154.0,
-        "y_max": 359.0
-      },
-      "confidence": 0.25,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 570,
+        "y_min": 368,
+        "x_max": 721,
+        "y_max": 394
+      }
     },
     {
-      "text": "Parmélia",
       "bbox": {
-        "x_min": 570.0,
-        "y_min": 368.0,
-        "x_max": 721.0,
-        "y_max": 394.0
-      },
-      "confidence": 0.91,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 742,
+        "y_min": 371,
+        "x_max": 898,
+        "y_max": 402
+      }
     },
     {
-      "text": "Melancon",
       "bbox": {
-        "x_min": 742.0,
-        "y_min": 371.0,
-        "x_max": 898.0,
-        "y_max": 402.0
-      },
-      "confidence": 0.91,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 1147,
+        "y_min": 382,
+        "x_max": 1154,
+        "y_max": 416
+      }
     },
     {
-      "text": "HOWICK:M.1916-25-7",
       "bbox": {
-        "x_min": 216.0,
-        "y_min": 450.0,
-        "x_max": 565.0,
-        "y_max": 482.0
-      },
-      "confidence": 0.84,
-      "page": 1,
-      "image_name": "IMG_061.jpg",
-      "engine": "tesseract",
-      "polygon": null
+        "x_min": 216,
+        "y_min": 450,
+        "x_max": 565,
+        "y_max": 482
+      }
     }
-  ],
-  "processing_time_s": 0.9696942760000411,
-  "error": null
+  ]
 }

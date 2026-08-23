@@ -1,3 +1,0 @@
-matching:
-  strategy: "iou_only"
-  iou_threshold: 0.5

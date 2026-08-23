@@ -1,939 +1,252 @@
 {
-  "image_name": "IMG_064.jpg",
-  "image_path": "images/IMG_064.jpg",
-  "engine": "paddle",
   "words": [
     {
-      "text": "BENOIT-Mme Rose Alma,nee",
       "bbox": {
-        "x_min": 18.0,
-        "y_min": 1.0,
-        "x_max": 208.0,
-        "y_max": 19.0
-      },
-      "confidence": 0.9263970255851746,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          18.0,
-          1.0
-        ],
-        [
-          208.0,
-          2.0
-        ],
-        [
-          208.0,
-          19.0
-        ],
-        [
-          18.0,
-          18.0
-        ]
-      ]
-    },
-    {
-      "text": "Rivard,autrefois de Limoges,",
-      "bbox": {
-        "x_min": 17.0,
-        "y_min": 17.0,
+        "x_min": 19.0,
+        "y_min": 3.0,
         "x_max": 207.0,
-        "y_max": 35.0
-      },
-      "confidence": 0.945887565612793,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          17.0,
-          17.0
-        ],
-        [
-          207.0,
-          18.0
-        ],
-        [
-          207.0,
-          35.0
-        ],
-        [
-          17.0,
-          34.0
-        ]
-      ]
+        "y_max": 17.0
+      }
     },
     {
-      "text": "Ontario,est decedee le mardi 22",
       "bbox": {
-        "x_min": 18.0,
-        "y_min": 31.0,
-        "x_max": 208.0,
-        "y_max": 50.0
-      },
-      "confidence": 0.9279323816299438,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          18.0,
-          32.0
-        ],
-        [
-          208.0,
-          31.0
-        ],
-        [
-          208.0,
-          49.0
-        ],
-        [
-          18.0,
-          50.0
-        ]
-      ]
+        "x_min": 19.0,
+        "y_min": 19.0,
+        "x_max": 205.0,
+        "y_max": 33.0
+      }
     },
     {
-      "text": "avril2003,alage de68ans.Elle",
+      "bbox": {
+        "x_min": 19.0,
+        "y_min": 33.0,
+        "x_max": 204.0,
+        "y_max": 46.0
+      }
+    },
+    {
       "bbox": {
         "x_min": 19.0,
         "y_min": 49.0,
-        "x_max": 207.0,
-        "y_max": 63.0
-      },
-      "confidence": 0.930389404296875,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          19.0,
-          49.0
-        ],
-        [
-          207.0,
-          49.0
-        ],
-        [
-          207.0,
-          63.0
-        ],
-        [
-          19.0,
-          63.0
-        ]
-      ]
+        "x_max": 206.0,
+        "y_max": 62.0
+      }
     },
     {
-      "text": "etait lepouse bien-aimee de feu",
-      "bbox": {
-        "x_min": 18.0,
-        "y_min": 63.0,
-        "x_max": 209.0,
-        "y_max": 80.0
-      },
-      "confidence": 0.9262170195579529,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          18.0,
-          63.0
-        ],
-        [
-          209.0,
-          63.0
-        ],
-        [
-          209.0,
-          80.0
-        ],
-        [
-          18.0,
-          80.0
-        ]
-      ]
-    },
-    {
-      "text": "Emile Benoit. Elle laisse dans le",
-      "bbox": {
-        "x_min": 19.0,
-        "y_min": 78.0,
-        "x_max": 208.0,
-        "y_max": 95.0
-      },
-      "confidence": 0.9528432488441467,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          19.0,
-          78.0
-        ],
-        [
-          208.0,
-          78.0
-        ],
-        [
-          208.0,
-          95.0
-        ],
-        [
-          19.0,
-          95.0
-        ]
-      ]
-    },
-    {
-      "text": "deuil ses enfants:Pierre,Francoise",
-      "bbox": {
-        "x_min": 19.0,
-        "y_min": 93.0,
-        "x_max": 208.0,
-        "y_max": 110.0
-      },
-      "confidence": 0.9415439367294312,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          19.0,
-          93.0
-        ],
-        [
-          208.0,
-          93.0
-        ],
-        [
-          208.0,
-          110.0
-        ],
-        [
-          19.0,
-          110.0
-        ]
-      ]
-    },
-    {
-      "text": "(FentonFord),",
-      "bbox": {
-        "x_min": 19.0,
-        "y_min": 108.0,
-        "x_max": 127.0,
-        "y_max": 124.0
-      },
-      "confidence": 0.9071744680404663,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          19.0,
-          108.0
-        ],
-        [
-          127.0,
-          108.0
-        ],
-        [
-          127.0,
-          124.0
-        ],
-        [
-          19.0,
-          124.0
-        ]
-      ]
-    },
-    {
-      "text": "Annette(Dan",
-      "bbox": {
-        "x_min": 121.0,
-        "y_min": 109.0,
-        "x_max": 208.0,
-        "y_max": 122.0
-      },
-      "confidence": 0.9433257579803467,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          121.0,
-          109.0
-        ],
-        [
-          208.0,
-          109.0
-        ],
-        [
-          208.0,
-          122.0
-        ],
-        [
-          121.0,
-          122.0
-        ]
-      ]
-    },
-    {
-      "text": "Pomerentz),Diane.Mme Benoit fut",
       "bbox": {
         "x_min": 20.0,
-        "y_min": 124.0,
-        "x_max": 208.0,
-        "y_max": 138.0
-      },
-      "confidence": 0.9628317952156067,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          20.0,
-          124.0
-        ],
-        [
-          208.0,
-          124.0
-        ],
-        [
-          208.0,
-          138.0
-        ],
-        [
-          20.0,
-          138.0
-        ]
-      ]
-    },
-    {
-      "text": "predecedeeparune filleJacqueline",
-      "bbox": {
-        "x_min": 21.0,
-        "y_min": 139.0,
+        "y_min": 64.0,
         "x_max": 206.0,
-        "y_max": 153.0
-      },
-      "confidence": 0.9772481322288513,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          21.0,
-          139.0
-        ],
-        [
-          206.0,
-          139.0
-        ],
-        [
-          206.0,
-          153.0
-        ],
-        [
-          21.0,
-          153.0
-        ]
-      ]
+        "y_max": 78.0
+      }
     },
     {
-      "text": "Elle laisse egalement 7 petits-",
       "bbox": {
-        "x_min": 18.0,
-        "y_min": 151.0,
-        "x_max": 207.0,
-        "y_max": 169.0
-      },
-      "confidence": 0.9148449897766113,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          18.0,
-          151.0
-        ],
-        [
-          207.0,
-          152.0
-        ],
-        [
-          207.0,
-          169.0
-        ],
-        [
-          18.0,
-          168.0
-        ]
-      ]
+        "x_min": 20.0,
+        "y_min": 79.0,
+        "x_max": 206.0,
+        "y_max": 93.0
+      }
     },
     {
-      "text": "enfants etplusieurs freres et soeurs.",
+      "bbox": {
+        "x_min": 19.0,
+        "y_min": 95.0,
+        "x_max": 206.0,
+        "y_max": 108.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 20.0,
+        "y_min": 110.0,
+        "x_max": 206.0,
+        "y_max": 122.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 19.0,
+        "y_min": 124.0,
+        "x_max": 207.0,
+        "y_max": 137.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 20.0,
+        "y_min": 139.0,
+        "x_max": 205.0,
+        "y_max": 152.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 20.0,
+        "y_min": 154.0,
+        "x_max": 205.0,
+        "y_max": 167.0
+      }
+    },
+    {
       "bbox": {
         "x_min": 20.0,
         "y_min": 169.0,
-        "x_max": 206.0,
-        "y_max": 183.0
-      },
-      "confidence": 0.953644335269928,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          20.0,
-          169.0
-        ],
-        [
-          206.0,
-          169.0
-        ],
-        [
-          206.0,
-          183.0
-        ],
-        [
-          20.0,
-          183.0
-        ]
-      ]
+        "x_max": 205.0,
+        "y_max": 182.0
+      }
     },
     {
-      "text": "La famille recevra parents et amisa",
       "bbox": {
-        "x_min": 20.0,
+        "x_min": 19.0,
         "y_min": 184.0,
-        "x_max": 207.0,
-        "y_max": 198.0
-      },
-      "confidence": 0.9365968704223633,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          20.0,
-          184.0
-        ],
-        [
-          207.0,
-          184.0
-        ],
-        [
-          207.0,
-          198.0
-        ],
-        [
-          20.0,
-          198.0
-        ]
-      ]
+        "x_max": 206.0,
+        "y_max": 197.0
+      }
     },
     {
-      "text": "la MAISON FUNERAIRE RACINE",
       "bbox": {
-        "x_min": 18.0,
-        "y_min": 196.0,
-        "x_max": 206.0,
-        "y_max": 214.0
-      },
-      "confidence": 0.9552475214004517,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          18.0,
-          197.0
-        ],
-        [
-          206.0,
-          196.0
-        ],
-        [
-          206.0,
-          213.0
-        ],
-        [
-          18.0,
-          214.0
-        ]
-      ]
+        "x_min": 19.0,
+        "y_min": 198.0,
+        "x_max": 205.0,
+        "y_max": 212.0
+      }
     },
     {
-      "text": "ROBERT ETGAUTHIER180",
       "bbox": {
-        "x_min": 20.0,
-        "y_min": 213.0,
-        "x_max": 206.0,
+        "x_min": 21.0,
+        "y_min": 214.0,
+        "x_max": 205.0,
         "y_max": 227.0
-      },
-      "confidence": 0.9805827140808105,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          20.0,
-          213.0
-        ],
-        [
-          206.0,
-          213.0
-        ],
-        [
-          206.0,
-          227.0
-        ],
-        [
-          20.0,
-          227.0
-        ]
-      ]
+      }
     },
     {
-      "text": "cheminMontreal,Ottawa(241-3680）",
       "bbox": {
         "x_min": 20.0,
         "y_min": 229.0,
-        "x_max": 206.0,
+        "x_max": 205.0,
         "y_max": 243.0
-      },
-      "confidence": 0.9465243220329285,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          20.0,
-          229.0
-        ],
-        [
-          206.0,
-          229.0
-        ],
-        [
-          206.0,
-          243.0
-        ],
-        [
-          20.0,
-          243.0
-        ]
-      ]
+      }
     },
     {
-      "text": "le vendredi25avril2003acompter",
       "bbox": {
         "x_min": 19.0,
         "y_min": 244.0,
-        "x_max": 207.0,
+        "x_max": 206.0,
         "y_max": 258.0
-      },
-      "confidence": 0.9640938639640808,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          19.0,
-          244.0
-        ],
-        [
-          207.0,
-          244.0
-        ],
-        [
-          207.0,
-          258.0
-        ],
-        [
-          19.0,
-          258.0
-        ]
-      ]
+      }
     },
     {
-      "text": "de19h.Le servicereligieux aura lieu",
-      "bbox": {
-        "x_min": 18.0,
-        "y_min": 257.0,
-        "x_max": 209.0,
-        "y_max": 275.0
-      },
-      "confidence": 0.9545861482620239,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          18.0,
-          257.0
-        ],
-        [
-          209.0,
-          258.0
-        ],
-        [
-          209.0,
-          275.0
-        ],
-        [
-          18.0,
-          274.0
-        ]
-      ]
-    },
-    {
-      "text": "le samedi26avrila 11h,eneglise",
       "bbox": {
         "x_min": 19.0,
-        "y_min": 273.0,
-        "x_max": 209.0,
-        "y_max": 290.0
-      },
-      "confidence": 0.8919538855552673,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          19.0,
-          273.0
-        ],
-        [
-          209.0,
-          273.0
-        ],
-        [
-          209.0,
-          290.0
-        ],
-        [
-          19.0,
-          290.0
-        ]
-      ]
+        "y_min": 258.0,
+        "x_max": 208.0,
+        "y_max": 273.0
+      }
     },
     {
-      "text": "St-Viateur de Limoges;inhumation",
       "bbox": {
-        "x_min": 18.0,
-        "y_min": 287.0,
-        "x_max": 210.0,
-        "y_max": 305.0
-      },
-      "confidence": 0.9711763262748718,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          18.0,
-          287.0
-        ],
-        [
-          210.0,
-          288.0
-        ],
-        [
-          210.0,
-          305.0
-        ],
-        [
-          18.0,
-          304.0
-        ]
-      ]
+        "x_min": 20.0,
+        "y_min": 274.0,
+        "x_max": 207.0,
+        "y_max": 287.0
+      }
     },
     {
-      "text": "au cimetiere paroissial.Heures de",
       "bbox": {
-        "x_min": 18.0,
-        "y_min": 302.0,
-        "x_max": 210.0,
-        "y_max": 320.0
-      },
-      "confidence": 0.96312016248703,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          18.0,
-          303.0
-        ],
-        [
-          210.0,
-          302.0
-        ],
-        [
-          210.0,
-          319.0
-        ],
-        [
-          18.0,
-          320.0
-        ]
-      ]
+        "x_min": 20.0,
+        "y_min": 289.0,
+        "x_max": 208.0,
+        "y_max": 303.0
+      }
     },
     {
-      "text": "visites:vendredi de 19ha 22h et",
       "bbox": {
         "x_min": 19.0,
-        "y_min": 317.0,
-        "x_max": 210.0,
-        "y_max": 335.0
-      },
-      "confidence": 0.9166029095649719,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          19.0,
-          318.0
-        ],
-        [
-          210.0,
-          317.0
-        ],
-        [
-          210.0,
-          334.0
-        ],
-        [
-          19.0,
-          335.0
-        ]
-      ]
+        "y_min": 303.0,
+        "x_max": 207.0,
+        "y_max": 318.0
+      }
     },
     {
-      "text": "samedia compterde9h30.Unmerci",
       "bbox": {
         "x_min": 18.0,
-        "y_min": 332.0,
-        "x_max": 209.0,
-        "y_max": 350.0
-      },
-      "confidence": 0.9718171954154968,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          18.0,
-          333.0
-        ],
-        [
-          209.0,
-          332.0
-        ],
-        [
-          209.0,
-          349.0
-        ],
-        [
-          18.0,
-          350.0
-        ]
-      ]
+        "y_min": 318.0,
+        "x_max": 208.0,
+        "y_max": 333.0
+      }
     },
     {
-      "text": "Caressant Care Bourget Nursing",
       "bbox": {
         "x_min": 19.0,
-        "y_min": 362.0,
-        "x_max": 210.0,
-        "y_max": 380.0
-      },
-      "confidence": 0.9894870519638062,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          19.0,
-          362.0
-        ],
-        [
-          210.0,
-          364.0
-        ],
-        [
-          210.0,
-          380.0
-        ],
-        [
-          19.0,
-          379.0
-        ]
-      ]
+        "y_min": 333.0,
+        "x_max": 208.0,
+        "y_max": 348.0
+      }
     },
     {
-      "text": "Home.La direction des funerailles a",
+      "bbox": {
+        "x_min": 21.0,
+        "y_min": 350.0,
+        "x_max": 208.0,
+        "y_max": 362.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 20.0,
+        "y_min": 363.0,
+        "x_max": 208.0,
+        "y_max": 378.0
+      }
+    },
+    {
       "bbox": {
         "x_min": 21.0,
         "y_min": 379.0,
         "x_max": 209.0,
-        "y_max": 393.0
-      },
-      "confidence": 0.9555962681770325,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          21.0,
-          379.0
-        ],
-        [
-          209.0,
-          379.0
-        ],
-        [
-          209.0,
-          393.0
-        ],
-        [
-          21.0,
-          393.0
-        ]
-      ]
+        "y_max": 392.0
+      }
     },
     {
-      "text": "eteconfiee alaMAISON",
-      "bbox": {
-        "x_min": 19.0,
-        "y_min": 391.0,
-        "x_max": 209.0,
-        "y_max": 409.0
-      },
-      "confidence": 0.8826877474784851,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          19.0,
-          392.0
-        ],
-        [
-          209.0,
-          391.0
-        ],
-        [
-          209.0,
-          408.0
-        ],
-        [
-          19.0,
-          409.0
-        ]
-      ]
-    },
-    {
-      "text": "FUNERAIRE LAMARRE ET FILS",
-      "bbox": {
-        "x_min": 22.0,
-        "y_min": 409.0,
-        "x_max": 208.0,
-        "y_max": 422.0
-      },
-      "confidence": 0.9500635266304016,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          22.0,
-          409.0
-        ],
-        [
-          208.0,
-          409.0
-        ],
-        [
-          208.0,
-          422.0
-        ],
-        [
-          22.0,
-          422.0
-        ]
-      ]
-    },
-    {
-      "text": "453St-Philippe,Alfred.Ontario.",
       "bbox": {
         "x_min": 21.0,
-        "y_min": 423.0,
-        "x_max": 185.0,
-        "y_max": 440.0
-      },
-      "confidence": 0.8723249435424805,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          21.0,
-          423.0
-        ],
-        [
-          185.0,
-          423.0
-        ],
-        [
-          185.0,
-          440.0
-        ],
-        [
-          21.0,
-          440.0
-        ]
-      ]
+        "y_min": 394.0,
+        "x_max": 160.0,
+        "y_max": 407.0
+      }
     },
     {
-      "text": "LeDroif2003",
       "bbox": {
-        "x_min": 29.0,
-        "y_min": 433.0,
-        "x_max": 166.0,
-        "y_max": 450.0
-      },
-      "confidence": 0.9173954129219055,
-      "page": 1,
-      "image_name": "IMG_064.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          29.0,
-          436.0
-        ],
-        [
-          166.0,
-          433.0
-        ],
-        [
-          166.0,
-          447.0
-        ],
-        [
-          29.0,
-          450.0
-        ]
-      ]
+        "x_min": 158.0,
+        "y_min": 394.0,
+        "x_max": 207.0,
+        "y_max": 405.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 21.0,
+        "y_min": 407.0,
+        "x_max": 206.0,
+        "y_max": 422.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 22.0,
+        "y_min": 423.0,
+        "x_max": 184.0,
+        "y_max": 437.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 31.0,
+        "y_min": 436.0,
+        "x_max": 164.0,
+        "y_max": 449.0
+      }
     }
-  ],
-  "processing_time_s": 5.680878744999973,
-  "error": null
+  ]
 }

@@ -1,8 +1,8 @@
 {
   "image_name": "IMG_079.jpg",
-  "image_path": "images/IMG_079.jpg",
+  "image_path": "/workspace/images/IMG_079.jpg",
   "engine": "paddle",
   "words": [],
-  "processing_time_s": 0.043182362000038665,
+  "processing_time_s": 0.055460837999930845,
   "error": null
 }

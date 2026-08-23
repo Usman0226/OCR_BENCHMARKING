@@ -1,8 +1,3 @@
 {
-  "image_name": "IMG_065.jpg",
-  "image_path": "images/IMG_065.jpg",
-  "engine": "paddle",
-  "words": [],
-  "processing_time_s": 0.7005942769999365,
-  "error": null
+  "words": []
 }

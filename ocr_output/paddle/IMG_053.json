@@ -1,226 +1,60 @@
 {
-  "image_name": "IMG_053.jpg",
-  "image_path": "images/IMG_053.jpg",
-  "engine": "paddle",
   "words": [
     {
-      "text": "fonidae",
       "bbox": {
-        "x_min": 239.0,
-        "y_min": 48.0,
-        "x_max": 415.0,
-        "y_max": 111.0
-      },
-      "confidence": 0.8418197631835938,
-      "page": 1,
-      "image_name": "IMG_053.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          239.0,
-          48.0
-        ],
-        [
-          415.0,
-          48.0
-        ],
-        [
-          415.0,
-          111.0
-        ],
-        [
-          239.0,
-          111.0
-        ]
-      ]
+        "x_min": 63.0,
+        "y_min": 49.0,
+        "x_max": 418.0,
+        "y_max": 115.0
+      }
     },
     {
-      "text": "Mary",
       "bbox": {
-        "x_min": 770.0,
-        "y_min": 62.0,
-        "x_max": 881.0,
-        "y_max": 134.0
-      },
-      "confidence": 0.7750879526138306,
-      "page": 1,
-      "image_name": "IMG_053.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          777.0,
-          62.0
-        ],
-        [
-          881.0,
-          74.0
-        ],
-        [
-          874.0,
-          134.0
-        ],
-        [
-          770.0,
-          121.0
-        ]
-      ]
+        "x_min": 542.0,
+        "y_min": 53.0,
+        "x_max": 878.0,
+        "y_max": 118.0
+      }
     },
     {
-      "text": "Linean",
       "bbox": {
-        "x_min": 148.0,
-        "y_min": 129.0,
-        "x_max": 296.0,
-        "y_max": 170.0
-      },
-      "confidence": 0.5150904655456543,
-      "page": 1,
-      "image_name": "IMG_053.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          149.0,
-          129.0
-        ],
-        [
-          296.0,
-          133.0
-        ],
-        [
-          295.0,
-          170.0
-        ],
-        [
-          148.0,
-          167.0
-        ]
-      ]
+        "x_min": 147.0,
+        "y_min": 131.0,
+        "x_max": 293.0,
+        "y_max": 167.0
+      }
     },
     {
-      "text": "MigukeJdauile",
       "bbox": {
-        "x_min": 79.0,
-        "y_min": 156.0,
-        "x_max": 413.0,
-        "y_max": 243.0
-      },
-      "confidence": 0.7389358878135681,
-      "page": 1,
-      "image_name": "IMG_053.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          79.0,
-          168.0
-        ],
-        [
-          411.0,
-          156.0
-        ],
-        [
-          413.0,
-          232.0
-        ],
-        [
-          82.0,
-          243.0
-        ]
-      ]
+        "x_min": 99.0,
+        "y_min": 170.0,
+        "x_max": 408.0,
+        "y_max": 231.0
+      }
     },
     {
-      "text": "famadiluieOLoine",
       "bbox": {
-        "x_min": 533.0,
-        "y_min": 183.0,
+        "x_min": 548.0,
+        "y_min": 186.0,
         "x_max": 966.0,
-        "y_max": 243.0
-      },
-      "confidence": 0.7139443159103394,
-      "page": 1,
-      "image_name": "IMG_053.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          533.0,
-          183.0
-        ],
-        [
-          966.0,
-          183.0
-        ],
-        [
-          966.0,
-          243.0
-        ],
-        [
-          533.0,
-          243.0
-        ]
-      ]
+        "y_max": 237.0
+      }
     },
     {
-      "text": "T.IRENEE-DE-MONTREAL",
       "bbox": {
-        "x_min": 293.0,
-        "y_min": 521.0,
-        "x_max": 694.0,
+        "x_min": 290.0,
+        "y_min": 519.0,
+        "x_max": 695.0,
         "y_max": 615.0
-      },
-      "confidence": 0.920046329498291,
-      "page": 1,
-      "image_name": "IMG_053.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          298.0,
-          521.0
-        ],
-        [
-          694.0,
-          581.0
-        ],
-        [
-          689.0,
-          615.0
-        ],
-        [
-          293.0,
-          555.0
-        ]
-      ]
+      }
     },
     {
-      "text": "1185B",
       "bbox": {
-        "x_min": 451.0,
-        "y_min": 590.0,
-        "x_max": 563.0,
-        "y_max": 650.0
-      },
-      "confidence": 0.8580069541931152,
-      "page": 1,
-      "image_name": "IMG_053.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          457.0,
-          590.0
-        ],
-        [
-          563.0,
-          605.0
-        ],
-        [
-          557.0,
-          650.0
-        ],
-        [
-          451.0,
-          634.0
-        ]
-      ]
+        "x_min": 452.0,
+        "y_min": 592.0,
+        "x_max": 561.0,
+        "y_max": 646.0
+      }
     }
-  ],
-  "processing_time_s": 1.7743410200000653,
-  "error": null
+  ]
 }

@@ -1,846 +1,228 @@
 {
-  "image_name": "IMG_059.jpg",
-  "image_path": "images/IMG_059.jpg",
-  "engine": "paddle",
   "words": [
     {
-      "text": "09/08/2019",
       "bbox": {
         "x_min": 72.0,
         "y_min": 41.0,
         "x_max": 187.0,
         "y_max": 66.0
-      },
-      "confidence": 0.9990965127944946,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          72.0,
-          41.0
-        ],
-        [
-          187.0,
-          41.0
-        ],
-        [
-          187.0,
-          66.0
-        ],
-        [
-          72.0,
-          66.0
-        ]
-      ]
+      }
     },
     {
-      "text": "Directeur",
       "bbox": {
-        "x_min": 120.0,
-        "y_min": 133.0,
-        "x_max": 247.0,
-        "y_max": 165.0
-      },
-      "confidence": 0.995188295841217,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          120.0,
-          133.0
-        ],
-        [
-          247.0,
-          133.0
-        ],
-        [
-          247.0,
-          165.0
-        ],
-        [
-          120.0,
-          165.0
-        ]
-      ]
+        "x_min": 582.0,
+        "y_min": 39.0,
+        "x_max": 1314.0,
+        "y_max": 69.0
+      }
     },
     {
-      "text": "de I'etatcivil",
       "bbox": {
         "x_min": 122.0,
-        "y_min": 160.0,
-        "x_max": 289.0,
-        "y_max": 186.0
-      },
-      "confidence": 0.9259897470474243,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          122.0,
-          160.0
-        ],
-        [
-          289.0,
-          160.0
-        ],
-        [
-          289.0,
-          186.0
-        ],
-        [
-          122.0,
-          186.0
-        ]
-      ]
+        "y_min": 135.0,
+        "x_max": 245.0,
+        "y_max": 160.0
+      }
     },
     {
-      "text": "Ministeredu Travail,deI'Emploiet de laSolidaritesociale",
+      "bbox": {
+        "x_min": 120.0,
+        "y_min": 160.0,
+        "x_max": 284.0,
+        "y_max": 186.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 191.0,
+        "y_min": 185.0,
+        "x_max": 483.0,
+        "y_max": 241.0
+      }
+    },
+    {
       "bbox": {
         "x_min": 513.0,
-        "y_min": 238.0,
-        "x_max": 1208.0,
-        "y_max": 268.0
-      },
-      "confidence": 0.950676441192627,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          513.0,
-          238.0
-        ],
-        [
-          1208.0,
-          238.0
-        ],
-        [
-          1208.0,
-          268.0
-        ],
-        [
-          513.0,
-          268.0
-        ]
-      ]
+        "y_min": 241.0,
+        "x_max": 1206.0,
+        "y_max": 264.0
+      }
     },
     {
-      "text": "Publication des avis de mariage et d'union civile",
       "bbox": {
-        "x_min": 90.0,
+        "x_min": 92.0,
         "y_min": 364.0,
         "x_max": 887.0,
-        "y_max": 396.0
-      },
-      "confidence": 0.968029260635376,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          90.0,
-          364.0
-        ],
-        [
-          887.0,
-          364.0
-        ],
-        [
-          887.0,
-          396.0
-        ],
-        [
-          90.0,
-          396.0
-        ]
-      ]
+        "y_max": 394.0
+      }
     },
     {
-      "text": "Epouse",
       "bbox": {
         "x_min": 186.0,
         "y_min": 435.0,
-        "x_max": 290.0,
-        "y_max": 477.0
-      },
-      "confidence": 0.9974968433380127,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          189.0,
-          435.0
-        ],
-        [
-          290.0,
-          443.0
-        ],
-        [
-          287.0,
-          477.0
-        ],
-        [
-          186.0,
-          469.0
-        ]
-      ]
+        "x_max": 294.0,
+        "y_max": 475.0
+      }
     },
     {
-      "text": "Epoux",
       "bbox": {
-        "x_min": 544.0,
-        "y_min": 432.0,
-        "x_max": 641.0,
-        "y_max": 480.0
-      },
-      "confidence": 0.9968450665473938,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          547.0,
-          432.0
-        ],
-        [
-          641.0,
-          439.0
-        ],
-        [
-          638.0,
-          480.0
-        ],
-        [
-          544.0,
-          474.0
-        ]
-      ]
+        "x_min": 550.0,
+        "y_min": 438.0,
+        "x_max": 638.0,
+        "y_max": 472.0
+      }
     },
     {
-      "text": "Lieu du mariage",
       "bbox": {
-        "x_min": 907.0,
-        "y_min": 433.0,
-        "x_max": 1125.0,
-        "y_max": 479.0
-      },
-      "confidence": 0.9894856214523315,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          909.0,
-          433.0
-        ],
-        [
-          1125.0,
-          440.0
-        ],
-        [
-          1124.0,
-          479.0
-        ],
-        [
-          907.0,
-          472.0
-        ]
-      ]
+        "x_min": 908.0,
+        "y_min": 438.0,
+        "x_max": 1120.0,
+        "y_max": 472.0
+      }
     },
     {
-      "text": "Datedumariage",
       "bbox": {
         "x_min": 1272.0,
         "y_min": 437.0,
-        "x_max": 1488.0,
-        "y_max": 475.0
-      },
-      "confidence": 0.994052529335022,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          1273.0,
-          437.0
-        ],
-        [
-          1488.0,
-          443.0
-        ],
-        [
-          1487.0,
-          475.0
-        ],
-        [
-          1272.0,
-          470.0
-        ]
-      ]
+        "x_max": 1485.0,
+        "y_max": 472.0
+      }
     },
     {
-      "text": "BEAUDoIN, Stéphanie",
       "bbox": {
-        "x_min": 185.0,
-        "y_min": 474.0,
+        "x_min": 187.0,
+        "y_min": 472.0,
         "x_max": 457.0,
-        "y_max": 504.0
-      },
-      "confidence": 0.9293214082717896,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          185.0,
-          474.0
-        ],
-        [
-          457.0,
-          474.0
-        ],
-        [
-          457.0,
-          504.0
-        ],
-        [
-          185.0,
-          504.0
-        ]
-      ]
+        "y_max": 502.0
+      }
     },
     {
-      "text": "AVDIC, Esad",
       "bbox": {
         "x_min": 550.0,
-        "y_min": 472.0,
-        "x_max": 704.0,
-        "y_max": 504.0
-      },
-      "confidence": 0.9826589822769165,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          550.0,
-          472.0
-        ],
-        [
-          704.0,
-          472.0
-        ],
-        [
-          704.0,
-          504.0
-        ],
-        [
-          550.0,
-          504.0
-        ]
-      ]
+        "y_min": 474.0,
+        "x_max": 702.0,
+        "y_max": 500.0
+      }
     },
     {
-      "text": "Montréal",
       "bbox": {
-        "x_min": 910.0,
-        "y_min": 472.0,
-        "x_max": 1023.0,
-        "y_max": 504.0
-      },
-      "confidence": 0.9472941160202026,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          910.0,
-          472.0
-        ],
-        [
-          1023.0,
-          472.0
-        ],
-        [
-          1023.0,
-          504.0
-        ],
-        [
-          910.0,
-          504.0
-        ]
-      ]
+        "x_min": 912.0,
+        "y_min": 474.0,
+        "x_max": 1021.0,
+        "y_max": 500.0
+      }
     },
     {
-      "text": "2019-08-25",
       "bbox": {
         "x_min": 1273.0,
-        "y_min": 472.0,
-        "x_max": 1418.0,
-        "y_max": 504.0
-      },
-      "confidence": 0.9999135732650757,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          1273.0,
-          472.0
-        ],
-        [
-          1418.0,
-          472.0
-        ],
-        [
-          1418.0,
-          504.0
-        ],
-        [
-          1273.0,
-          504.0
-        ]
-      ]
+        "y_min": 474.0,
+        "x_max": 1411.0,
+        "y_max": 500.0
+      }
     },
     {
-      "text": "Prenez avis qu'un mariage sera célébré par Eliane Touchette-Dansereau, notaire, au 55, ch. des",
-      "bbox": {
-        "x_min": 185.0,
-        "y_min": 527.0,
-        "x_max": 1568.0,
-        "y_max": 566.0
-      },
-      "confidence": 0.9689979553222656,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          185.0,
-          527.0
-        ],
-        [
-          1568.0,
-          527.0
-        ],
-        [
-          1568.0,
-          566.0
-        ],
-        [
-          185.0,
-          566.0
-        ]
-      ]
-    },
-    {
-      "text": "Floralies,Montréal (Québec)",
       "bbox": {
         "x_min": 187.0,
-        "y_min": 564.0,
-        "x_max": 601.0,
-        "y_max": 594.0
-      },
-      "confidence": 0.9578902721405029,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          187.0,
-          564.0
-        ],
-        [
-          601.0,
-          564.0
-        ],
-        [
-          601.0,
-          594.0
-        ],
-        [
-          187.0,
-          594.0
-        ]
-      ]
+        "y_min": 525.0,
+        "x_max": 1568.0,
+        "y_max": 564.0
+      }
     },
     {
-      "text": "H3C 1A9, Canada,le 25 aout 2019, entre Stéphanie Beaudoin",
       "bbox": {
-        "x_min": 621.0,
+        "x_min": 189.0,
         "y_min": 561.0,
-        "x_max": 1568.0,
-        "y_max": 594.0
-      },
-      "confidence": 0.9291577935218811,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          621.0,
-          561.0
-        ],
-        [
-          1568.0,
-          561.0
-        ],
-        [
-          1568.0,
-          594.0
-        ],
-        [
-          621.0,
-          594.0
-        ]
-      ]
-    },
-    {
-      "text": "domiciliée au 4144, rue Léon-Paré, Carignan (Québec) J3L 7B5, Canada, née en 1988 a Val-d'Or",
-      "bbox": {
-        "x_min": 187.0,
-        "y_min": 594.0,
         "x_max": 1566.0,
+        "y_max": 594.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 189.0,
+        "y_min": 594.0,
+        "x_max": 1564.0,
         "y_max": 626.0
-      },
-      "confidence": 0.9597217440605164,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          187.0,
-          594.0
-        ],
-        [
-          1566.0,
-          594.0
-        ],
-        [
-          1566.0,
-          626.0
-        ],
-        [
-          187.0,
-          626.0
-        ]
-      ]
+      }
     },
     {
-      "text": "d'une part et Esad Avdic domicilié au 4144, rue Léon-Paré, Carignan (Québec) J3L 7B5, Canada, né",
       "bbox": {
         "x_min": 187.0,
-        "y_min": 628.0,
-        "x_max": 1568.0,
-        "y_max": 660.0
-      },
-      "confidence": 0.9591469168663025,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          187.0,
-          628.0
-        ],
-        [
-          1568.0,
-          628.0
-        ],
-        [
-          1568.0,
-          660.0
-        ],
-        [
-          187.0,
-          660.0
-        ]
-      ]
+        "y_min": 623.0,
+        "x_max": 1564.0,
+        "y_max": 658.0
+      }
     },
     {
-      "text": "en 1986 a Yougoslavie d'autre part.",
       "bbox": {
-        "x_min": 187.0,
+        "x_min": 189.0,
         "y_min": 660.0,
         "x_max": 670.0,
-        "y_max": 692.0
-      },
-      "confidence": 0.9798035621643066,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          187.0,
-          660.0
-        ],
-        [
-          670.0,
-          660.0
-        ],
-        [
-          670.0,
-          692.0
-        ],
-        [
-          187.0,
-          692.0
-        ]
-      ]
+        "y_max": 690.0
+      }
     },
     {
-      "text": "Maxime Albors, agissant comme témoin majeur, atteste avoir pris connaissance des informations",
       "bbox": {
-        "x_min": 182.0,
-        "y_min": 706.0,
-        "x_max": 1566.0,
-        "y_max": 747.0
-      },
-      "confidence": 0.9931673407554626,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          182.0,
-          708.0
-        ],
-        [
-          1566.0,
-          706.0
-        ],
-        [
-          1566.0,
-          745.0
-        ],
-        [
-          183.0,
-          747.0
-        ]
-      ]
+        "x_min": 189.0,
+        "y_min": 710.0,
+        "x_max": 1564.0,
+        "y_max": 742.0
+      }
     },
     {
-      "text": " precitees et confirme que ces énonciations sont exactes.",
-      "bbox": {
-        "x_min": 182.0,
-        "y_min": 742.0,
-        "x_max": 949.0,
-        "y_max": 777.0
-      },
-      "confidence": 0.9517518281936646,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          182.0,
-          745.0
-        ],
-        [
-          949.0,
-          742.0
-        ],
-        [
-          949.0,
-          775.0
-        ],
-        [
-          183.0,
-          777.0
-        ]
-      ]
-    },
-    {
-      "text": "Période de publication du 30 juillet 2019 au 18 aout 2019",
       "bbox": {
         "x_min": 187.0,
+        "y_min": 745.0,
+        "x_max": 949.0,
+        "y_max": 775.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 189.0,
         "y_min": 795.0,
         "x_max": 965.0,
-        "y_max": 827.0
-      },
-      "confidence": 0.9661133885383606,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          187.0,
-          795.0
-        ],
-        [
-          965.0,
-          795.0
-        ],
-        [
-          965.0,
-          827.0
-        ],
-        [
-          187.0,
-          827.0
-        ]
-      ]
+        "y_max": 825.0
+      }
     },
     {
-      "text": "Version 1.0.0.0 p",
       "bbox": {
-        "x_min": 751.0,
-        "y_min": 944.0,
-        "x_max": 954.0,
-        "y_max": 976.0
-      },
-      "confidence": 0.9961218237876892,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          751.0,
-          944.0
-        ],
-        [
-          954.0,
-          944.0
-        ],
-        [
-          954.0,
-          976.0
-        ],
-        [
-          751.0,
-          976.0
-        ]
-      ]
+        "x_min": 748.0,
+        "y_min": 942.0,
+        "x_max": 952.0,
+        "y_max": 979.0
+      }
     },
     {
-      "text": "Quebec",
       "bbox": {
-        "x_min": 762.0,
+        "x_min": 765.0,
         "y_min": 1001.0,
-        "x_max": 942.0,
-        "y_max": 1043.0
-      },
-      "confidence": 0.9832815527915955,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          762.0,
-          1001.0
-        ],
-        [
-          942.0,
-          1001.0
-        ],
-        [
-          942.0,
-          1043.0
-        ],
-        [
-          762.0,
-          1043.0
-        ]
-      ]
+        "x_max": 945.0,
+        "y_max": 1040.0
+      }
     },
     {
-      "text": "Gouvernement du Quebec,2017",
       "bbox": {
-        "x_min": 684.0,
-        "y_min": 1061.0,
+        "x_min": 681.0,
+        "y_min": 1059.0,
         "x_max": 1019.0,
-        "y_max": 1091.0
-      },
-      "confidence": 0.9713444709777832,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          684.0,
-          1061.0
-        ],
-        [
-          1019.0,
-          1061.0
-        ],
-        [
-          1019.0,
-          1091.0
-        ],
-        [
-          684.0,
-          1091.0
-        ]
-      ]
+        "y_max": 1089.0
+      }
     },
     {
-      "text": "https://services.etatcivil.gouv.qc.ca/Publications/PublicationsMariage.aspx",
       "bbox": {
-        "x_min": 67.0,
+        "x_min": 74.0,
+        "y_min": 2134.0,
+        "x_max": 799.0,
+        "y_max": 2156.0
+      }
+    },
+    {
+      "bbox": {
+        "x_min": 1591.0,
         "y_min": 2129.0,
-        "x_max": 802.0,
-        "y_max": 2163.0
-      },
-      "confidence": 0.9870244264602661,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          67.0,
-          2129.0
-        ],
-        [
-          802.0,
-          2131.0
-        ],
-        [
-          801.0,
-          2163.0
-        ],
-        [
-          67.0,
-          2161.0
-        ]
-      ]
-    },
-    {
-      "text": "1/1",
-      "bbox": {
-        "x_min": 1594.0,
-        "y_min": 2131.0,
-        "x_max": 1631.0,
+        "x_max": 1628.0,
         "y_max": 2159.0
-      },
-      "confidence": 0.9991714954376221,
-      "page": 1,
-      "image_name": "IMG_059.jpg",
-      "engine": "paddle",
-      "polygon": [
-        [
-          1594.0,
-          2131.0
-        ],
-        [
-          1631.0,
-          2131.0
-        ],
-        [
-          1631.0,
-          2159.0
-        ],
-        [
-          1594.0,
-          2159.0
-        ]
-      ]
+      }
     }
-  ],
-  "processing_time_s": 7.848118919000058,
-  "error": null
+  ]
 }

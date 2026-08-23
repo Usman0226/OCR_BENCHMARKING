@@ -1,8 +1,4 @@
-# =============================================================================
-# .gitignore — OCR Benchmark Framework
-# =============================================================================
 
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -48,8 +44,7 @@ venv.bak/
 *~
 .DS_Store
 
-# VS Code (project-specific settings only — keep .vscode/settings.json)
-# .vscode/
+.vscode/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -69,11 +64,9 @@ nosetests.xml
 test-results/
 junit/
 
-# Logs (generated at runtime — use Docker volumes)
 logs/*.log
 logs/*.log.*
 
-# Generated outputs (large binary / data files)
 ocr_output/*.json
 ocr_output/*.txt
 results/*.json
@@ -91,6 +84,28 @@ labelstudio-data/
 # Images (project-specific, may be large)
 # Uncomment if images should not be tracked:
 # images/
+
+# =============================================================================
+# Task Card B - Ignore all extra production infrastructure
+# =============================================================================
+docker/
+docker-compose.yml
+.dockerignore
+Makefile
+.env
+.env.example
+config.yaml
+docs/
+ocr/
+scripts/
+tests/
+reports/
+pyproject.toml
+test_patch.py
+*.html
+*.exe
+.deepeval/
+.devcontainer/
 
 # OS
 Thumbs.db

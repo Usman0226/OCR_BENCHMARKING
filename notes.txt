@@ -1,15 +1,27 @@
-# Notes — OCR Benchmark
+HAND WRITTEN
+IMG_52
+IMG_53
+IMG_54
+IMG_63
+IMG_68
+IMG_71
+IMG_82 
+IMG_90
+IMG_91
+IMG_92
+IMG_98
+IMG_99
 
-Use this file to record anything unusual found during the experiment.
 
-## Images that caused problems
-<!-- e.g. blurry scans, unusual fonts, mixed layouts -->
+PICTURES OF HUMANS
+IMG_58
+IMG_65
+IMG_70
+IMG_81
+IMG_88
+IMG_93
+IMG_95
+IMG_100
 
-## Engine-specific observations
-<!-- things you noticed about PaddleOCR vs Tesseract behaviour -->
-
-## Annotation decisions
-<!-- ambiguous words, punctuation choices, multi-line boxes, etc. -->
-
-## Other notes
-
+BLURY IAMGES
+IMG_72

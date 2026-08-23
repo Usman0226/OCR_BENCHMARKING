@@ -1,134 +1,107 @@
 #!/usr/bin/env python3
-from __future__ import annotations
-
+import json
 import sys
 from pathlib import Path
 
-import click
+from PIL import Image
+import pytesseract
+from pytesseract import Output
+from paddleocr import PaddleOCR
 from tqdm import tqdm
 
-sys.path.insert(0, str(Path(__file__).parent))
 
-from ocr.core.config import load_config
-from ocr.core.io import save_ocr_result
-from ocr.core.logger import configure_logging, get_logger
-from ocr.core.models import EngineType
-from ocr.engines.base import create_engine
-from ocr.utils.files import list_images
+def run_tesseract(path: Path) -> list[dict]:
+    """Run Tesseract and return boxes in a uniform format."""
+    d = pytesseract.image_to_data(
+        Image.open(path), lang="fra", output_type=Output.DICT
+    )
+    boxes = []
+    for i in range(len(d["text"])):
+        if d["text"][i].strip():
+            # Tesseract returns left, top, width, height
+            x, y, w, h = (
+                d["left"][i],
+                d["top"][i],
+                d["width"][i],
+                d["height"][i],
+            )
+            boxes.append(
+                {
+                    "bbox": {
+                        "x_min": x,
+                        "y_min": y,
+                        "x_max": x + w,
+                        "y_max": y + h,
+                    }
+                }
+            )
+    return boxes
 
 
-@click.command()
-@click.option(
-    "--engine",
-    "-e",
-    default="all",
-    type=click.Choice(["paddle", "tesseract", "all"], case_sensitive=False),
-    help="Which engine to run. Default: both engines.",
-    show_default=True,
-)
-@click.option(
-    "--images",
-    "-i",
-    default=None,
-    type=click.Path(exists=True, file_okay=False, dir_okay=True, path_type=Path),
-    help="Directory of images. Defaults to config value.",
-)
-@click.option(
-    "--config",
-    "-c",
-    default=None,
-    type=click.Path(exists=True, file_okay=True, dir_okay=False, path_type=Path),
-    help="Path to config.yaml.",
-)
-@click.option(
-    "--lang",
-    default=None,
-    help="Override Tesseract language (e.g. 'fra', 'fra+eng'). Ignored for Paddle.",
-)
-def main(
-    engine: str,
-    images: Path | None,
-    config: Path | None,
-    lang: str | None,
-) -> None:
-    cfg = load_config(config)
-    configure_logging(cfg.logging, cfg.paths.logs_dir)
-    logger = get_logger(__name__)
+def run_paddle(path: Path, ocr: PaddleOCR) -> list[dict]:
+    """Run PaddleOCR and return boxes in a uniform format."""
+    result = ocr.ocr(str(path))
+    boxes = []
+    if not result or result[0] is None:
+        return boxes
 
-    images_dir = images or cfg.paths.images_dir
+    for line in result[0]:
+        pts = line[0]
+        xs = [p[0] for p in pts]
+        ys = [p[1] for p in pts]
 
-    if lang:
-        cfg.engines.tesseract.lang = lang
+        x_min, y_min = min(xs), min(ys)
+        x_max, y_max = max(xs), max(ys)
+        boxes.append(
+            {
+                "bbox": {
+                    "x_min": x_min,
+                    "y_min": y_min,
+                    "x_max": x_max,
+                    "y_max": y_max,
+                }
+            }
+        )
+    return boxes
 
-    try:
-        image_paths = list_images(images_dir)
-    except NotADirectoryError as exc:
-        click.echo(f"ERROR: {exc}", err=True)
+
+def main():
+    images_dir = Path("images")
+    output_dir = Path("ocr_output")
+
+    if not images_dir.exists():
+        print(f"Error: {images_dir} does not exist.")
         sys.exit(1)
 
-    if not image_paths:
-        click.echo(
-            f"No supported images found in '{images_dir}'.\n"
-            "Supported: jpg, jpeg, png, tiff, bmp, webp",
-            err=True,
-        )
+    images = sorted(list(images_dir.glob("*.jpg")) + list(images_dir.glob("*.png")))
+
+    if not images:
+        print(f"No images found in {images_dir}")
         sys.exit(1)
 
-    engines_to_run: list[EngineType]
-    if engine == "all":
-        engines_to_run = [EngineType.PADDLE, EngineType.TESSERACT]
-    else:
-        engines_to_run = [EngineType.from_str(engine)]
+    tess_dir = output_dir / "tesseract"
+    tess_dir.mkdir(parents=True, exist_ok=True)
 
-    overall_errors = 0
+    paddle_dir = output_dir / "paddle"
+    paddle_dir.mkdir(parents=True, exist_ok=True)
 
-    for eng_type in engines_to_run:
-        engine_output_dir = cfg.paths.ocr_output_dir / eng_type.value
-        engine_output_dir.mkdir(parents=True, exist_ok=True)
+    print(f"Found {len(images)} images.")
 
-        click.echo(
-            f"\n{'─'*60}\n"
-            f"  Engine  : {eng_type.value}\n"
-            f"  Images  : {images_dir}  ({len(image_paths)} files)\n"
-            f"  Output  : {engine_output_dir}\n"
-            f"{'─'*60}"
-        )
+    print("Initializing PaddleOCR...")
+    paddle_model = PaddleOCR(lang="fr", use_angle_cls=True, show_log=False)
 
-        ocr_engine = create_engine(eng_type, cfg)
-        try:
-            ocr_engine.initialize()
-        except RuntimeError as exc:
-            click.echo(f"ERROR: Cannot initialize '{eng_type.value}': {exc}", err=True)
-            overall_errors += 1
-            continue
+    for img_path in tqdm(images, desc="Processing images"):
+        # Run Tesseract
+        tess_boxes = run_tesseract(img_path)
+        with open(tess_dir / f"{img_path.stem}.json", "w", encoding="utf-8") as f:
+            json.dump({"words": tess_boxes}, f, indent=2)
 
-        success_count = 0
-        error_count = 0
+        # Run Paddle
+        paddle_boxes = run_paddle(img_path, paddle_model)
+        with open(paddle_dir / f"{img_path.stem}.json", "w", encoding="utf-8") as f:
+            json.dump({"words": paddle_boxes}, f, indent=2)
 
-        try:
-            for image_path in tqdm(
-                image_paths, desc=f"[{eng_type.value}]", unit="img"
-            ):
-                result = ocr_engine.run(image_path)
-                save_ocr_result(result, engine_output_dir)
-                if result.succeeded:
-                    success_count += 1
-                else:
-                    error_count += 1
-                    logger.warning(
-                        "Failed: %s — %s", image_path.name, result.error
-                    )
-        finally:
-            ocr_engine.shutdown()
-
-        click.echo(
-            f"  ✓ {success_count} succeeded   ✗ {error_count} failed\n"
-            f"  Saved → {engine_output_dir}\n"
-        )
-        overall_errors += error_count
-
-    if overall_errors > 0:
-        sys.exit(1)
+    print(f"Done! Results saved in {output_dir}/")
 
 
 if __name__ == "__main__":

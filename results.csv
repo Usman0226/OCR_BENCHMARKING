@@ -9,7 +9,14 @@ IMG_058.jpg,paddle,17,16,1,94.12,0,
 IMG_059.jpg,paddle,137,136,1,99.27,3,
 IMG_060.jpg,paddle,17,16,1,94.12,0,
 IMG_061.jpg,paddle,15,14,1,93.33,0,
+IMG_062.jpg,paddle,198,198,0,100.0,1,
+IMG_063.jpg,paddle,187,187,0,100.0,0,
+IMG_064.jpg,paddle,155,150,5,96.77,0,
+IMG_067.jpg,paddle,138,138,0,100.0,8,
+IMG_068.jpg,paddle,173,173,0,100.0,0,
+IMG_069.jpg,paddle,2,2,0,100.0,27,
 IMG_071.jpg,paddle,99,99,0,100.0,0,
+IMG_073.jpg,paddle,192,191,1,99.48,0,
 IMG_075.jpg,paddle,2,0,2,0.0,5,
 IMG_076.jpg,paddle,11,11,0,100.0,1,
 IMG_078.jpg,paddle,5,5,0,100.0,0,
@@ -22,7 +29,7 @@ IMG_089.jpg,paddle,109,109,0,100.0,0,
 IMG_090.jpg,paddle,18,17,1,94.44,0,
 IMG_091.jpg,paddle,14,13,1,92.86,0,
 IMG_093.jpg,paddle,21,21,0,100.0,0,
-IMG_095.jpg,paddle,242,63,179,26.03,79,
+IMG_095.jpg,paddle,1299,281,1018,21.63,0,
 IMG_096.jpg,paddle,17,16,1,94.12,0,
 IMG_098.jpg,paddle,258,258,0,100.0,0,
 IMG_051.jpg,tesseract,60,52,8,86.67,2,0.6696
@@ -35,7 +42,14 @@ IMG_058.jpg,tesseract,17,8,9,47.06,1,0.6629
 IMG_059.jpg,tesseract,137,109,28,79.56,11,0.6724
 IMG_060.jpg,tesseract,17,15,2,88.24,2,0.6673
 IMG_061.jpg,tesseract,15,11,4,73.33,3,0.6735
+IMG_062.jpg,tesseract,198,194,4,97.98,11,0.7452
+IMG_063.jpg,tesseract,187,156,31,83.42,1,0.6744
+IMG_064.jpg,tesseract,155,119,36,76.77,1,0.7299
+IMG_067.jpg,tesseract,138,128,10,92.75,21,0.6866
+IMG_068.jpg,tesseract,173,172,1,99.42,6,0.7418
+IMG_069.jpg,tesseract,2,1,1,50.0,395,0.6432
 IMG_071.jpg,tesseract,99,83,16,83.84,1,0.6734
+IMG_073.jpg,tesseract,192,92,100,47.92,1,0.6851
 IMG_075.jpg,tesseract,2,0,2,0.0,11,0.0
 IMG_076.jpg,tesseract,11,0,11,0.0,0,0.0
 IMG_078.jpg,tesseract,5,0,5,0.0,0,0.0
@@ -48,6 +62,6 @@ IMG_089.jpg,tesseract,109,101,8,92.66,6,0.7354
 IMG_090.jpg,tesseract,18,13,5,72.22,0,0.7184
 IMG_091.jpg,tesseract,14,9,5,64.29,3,0.612
 IMG_093.jpg,tesseract,21,19,2,90.48,0,0.6964
-IMG_095.jpg,tesseract,242,225,17,92.98,1022,0.7249
+IMG_095.jpg,tesseract,1299,1155,144,88.91,41,0.7223
 IMG_096.jpg,tesseract,17,13,4,76.47,1,0.6046
 IMG_098.jpg,tesseract,258,229,29,88.76,0,0.7246

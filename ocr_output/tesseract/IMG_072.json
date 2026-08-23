@@ -1,8 +1,8 @@
 {
   "image_name": "IMG_072.jpg",
-  "image_path": "images/IMG_072.jpg",
+  "image_path": "/workspace/images/IMG_072.jpg",
   "engine": "tesseract",
   "words": [],
-  "processing_time_s": 0.25664806300005694,
+  "processing_time_s": 0.17581790799999908,
   "error": null
 }
