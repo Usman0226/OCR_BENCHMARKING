@@ -11,30 +11,30 @@
 
 ## 2. Worst Performing Images
 
-*Images with no ground-truth printed words were excluded from the coverage ranking.*
+*Note: Images with no printed words in the answer key were excluded from this list.*
 
 ### PaddleOCR — Bottom 5 by Coverage
 
-1. **`IMG_061.jpg` (93.3%)** — Missed several small or isolated annotated text regions.
-2. **`IMG_060.jpg` (94.1%)** — Missed faint punctuation and small printed characters.
-3. **`IMG_096.jpg` (94.1%)** — Missed some faint or isolated printed text.
-4. **`IMG_086.jpg` (94.3%)** — Missed small isolated elements such as leader dots and dashes.
-5. **`IMG_073.jpg` (99.5%)** — Dense multi-column layout resulted in some ground-truth words falling below the coverage threshold.
+1. **`IMG_061.jpg` (93.3%)** — Missed some small or separated text.
+2. **`IMG_060.jpg` (94.1%)** — Missed faint punctuation and very small letters.
+3. **`IMG_096.jpg` (94.1%)** — Missed some faint or separated text.
+4. **`IMG_086.jpg` (94.3%)** — Missed small items like dots and dashes.
+5. **`IMG_073.jpg` (99.5%)** — Crowded text columns caused a few words to be missed.
 
 ### Tesseract — Bottom 5 by Coverage
 
-1. **`IMG_076.jpg` (0.0%)** — The detected boxes did not meet the 50% ground-truth coverage threshold.
-2. **`IMG_078.jpg` (0.0%)** — Detected text was present, but the word-level boxes did not meet the required coverage threshold.
-3. **`IMG_073.jpg` (47.9%)** — Dense multi-column layout resulted in substantial missed coverage.
-4. **`IMG_069.jpg` (50.0%)** — Produced a large number of invented boxes, indicating many detections outside the annotated text regions.
-5. **`IMG_061.jpg` (66.7%)** — Missed several small or isolated annotated text regions.
+1. **`IMG_076.jpg` (0.0%)** — The boxes it drew weren't close enough to the answer key to count.
+2. **`IMG_078.jpg` (0.0%)** — The boxes it drew weren't close enough to the answer key to count.
+3. **`IMG_073.jpg` (47.9%)** — Crowded text columns caused many words to be missed.
+4. **`IMG_069.jpg` (50.0%)** — Drew 395 extra boxes around things that were not text (like dust or smudges).
+5. **`IMG_061.jpg` (66.7%)** — Missed some small or separated text.
 
 ## 3. Key Observations
 
-1. **PaddleOCR coverage behavior:** PaddleOCR's high coverage scores are influenced by its line-level bounding boxes, which can cover multiple word-level ground-truth boxes. Under the defined 50% coverage metric, those words are counted as found.
+1. **PaddleOCR draws bigger boxes:** PaddleOCR draws boxes around whole lines of text. Because these big boxes often cover several smaller words from the answer key, PaddleOCR gets a very high coverage score.
 
-2. **Tesseract word-level behavior:** Tesseract produces word-level boxes. Its lower coverage on several images indicates that some detected word regions did not meet the 50% ground-truth coverage threshold. Its mean IoU provides an additional measure of box alignment.
+2. **Tesseract draws smaller boxes:** Tesseract tries to draw tight boxes around individual words. Because these boxes are smaller, they often don't overlap enough with the answer key to count as a "found" word. The Mean IoU metric helps show how tightly these boxes actually fit.
 
-3. **Invented boxes:** Tesseract produced substantially more invented boxes than PaddleOCR (638 vs. 132), indicating more detections that did not overlap any ground-truth word.
+3. **Extra boxes:** Tesseract drew many more "invented" boxes than PaddleOCR (638 vs. 132). This means Tesseract often thought random marks on the page were text.
 
-4. **Document layout affects performance:** Dense or complex layouts, such as `IMG_073.jpg`, affected both engines differently, with Tesseract showing a substantially larger coverage drop than PaddleOCR.
+4. **Complex pages:** Pages with crowded columns (like `IMG_073.jpg`) made it harder for both tools to get the boxes right, but Tesseract struggled much more than PaddleOCR on these pages.
