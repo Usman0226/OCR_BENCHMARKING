@@ -22,7 +22,7 @@ ocr-position-benchmark/
 ## Installation
 
 ```bash
-# 1. Install Tesseract (Ubuntu/Debian)
+# 1. Install Tesseract 
 sudo apt-get update
 sudo apt-get install tesseract-ocr tesseract-ocr-eng tesseract-ocr-fra
 
