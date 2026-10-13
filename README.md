@@ -49,3 +49,25 @@ pip install -r requirements.txt
 
 3. **Check the final summary:**
    Review `results_summary.md` for aggregate statistics, the list of worst-performing images, and detailed observations.
+
+## Stage 1: Adaptive OCR Routing Pipeline
+
+Pre-OCR feature analysis and threshold discovery for routing historical French documents between PaddleOCR and Tesseract:
+
+1. **Extract pre-OCR image features (50 images, 22+ features):**
+   ```bash
+   python scripts/extract_image_features.py --images images/ --out data_analysis/image_features.csv
+   ```
+
+2. **Join features with benchmark results and assign routing labels:**
+   ```bash
+   python scripts/analyze_ocr_features.py --features data_analysis/image_features.csv --results results.csv --out data_analysis/routing_dataset.csv --margin 10
+   ```
+
+3. **Discover candidate thresholds, baseline LOO cross-validation, and generate research report & plots:**
+   ```bash
+   python scripts/discover_thresholds.py --data data_analysis/routing_dataset.csv --out reports/stage1_feature_threshold_analysis.md --plots artifacts/feature_analysis --margin 10
+   ```
+
+Or run all steps with `make stage1-all`.
+Review the full research report at [`reports/stage1_feature_threshold_analysis.md`](reports/stage1_feature_threshold_analysis.md) and plots in [`artifacts/feature_analysis/`](artifacts/feature_analysis/).

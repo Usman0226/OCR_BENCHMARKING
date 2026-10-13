@@ -1,7 +1,8 @@
-paddleocr==2.7.3
-pytesseract==0.3.13
-opencv-python-headless==4.9.0.80
-Pillow==10.4.0
-numpy==1.26.4
-shapely==2.0.4
-tqdm==4.66.5
+paddleocr
+pytesseract
+opencv-python-headless
+Pillow
+numpy
+shapely
+tqdm
+psutil

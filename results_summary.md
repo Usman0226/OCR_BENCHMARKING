@@ -1,38 +1,34 @@
-# OCR Word Position Benchmark — Results Summary
+# OCR Word Position Benchmark - Results Summary
 
-## 1. Summary
+## 1. Overall Performance
 
-| Metric | PaddleOCR | Tesseract |
-|---|---:|---:|
-| Mean Coverage (%) | 92.0% | 72.7% |
-| Total Missed Words | 1050 | 541 |
-| Total Invented Boxes | 132 | 638 |
-| Mean IoU | N/A | 61.9% |
+| Tool | Mean Coverage | Total Missed Words | Total Invented Boxes | Mean IoU (True Positives) |
+|---|---|---|---|---|
+| PaddleOCR | 89.1% | 1099 | 222 | N/A |
+| Tesseract | 73.7% | 514 | 4903 | 61.6% |
 
 ## 2. Worst Performing Images
 
-### PaddleOCR — Bottom 5 by Coverage
+### PaddleOCR - Bottom 5 by Coverage
 
-1. **`IMG_061.jpg` (93.3%)** — Missed some small or separated text.
-2. **`IMG_060.jpg` (94.1%)** — Missed faint punctuation and very small letters.
-3. **`IMG_096.jpg` (94.1%)** — Missed some faint or separated text.
-4. **`IMG_086.jpg` (94.3%)** — Missed small items like dots and dashes.
-5. **`IMG_070.jpg` (99.5%)** — Crowded text columns caused a few words to be missed.
+1. **IMG_070.jpg (0.0%)**  45 missed words, 107 invented boxes. *Extremely dense, small-print multi-column newspaper article from an old scan.*
+2. **IMG_075.jpg (0.0%)**  2 missed words, 5 invented boxes. *The text is completely handwritten in cursive, which standard OCR engines struggle with.*
+3. **IMG_095.jpg (21.6%)**  1018 missed words, 0 invented boxes. *Extremely large, dense two-page newspaper spread with complex multi-column layouts and multiple embedded images, overwhelming the line-formation logic.*
+4. **IMG_091.jpg (92.9%)**  1 missed words, 0 invented boxes. *Typewritten index card with faint text and noticeable ink bleed-through from the reverse side.*
+5. **IMG_061.jpg (93.3%)**  1 missed words, 0 invented boxes. *Degraded, faded typewritten text on a yellowed index card.*
 
-### Tesseract — Bottom 5 by Coverage
+### Tesseract  Bottom 5 by Coverage
 
-1. **`IMG_076.jpg` (0.0%)** — The boxes it drew weren't close enough to the threshold(50%)
-2. **`IMG_078.jpg` (0.0%)** — The boxes it drew weren't close enough to the threshold(50%)
-3. **`IMG_070.jpg` (47.9%)** — Crowded text columns caused many words to be missed.
-4. **`IMG_069.jpg` (50.0%)** — Drew 395 extra boxes around things that were not text (like dust or smudges).
-5. **`IMG_061.jpg` (66.7%)** — Missed some small or separated text.
+1. **IMG_076.jpg (0.0%)**  11 missed words, 0 invented boxes. *Faint, heavily cursive handwriting that Tesseract cannot decipher.*
+2. **IMG_078.jpg (0.0%)**  5 missed words, 0 invented boxes. *Sparse text on a large index card with mostly whitespace, preventing Tesseract from identifying layout structure.*
+3. **IMG_075.jpg (0.0%)**  2 missed words, 11 invented boxes. *The text is completely handwritten in cursive, which standard OCR engines struggle with.*
+4. **IMG_058.jpg (47.1%)**  9 missed words, 1 invented boxes. *Typewritten index card with faded, degraded, and uneven lettering.*
+5. **IMG_073.jpg (47.9%)**  100 missed words, 1 invented boxes. *Extremely narrow, vertically cropped obituary column that breaks Tesseract's standard page segmentation.*
 
 ## 3. Key Observations
 
-1. **PaddleOCR draws bigger boxes:** PaddleOCR draws boxes around whole lines of text. Because these big boxes often cover several smaller words from the ground truth, PaddleOCR gets a very high coverage score.
-
-2. **Tesseract draws smaller boxes:** Tesseract tries to draw tight boxes around individual words. Because these boxes are smaller, they often don't overlap enough with the coverage to count as a "found" word. The Mean IoU metric helps show how tightly these boxes actually fit.
-
-3. **Extra boxes:** Tesseract drew many more "invented" boxes than PaddleOCR (638 vs. 132). This means Tesseract often thought random marks on the page were text.
-
-4. **Complex pages:** Pages with crowded columns (like `IMG_070.jpg`) made it harder for both tools to get the boxes right, but Tesseract struggled much more than PaddleOCR on these pages.
+1. **The 'Lines vs. Words' Penalty is Resolved:** Under the proper Intersection-over-Area metric, PaddleOCR's performance is accurately captured. It correctly encloses most words within its line-level boxes, achieving much higher overall coverage than when evaluated under strict IoU.
+2. **Tesseract Struggles with Sparse/Unusual Layouts:** Tesseract frequently fails on index cards with sparse text or large whitespace (IMG_078) and extremely narrow column crops (IMG_073), likely because its page segmentation relies heavily on standard document structures.
+3. **Handwriting Remains a Universal Failure Point:** Both OCR engines completely failed (0.0% coverage) on heavily cursive handwritten documents (IMG_075 and IMG_076), proving that standard off-the-shelf printed OCR models cannot generalize to cursive scripts.
+4. **Tesseract Over-segments Degraded Text:** On dense, low-quality microfilm scans like IMG_070, Tesseract attempts to predict thousands of tiny, fragmented "invented" boxes (over 4,000 for IMG_070 alone) rather than failing gracefully.
+5. **PaddleOCR Handles Rotated Text Poorly (Default Settings):** Without its angle classification enabled, PaddleOCR failed to detect any text on documents rotated 90 degrees (IMG_069), while Tesseract managed to find at least some vertical text fragments.

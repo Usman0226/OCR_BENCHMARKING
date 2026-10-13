@@ -74,6 +74,7 @@ results/*.csv
 reports/*.md
 reports/*.html
 reports/*.pdf
+ablation_*
 
 # Paddle model cache (large downloaded models)
 paddle-model-cache/
