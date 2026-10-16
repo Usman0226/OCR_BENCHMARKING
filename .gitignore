@@ -25,6 +25,7 @@ MANIFEST
 
 # Virtual environments
 .venv/
+.venv*/
 venv/
 env/
 ENV/
@@ -67,24 +68,35 @@ junit/
 logs/*.log
 logs/*.log.*
 
-ocr_output/*.json
-ocr_output/*.txt
-results/*.json
-results/*.csv
-reports/*.md
-reports/*.html
-reports/*.pdf
 ablation_*
 
 # Paddle model cache (large downloaded models)
 paddle-model-cache/
+paddle-models/
 
 # Label Studio data (persistent via Docker volume)
 labelstudio-data/
 
-# Images (project-specific, may be large)
-# Uncomment if images should not be tracked:
-# images/
+# AI session logs / agent metadata
+.ai-session/
+.deepeval/
+
+# Images & visual artifacts (keep directory structure via .gitkeep, do not track image files)
+images/*
+!images/.gitkeep
+artifacts/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.bmp
+*.tiff
+*.tif
+
+# Scratch scripts & temporary test files
+scratch_*.py
+test_patch.py
+paddle_wheels.html
 
 # =============================================================================
 # Task Card B - Ignore all extra production infrastructure
